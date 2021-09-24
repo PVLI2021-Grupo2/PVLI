@@ -1,3 +1,10 @@
 # PVLI
 Probando esto 
-[Tutorial de poner imágenes por aquí](https://www.google.com "Image Tutorial")
+[esto es lo que aparece como link](https://www.google.com "Image Tutorial")
+
+## La ventana indiscreta
+# GDD
+
+###Resumen
+
+
