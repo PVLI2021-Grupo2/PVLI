@@ -4,7 +4,7 @@
 
 Autores
 
-..* Dewei Chen (deweiche@ucm.es) 
+* Dewei Chen (deweiche@ucm.es) 
 
 * Menggen Hu (menhu@ucm.es) 
 
