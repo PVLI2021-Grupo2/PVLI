@@ -3,6 +3,7 @@
 ### Documento de diseño de videojuego
 
 Autores
+
 ..* Dewei Chen (deweiche@ucm.es) 
 
 * Menggen Hu (menhu@ucm.es) 
