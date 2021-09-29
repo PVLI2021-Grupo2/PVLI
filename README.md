@@ -2,7 +2,7 @@
 
 ### Documento de diseño de videojuego
 
-Autores
+Autores:
 
 * Dewei Chen (deweiche@ucm.es) 
 
@@ -60,6 +60,19 @@ Fecha de lanzamiento
 </tr>
 
 </table>
+
+
+### Descripción
+Juego de gestión de recursos con narrativa basado en la película de hitchcock “la ventana indiscreta”, en la que el jugador se encuentra con un asesinato y debe descrubrir el verdadero asesino.
+
+### Logotipo y portada del juego
+
+### Versiones del documento
+
+### Tabla de contenidos
+
+
+
 
 [esto es lo que aparece como link](https://www.google.com "Image Tutorial")
 
