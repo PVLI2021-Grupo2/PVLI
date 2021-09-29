@@ -71,6 +71,11 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 
 ### Tabla de contenidos
 
+### 1. Aspectos generales
+
+### 1.1 Relato breve y parcial de una partida típica 
+
+### 2. Jugabilidad
 
 
 
