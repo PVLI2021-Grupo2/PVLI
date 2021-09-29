@@ -32,7 +32,37 @@ Autores
         
     
 </tr>
+<tr>
+    <td> Cantidades:
+
+Escenarios: 7. (La habitación por dentro, el plano general del edificio de vecinos, callejón y cada una de las 4 habitaciones de vecinos.)
+
+Objetos: 5
+
+Personajes:9
+
+Palabras
+Grabaciones de voz
+
+ </td>
+    <td> Hitos:
+Fecha de propuesta del concepto: 13/09/2021
+
+Fechas de pre-producción:28/09/2021
+
+Fechas de producción
+
+Fecha de lanzamiento
+ </td>
+        
+    
+</tr>
 
 </table>
 
 [esto es lo que aparece como link](https://www.google.com "Image Tutorial")
+
+
+
+
+
