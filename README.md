@@ -79,6 +79,12 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
     2. [Dinámica](#dinamica)
     3. [Estética](#estetica)
 4. [Contenido](#contenido)
+    1. [Historia](#historia)
+    2. [NivelesEventos](#niveleseventos)
+    3. [Personajes](#personajes)
+    4. [Objetos](#objetos)
+5. [Referencias](#referencias)
+
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 
 ### Vista general
@@ -101,6 +107,13 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 
 ### 4. Contenido <a name="contenido"></a>
 
+### 4.1 Historia <a name="historia"></a>
+
+### 4.2 Niveles o eventos <a name="niveleseventos"></a>
+
+### 4.3 Personajes <a name="personajes"></a>
+
+### 4.4 Objetos <a name="objetos"></a>
 
 
 [esto es lo que aparece como link](https://www.google.com "Image Tutorial")
