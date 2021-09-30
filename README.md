@@ -185,7 +185,7 @@ En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo lar
 
 En proceso:
 
-Eventos y dialogos [Eventos](EventosYdialogos.md)
+[Eventos y dialogos](EventosYdialogos.md)
 
 #### 4.3 Personajes <a name="personajes"></a>
 Protagonista: Tom  
