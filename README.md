@@ -183,15 +183,38 @@ Tras el suicidio del niño, William ahoga su culpabilidad en alcohol por las tar
 #### 4.2 Niveles o eventos <a name="niveleseventos"></a>
 En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo largo de los 7 días de la semana.
 
+En proceso:
+
+Eventos y dialogos [Eventos](EventosYdialogos.md)
+
 #### 4.3 Personajes <a name="personajes"></a>
-Protagonista: Tom
-Vecino 1:  Padre:John Smith Madre: Sarah Smith  HIjo:Kevin Smith
-Vecino 2 : Señora Edna Cooper  Perro: Candy
-Vecino 3: Detective Charles Doyle
-Vecino 4:  Profesor William Scott.
+Protagonista: Tom  
+Vecino 1:  Padre:John Smith Madre: Sarah Smith  HIjo:Kevin Smith  
+Vecino 2 : Señora Edna Cooper  Perro: Candy  
+Vecino 3: Detective Charles Doyle  
+Vecino 4:  Profesor William Scott.  
+
 #### 4.4 Objetos <a name="objetos"></a>
+**Prismáticos:** Sirven para mirar a través de las ventanas a los distintos vecinos. Tiene un límite de tiempo de 10 segundos , la cual si se pasa el tiempo se baja en la barra de anonimatos.
+
+**Micrófonos:** Se ponen en las casas de los vecinos para escuchar las conversaciones, es esencial que no haya nadie en casa para poder colocarlos. Límite de 2.
+
+**Auriculares:** Dispositivo que se usa para escuchar los micrófonos. No se pueden usar de forma simultánea a los prismáticos.
+
+**Teléfono:** Sirve para hacer llamadas a los vecinos para recolectar información, el vecino puede contestar o no. Una vez que se usa disminuye la barra de anonimato.
+
+**Libreta de información:** Libreta a la que tiene acceso el jugador en cualquier momento, allí se apuntan todos los eventos e informaciones obtenidos hasta el momento.
+
 
 ### 5. Referencias <a name="referencias"></a>
+
+- *“La ventana indiscreta”* - Alfred Hitchcock
+- *“Stardew Valley”*
+- *“Asesinato en el orient express”* - Agatha Christie
+- *“Who is the murderer”*- Programa de TV
+- *“Do not feed the monkeys”*
+- *“The beholder”*
+- *“Five nights at Freddy’s”*
 
 
 
