@@ -86,34 +86,35 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 5. [Referencias](#referencias)
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
-
+#### Logotipo y portada del juego  
+![Logotipo!](/PVLI/PVLI/Images/ICONO_PVLI.png)    
 ### Vista general
 
-### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
+#### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
 
 ### 2. Menús y modos de juego <a name="menusmodos"></a>
 
-### 2.1 Configuración <a name="configuracion"></a>
+#### 2.1 Configuración <a name="configuracion"></a>
 
-### 2.2 Interfaz y control <a name="interfazControl"></a>
+#### 2.2 Interfaz y control <a name="interfazControl"></a>
 
 ### 3. Jugabilidad <a name="jugabilidad"></a>
 
-### 3.1 Mecánica <a name="mecanica"></a>
+#### 3.1 Mecánica <a name="mecanica"></a>
 
-### 3.2 Dinámica <a name="dinamica"></a>
+#### 3.2 Dinámica <a name="dinamica"></a>
 
-### 3.3 Estética <a name="estetica"></a>
+#### 3.3 Estética <a name="estetica"></a>
 
 ### 4. Contenido <a name="contenido"></a>
 
-### 4.1 Historia <a name="historia"></a>
+#### 4.1 Historia <a name="historia"></a>
 
-### 4.2 Niveles o eventos <a name="niveleseventos"></a>
+#### 4.2 Niveles o eventos <a name="niveleseventos"></a>
 
-### 4.3 Personajes <a name="personajes"></a>
+#### 4.3 Personajes <a name="personajes"></a>
 
-### 4.4 Objetos <a name="objetos"></a>
+#### 4.4 Objetos <a name="objetos"></a>
 
 ### 5. Referencias <a name="referencias"></a>
 
