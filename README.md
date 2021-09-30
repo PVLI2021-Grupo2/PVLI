@@ -87,7 +87,7 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 #### Logotipo y portada del juego  
-![Logotipo!](/PVLI/PVLI/Images/ICONO_PVLI.png)    
+![Logotipo!](/PVLI/Images/ICONO_PVLI.png)    
 ### Vista general
 
 #### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
