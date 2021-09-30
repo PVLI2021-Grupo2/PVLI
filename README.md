@@ -72,29 +72,18 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 ### Tabla de contenidos
 
 1. [AspectosGenerales](#introduction)
-    1. [Sub paragraph](#subparagraph1)
-2. [Some paragraph](#paragraph1)
+    1. [RelatoBrece](#relatobreve)
+2. [Jugabilidad](#jugabilidad)
    
 3. [Another paragraph](#paragraph2)
 
 ## 1. Aspectos generales <a name="aspectosgenerales"></a>
 
-
-## Some paragraph <a name="paragraph1"></a>
-The first paragraph text
-
-### Sub paragraph <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
-
-## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
-### 1. Aspectos generales <a name="aspectosgenerales"></a>
-
 ### Vista general
 
-### 1.1 Relato breve y parcial de una partida típica 
+### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
 
-### 2. Jugabilidad
+### 2. Jugabilidad <a name="jugabilidad"></a>
 
 
 [esto es lo que aparece como link](https://www.google.com "Image Tutorial")
