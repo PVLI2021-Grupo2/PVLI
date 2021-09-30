@@ -39,10 +39,8 @@ Escenarios: 7. (La habitación por dentro, el plano general del edificio de veci
 
 Objetos: 5
 
-Personajes:9
+Personajes: 9
 
-Palabras
-Grabaciones de voz
 
  </td>
     <td> <b>Hitos:</b>
@@ -72,10 +70,10 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 ### Tabla de contenidos
 
 1. [AspectosGenerales](#aspectosgenerales)
-    1. [RelatoBrece](#relatobreve)
-2. [Jugabilidad](#jugabilidad)
+    1. [RelatoBreve](#relatobreve)
+2. [MenúsModosDeJuego](#menusmodos)
    
-3. [Another paragraph](#paragraph2)
+3. [](#paragraph2)
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 
@@ -83,7 +81,7 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 
 ### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
 
-### 2. Jugabilidad <a name="jugabilidad"></a>
+### 2. Menús y modos de juego <a name="menusmodos"></a>
 
 
 [esto es lo que aparece como link](https://www.google.com "Image Tutorial")
