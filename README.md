@@ -1,4 +1,4 @@
-# PVLI La ventana indiscreta
+# PVLI Through The Window
 
 ### Documento de diseño de videojuego
 
