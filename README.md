@@ -71,13 +71,13 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 
 ### Tabla de contenidos
 
-1. [AspectosGenerales](#introduction)
+1. [AspectosGenerales](#aspectosgenerales)
     1. [RelatoBrece](#relatobreve)
 2. [Jugabilidad](#jugabilidad)
    
 3. [Another paragraph](#paragraph2)
 
-## 1. Aspectos generales <a name="aspectosgenerales"></a>
+### 1. Aspectos generales <a name="aspectosgenerales"></a>
 
 ### Vista general
 
