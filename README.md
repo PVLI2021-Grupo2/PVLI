@@ -115,6 +115,8 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 
 ### 4.4 Objetos <a name="objetos"></a>
 
+### 5. Referencias <a name="referencias"></a>
+
 
 [esto es lo que aparece como link](https://www.google.com "Image Tutorial")
 
