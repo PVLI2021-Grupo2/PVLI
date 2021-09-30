@@ -74,10 +74,11 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 2. [MenúsModosDeJuego](#menusmodos)
     1. [Configuracion](#configuracion)
     2. [InterfazControl](#interfazControl)
-3. [](#paragraph2)
-    
-
-4.
+3. [Jugabilidad](#jugabilidad)
+    1. [Mecánica](#mecanica)
+    2. [Dinámica](#dinamica)
+    3. [Estética](#estetica)
+4. [Contenido](#contenido)
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 
 ### Vista general
@@ -86,7 +87,20 @@ Juego de gestión de recursos con narrativa basado en la película de hitchcock 
 
 ### 2. Menús y modos de juego <a name="menusmodos"></a>
 
-### 2.1 Configuración
+### 2.1 Configuración <a name="configuracion"></a>
+
+### 2.2 Interfaz y control <a name="interfazControl"></a>
+
+### 3. Jugabilidad <a name="jugabilidad"></a>
+
+### 3.1 Mecánica <a name="mecanica"></a>
+
+### 3.2 Dinámica <a name="dinamica"></a>
+
+### 3.3 Estética <a name="estetica"></a>
+
+### 4. Contenido <a name="contenido"></a>
+
 
 
 [esto es lo que aparece como link](https://www.google.com "Image Tutorial")
