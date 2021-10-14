@@ -142,7 +142,7 @@ En la primera tenemos la información de los perfiles de los vecinos.
 En la segunda las observaciones, deducciones y conclusiones, para que sea fácil para el jugador, teniéndolas todas a la vista poder juntarlas de manera lógica.
 
 
-<img src="Images/LibretaNew.PNG" width=200 height=80>
+<img src="Images/LibretaNew.png" width=200 height=80>
 
 
 #### 3.2 Dinámica <a name="dinamica"></a>
