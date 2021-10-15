@@ -212,7 +212,7 @@ Vecino 4:  Profesor William Scott.
 **Auriculares:** Dispositivo que se usa para escuchar los micrófonos. No se pueden usar de forma simultánea a los prismáticos.
 
 **Libreta de información:** Libreta a la que tiene acceso el jugador en cualquier momento, allí se apuntan toda la información, observaciones, deducciones y conclusiones que ha ido obteniendo el jugador.
-
+**Café:** Una bebida cuya función es poder aguantar más horas despierto.
 ### 5. Referencias <a name="referencias"></a>
 
 - *“La ventana indiscreta”* - Alfred Hitchcock
