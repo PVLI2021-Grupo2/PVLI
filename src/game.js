@@ -9,7 +9,7 @@ import Level from './scene.js';
  */
 let config = {
     type: Phaser.CANVAS,
-    canvas: document.getElementById("juego"),
+    canvas: document.getElementById('juego'),
     width:  1000,
     height: 500,
     scale: {
