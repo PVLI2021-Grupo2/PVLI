@@ -88,13 +88,13 @@ Se trata de un juego estilo “Point and Click” en el cual el jugador, que enc
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 Through the window busca ofrecer una experiencia narrativa corta en la que el jugador pueda divertirse participando en un proceso de “investigación”. Mirando las ventanas de sus vecinos y recolectando información sobre los distintos objetos y conversaciones que puedan suceder en las habitaciones. El jugador deberá hacer uso de la información que consiga para extraer conclusiones y llegar a uno de los finales del juego.
 #### Logotipo y portada del juego  
-<img src="Images/ICONO_PVLI.png" width=300 height=300>
+<img src="images/icono_pvli.png" width=300 height=300>
 
 ### Vista general  
-<img src="Images/habProta.PNG" width=500 height=300>
-<img src="Images/libreta.PNG" width=500 height=300>
-<img src="Images/mirarVentana.PNG" width=500 height=300>
-<img src="Images/planoGeneral.PNG" width=500 height=300>
+<img src="images/hab_prota.PNG" width=500 height=300>
+<img src="images/libreta.PNG" width=500 height=300>
+<img src="images/mirar_ventana.PNG" width=500 height=300>
+<img src="images/plano_general.PNG" width=500 height=300>
 
 #### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
 El jugador comienza la partida con una primera pregunta “¿Qué ha ocurrido con Kevin, el hijo de los Smith?” la cual deberá responder al final del primer día con la información que haya obtenido a lo largo del mismo, habida cuenta de que los eventos tienen lugar a lo largo de distintas franjas horarias del día, y si bien se repiten para que el jugador tenga varias oportunidades de dar con ellos y que además unos “invitan” a lógicamente deducir donde pueden ocurrir los que están relacionados con estos, el jugador puede tal vez perderse alguno.
@@ -142,7 +142,7 @@ En la primera tenemos la información de los perfiles de los vecinos.
 En la segunda las observaciones, deducciones y conclusiones, para que sea fácil para el jugador, teniéndolas todas a la vista poder juntarlas de manera lógica.
 
 
-<img src="Images/LibretaNew.png" width=300 height=200>
+<img src="images/libreta_new.png" width=300 height=200>
 
 
 #### 3.2 Dinámica <a name="dinamica"></a>
