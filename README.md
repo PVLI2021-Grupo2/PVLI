@@ -87,8 +87,9 @@ Se trata de un juego estilo “Point and Click” en el cual el jugador, que enc
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 Through the window busca ofrecer una experiencia narrativa corta en la que el jugador pueda divertirse participando en un proceso de “investigación”. Mirando las ventanas de sus vecinos y recolectando información sobre los distintos objetos y conversaciones que puedan suceder en las habitaciones. El jugador deberá hacer uso de la información que consiga para extraer conclusiones y llegar a uno de los finales del juego.
+
 #### Logotipo y portada del juego  
-<img src="images/icono_pvli.png" width=300 height=300>
+<img src="images/logo.png" width=300 height=300>
 
 ### Vista general  
 <img src="images/hab_prota.PNG" width=500 height=300>
@@ -115,24 +116,24 @@ El juego principalmente se usará solo el ratón.
 ### 3. Jugabilidad <a name="jugabilidad"></a>
 
 #### 3.1 Mecánica <a name="mecanica"></a>
-**Cambio de escena.** El jugador puede ir de su habitación al plano general de edificios. (En caso de que tenga los prismáticos equipados, puede cambiar la escena para ver cada una de las habitaciones, o el callejón).
-
+**Cambio de escena.** El jugador puede ir de su habitación al plano general de edificios. (En caso de que tenga los prismáticos equipados, puede cambiar la escena para ver cada una de las habitaciones).
 
 **Pregunta al comienzo del día:** Con el comienzo de cada día, el investigador al que encarna nuestro jugador se hará una pregunta, la cual tendrá que responder con la información obtenida a lo largo del mismo.
 
 **Cuadros de texto:** Diálogos en los que se explica lo que sucede en los eventos, visuales o auditivos.
 
-**Prismáticos.** Al tenerlos equipados y seleccionar una ventana en el plano general del edificio, el jugador puede ver lo que ocurre dentro, lo que supondrá el avance de 1 hora en el tiempo al volver a la vista general. Mediante el uso de prismáticos puedes interaccionar con objetos que veas dentro de los pisos, los cuales estarán resaltados para servir de guía al jugador. En caso de que uno de esos objetos aporte una información relevante al jugador, esta se apuntará en la libreta automáticamente. 
+**Prismáticos.** Al tenerlos equipados y seleccionar una ventana en el plano general del edificio, el jugador puede ver lo que ocurre dentro, lo que supondrá el avance de 1 hora en el tiempo al volver a la vista general. Mediante el uso de prismáticos puedes interaccionar con objetos que veas dentro de los pisos, los cuales estarán resaltados para servir de guía al jugador. En caso de que uno de esos objetos aporte una información relevante al jugador, esta se apuntará en la libreta automáticamente.
+
 
 **Paso de tiempo/ Barra de horas disponibles**  El tiempo transcurre a medida que el jugador bien hace uso de los prismáticos para observar los distintos pisos, bien hace uso de los auriculares para escuchar lo que ocurre dentro de ellos a razón de 1 hora por uso.
 Los días comienzan a las 9:00 de la mañana, y el jugador es capaz de estar despierto en un inicio hasta las 00:00 de ese mismo día. 
 Los eventos que tendrán lugar tanto visuales como auditivos ocurren desde las 9:00 de un día hasta las 4:00 del día siguiente.
 
-**Tomar café.** El jugador puede consumir una taza de café a lo largo del día para aguantar 2 horas más despierto, pudiendo tomar un máximo de dos cafés por día.
+**Tomar café.** El jugador puede consumir una taza de café a lo largo del día para aguantar 2 horas más despierto, pudiendo tomar un máximo de 2 cafés por día y un máximo de 5 en todo el juego.
 
 **Auriculares:** Los usaremos para escuchar los diferentes micrófonos que tenemos instalados en las puertas de las viviendas de nuestros vecinos. Los auriculares nos permiten tener acceso a los eventos de carácter sonoro y al igual que los prismáticos, su uso hará que pase una hora después de haber escuchado por ellos. En caso de tener lugar un evento relevante durante su uso, este se apuntará en nuestra libreta.
 
-**Libreta de información**  En la cual se va apuntando de manera automática la información relevante obtenida mediante la observación con los prismáticos y el uso de los auriculares. 
+**Libreta de información:**  En la cual se va apuntando de manera automática la información relevante obtenida mediante la observación con los prismáticos y el uso de los auriculares. 
 Una de las secciones contiene los perfiles de cada uno de los inquilinos de los pisos. 
 En la libreta irá apareciendo lo observado por el jugador, cuando la información sea relevante y diferenciados por colores dependiendo de si lo has observado o escuchado en un piso u otro.
 Estas observaciones podrán juntarse a modo de dupla, mediante un “click and drop” en un cuadro de texto vacío bajo la libreta, y en caso de haber una sinergia entre ellos darán pie a una deducción.
@@ -143,6 +144,16 @@ En la segunda las observaciones, deducciones y conclusiones, para que sea fácil
 
 
 <img src="images/libreta_new.png" width=300 height=200>
+
+**Eventos:** Los eventos son información de valor que el jugador puede apuntar en la libreta. Pueden ser de dos tipos, visuales o auditivos, aunque al escribirlos en la libreta se comportan igual. 
+Los eventos visuales ocurren al hacer click en los objetos de las escenas que hay al usar los prismáticos. Tras hacer click, salta un cuadro de diálogo con información y se pondrá un resumen escueto de ella en la libreta, funcionando a modo de “evento”. En caso de clickar en un mismo objeto varias veces, volverá a saltar el cuadro de texto, pero no se volverá a apuntar en la libreta. Hay objetos que no se apuntan en la libreta porque no van a servir para extraer conclusiones y juntarlos con otros.
+Los eventos auditivos saltan como un cuadro de texto al hacer click en una de las habitaciones o escenas teniendo equipado el auricular. Hay eventos que duran varias horas, por lo que el jugador puede clickar varias veces en lo mismo y escuchar el mismo evento, el cual solo se pondrá una vez en la libreta. Muchas veces al escuchar una habitación habrá un diálogo genérico como “no se escucha nada” o “está la radio puesta”, estos diálogos no se apuntan como eventos.
+
+**Pregunta del día:** Al principio de cada día se notifica  una pregunta que está relacionada con eventos de ese día, de modo que sirva de guía para el jugador. Al final del día, cuando el jugador se va a dormir, vuelve a aparecer en pantalla un texto con la  pregunta del día, y se abre la libreta para poder agrupar eventos a última hora y arrastrar una conclusión con la que responder a la pregunta. En caso de que la conclusión que arrastre sea la correcta, aparecerá un tick verde, y si es incorrecta una cruz roja. El jugador le podrá dar a un botón colocado al lado de la pregunta para pasar al día siguiente, tenga la respuesta correcta, incorrecta, o sin información para responder.
+
+**Acusar:** Es la herramienta final del juego. Cuando acaban los días, el jugador, con la información que haya recopilado y por ende las preguntas a las que haya contestado, debe acusar a uno de los vecinos de haber asesinado a William. De acertar cual ha sido, el jugador habrá ganado y se le contará la historia completa de todo lo que ha ido pasando en cada casa, los motivos que tenía cada uno para matarlo y cuales han sido los diferentes intentos de cada uno. En el caso de fallar y no descubrir quien ha sido, el jugador pierde el juego y se le cuenta únicamente la historia del vecino al que ha acusado.
+
+**Diferentes finales:** Si el jugador acierta quien es el asesinato, saldra las historias de todos los vecinos. Sin embargo, el asesinato no está acusado, solo saldra la historia del vecino elegido por el jugador.
 
 
 #### 3.2 Dinámica <a name="dinamica"></a>
