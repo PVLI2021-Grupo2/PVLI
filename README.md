@@ -93,7 +93,7 @@ Through the window busca ofrecer una experiencia narrativa corta en la que el ju
 
 ### Vista general  
 <img src="images/hab_prota.PNG" width=500 height=300>
-<img src="images/libreta.PNG" width=500 height=300>
+<img src="images/libreta_prototipo.PNG" width=500 height=300>
 <img src="images/mirar_ventana.PNG" width=500 height=300>
 <img src="images/plano_general.PNG" width=500 height=300>
 
