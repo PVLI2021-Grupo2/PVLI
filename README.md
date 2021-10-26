@@ -61,7 +61,7 @@ Fecha de lanzamiento
 
 
 ### Descripción
-Se trata de un juego estilo “Point and Click” en el cual el jugador, que encarna a un investigador de sucesos, se interesa por la muerte de un niño en un colegio, pero a medida que ahonda en esta investigación irá descubriendo que la trama se vuelve más compleja. Irán pasando la semana y el jugador se hará a sí mismo preguntas relacionadas con el caso que deberá de ser capaz de responder con la información que obtenga a lo largo del día. Para obtener esta información, deberá usar los objetos a su disposición, y mecánicas habilitadas para, pasados los 7 días haber podido descubrir qué ha ocurrido verdaderamente en el vecindario.
+Se trata de un juego estilo “Point and Click” en el cual el jugador, que encarna a un investigador de sucesos, se interesa por la muerte de un niño en un colegio, pero a medida que ahonda en esta investigación irá descubriendo que la trama se vuelve más compleja. Irán pasando la semana y el jugador se hará a sí mismo preguntas relacionadas con el caso que deberá de ser capaz de responder con la información que obtenga a lo largo del día. Para obtener esta información, deberá usar los objetos a su disposición, y mecánicas habilitadas para, pasados los 6 días haber podido descubrir qué ha ocurrido verdaderamente en el vecindario.
 
 ### Logotipo y portada del juego
 
@@ -92,16 +92,16 @@ Through the window busca ofrecer una experiencia narrativa corta en la que el ju
 <img src="images/logo.png" width=300 height=300>
 
 ### Vista general  
-<img src="images/hab_prota.PNG" width=500 height=300>
-<img src="images/libreta_prototipo.PNG" width=500 height=300>
-<img src="images/mirar_ventana.PNG" width=500 height=300>
-<img src="images/plano_general.PNG" width=500 height=300>
+<img src="images/hab_prota.png" width=500 height=300>
+<img src="images/libreta_prototipo.png" width=500 height=300>
+<img src="images/mirar_ventana.png" width=500 height=300>
+<img src="images/plano_general.png" width=500 height=300>
 
 #### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
 El jugador comienza la partida con una primera pregunta “¿Qué ha ocurrido con Kevin, el hijo de los Smith?” la cual deberá responder al final del primer día con la información que haya obtenido a lo largo del mismo, habida cuenta de que los eventos tienen lugar a lo largo de distintas franjas horarias del día, y si bien se repiten para que el jugador tenga varias oportunidades de dar con ellos y que además unos “invitan” a lógicamente deducir donde pueden ocurrir los que están relacionados con estos, el jugador puede tal vez perderse alguno.
 Para obtener esa información puede usar varios objetos, los prismáticos con los que ver dentro de las casas de sus vecinos, los micrófonos que ha instalado en las puertas de las diferentes casas, y que escucha desde la suya a través de auriculares, le permitirán escuchar qué pasa dentro de los domicilios, y una libreta en la que quedará guardada la información que va descubriendo.
 En esta libreta, se apuntarán en primer lugar estos eventos, observados y escuchados, y cuando junte dos de ellos, llegará a una deducción, y cuando junte dos deducciones llegará a una conclusión, con la cual podrá responder a esa pregunta que se le plantea al comienzo del día.
-En caso de no haber sido capaz de responder a esta pregunta el día se reiniciará, puesto que avanzar sin haber descubierto qué ha pasado, en líneas generales a lo largo del día es contraproducente para el gameplay.
+En caso de haber sido capaz o no de responder a esta pregunta se pasará al día siguiente.
 
 ### 2. Menús y modos de juego <a name="menusmodos"></a>
 En el menú, encontramos un fondo que representa el plano general del edificio que observaremos durante el gameplay y las opciones de “Jugar”, “Créditos” y “Salir”.
@@ -116,13 +116,13 @@ El juego principalmente se usará solo el ratón.
 ### 3. Jugabilidad <a name="jugabilidad"></a>
 
 #### 3.1 Mecánica <a name="mecanica"></a>
-**Cambio de escena.** El jugador puede ir de su habitación al plano general de edificios. (En caso de que tenga los prismáticos equipados, puede cambiar la escena para ver cada una de las habitaciones).
+**Cambio de escena.** El jugador puede ir de su habitación al plano general de edificios. En este plano general el jugador puede hacer click encima la ventana aparecen dos iconos, el de los prismáticos, con los cuales veremos con detalle la habitación, y el de los auriculares, mediante los cuales escucharemos el micrófono del piso en cuestión.
 
 **Pregunta al comienzo del día:** Con el comienzo de cada día, el investigador al que encarna nuestro jugador se hará una pregunta, la cual tendrá que responder con la información obtenida a lo largo del mismo.
 
 **Cuadros de texto:** Diálogos en los que se explica lo que sucede en los eventos, visuales o auditivos.
 
-**Prismáticos.** Al tenerlos equipados y seleccionar una ventana en el plano general del edificio, el jugador puede ver lo que ocurre dentro, lo que supondrá el avance de 1 hora en el tiempo al volver a la vista general. Mediante el uso de prismáticos puedes interaccionar con objetos que veas dentro de los pisos, los cuales estarán resaltados para servir de guía al jugador. En caso de que uno de esos objetos aporte una información relevante al jugador, esta se apuntará en la libreta automáticamente.
+**Prismáticos.** Al seleccionar una ventana en el plano general del edificio, y elegir la opción de usar los prismáticos, el jugador puede ver lo que ocurre dentro, lo que supondrá el avance de 1 hora en el tiempo al volver a la vista general. Mediante el uso de prismáticos puedes interaccionar con objetos que veas dentro de los pisos, los cuales estarán resaltados para servir de guía al jugador. En caso de que uno de esos objetos aporte una información relevante al jugador, esta se apuntará en la libreta automáticamente.
 
 
 **Paso de tiempo/ Barra de horas disponibles**  El tiempo transcurre a medida que el jugador bien hace uso de los prismáticos para observar los distintos pisos, bien hace uso de los auriculares para escuchar lo que ocurre dentro de ellos a razón de 1 hora por uso.
@@ -131,25 +131,20 @@ Los eventos que tendrán lugar tanto visuales como auditivos ocurren desde las 9
 
 **Tomar café.** El jugador puede consumir una taza de café a lo largo del día para aguantar 2 horas más despierto, pudiendo tomar un máximo de 2 cafés por día y un máximo de 5 en todo el juego.
 
-**Auriculares:** Los usaremos para escuchar los diferentes micrófonos que tenemos instalados en las puertas de las viviendas de nuestros vecinos. Los auriculares nos permiten tener acceso a los eventos de carácter sonoro y al igual que los prismáticos, su uso hará que pase una hora después de haber escuchado por ellos. En caso de tener lugar un evento relevante durante su uso, este se apuntará en nuestra libreta.
+**Auriculares:** Al hacer click encima de uno de los pisos, y a continuación encima del icono de los auriculares, podremos escuchar los diferentes micrófonos que tenemos instalados en las puertas de las viviendas de nuestros vecinos. Los auriculares nos permiten tener acceso a los eventos de carácter sonoro y al igual que los prismáticos, su uso hará que pase una hora después de haber escuchado por ellos. En caso de tener lugar un evento relevante durante su uso, este se apuntará en nuestra libreta.
 
 **Libreta de información:**  En la cual se va apuntando de manera automática la información relevante obtenida mediante la observación con los prismáticos y el uso de los auriculares. 
-Una de las secciones contiene los perfiles de cada uno de los inquilinos de los pisos. 
 En la libreta irá apareciendo lo observado por el jugador, cuando la información sea relevante y diferenciados por colores dependiendo de si lo has observado o escuchado en un piso u otro.
 Estas observaciones podrán juntarse a modo de dupla, mediante un “click and drop” en un cuadro de texto vacío bajo la libreta, y en caso de haber una sinergia entre ellos darán pie a una deducción.
 De la misma manera, cuando tengamos varias deducciones podremos repetir la operación, y de estar interrelacionadas aparecerá la conclusión de juntarlas; Esta conclusión es el objeto que buscamos para responder a las preguntas que se nos formulan al comienzo de cada día.
-La libreta está organizada en dos secciones, a las que accedemos a través de pestañas.
-En la primera tenemos la información de los perfiles de los vecinos.
-En la segunda las observaciones, deducciones y conclusiones, para que sea fácil para el jugador, teniéndolas todas a la vista poder juntarlas de manera lógica.
-
 
 <img src="images/libreta_new.png" width=300 height=200>
 
 **Eventos:** Los eventos son información de valor que el jugador puede apuntar en la libreta. Pueden ser de dos tipos, visuales o auditivos, aunque al escribirlos en la libreta se comportan igual. 
 Los eventos visuales ocurren al hacer click en los objetos de las escenas que hay al usar los prismáticos. Tras hacer click, salta un cuadro de diálogo con información y se pondrá un resumen escueto de ella en la libreta, funcionando a modo de “evento”. En caso de clickar en un mismo objeto varias veces, volverá a saltar el cuadro de texto, pero no se volverá a apuntar en la libreta. Hay objetos que no se apuntan en la libreta porque no van a servir para extraer conclusiones y juntarlos con otros.
-Los eventos auditivos saltan como un cuadro de texto al hacer click en una de las habitaciones o escenas teniendo equipado el auricular. Hay eventos que duran varias horas, por lo que el jugador puede clickar varias veces en lo mismo y escuchar el mismo evento, el cual solo se pondrá una vez en la libreta. Muchas veces al escuchar una habitación habrá un diálogo genérico como “no se escucha nada” o “está la radio puesta”, estos diálogos no se apuntan como eventos.
+Los eventos auditivos saltan como un cuadro de texto al hacer click en una de las habitaciones y elegir la opción de auricular. Hay eventos que duran varias horas, por lo que el jugador puede clickar varias veces en lo mismo y escuchar el mismo evento, el cual solo se pondrá una vez en la libreta. Muchas veces al escuchar una habitación habrá un diálogo genérico como “no se escucha nada” o “está la radio puesta”, estos diálogos no se apuntan como eventos.
 
-**Pregunta del día:** Al principio de cada día se notifica  una pregunta que está relacionada con eventos de ese día, de modo que sirva de guía para el jugador. Al final del día, cuando el jugador se va a dormir, vuelve a aparecer en pantalla un texto con la  pregunta del día, y se abre la libreta para poder agrupar eventos a última hora y arrastrar una conclusión con la que responder a la pregunta. En caso de que la conclusión que arrastre sea la correcta, aparecerá un tick verde, y si es incorrecta una cruz roja. El jugador le podrá dar a un botón colocado al lado de la pregunta para pasar al día siguiente, tenga la respuesta correcta, incorrecta, o sin información para responder.
+**Pregunta del día:** Al principio de cada día se notifica  una pregunta que está relacionada con eventos de ese día, de modo que sirva de guía para el jugador. Al final del día, cuando el jugador se va a dormir, vuelve a aparecer en pantalla un texto con la  pregunta del día, y se abre la libreta para poder agrupar eventos a última hora y arrastrar una conclusión con la que responder a la pregunta. El jugador le podrá dar a un botón colocado al lado de la pregunta para pasar al día siguiente, tenga la respuesta correcta, incorrecta, o sin información para responder.
 
 **Acusar:** Es la herramienta final del juego. Cuando acaban los días, el jugador, con la información que haya recopilado y por ende las preguntas a las que haya contestado, debe acusar a uno de los vecinos de haber asesinado a William. De acertar cual ha sido, el jugador habrá ganado y se le contará la historia completa de todo lo que ha ido pasando en cada casa, los motivos que tenía cada uno para matarlo y cuales han sido los diferentes intentos de cada uno. En el caso de fallar y no descubrir quien ha sido, el jugador pierde el juego y se le cuenta únicamente la historia del vecino al que ha acusado.
 
@@ -158,18 +153,18 @@ Los eventos auditivos saltan como un cuadro de texto al hacer click en una de la
 
 #### 3.2 Dinámica <a name="dinamica"></a>
 
-A lo largo del juego la recolección de eventos importantes que permitan al jugador deducir la trama de cada uno de los pisos será fundamental y llegará a desbloquear distintos finales, algunos con un resultado positivo, digamos “habiendo ganado” por haber descubierto alguno de los hilos argumentales al completo, y otros finales en los que el jugador perderá. 
+El jugador, a través de la recolección de eventos puede llegar a contestar de manera correcta a las preguntas de cada día. De cara a contestar la cuestión final tenemos que haber sido capaces de encontrar información concluyente a lo largo del gamePlay que nos permita acusar a un vecino u otro del asesinato de William, de tal manera que el jugador gana si acusa al asesino, en este caso, la Señora Cooper, y pierde en caso de no tener información suficiente para acusarla, o acusar a cualquiera de los otros vecinos, o incluso si no tienes información suficiente para hacer absolutamente nada.
 
-Durante el transcurso de los distintos días el jugador irá recopilando información que lo lleve a un desenlace u otro. Podrá obtener información que lo haga sospechar donde será más probable que ocurra algo, para estar pendiente de observar o escuchar a una u otra hora y así ir completando los hitos que le lleven a confirmar la culpabilidad de uno u otro vecino.
+Cuando llegas a esta pregunta final en la que debes acusar a uno de los vecinos, en función de la información relevante que hayas sido capaz de encontrar se te dará la opción de elegir a un vecino u otro, si no has descubierto información relevante de uno de ellos no podrás acusarlo, y en el caso de no haber tenido información suficiente de ninguno habrás perdido el juego.
 
+Durante el transcurso de los distintos días el jugador irá recopilando información que lo lleve a un desenlace u otro.     
 
 Los finales serán los siguientes:
-1. El jugador gana la partida al acusar a la pareja Smith de intentar asesinar al profesor William Stanford y se le cuenta la historia subyacente del porqué de este intento de homicidio.
+1. El jugador pierde la partida al acusar a la pareja Smith de intentar asesinar al profesor William Stanford y se le cuenta la historia subyacente del porqué de este intento de homicidio.
 
 2. El jugador gana la partida al acusar a la Sra. Edna Cooper del asesinato del profesor William Stanford y se le cuenta la historia completa de como ha llegado a pasar eso.
 
-3. El jugador gana la partida al acusar al detective Charles Doyle de tráfico de drogas y corrupción policial al no declarar las drogas incautadas y venderlas de manera ilegal por la noche.
-
+3. El jugador pierde la partida al acusar al detective Charles Doyle de tráfico de drogas y corrupción policial al no declarar las drogas incautadas y venderlas de manera ilegal por la noche.
 
 A lo largo del juego esperamos que el jugador desarrolle ciertas estrategias, dentro de las cuales cabrá destacar las siguientes:
 
@@ -189,12 +184,11 @@ Para la representación de los escenarios y los personajes usaremos un estilo pi
 **Vecino 1 :**  La familia Smith está compuesta por John y Sarah Smith, una pareja que en el momento en el que se desarrolla el juego están de luto por su difunto hijo pequeño, Kevin. Un mes antes de la muerte de William y de los acontecimientos del juego, Kevin Smith sufre acoso escolar, circunstancia que su profesor, el fallecido William, no da importancia, resultando en el suicidio del pequeño. A pesar de su pasividad ante la situación, no hubo consecuencias legales de ningún tipo contra William, causando un tremendo dolor a los padres del pequeño y dando un posible motivo para asesinar a William. John y Sarah consiguen al principio del juego un veneno que intentarán hacer ingerir a William camuflado en una comida que preparan para él; sin embargo, este tirará la comida tan pronto como abandona el domicilio, haciendo que desafortunadamente Candy, el perro de la señora Cooper lo ingiera y muera.
 
 **Vecino 2 :** La Señora Edna Cooper llevaba una vida tranquila, en compañía de sus numerosos gatos y Candy, su perro, hasta que un día encuentra muerto a este último, tras haber ingerido una suculenta comida que contenía cianuro. Esta comida, que había preparado la pareja Smith para William acaba llegando al perro, ya que el profesor acostumbraba a darle de comer con frecuencia.
-Tras este evento la Señora Cooper, consuma su venganza al invitar al profeso a tomar té, el cual está adulterado con pastillas tranquilizantes, y este, tras consumirlo y quedar adormecido es posteriormente apuñalado numerosas veces con las agujas de tejer de la anciana.
+Tras este evento la Señora Cooper, consuma su venganza al invitar al profesor a tomar té, el cual está adulterado con pastillas tranquilizantes, y este, tras consumirlo y quedar adormecido es posteriormente apuñalado numerosas veces con las agujas de tejer de la anciana.
 Al ser difícil para una persona de su edad sacar el cadáver, la anciana lo descuartiza poco a poco y mezclándolo con la comida de sus gatos hace que estos vayan dando cuenta del cuerpo.
 
 **Vecino 3:**  El detective Charles Doyle, cansado de su vida de investigador y la poca remuneración que consigue con ello, decide tomar la vía rápida y vender las drogas y sustancias de dudosa procedencia que incautó en sus redadas y venderlas por su cuenta, siendo un negocio mucho más lucrativo.
-Charles tiene montado su pequeño negocio clandestino en el callejón aledaño al edificio, al cual baja numerosas veces a lo largo de la noche para comerciar con su mercancía. 
- 
+Charles tiene montado su pequeño negocio clandestino en el callejón aledaño al edificio, al cual baja numerosas veces a lo largo de la noche para comerciar con su mercancía. Sin embargo, William ha descubierto su negocio, de modo que chantajea a Charles progresivamente. Con el aumento de la cantidad de amenazas, Charles no tiene dinero suficiente para hacer frente al soborno, de manera que decide chantajear a la familia Smith los cuales le habían comprado el veneno que intentarían usar para asesinar al profesor en un principio. No obstante, William no se da por satisfecho con ello y continúa con el chantaje esto da pie a la discusión en el pasillo del edificio resultando en que el detective empuja al profesor por la escalera.
 
 **Vecino 4:**  El profesor William Scott ha ejercido como docente durante muchos años a lo largo de su vida, perdiendo la pasión por su trabajo a lo largo de los años. Tanto ha sido así, que sabiendo que uno de sus alumnos, Kevin, el hijo de los Smith, estaba siendo víctima de acoso escolar no hizo nada, ni tan siquiera hablar con sus padres sobre ello, los cuales son vecinos suyos.
 Tras el suicidio del niño, William ahoga su culpabilidad en alcohol y drogas por las tardes y las noches.
@@ -204,8 +198,8 @@ Tras el suicidio del niño, William ahoga su culpabilidad en alcohol y drogas po
 En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo largo de los 7 días de la semana.
 
 En proceso:
-
-[Eventos y dialogos](EventosYdialogos.md)
+[Eventos y dialogos](EventosYdialogos.md)         
+[Eventos](https://docs.google.com/spreadsheets/d/1pbKhvv9ovA54C8Tk_gWiwxWM6B4BLxL_j9Yffmv4mjI/edit#gid=1065729110)    
 
 #### 4.3 Personajes <a name="personajes"></a>
 Protagonista: Thomas Seeker
@@ -213,6 +207,7 @@ Vecino 1:  Padre:John Smith Madre: Sarah Smith  HIjo:Kevin Smith
 Vecino 2 : Señora Edna Cooper  Perro: Candy  
 Vecino 3: Detective Charles Doyle  
 Vecino 4:  Profesor William Scott.  
+<img src="images/relacion.png" width=500 height=300>
 
 #### 4.4 Objetos <a name="objetos"></a>
 **Prismáticos:** Sirven para mirar a través de las ventanas a los distintos vecinos. Con el uso de los mismos puedes observar objetos resaltados que aporten información que usar para hacer deducciones de lo que está pasando.
