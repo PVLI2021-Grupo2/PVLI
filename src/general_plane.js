@@ -62,7 +62,7 @@ export default class extends Phaser.Scene{
           this.binoculars.setVisible(false);
           this.earphone.setVisible(false);
 
-          this.menubutton.setColor('red')
+          this.menubutton.setColor('blue')
           .setOrigin(0,0)
           .setBackgroundColor('white')
           .setScale(1.2)
