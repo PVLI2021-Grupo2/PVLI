@@ -4,6 +4,8 @@ import Platform from './platform.js';
 import Level from './scene.js';
 import Menu from './menu.js';
 import General from'./general_plane.js';
+import Room from './room.js';
+
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
  * la clase Game de Phaser, encargada de crear e iniciar el juego.
@@ -18,7 +20,7 @@ let config = {
         autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
     },
     pixelArt: true,
-    scene: [Boot, Menu, Level, General, End],
+    scene: [Boot, Menu, Level, General, End,Room],
     physics: { 
         default: 'arcade', 
         arcade: { 
