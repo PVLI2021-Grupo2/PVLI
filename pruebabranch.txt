@@ -1,1 +1,11 @@
-aaaa
+COMMITS POR SESION
+
+09/11
+room no crea correctamente una nueva escena, se queda en la misma
+-no se puede navegar de la escena a otra nueva ni volver a la anterior
+10/11
+-modificado el archivo room_smith.png ahora tiene ladrillos por pared
+-se crea correctamente la escena room
+-se navega correctamente de room al plano general y vuelta 
+-pendiente crear la clase prismáticos y conservar la navegación
+-pendiente crear las distintas "room" del juego no solo una
