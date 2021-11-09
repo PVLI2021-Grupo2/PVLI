@@ -46,7 +46,7 @@ export default class extends Phaser.Scene{
         this.binoculars_room1.setVisible(true)
         .setInteractive()
         .setVisible(true)
-        .on('pointerdown',binoculars_room1=>{this.scene.start('menu')})
+        .on('pointerdown',binoculars_room1=>{this.scene.start('room')})
 
         this.earphone_room1.setVisible(true)
         .setInteractive()

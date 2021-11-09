@@ -1,31 +1,32 @@
-export default class extends Phaser.Scene{
+export default class room extends Phaser.Scene{
+
+  constructor() {
+    super({ key: 'room' });
+  }
 
     create(){
-        this.background = this.add.image(0,0,'room_cooper');
+      //creamos el background de la escena
+        this.background = this.add.image(0,0,'room_smith');        
         this.background.setOrigin(0,0);
+      //creamos un back
+        this.backbutton=this.add.sprite(20,20,'back');
+        //llamamos a select, metodo que habilita click
+        this.select();
         
-        this.add.text(500,300,"Bienvenidos a Through the Window la version de Javi",)
-          .setOrigin(0.5,0.5)
-          .setColor('red')
-          .setBackgroundColor('white')
-          .setAlign('center')
-          .setScale(1.5);
+        
+        
    
-        let startbottom = this.add.sprite(500,200,'play')
-        let wastebottom = this.add.sprite(500,250,'wastetime')
+        
         this.input.mouse.disableContextMenu();
    
         let pointer = this.input.activePointer;
-   
-        startbottom.setInteractive();
-        wastebottom.setInteractive();
-        startbottom.on('pointerdown', startbottom=>{this.scene.start('general')});
-        wastebottom.on('pointerdown', wastebottom=>{this.scene.start('level')});
-         
+     }
+     //metodo que de momento habilita la funcion back
+       select()
+       {
+        this.backbutton.setVisible(true);
+        this.backbutton.setInteractive();        
+        this.backbutton.on('pointerdown',backbutton=>{this.scene.start('general')})
        }
-
-
-
-
 
 }
