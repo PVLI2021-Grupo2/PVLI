@@ -1,7 +1,7 @@
 export default class room extends Phaser.Scene{
 
   constructor() {
-    super({ key: 'room' });
+    super({ key: 'room1' });
   }
 
     create(){

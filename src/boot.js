@@ -36,6 +36,7 @@ export default class Boot extends Phaser.Scene {
     this.load.image('earphone','earphone.png')
     this.load.image('back','go_back.png')
     this.load.image('room_smith','room_smith.png')
+    this.load.image('room_cooper','room_cooper.png')
   }
 
   /**

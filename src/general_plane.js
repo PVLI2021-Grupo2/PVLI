@@ -1,3 +1,5 @@
+import Prismaticos from "./prismaticos.js"
+
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
 
@@ -5,6 +7,12 @@ export default class extends Phaser.Scene{
     create(){
         // this.background = this.add.image(0,0,'general');
         // this.background.setOrigin(0,0);
+
+        this.prismaticos1 = new Prismaticos (this,100,400)
+        .setScale(0.5)
+        this.prismaticos2 = new Prismaticos (this,300,400)
+        .setScale(0.5)
+
 
         this.room1= this.add.sprite(100,150,'room1')
               
@@ -15,17 +23,15 @@ export default class extends Phaser.Scene{
         this.room4= this.add.sprite(700,150,'room4')
 
         this.backbutton=this.add.sprite(0,0,'back')
-        this.binoculars =this.add.sprite(200,150,'binoculars');
+        
 
-        //prismáticos prueba ir room
-        this.binoculars_room1=this.add.sprite(100,450,'binoculars')
-        .setScale(0.5)
+        
         this.earphone_room1 = this.add.sprite(200,450,'earphone')
         .setScale(0.5)
         
 
 
-        this.earphone = this.add.sprite(600,150,'earphone');
+       
 
         this.menubutton=this.add.text(900,10,"Menu")
         this.roomconfig();
@@ -34,8 +40,8 @@ export default class extends Phaser.Scene{
     select(){
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();
-        this.binoculars.setVisible(true);
-        this.earphone.setVisible(true);
+        
+       
         this.room1.setAlpha(0.2);
         this.room2.setAlpha(0.2);
         this.room3.setAlpha(0.2);
@@ -43,10 +49,17 @@ export default class extends Phaser.Scene{
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
 
-        this.binoculars_room1.setVisible(true)
+        //prismaticos de la habitacion 1
+        this.prismaticos1.setVisible(true)
         .setInteractive()
-        .setVisible(true)
-        .on('pointerdown',binoculars_room1=>{this.scene.start('room')})
+        .on('pointerdown',prismaticos1=>{this.scene.start('room1')})
+
+        //prismaticos de la habitacion 2
+        this.prismaticos2.setVisible(true)
+        .setInteractive()
+        .on('pointerdown',prismaticos2=>{this.scene.start('room2')})
+
+        
 
         this.earphone_room1.setVisible(true)
         .setInteractive()
@@ -57,7 +70,9 @@ export default class extends Phaser.Scene{
     }
 
     goroom(){
-        this.binoculars_room1.setVisible(false);
+       
+        this.prismaticos1.setVisible(false);
+        this.prismaticos2.setVisible(false);
         
     }
     roomconfig(){
@@ -83,13 +98,15 @@ export default class extends Phaser.Scene{
 
 
           this.backbutton.setOrigin(0,0);
-          this.binoculars.setOrigin(0,0);
-          this.earphone.setOrigin(0,0);
+         
+          
           this.backbutton.setVisible(false);
-          this.binoculars.setVisible(false);
-          this.binoculars_room1.setVisible(false)
+          
+          
+          this.prismaticos1.setVisible(false);
+          this.prismaticos2.setVisible(false);
           this.earphone_room1.setVisible(false)
-          this.earphone.setVisible(false);
+         
 
           this.menubutton.setColor('blue')
           .setOrigin(0,0)
@@ -104,15 +121,17 @@ export default class extends Phaser.Scene{
     disableselect(){
         this.backbutton.setVisible(false);
         this.backbutton.disableInteractive();
-        this.binoculars.setVisible(false);
-        this.earphone.setVisible(false);
+        
+        
         this.room1.setAlpha(1);
         this.room2.setAlpha(1);
         this.room3.setAlpha(1);
         this.room4.setAlpha(1);
         this.menubutton.setVisible(true);
-        this.binoculars_room1.setVisible(false);
+       
         this.earphone_room1.setVisible(false);
+        this.prismaticos1.setVisible(false);
+        this.prismaticos2.setVisible(false);
     }
 
 }
