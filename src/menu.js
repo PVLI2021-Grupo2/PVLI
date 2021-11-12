@@ -1,3 +1,6 @@
+import ObjetoDialogue from "./objetoDialogue.js";
+import Dialogue from "./dialogue.js";
+
 export default class menu extends Phaser.Scene{
     constructor() {
         super({ key: 'menu' });
@@ -17,6 +20,11 @@ export default class menu extends Phaser.Scene{
      let startbottom = this.add.sprite(500,200,'play')
      let wastebottom = this.add.sprite(500,250,'wastetime')
      this.input.mouse.disableContextMenu();
+
+     this.arrayFrases = ["Esta es la primera frase", "Esta es la segunda", "la 3", "la 4"];
+
+     this.dialogoPrueba = new Dialogue(this);
+     this.object = new ObjetoDialogue(this, 200,200, this.dialogoPrueba, this.arrayFrases);
 
      let pointer = this.input.activePointer;
 

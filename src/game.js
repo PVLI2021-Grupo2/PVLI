@@ -8,6 +8,9 @@ import Room1 from './room1.js';
 import Room2 from './room2.js';
 import Room3 from './room3.js';
 import Room4 from './room4.js';
+import ObjetoDialogue from "./objetoDialogue.js";
+import Dialogue from "./dialogue.js";
+
 
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
