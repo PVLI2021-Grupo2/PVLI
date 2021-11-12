@@ -12,8 +12,6 @@ export default class Dialogue{
        this.background = this.scene.add.sprite(posX, posY,'dialog'); //añadimos el fondo de la textbox
        this.numFraseActual = 0; //numero en el array de la frase que se escribe en pantalla
        this.dialogo = this.scene.add.text(posX/3 , posY*0.8, "");      //el texto del dialogo
-       this.infoDebug = this.scene.add.text(0,0, "");
-       this.infoDebug.text = "";
        this.arrayWord;
        this.dialogo.text = "";
    
@@ -36,11 +34,10 @@ export default class Dialogue{
      //si el usuario hace click dentro de la textbox, va cambiando de frase
      this.background.on('pointerdown',()=>{
        this.cambioFrase(this.arrayWord)
-       this.infoDebug.text = "NumFrasesEnArray: " + arrayText.length + "\nNumFraseActual: " + this.numFraseActual+ "\ndialogue finish " + this.dialogoTerminado;
+       
      })
-   
-     //debug del dialogo
-     this.infoDebug.text = "NumFrasesEnArray: " + arrayText.length + "\nNumFraseActual: " + this.numFraseActual+ "\ndialogue finish " + this.dialogoTerminado;
+
+    
    
    }
    
@@ -55,9 +52,8 @@ export default class Dialogue{
      //metodo para pasar a la siguiente string del array de frases
      cambioFrase(arrayFrases){
        if(!this.dialogoTerminado){
-         console.log(this.numFraseActual);
          if(this.numFraseActual < arrayFrases.length){
-           this.dialogo.text = arrayFrases[this.numFraseActual] + " \n estas en el numfrase: " + this.numFraseActual + "\n tamArray: " + arrayFrases.length;
+           this.dialogo.text = arrayFrases[this.numFraseActual];
            this.numFraseActual++;
     
          }

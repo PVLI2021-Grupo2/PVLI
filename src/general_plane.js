@@ -180,12 +180,13 @@ export default class extends Phaser.Scene{
         }
         //hacemos aparecer el dialogo correspondiente a la habitacion
         this.dialogoPrueba = new Dialogue(this);
-        this.object = new ObjetoDialogue(this, 150,150, this.dialogoPrueba,frases,this.mini_room);
+        this.dialogoPrueba.changeDialogue(frases);
+        //this.object = new ObjetoDialogue(this, 150,150, this.dialogoPrueba,frases,this.mini_room);
         //oscurecemos las habitaciones
-        this.room1.setAlpha(0);
-        this.room2.setAlpha(0);
-        this.room3.setAlpha(0);
-        this.room4.setAlpha(0);
+        this.room1.setAlpha(0.2);
+        this.room2.setAlpha(0.2);
+        this.room3.setAlpha(0.2);
+        this.room4.setAlpha(0.2);
     }
 
     roomconfig(){
@@ -277,8 +278,8 @@ export default class extends Phaser.Scene{
         this.prismaticos3.setVisible(false);
         this.prismaticos4.setVisible(false);      
         //desactivamos la miniatura de la habitacion y el cuadro de texto  
-        this.object.disableInteractive();
-        this.object.setVisible(false);
+        // this.object.disableInteractive();
+        // this.object.setVisible(false);
     }
 
 }

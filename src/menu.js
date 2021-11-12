@@ -18,7 +18,6 @@ export default class menu extends Phaser.Scene{
        .setScale(1.5);
  
      let startbottom = this.add.sprite(500,200,'play')
-     let wastebottom = this.add.sprite(500,250,'wastetime')
      this.input.mouse.disableContextMenu();
 
      this.arrayFrases = ["Esta es la primera frase", "Esta es la segunda", "la 3", "la 4"];
@@ -29,9 +28,7 @@ export default class menu extends Phaser.Scene{
      let pointer = this.input.activePointer;
 
      startbottom.setInteractive();
-     wastebottom.setInteractive();
      startbottom.on('pointerdown', startbottom=>{this.scene.start('general')});
-     wastebottom.on('pointerdown', wastebottom=>{this.scene.start('level')});
       
     }
 }
