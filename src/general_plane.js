@@ -1,23 +1,11 @@
 import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
-//import ObjetoDialogue from "./objetoDialogue.js";
 import Dialogue from "./dialogue.js";
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
 
     create(){
-
-       
-       //arrays de pruebas de frases
-        // this.arrayFrases_room1 = ["Somos los smith", "Nuestro hijo ha muerto", "Queremos matar a William", "Ni puta idea de como hacerlo"];
-        // this.arrayFrases_room2 = ["Soy la amargada de Cooper", "Tengo un perro y muchos gatos",
-        //                              "Me han envenenao al perro", "Voy a dejar a William hecho un colador"];
-        // this.arrayFrases_room3 = ["Soy el detective corrupto Charles", "Da más pasta traficar que detener a los traficantes",
-        //                          "El cabrón de William me está sobornando", "Pues te tiro por las escaleras"];
-        // this.arrayFrases_room4 = ["Soy William, un profesor que bebe y se mete", "Paso olímpicamente del bulling, por mi como si se fostian", 
-        //                       "He pillado trapicheando al vecino y me estoy haciendo de oro", "Empiezo a creer que no les caigo bien a los vecinos"];
-        
         
         let dialogJson = this.cache.json.get('dialog');
         //creación de los prismáticos

@@ -1,5 +1,4 @@
 import Dialogue from "./dialogue.js";
-//import ObjetoDialogue from "./objetoDialogue.js";
 
 /**
  * Clase para crear el objeto auriculares que al ser pulsado te muestra
