@@ -12,11 +12,7 @@ export default class room extends Phaser.Scene{
         this.backbutton=this.add.sprite(20,20,'back');
         //llamamos a select, metodo que habilita click
         this.select();
-        
-        
-        
-   
-        
+             
         this.input.mouse.disableContextMenu();
    
         let pointer = this.input.activePointer;

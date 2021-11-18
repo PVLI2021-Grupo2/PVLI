@@ -1,4 +1,4 @@
-import ObjetoDialogue from "./objetoDialogue.js";
+//import ObjetoDialogue from "./objetoDialogue.js";
 import Dialogue from "./dialogue.js";
 
 export default class menu extends Phaser.Scene{
@@ -23,7 +23,7 @@ export default class menu extends Phaser.Scene{
      this.arrayFrases = ["Esta es la primera frase", "Esta es la segunda", "la 3", "la 4"];
 
      this.dialogoPrueba = new Dialogue(this);
-     this.object = new ObjetoDialogue(this, 200,200, this.dialogoPrueba, this.arrayFrases);
+     //this.object = new ObjetoDialogue(this, 200,200, this.dialogoPrueba, this.arrayFrases);
 
      let pointer = this.input.activePointer;
 

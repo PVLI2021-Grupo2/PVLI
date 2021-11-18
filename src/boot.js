@@ -41,6 +41,10 @@ export default class Boot extends Phaser.Scene {
     this.load.image('room_william','room_william.png')
     this.load.image('dialog','text_box.png')
     this.load.image('sarah','sarah.png')
+
+    this.load.setPath('assets/dialog/');
+    this.load.json('dialog', 'events.json')
+
   }
 
   /**
@@ -49,5 +53,6 @@ export default class Boot extends Phaser.Scene {
    */
   create() {
     this.scene.start('menu');
+    //console.log(this.cache.json.get('dialog'))
   }
 }

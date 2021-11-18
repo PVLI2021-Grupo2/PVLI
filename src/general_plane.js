@@ -1,24 +1,25 @@
 import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
-import ObjetoDialogue from "./objetoDialogue.js";
+//import ObjetoDialogue from "./objetoDialogue.js";
 import Dialogue from "./dialogue.js";
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
 
-    
     create(){
 
        
        //arrays de pruebas de frases
-        this.arrayFrases_room1 = ["Somos los smith", "Nuestro hijo ha muerto", "Queremos matar a William", "Ni puta idea de como hacerlo"];
-        this.arrayFrases_room2 = ["Soy la amargada de Cooper", "Tengo un perro y muchos gatos",
-                                     "Me han envenenao al perro", "Voy a dejar a William hecho un colador"];
-        this.arrayFrases_room3 = ["Soy el detective corrupto Charles", "Da más pasta traficar que detener a los traficantes",
-                                 "El cabrón de William me está sobornando", "Pues te tiro por las escaleras"];
-        this.arrayFrases_room4 = ["Soy William, un profesor que bebe y se mete", "Paso olímpicamente del bulling, por mi como si se fostian", 
-                              "He pillado trapicheando al vecino y me estoy haciendo de oro", "Empiezo a creer que no les caigo bien a los vecinos"];
-
+        // this.arrayFrases_room1 = ["Somos los smith", "Nuestro hijo ha muerto", "Queremos matar a William", "Ni puta idea de como hacerlo"];
+        // this.arrayFrases_room2 = ["Soy la amargada de Cooper", "Tengo un perro y muchos gatos",
+        //                              "Me han envenenao al perro", "Voy a dejar a William hecho un colador"];
+        // this.arrayFrases_room3 = ["Soy el detective corrupto Charles", "Da más pasta traficar que detener a los traficantes",
+        //                          "El cabrón de William me está sobornando", "Pues te tiro por las escaleras"];
+        // this.arrayFrases_room4 = ["Soy William, un profesor que bebe y se mete", "Paso olímpicamente del bulling, por mi como si se fostian", 
+        //                       "He pillado trapicheando al vecino y me estoy haciendo de oro", "Empiezo a creer que no les caigo bien a los vecinos"];
+        
+        
+        let dialogJson = this.cache.json.get('dialog');
         //creación de los prismáticos
         this.prismaticos1 = new Prismaticos (this,125,425)
         .setScale(0.5);
@@ -30,13 +31,13 @@ export default class extends Phaser.Scene{
         .setScale(0.5);
 
         //creación de los auriculares
-        this.auriculares1 = new Auriculares (this,200,425)
+        this.auriculares1 = new Auriculares (this,200,425,dialogJson,"room1")
         .setScale(0.4);
-        this.auriculares2 = new Auriculares (this,400,425)
+        this.auriculares2 = new Auriculares (this,400,425,dialogJson,"room2")
         .setScale(0.4);
-        this.auriculares3 = new Auriculares (this,600,425)
+        this.auriculares3 = new Auriculares (this,600,425,dialogJson,"room3")
         .setScale(0.4);
-        this.auriculares4 = new Auriculares (this,800,425)
+        this.auriculares4 = new Auriculares (this,800,425,dialogJson,"room4")
         .setScale(0.4);
 
         //sprites de las ventanas de las habitaciones
@@ -60,6 +61,8 @@ export default class extends Phaser.Scene{
         this.menubutton=this.add.text(900,10,"Menu")
         //llamada inicial a la configuración 0 del plano general
         this.roomconfig();
+
+       
     
     }      
 /** select habilita la aparicion del prismático correspondiente a la habitacion
@@ -82,7 +85,7 @@ export default class extends Phaser.Scene{
 
         this.auriculares1.setVisible(true)
         .setInteractive()
-        .on('pointerdown',auriculares1=>{this.apareceDialogo(this.arrayFrases_room1,1)});
+        .on('pointerdown',auriculares1=>{this.auriculares1.showdialog()});
        
         break;
 
@@ -93,7 +96,7 @@ export default class extends Phaser.Scene{
 
             this.auriculares2.setVisible(true)
         .setInteractive()
-        .on('pointerdown',auriculares2=>{this.apareceDialogo(this.arrayFrases_room2,2)});
+        .on('pointerdown',auriculares2=>{this.auriculares2.showdialog()});
             break;
 
 
@@ -105,7 +108,7 @@ export default class extends Phaser.Scene{
 
         this.auriculares3.setVisible(true)
         .setInteractive()
-        .on('pointerdown',auriculares3=>{this.apareceDialogo(this.arrayFrases_room3,3)});
+        .on('pointerdown',auriculares3=>{this.auriculares3.showdialog()});
             break;
         case 4:
             
@@ -116,7 +119,7 @@ export default class extends Phaser.Scene{
 
         this.auriculares4.setVisible(true)
         .setInteractive()
-        .on('pointerdown',auriculares4=>{this.apareceDialogo(this.arrayFrases_room3,3)});
+        .on('pointerdown',auriculares4=>{this.auriculares4.showdialog()});
             break;
 
         default:
@@ -281,5 +284,4 @@ export default class extends Phaser.Scene{
         // this.object.disableInteractive();
         // this.object.setVisible(false);
     }
-
 }
