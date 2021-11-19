@@ -21,5 +21,6 @@ export default class Room1 extends BaseRoom{
      }
      //metodo que de momento habilita la funcion back
       
+     
 
 }

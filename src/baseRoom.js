@@ -22,5 +22,9 @@ export default class BaseRoom extends Phaser.Scene{
             this.backbutton.setInteractive();        
             this.backbutton.on('pointerdown',backbutton=>{this.scene.start('general')})
            }
+        //metodo que te lleva a la escena de la habitacion del argumento
+           cometoroom(a){
+               this.scene.start(a);
+           }
 
 }

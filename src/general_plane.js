@@ -45,6 +45,8 @@ export default class extends Phaser.Scene{
         
         this.room4= this.add.sprite(700,150,'room4');
 
+        
+
       
 
         //sprite del boton atras
@@ -76,7 +78,7 @@ export default class extends Phaser.Scene{
 
         this.prismaticos1.setVisible(true)
         .setInteractive()
-        .on('pointerdown',prismaticos1=>{this.scene.start('room1')});
+        .on('pointerdown',prismaticos1=>{this.prismaticos1.gogo('room1')});
 
         this.auriculares1.setVisible(true)
         .setInteractive()
@@ -135,13 +137,7 @@ export default class extends Phaser.Scene{
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
-
-
-        
-
-        
-        
-        
+   
     }
 
 
@@ -153,22 +149,20 @@ export default class extends Phaser.Scene{
         //     this.s.on('pointerdown',s=>{this.select()});
         // }
 
-        //posicion de cada ventanita
-          this.room1.setOrigin(0,0);
-          this.room2.setOrigin(0,0);
-          this.room3.setOrigin(0,0);
-          this.room4.setOrigin(0,0);
-        //hacemos interactiva cada ventanita
-          this.room1.setInteractive();
-          this.room2.setInteractive();
-          this.room3.setInteractive();
-          this.room4.setInteractive();
-          //si pulsamos encima de ellas nos aparecen los prismáticos y 
-            //auriculares correspondientes
-          this.room1.on('pointerdown',room1=>{this.select(1)});
-          this.room2.on('pointerdown',room2=>{this.select(2)});
-          this.room3.on('pointerdown',room3=>{this.select(3)});
-          this.room4.on('pointerdown',room4=>{this.select(4)});
+        //configuración de cada ventana
+          this.room1.setOrigin(0,0)
+          .setInteractive()
+          .on('pointerdown',room1=>{this.select(1)});
+          this.room2.setOrigin(0,0)
+          .setInteractive()
+          .on('pointerdown',room2=>{this.select(2)});
+          this.room3.setOrigin(0,0)
+          .setInteractive()
+          .on('pointerdown',room3=>{this.select(3)});
+          this.room4.setOrigin(0,0)
+          .setInteractive()
+          .on('pointerdown',room4=>{this.select(4)});
+          
 
          //backbutton es invisible si no hay habitación pulsada
           this.backbutton.setOrigin(0,0);

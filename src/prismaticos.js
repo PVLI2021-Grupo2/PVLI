@@ -1,3 +1,5 @@
+import BaseRoom from "./baseRoom.js";
+
 /**
  * Clase para crear el objeto prismáticos que te lleva a la habitación asociada 
  * @extends Phaser.GameObjects.Sprite
@@ -19,8 +21,11 @@
     }
 
     
-//metodo que te debería llevar a la escena que le entre de argumento
+//metodo que recibe la habitación, crea una habitación fantasma 
+//y te lleva a la de destino
     gogo(a){
+      this.room_destiny= new BaseRoom();
+      this.room_destiny.cometoroom(a);
       
     }
   
