@@ -2,10 +2,13 @@ import Boot from './boot.js';
 import End from './end.js';
 import Menu from './menu.js';
 import General from'./general_plane.js';
+//cuando una clase hereda de otra exportas el padre pero no exportas los hijos
+//sino acaba dando error por importación circular
 import Room1 from './room1.js';
 import Room2 from './room2.js';
 import Room3 from './room3.js';
 import Room4 from './room4.js';
+import BaseRoom from './baseRoom.js';
 
 
 /**
@@ -22,7 +25,7 @@ let config = {
         autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
     },
     pixelArt: true,
-    scene: [Boot, Menu, General, End,Room1,Room2,Room3,Room4],
+    scene: [Boot, Menu, General, End,BaseRoom,Room1,Room2,Room3,Room4],
     physics: { 
         default: 'arcade', 
         arcade: { 

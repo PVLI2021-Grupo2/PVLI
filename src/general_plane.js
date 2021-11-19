@@ -1,13 +1,18 @@
 import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
 import Dialogue from "./dialogue.js";
+import BaseRoom from "./baseRoom.js";
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
 
     create(){
         
+        //dialogo en formato json
         let dialogJson = this.cache.json.get('dialog');
+
+       
+        
         //creación de los prismáticos
         this.prismaticos1 = new Prismaticos (this,125,425)
         .setScale(0.5);
@@ -17,6 +22,7 @@ export default class extends Phaser.Scene{
         .setScale(0.5);
         this.prismaticos4 = new Prismaticos (this,725,425)
         .setScale(0.5);
+
 
         //creación de los auriculares
         this.auriculares1 = new Auriculares (this,200,425,dialogJson,"room1")
@@ -28,6 +34,8 @@ export default class extends Phaser.Scene{
         this.auriculares4 = new Auriculares (this,800,425,dialogJson,"room4")
         .setScale(0.4);
 
+        
+
         //sprites de las ventanas de las habitaciones
         this.room1= this.add.sprite(100,150,'room1');
               
@@ -37,12 +45,8 @@ export default class extends Phaser.Scene{
         
         this.room4= this.add.sprite(700,150,'room4');
 
-        //sprite de la habitacion minimizada para los cuadros de dialogo
-        
-        this.mini_room = this.add.sprite(100,150,'room_cooper')
-        .setScale(0.1)
-        .setVisible(false);
-        
+      
+
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
         //sprite del boton menu
@@ -50,15 +54,18 @@ export default class extends Phaser.Scene{
         //llamada inicial a la configuración 0 del plano general
         this.roomconfig();
 
-       
+
+    }    
     
-    }      
+   
 /** select habilita la aparicion del prismático correspondiente a la habitacion
  * seleccionada y deshabilita la posibilidad de seleccionar otra habitación para evitar
  * que aparezcan las opciones de otras que no sean la seleccionada
  *  @param {number} a*/
     
       select(a){
+
+        
         //desabilitamos la opción de que pueda pulsar de nuevo en una ventana
         this.room1.disableInteractive();
         this.room2.disableInteractive();
@@ -67,7 +74,7 @@ export default class extends Phaser.Scene{
         switch(a){
             case 1:
 
-         this.prismaticos1.setVisible(true)
+        this.prismaticos1.setVisible(true)
         .setInteractive()
         .on('pointerdown',prismaticos1=>{this.scene.start('room1')});
 
@@ -92,7 +99,7 @@ export default class extends Phaser.Scene{
         case 3:
             this.prismaticos3.setVisible(true)
         .setInteractive()
-        .on('pointerdown',prismaticos2=>{this.scene.start('room3')});
+        .on('pointerdown',prismaticos3=>{this.scene.start('room3')});
 
         this.auriculares3.setVisible(true)
         .setInteractive()
@@ -103,7 +110,7 @@ export default class extends Phaser.Scene{
                 //prismaticos de la habitacion 4
         this.prismaticos4.setVisible(true)
         .setInteractive()
-        .on('pointerdown',prismaticos2=>{this.scene.start('room4')});
+        .on('pointerdown',prismaticos4=>{this.scene.start('room4')});
 
         this.auriculares4.setVisible(true)
         .setInteractive()
@@ -128,57 +135,15 @@ export default class extends Phaser.Scene{
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
-/*
+
 
         
 
-        this.earphone_room1.setVisible(true)
-        .setInteractive()
-        .setVisible(true);*/
+        
         
         
     }
 
-    apareceDialogo(frases,room){
-
-            
-            //elegimos la miniatura de la habitación que mostrar al jugador
-        switch (room){
-            case 1:
-                this.mini_room = 'room1';
-                break;
-
-            case 2:
-
-                this.mini_room = 'room2';
-                break;
-
-            case 3:
-
-                this.mini_room = 'room3';
-                break;
-            case 4:
-
-                this.mini_room = 'room4';
-                break;
-
-            default:
-                this.mini_room = 'no hay habitacion'
-                
-                    break;
-                
-            
-        }
-        //hacemos aparecer el dialogo correspondiente a la habitacion
-        this.dialogoPrueba = new Dialogue(this);
-        this.dialogoPrueba.changeDialogue(frases);
-        //this.object = new ObjetoDialogue(this, 150,150, this.dialogoPrueba,frases,this.mini_room);
-        //oscurecemos las habitaciones
-        this.room1.setAlpha(0.2);
-        this.room2.setAlpha(0.2);
-        this.room3.setAlpha(0.2);
-        this.room4.setAlpha(0.2);
-    }
 
     roomconfig(){
         // for(let i=0;i<4;i++){
@@ -268,8 +233,6 @@ export default class extends Phaser.Scene{
         this.prismaticos2.setVisible(false);
         this.prismaticos3.setVisible(false);
         this.prismaticos4.setVisible(false);      
-        //desactivamos la miniatura de la habitacion y el cuadro de texto  
-        // this.object.disableInteractive();
-        // this.object.setVisible(false);
+        
     }
 }

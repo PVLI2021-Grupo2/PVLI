@@ -1,4 +1,6 @@
-export default class room extends Phaser.Scene{
+import BaseRoom from "./baseRoom.js";
+
+export default class Room1 extends BaseRoom{
 
   constructor() {
     super({ key: 'room1' });
@@ -18,11 +20,6 @@ export default class room extends Phaser.Scene{
         let pointer = this.input.activePointer;
      }
      //metodo que de momento habilita la funcion back
-       select()
-       {
-        this.backbutton.setVisible(true);
-        this.backbutton.setInteractive();        
-        this.backbutton.on('pointerdown',backbutton=>{this.scene.start('general')})
-       }
+      
 
 }

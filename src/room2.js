@@ -1,4 +1,6 @@
-export default class room2 extends Phaser.Scene{
+import BaseRoom from "./baseRoom.js";
+
+export default class Room2 extends BaseRoom{
 
     constructor() {
       super({ key: 'room2' });
@@ -10,23 +12,13 @@ export default class room2 extends Phaser.Scene{
           this.background.setOrigin(0,0);
         //creamos un back
           this.backbutton=this.add.sprite(20,20,'back');
-          //llamamos a select, metodo que habilita click
+          //llamamos a select, metodo que habilita click-back
           this.select();
-          
-          
-          
-     
           
           this.input.mouse.disableContextMenu();
      
           let pointer = this.input.activePointer;
        }
-       //metodo que de momento habilita la funcion back
-         select()
-         {
-          this.backbutton.setVisible(true);
-          this.backbutton.setInteractive();        
-          this.backbutton.on('pointerdown',backbutton=>{this.scene.start('general')})
-         }
+      
   
   }
