@@ -16,18 +16,7 @@ import BaseRoom from "./baseRoom.js";
      */
     constructor( scene,x, y) {
       super(scene, x, y,'binoculars');
-      this.scene.add.existing(this);
-      
-    }
-
-    
-//metodo que recibe la habitación, crea una habitación fantasma 
-//y te lleva a la de destino
-    gogo(a){
-      this.scene.start(a);
-      
-    }
-  
-    
+      this.scene.add.existing(this);  
+    } 
   }
   

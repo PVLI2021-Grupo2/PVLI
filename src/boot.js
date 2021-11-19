@@ -53,6 +53,5 @@ export default class Boot extends Phaser.Scene {
    */
   create() {
     this.scene.start('menu');
-    //console.log(this.cache.json.get('dialog'))
   }
 }

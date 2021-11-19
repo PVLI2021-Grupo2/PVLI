@@ -1,15 +1,11 @@
 import general_plane from "./general_plane.js";
-
-
-
 /*
 Hay un diálogo por escena que vaya a tener diálogos. y el dialogo de cada escena cambia de texto al hacer click en algún objeto
 */ 
 export default class Dialogue{
 
 //se construye el dialogo pasándole la escena en la que esté
-  constructor(scene) {
-    
+  constructor(scene) { 
     this.scene = scene;
     let posX = this.scene.cameras.main.centerX;
     let posY = this.scene.cameras.main.height*0.8;
@@ -19,8 +15,8 @@ export default class Dialogue{
     this.arrayWord;
     this.dialogo.text = "";
     this.dialogoTerminado = false; 
-      this.background.setVisible(false);
-      this.dialogo.setVisible(false);
+    this.background.setVisible(false);
+    this.dialogo.setVisible(false);
   }
     
   changeDialogue(arrayText){
@@ -33,46 +29,36 @@ export default class Dialogue{
       this.cambioFrase(this.arrayWord)
     })  
   }
-   
-  
-  replay(){ //al repetir el dialogo desde el objeto  
-    this.activateDialogue(); //lo activamos
-    this.dialogo.text = this.arrayWord[0]; //se pone en la primera frase
+     
+  //metodo para pasar a la siguiente string del array de frases
+  cambioFrase(arrayFrases){
+    if(!this.dialogoTerminado){
+      if(this.numFraseActual < arrayFrases.length){
+        this.dialogo.text = arrayFrases[this.numFraseActual];
+        this.numFraseActual++;
+      }
+      else{
+        this.deactivateDialogue();          
+      }        
+    }    
   }
   
-  
-    //metodo para pasar a la siguiente string del array de frases
-    cambioFrase(arrayFrases){
-      if(!this.dialogoTerminado){
-        if(this.numFraseActual < arrayFrases.length){
-          this.dialogo.text = arrayFrases[this.numFraseActual];
-          this.numFraseActual++;
-  
-        }
-        else{
-          this.deactivateDialogue();    
-          
-        }
-          
-      }    
-    }
-  
-    //para que se deje de ver el cuadro de dialogo y se reseteen valores
-    deactivateDialogue(){
-        this.numFraseActual = 1; //se pone a 1 porque la frase 0 ya está puesta al hacer click
-        this.dialogoTerminado = true;
-        this.background.setVisible(false);
-        this.dialogo.setVisible(false);
-        this.background.disableInteractive();
-        this.dialogo.text = "";
-    }
-    //para activar la caja de dialogo 
-    activateDialogue(){
-      this.dialogoTerminado = false;
-      this.background.setVisible(true);
-      this.dialogo.setVisible(true);
-      this.background.setInteractive();
-  
+  //para que se deje de ver el cuadro de dialogo y se reseteen valores
+  deactivateDialogue(){
+    this.numFraseActual = 1; //se pone a 1 porque la frase 0 ya está puesta al hacer click
+    this.dialogoTerminado = true;
+    this.background.setVisible(false);
+    this.dialogo.setVisible(false);
+    this.background.disableInteractive();
+    this.dialogo.text = "";
   }
-  }
+  //para activar la caja de dialogo 
+  activateDialogue(){
+    this.dialogoTerminado = false;
+    this.background.setVisible(true);
+    this.dialogo.setVisible(true);
+    this.background.setInteractive();
+
+}
+}
   

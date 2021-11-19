@@ -52,8 +52,7 @@ export default class extends Phaser.Scene{
  *  @param {number} a*/
     
       select(a){
-
-        
+      
         //desabilitamos la opción de que pueda pulsar de nuevo en una ventana
         this.roomarray.forEach(item => item.disableInteractive())
         
