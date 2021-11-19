@@ -24,8 +24,7 @@ import BaseRoom from "./baseRoom.js";
 //metodo que recibe la habitación, crea una habitación fantasma 
 //y te lleva a la de destino
     gogo(a){
-      this.room_destiny= new BaseRoom();
-      this.room_destiny.cometoroom(a);
+      this.scene.start(a);
       
     }
   

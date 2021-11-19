@@ -1,4 +1,6 @@
-//import room from "./room1";
+import general_plane from "./general_plane.js";
+
+
 
 /*
 Hay un diálogo por escena que vaya a tener diálogos. y el dialogo de cada escena cambia de texto al hacer click en algún objeto
@@ -33,8 +35,7 @@ export default class Dialogue{
   }
    
   
-  replay(){ //al repetir el dialogo desde el objeto
-    
+  replay(){ //al repetir el dialogo desde el objeto  
     this.activateDialogue(); //lo activamos
     this.dialogo.text = this.arrayWord[0]; //se pone en la primera frase
   }
@@ -64,7 +65,6 @@ export default class Dialogue{
         this.dialogo.setVisible(false);
         this.background.disableInteractive();
         this.dialogo.text = "";
-  
     }
     //para activar la caja de dialogo 
     activateDialogue(){
