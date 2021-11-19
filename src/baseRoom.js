@@ -2,7 +2,7 @@ export default class BaseRoom extends Phaser.Scene{
 
        constructor(key,image){
          super(key);
-        this.image = image
+         this.image = image
        }
         create(){
           //creamos el background de la escena
@@ -14,8 +14,7 @@ export default class BaseRoom extends Phaser.Scene{
             this.select();
             console.log(this.image);
             this.input.mouse.disableContextMenu();
-       
-            let pointer = this.input.activePointer;
+            
          }
          //metodo que de momento habilita la funcion back
            select()
