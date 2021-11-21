@@ -1,7 +1,15 @@
 {
    "earphone":[
       {
-         "room1":[
+         "room1":[ 
+            {
+               "event0":[
+                  "dialogo 12 noche",
+                  "Nuestro hijo ha muerto",
+                  "Queremos matar a William",
+                  "Ni puta idea de como hacerlo"
+               ]
+            },
             {
                "event1":[
                   "Somos los smith",
@@ -13,6 +21,20 @@
             {
                "event2":[
                   "room1",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event3":[
+                  "Saaaaaa smith",
+                  "Nuestro hijo ha muerto",
+                  "Queremos matar a William",
+                  "Ni puta idea de como hacerlo"
+               ]
+            },
+            {
+               "event4":[
+                  "dialogo5",
                   "room1 uhu"
                ]
             }
