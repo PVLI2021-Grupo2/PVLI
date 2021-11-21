@@ -4,7 +4,7 @@
          "room1":[ 
             {
                "event0":[
-                  "dialogo 12 noche",
+                  "Somos los smith",
                   "Nuestro hijo ha muerto",
                   "Queremos matar a William",
                   "Ni puta idea de como hacerlo"
@@ -12,10 +12,7 @@
             },
             {
                "event1":[
-                  "Somos los smith",
-                  "Nuestro hijo ha muerto",
-                  "Queremos matar a William",
-                  "Ni puta idea de como hacerlo"
+                  "dialogo 1"
                ]
             },
             {
@@ -37,44 +34,561 @@
                   "dialogo5",
                   "room1 uhu"
                ]
+            },
+            {
+               "event5":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event6":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event7":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event8":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event9":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event10":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event11":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event12":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event13":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event14":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event15":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event16":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event17":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event18":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event19":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event20":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event21":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event22":[
+                  "dialogossssssssssssss",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event23":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
             }
+            
          ],
          "room2":[
             {
-               "event1":[
+               "event0":[
                   "Soy la amargada de Cooper", "Tengo un perro y muchos gatos",
                   "Me han envenenao al perro", "Voy a dejar a William hecho un colador"
                ]
             },
             {
+               "event1":[
+                  "dialogo 1"
+               ]
+            },
+            {
                "event2":[
-                  "room2","room2 uhu"
+                  "room1",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event3":[
+                  "Saaaaaa smith",
+                  "Nuestro hijo ha muerto",
+                  "Queremos matar a William",
+                  "Ni puta idea de como hacerlo"
+               ]
+            },
+            {
+               "event4":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event5":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event6":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event7":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event8":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event9":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event10":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event11":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event12":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event13":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event14":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event15":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event16":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event17":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event18":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event19":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event20":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event21":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event22":[
+                  "dialogossssssssssssss",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event23":[
+                  "dialogo5",
+                  "room1 uhu"
                ]
             }
          ],
          "room3":[
             {
-               "event1":[
+               "event0":[
                   "Soy el detective corrupto Charles", "Da más pasta traficar que detener a los traficantes",
                   "El cabrón de William me está sobornando", "Pues te tiro por las escaleras"
                ]
             },
             {
+               "event1":[
+                  "dialogo 1"
+               ]
+            },
+            {
                "event2":[
-                  "room3","room3 uhu"
+                  "room1",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event3":[
+                  "Saaaaaa smith",
+                  "Nuestro hijo ha muerto",
+                  "Queremos matar a William",
+                  "Ni puta idea de como hacerlo"
+               ]
+            },
+            {
+               "event4":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event5":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event6":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event7":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event8":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event9":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event10":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event11":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event12":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event13":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event14":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event15":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event16":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event17":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event18":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event19":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event20":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event21":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event22":[
+                  "dialogossssssssssssss",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event23":[
+                  "dialogo5",
+                  "room1 uhu"
                ]
             }
          ],
          "room4":[
             {
-               "event1":[
+               "event0":[
                   "Soy William, un profesor que bebe y se mete", "Paso olímpicamente del bulling, por mi como si se fostian", 
                   "He pillado trapicheando al vecino y me estoy haciendo de oro", "Empiezo a creer que no les caigo bien a los vecinos"
                ]
             },
             {
+               "event1":[
+                  "dialogo 1"
+               ]
+            },
+            {
                "event2":[
-                  "room4","room4 uhu"
+                  "room1",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event3":[
+                  "Saaaaaa smith",
+                  "Nuestro hijo ha muerto",
+                  "Queremos matar a William",
+                  "Ni puta idea de como hacerlo"
+               ]
+            },
+            {
+               "event4":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event5":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event6":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event7":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event8":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event9":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event10":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event11":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event12":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event13":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event14":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event15":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event16":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event17":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event18":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event19":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event20":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event21":[
+                  "dialogo5",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event22":[
+                  "dialogossssssssssssss",
+                  "room1 uhu"
+               ]
+            },
+            {
+               "event23":[
+                  "dialogo5",
+                  "room1 uhu"
                ]
             }
          ]

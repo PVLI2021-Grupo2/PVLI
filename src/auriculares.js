@@ -21,7 +21,7 @@ import Dialogue from "./dialogue.js";
       this.arrayText = dialog;
       this.roomName = roomName;
       this.event = "event";
-      this.number = 0;
+      this.number = 22;
     }
     showdialog(){
       this.textbox = new Dialogue(this.scene);
