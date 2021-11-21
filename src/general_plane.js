@@ -76,8 +76,6 @@ export default class extends Phaser.Scene{
         this.menubutton.setVisible(false);
    
     }
-
-
     roomconfig(){
     
           for(let i = 0;i<this.roomarray.length;i++){
