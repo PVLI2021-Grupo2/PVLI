@@ -38,7 +38,8 @@ export default class Dialogue{
         this.numFraseActual++;
       }
       else{
-        this.deactivateDialogue();          
+        this.deactivateDialogue();     
+        this.scene.backactive(true);     
       }        
     }    
   }
