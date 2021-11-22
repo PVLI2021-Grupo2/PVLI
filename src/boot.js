@@ -41,6 +41,9 @@ export default class Boot extends Phaser.Scene {
     this.load.image('room_william','room_william.png')
     this.load.image('dialog','text_box.png')
     this.load.image('sarah','sarah.png')
+    this.load.image('clock','clock_icon.png')
+    this.load.image('green','green_time.png')
+    this.load.image('red','red_time.png')
 
     this.load.setPath('assets/dialog/');
     this.load.json('dialog', 'events.json')

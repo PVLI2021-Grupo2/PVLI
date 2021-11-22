@@ -35,6 +35,11 @@ export default class extends Phaser.Scene{
         this.room4= this.add.sprite(700,150,'room4');
 
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
+
+        //sprites de control de tiempo
+        this.total_time=this.add.sprite(this,50,200,'red');
+        this.remaining_time=this.add.sprite(this,50,200,'green');
+        this.clock=this.add.sprite(this,30,200,'clock');
         
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
