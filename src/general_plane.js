@@ -2,8 +2,12 @@ import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
 import Dialogue from "./dialogue.js";
 import BaseRoom from "./baseRoom.js";
+
 import TimeBar from "./timeBar.js";
 import Coffe from "./coffe.js";
+
+import NoteBook from "./notebook.js";
+
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
@@ -38,19 +42,23 @@ export default class extends Phaser.Scene{
 
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
+        //NEW FEATURE
+
         //creacion del timeBar
-        this.time_bar= new TimeBar (this);
+        this.time_bar= new TimeBar (this,200,500);
 
         //creacion del coffe
-        this.coffe_= new Coffe (this,850,400);
+        this.coffe_= new Coffe (this,950,400);
         
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
         //sprite del boton menu
         this.menubutton=this.add.text(900,10,"Menu")
+        //
+        this.notebook = this.add.sprite(0,400,'player');
+        this.notebookscene = new NoteBook();
         //llamada inicial a la configuración 0 del plano general
         this.roomconfig();
-
     }    
     
    
@@ -67,13 +75,16 @@ export default class extends Phaser.Scene{
         let roomName = 'room' + a;
         this.prismaticarry[a-1].setVisible(true)
         .setInteractive()
-        .on('pointerdown',()=>{this.scene.start(roomName)});
+        .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un prismatico y resto tiempo')})
+        .on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene)});
         
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
+
         //uso de menostiempo en timebar (nofunciona la dimensionabilidad)
         .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un auricular y resto tiempo')})
-        .on('pointerdown',()=>{this.auriculararray[a-1].showdialog()});
+        .on('pointerdown',()=>{this.auriculararray[a-1].showdialog(),this.backactive(false)});
+
         
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();
@@ -85,16 +96,9 @@ export default class extends Phaser.Scene{
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
 
-        //uso de coffe
-        this.coffe_
-        .setInteractive()
-        .on('pointerdown',()=>{this.coffe_.uso('me llamo desde el plano general')});
-
-        
+              
    
     }
-
-
     roomconfig(){
     
           for(let i = 0;i<this.roomarray.length;i++){
@@ -106,7 +110,11 @@ export default class extends Phaser.Scene{
           //backbutton es invisible si no hay habitación pulsada
           this.backbutton.setOrigin(0,0);
           this.backbutton.setVisible(false);
-          
+          //
+          this.notebook.setOrigin(0,0);
+          this.notebook.setVisible(true);
+          this.notebook.setInteractive();
+          this.notebook.on('pointerdown',()=>{this.scene.launch('notebook')})
           //todos los sprites de prismáticos desaparecen si no hay habitacion pulsada
           this.prismaticarry.forEach(item => item.setVisible(false))
 
@@ -119,7 +127,16 @@ export default class extends Phaser.Scene{
           .setBackgroundColor('white')
           .setScale(1.2)
           .setInteractive()
-          .on('pointerdown',menubutton=>{this.scene.start('menu')});
+          .on('pointerdown',menubutton=>{this.scene.switch('menu')});
+
+
+          //NEW FEATURE
+
+          //uso de coffe
+        this.coffe_
+        .setInteractive()
+        //.on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde un auricular y resto tiempo')})
+        .on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde el plano general')}); 
  
     }
 
@@ -146,5 +163,9 @@ export default class extends Phaser.Scene{
        this.prismaticarry.forEach(item => item.setVisible(false))
        this.auriculararray.forEach(item => item.setVisible(false))        
         
+    }
+    backactive(b){
+        this.backbutton.setVisible(b);
+        this.backbutton.setInteractive(b);
     }
 }

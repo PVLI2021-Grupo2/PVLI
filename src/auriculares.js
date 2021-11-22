@@ -13,7 +13,9 @@ import Dialogue from "./dialogue.js";
      * @param {number} x coordenada x
      * @param {number} y coordenada y
      */
-    constructor( scene,x, y, dialog, roomName ) {
+
+    constructor( scene,x, y,dialog,roomName) {
+
       super(scene, x, y, 'earphone');
       this.scene.add.existing(this);
       this.scene =scene;
