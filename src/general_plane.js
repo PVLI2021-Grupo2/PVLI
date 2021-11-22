@@ -2,6 +2,7 @@ import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
 import Dialogue from "./dialogue.js";
 import BaseRoom from "./baseRoom.js";
+import TimeBar from "./timeBar.js";
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
@@ -37,9 +38,7 @@ export default class extends Phaser.Scene{
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
         //sprites de control de tiempo
-        this.total_time=this.add.sprite(this,50,200,'red');
-        this.remaining_time=this.add.sprite(this,50,200,'green');
-        this.clock=this.add.sprite(this,30,200,'clock');
+        this.time_bar= new TimeBar (this);
         
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
@@ -68,6 +67,8 @@ export default class extends Phaser.Scene{
         
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
+        //uso de menostiempo en timebar (nofunciona la dimensionabilidad)
+        .on('pointerdown',()=>{this.time_bar.menostiempo('kjhgf')})
         .on('pointerdown',()=>{this.auriculararray[a-1].showdialog()});
         
         this.backbutton.setVisible(true);
@@ -79,6 +80,8 @@ export default class extends Phaser.Scene{
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
+
+        
    
     }
 
