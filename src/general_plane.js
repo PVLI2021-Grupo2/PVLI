@@ -3,6 +3,7 @@ import Auriculares from "./auriculares.js";
 import Dialogue from "./dialogue.js";
 import BaseRoom from "./baseRoom.js";
 import TimeBar from "./timeBar.js";
+import Coffe from "./coffe.js";
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
@@ -37,8 +38,11 @@ export default class extends Phaser.Scene{
 
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
-        //sprites de control de tiempo
+        //creacion del timeBar
         this.time_bar= new TimeBar (this);
+
+        //creacion del coffe
+        this.coffe_= new Coffe (this,850,400);
         
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
@@ -68,7 +72,7 @@ export default class extends Phaser.Scene{
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
         //uso de menostiempo en timebar (nofunciona la dimensionabilidad)
-        .on('pointerdown',()=>{this.time_bar.menostiempo('kjhgf')})
+        .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un auricular y resto tiempo')})
         .on('pointerdown',()=>{this.auriculararray[a-1].showdialog()});
         
         this.backbutton.setVisible(true);
@@ -80,6 +84,11 @@ export default class extends Phaser.Scene{
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
+
+        //uso de coffe
+        this.coffe_
+        .setInteractive()
+        .on('pointerdown',()=>{this.coffe_.uso('me llamo desde el plano general')});
 
         
    

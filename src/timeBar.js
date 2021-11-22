@@ -25,12 +25,12 @@ export default class TimeBar{
     } 
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
     menostiempo(a){
-        this.remaining_time.
+       
         console.log(a);
     }
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
-    mastiempo(a){
-        console.log(a);
+    mastiempo(b){
+        console.log(b);
     }
 
    
