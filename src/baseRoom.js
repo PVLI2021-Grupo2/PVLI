@@ -6,7 +6,7 @@ export default class BaseRoom extends Phaser.Scene{
        }
         create(){
           //creamos el background de la escena
-            this.background = this.add.image(0,0,this.image);        
+            this.background = this.add.sprite(0,0, 'rooms', this.image);        
             this.background.setOrigin(0,0);
           //creamos un back
             this.backbutton=this.add.sprite(20,20,'back');
