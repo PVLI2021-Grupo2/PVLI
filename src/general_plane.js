@@ -136,7 +136,7 @@ export default class extends Phaser.Scene{
         this.coffe_
         .setInteractive()
         //.on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde un auricular y resto tiempo')})
-        .on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde el plano general')}); 
+        .on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde el plano general',1)}); 
  
     }
 
