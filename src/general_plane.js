@@ -2,7 +2,12 @@ import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
 import Dialogue from "./dialogue.js";
 import BaseRoom from "./baseRoom.js";
+
+import TimeBar from "./timeBar.js";
+import Coffe from "./coffe.js";
+
 import NoteBook from "./notebook.js";
+
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
@@ -35,6 +40,14 @@ export default class extends Phaser.Scene{
         this.room4= this.add.sprite(700,150,'room4');
 
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
+
+        //NEW FEATURE
+
+        //creacion del timeBar
+        this.time_bar= new TimeBar (this,200,500);
+
+        //creacion del coffe
+        this.coffe_= new Coffe (this,950,400);
         
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
@@ -53,7 +66,8 @@ export default class extends Phaser.Scene{
 /** select habilita la aparicion del prismático correspondiente a la habitacion
  * seleccionada y deshabilita la posibilidad de seleccionar otra habitación para evitar
  * que aparezcan las opciones de otras que no sean la seleccionada
- *  @param {number} a*/
+ *  @param {number} a
+ * */
     
       select(a){
       
@@ -65,16 +79,28 @@ export default class extends Phaser.Scene{
         .setInteractive()
        
         
+        // .on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene),
+        //     this.time_bar.menostiempo()});
+
+        
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
 
         //para registrarse solo una vez
         if(!this.selectted){
-            this.auriculararray[a-1].on('pointerdown',()=>{this.auriculararray[a-1].showdialog(),this.backactive(false)});
-            this.prismaticarry[a-1].on('pointerdown',()=>{this.scene.switch(roomName)});
+            this.auriculararray[a-1].on('pointerdown',()=>{this.auriculararray[a-1].showdialog(this.preguntaHora()),this.backactive(false),
+                this.time_bar.menostiempo()});
+    
+            this.prismaticarry[a-1].on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene),
+                this.time_bar.menostiempo()});
             this.selectted = true;
         }
         
+        //uso de menostiempo en timebar (nofunciona la dimensionabilidad)        
+        // .on('pointerdown',()=>{this.auriculararray[a-1].showdialog(this.preguntaHora()),this.backactive(false),
+        //     this.time_bar.menostiempo()});
+
+        this.preguntaHora();
         
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();
@@ -86,6 +112,7 @@ export default class extends Phaser.Scene{
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
         this.notebook.setVisible(false);
+
    
     }
     roomconfig(){
@@ -117,6 +144,14 @@ export default class extends Phaser.Scene{
         .setInteractive()
         .on('pointerdown',menubutton=>{this.scene.switch('menu')});
 
+          //NEW FEATURE
+
+          //uso de coffe
+        this.coffe_
+        .setInteractive()
+        //.on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde un auricular y resto tiempo')})
+        .on('pointerdown',()=>{this.time_bar.mastiempo(1)}); 
+ 
     }
 
     /**Metodo usado para volver a poner el plano general unicamente
@@ -147,5 +182,11 @@ export default class extends Phaser.Scene{
     backactive(b){
         this.backbutton.setVisible(b);
         this.backbutton.setInteractive(b);
+    }
+
+    preguntaHora(){
+        console.log(this.time_bar.horas_eventos);
+       return this.time_bar.horas_eventos;
+      
     }
 }

@@ -45,6 +45,10 @@ export default class Boot extends Phaser.Scene {
     //por ejemplo " this.taza= this.add.sprite(100,150,'objects', 'object-26');"
     this.load.atlas('objects', 'objects.png', 'objects_atlas.json') 
     this.load.atlas('rooms', 'rooms.png', 'rooms_atlas.json') 
+    this.load.image('clock','clock_icon.png')
+    this.load.image('green','green_time.png')
+    this.load.image('red','red_time.png')
+    this.load.image('coffe','coffe.png')
 
     this.load.setPath('assets/dialog/');
     this.load.json('dialog', 'events.json')
