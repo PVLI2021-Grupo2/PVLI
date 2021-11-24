@@ -42,7 +42,6 @@ export default class extends Phaser.Scene{
         this.menubutton=this.add.text(900,10,"Menu")
         //
         this.notebook = this.add.sprite(0,400,'player');
-        this.notebookscene = new NoteBook();
         //llamada inicial a la configuración 0 del plano general
         this.roomconfig();
     }    
@@ -61,7 +60,7 @@ export default class extends Phaser.Scene{
         let roomName = 'room' + a;
         this.prismaticarry[a-1].setVisible(true)
         .setInteractive()
-        .on('pointerdown',()=>{this.scene.start(roomName,this.notebookscene)});
+        .on('pointerdown',()=>{this.scene.switch(roomName)});
         
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
@@ -81,34 +80,33 @@ export default class extends Phaser.Scene{
     }
     roomconfig(){
     
-          for(let i = 0;i<this.roomarray.length;i++){
-              this.roomarray[i].setOrigin(0,0)
-              .setInteractive()
-              .on('pointerdown',()=>{this.select(i+1)});
-          }
+        for(let i = 0;i<this.roomarray.length;i++){
+            this.roomarray[i].setOrigin(0,0)
+            .setInteractive()
+            .on('pointerdown',()=>{this.select(i+1)});
+        }
+        //backbutton es invisible si no hay habitación pulsada
+        this.backbutton.setOrigin(0,0);
+        this.backbutton.setVisible(false);
+        
+        this.notebook.setOrigin(0,0);
+        this.notebook.setVisible(true);
+        this.notebook.setInteractive();
+        this.notebook.on('pointerdown',()=>{this.scene.start('notebook')})
+        //todos los sprites de prismáticos desaparecen si no hay habitacion pulsada
+        this.prismaticarry.forEach(item => item.setVisible(false))
 
-          //backbutton es invisible si no hay habitación pulsada
-          this.backbutton.setOrigin(0,0);
-          this.backbutton.setVisible(false);
-          //
-          this.notebook.setOrigin(0,0);
-          this.notebook.setVisible(true);
-          this.notebook.setInteractive();
-          this.notebook.on('pointerdown',()=>{this.scene.start('notebook')})
-          //todos los sprites de prismáticos desaparecen si no hay habitacion pulsada
-          this.prismaticarry.forEach(item => item.setVisible(false))
+        //igual que los auriculares
+        this.auriculararray.forEach(item => item.setVisible(false))   
+                
+        //damos propiedades al boton menu
+        this.menubutton.setColor('blue')
+        .setOrigin(0,0)
+        .setBackgroundColor('white')
+        .setScale(1.2)
+        .setInteractive()
+        .on('pointerdown',menubutton=>{this.scene.switch('menu')});
 
-          //igual que los auriculares
-          this.auriculararray.forEach(item => item.setVisible(false))   
-                 
-          //damos propiedades al boton menu
-          this.menubutton.setColor('blue')
-          .setOrigin(0,0)
-          .setBackgroundColor('white')
-          .setScale(1.2)
-          .setInteractive()
-          .on('pointerdown',menubutton=>{this.scene.switch('menu')});
- 
     }
 
     /**Metodo usado para volver a poner el plano general unicamente

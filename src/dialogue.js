@@ -46,15 +46,18 @@ export default class Dialogue{
   
   //para que se deje de ver el cuadro de dialogo y se reseteen valores
   deactivateDialogue(){
+
     this.numFraseActual = 1; //se pone a 1 porque la frase 0 ya está puesta al hacer click
     this.dialogoTerminado = true;
     this.background.setVisible(false);
     this.dialogo.setVisible(false);
     this.background.disableInteractive();
     this.dialogo.text = "";
+
   }
   //para activar la caja de dialogo 
   activateDialogue(){
+    
     this.dialogoTerminado = false;
     this.background.setVisible(true);
     this.dialogo.setVisible(true);
