@@ -4,591 +4,591 @@
          "room1":[ 
             {
                "event0":[
-                  "Somos los smith",
-                  "Nuestro hijo ha muerto",
-                  "Queremos matar a William",
-                  "Ni puta idea de como hacerlo"
-               ]
+                  "*Parece que están durmiendo*"
+               ],
+               "isevent" : false
             },
             {
                "event1":[
-                  "dialogo 1"
-               ]
+                  "*Parece que están durmiendo*"
+               ],
+               "isevent" : false
             },
             {
                "event2":[
-                  "room1",
-                  "room1 uhu"
+                  "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event3":[
-                  "Saaaaaa smith",
-                  "Nuestro hijo ha muerto",
-                  "Queremos matar a William",
-                  "Ni puta idea de como hacerlo"
+                  "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event4":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event5":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event6":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event7":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event8":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event9":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event10":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event11":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event12":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*La radio informa sobre el tiempo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event13":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Conversación de ir a la compra*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event14":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event15":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event16":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event17":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event18":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event19":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event20":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event21":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event22":[
-                  "dialogossssssssssssss",
-                  "room1 uhu"
+                  "*Parece que están cenando*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event23":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Conversación de irse a dormir*"
+
                ]
+               ,
+               "isevent" : false
             }
             
          ],
          "room2":[
             {
                "event0":[
-                  "Soy la amargada de Cooper", "Tengo un perro y muchos gatos",
-                  "Me han envenenao al perro", "Voy a dejar a William hecho un colador"
+                  "*No se escucha nada*"
                ]
             },
             {
                "event1":[
-                  "dialogo 1"
+                  "*No se escucha nada*"
                ]
             },
             {
                "event2":[
-                  "room1",
-                  "room1 uhu"
+                  "*No se escucha nada*"
                ]
             },
             {
                "event3":[
-                  "Saaaaaa smith",
-                  "Nuestro hijo ha muerto",
-                  "Queremos matar a William",
-                  "Ni puta idea de como hacerlo"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event4":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event5":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event6":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event7":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event8":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event9":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escuchan los ladridos de un perro*"
+
                ]
             },
             {
                "event10":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escuchan los ladridos de un perro*"
+
                ]
             },
             {
                "event11":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event12":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event13":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event14":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Suena la televisión*"
+
                ]
             },
             {
                "event15":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escucha a alguien susurrando*"
+
                ]
             },
             {
                "event16":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escucha la televisión*"
+
                ]
             },
             {
                "event17":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event18":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event19":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event20":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event21":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event22":[
-                  "dialogossssssssssssss",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             },
             {
                "event23":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No se escucha nada*"
+
                ]
             }
          ],
          "room3":[
             {
                "event0":[
-                  "Soy el detective corrupto Charles", "Da más pasta traficar que detener a los traficantes",
-                  "El cabrón de William me está sobornando", "Pues te tiro por las escaleras"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event1":[
-                  "dialogo 1"
+                  "*No parece que esté en casa*"
                ]
             },
             {
                "event2":[
-                  "room1",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event3":[
-                  "Saaaaaa smith",
-                  "Nuestro hijo ha muerto",
-                  "Queremos matar a William",
-                  "Ni puta idea de como hacerlo"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event4":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event5":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event6":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event7":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event8":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event9":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event10":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event11":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event12":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event13":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event14":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event15":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event16":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event17":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event18":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event19":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event20":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event21":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event22":[
-                  "dialogossssssssssssss",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event23":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se oyen pasos*"
+
                ]
             }
          ],
          "room4":[
             {
                "event0":[
-                  "Soy William, un profesor que bebe y se mete", "Paso olímpicamente del bulling, por mi como si se fostian", 
-                  "He pillado trapicheando al vecino y me estoy haciendo de oro", "Empiezo a creer que no les caigo bien a los vecinos"
+                  "*Se escuchan lamentos de culpabilidad*"
+
                ]
             },
             {
                "event1":[
-                  "dialogo 1"
+                  "*Se escuchan lamentos de culpabilidad*"
                ]
             },
             {
                "event2":[
-                  "room1",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event3":[
-                  "Saaaaaa smith",
-                  "Nuestro hijo ha muerto",
-                  "Queremos matar a William",
-                  "Ni puta idea de como hacerlo"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event4":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event5":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event6":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event7":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event8":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "No pasa nada"
                ]
             },
             {
                "event9":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event10":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event11":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event12":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event13":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event14":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event15":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event16":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escuchan lamentos de culpabilidad*"
+
                ]
             },
             {
                "event17":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escuchan lamentos de culpabilidad*"
+
                ]
             },
             {
                "event18":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escuchan lamentos de culpabilidad*"
+
                ]
             },
             {
                "event19":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escucha el sonido de la ducha*"
+
                ]
             },
             {
                "event20":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escucha el sonido de la ducha*"
+
                ]
             },
             {
                "event21":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escuchan vasos y botellas de cristal siendo transportados de un lado a otro*"
+
                ]
             },
             {
                "event22":[
-                  "dialogossssssssssssss",
-                  "room1 uhu"
+                  "*No parece que esté en casa*"
+
                ]
             },
             {
                "event23":[
-                  "dialogo5",
-                  "room1 uhu"
+                  "*Se escuchan lamentos de culpabilidad*"
+
                ]
             }
          ]
@@ -600,17 +600,17 @@
             {
                "tetera":[
                   "soy una tetera",
-                  "estoy a mitad",
-                  "de momento nose naa",
-                  "sigo sin saber naa"
-                  
-               ]
+                  "soy una teterax2",
+                  "soy una teterax3"  
+               ],
+               "id":0
             },
             {
                "pastilla":[
                   "room1",
                   "room1 uhu"
-               ]
+               ],
+               "id":0
             }
          ],
          "room2":[

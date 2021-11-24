@@ -75,17 +75,17 @@ export default class extends Phaser.Scene{
         let roomName = 'room' + a;
         this.prismaticarry[a-1].setVisible(true)
         .setInteractive()
-
-        .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un prismatico y resto tiempo')}) 
-        .on('pointerdown',()=>{this.scene.start(roomName,this.notebookscene)});
+        
+        .on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene),
+            this.time_bar.menostiempo()});
 
         
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
 
-        //uso de menostiempo en timebar (nofunciona la dimensionabilidad)
-        .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un auricular y resto tiempo')})
-        .on('pointerdown',()=>{this.auriculararray[a-1].showdialog(),this.backactive(false)});
+        //uso de menostiempo en timebar (nofunciona la dimensionabilidad)        
+        .on('pointerdown',()=>{this.auriculararray[a-1].showdialog(this.preguntaHora()),this.backactive(false),
+            this.time_bar.menostiempo()});
 
         this.preguntaHora();
         
@@ -174,8 +174,8 @@ export default class extends Phaser.Scene{
     }
 
     preguntaHora(){
-        console.log(this.time_bar.horas_disponibles);
-       return this.time_bar.horas_disponibles;
+        console.log(this.time_bar.horas_eventos);
+       return this.time_bar.horas_eventos;
       
     }
 }

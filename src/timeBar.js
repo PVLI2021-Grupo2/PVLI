@@ -35,23 +35,31 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         //contador de tazas
         this.tazas_totales=0;
         //horas totales por dia
-        this.horas_totales=19;
+        this.horas_totales=20;
         //horas disponibles o restantes
-        this.horas_disponibles=19;
+        this.horas_disponibles=20;
+        //horas que se pasan para la gestión de eventos
+        this.horas_eventos=9;
         
     }
         
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
     menostiempo(a){
         if(this.remaining_time.scaleX>=0.01){
+            if(this.horas_eventos>23){
+                this.horas_eventos=0;
+            }
+            //disminuimos las horas disponibles
             this.horas_disponibles--;
+            //aumentamos la hora real
+            this.horas_eventos++;
             this.remaining_time.scaleX-=(1/this.horas_totales);
        
         }
        
       
        else this.remaining_time.scaleX-=0;
-        console.log(a);
+       
         console.log("quedan "+this.horas_disponibles+"horas");
     }
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
