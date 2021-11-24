@@ -43,6 +43,9 @@ export default class extends Phaser.Scene{
         //
         this.notebook = this.add.sprite(0,400,'player');
         //llamada inicial a la configuración 0 del plano general
+       
+        this.selectted = false;
+
         this.roomconfig();
     }    
     
@@ -60,11 +63,18 @@ export default class extends Phaser.Scene{
         let roomName = 'room' + a;
         this.prismaticarry[a-1].setVisible(true)
         .setInteractive()
-        .on('pointerdown',()=>{this.scene.switch(roomName)});
+       
         
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
-        .on('pointerdown',()=>{this.auriculararray[a-1].showdialog(),this.backactive(false)});
+
+        //para registrarse solo una vez
+        if(!this.selectted){
+            this.auriculararray[a-1].on('pointerdown',()=>{this.auriculararray[a-1].showdialog(),this.backactive(false)});
+            this.prismaticarry[a-1].on('pointerdown',()=>{this.scene.switch(roomName)});
+            this.selectted = true;
+        }
+   
         
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();

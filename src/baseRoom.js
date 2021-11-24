@@ -22,7 +22,7 @@ export default class BaseRoom extends Phaser.Scene{
            {
             this.backbutton.setVisible(true);
             this.backbutton.setInteractive();        
-            this.backbutton.on('pointerdown',backbutton=>{this.scene.start('general')})
+            this.backbutton.on('pointerdown',backbutton=>{this.scene.switch('general')})
            }
 
 

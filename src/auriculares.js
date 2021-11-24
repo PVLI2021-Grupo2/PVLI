@@ -21,15 +21,18 @@ import Dialogue from "./dialogue.js";
       this.arrayText = dialog;
       this.roomName = roomName;
       this.event = "event";
-      this.number = 22;
+      this.number = 0;
     }
     showdialog(){
+  
       this.textbox = new Dialogue(this.scene);
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
       this.textbox.changeDialogue(this.arrayText["earphone"][0][this.roomName][this.number][this.event+this.number])
+      console.log(this.number)
+      //console.log(this.arrayText["earphone"][0]["room1"][2]["event2"])
       //this.textbox.changeDialogue(this.arrayText["text"][this.roomNum-1][room][this.number-1][this.event+this.number])
       this.number +=1;
-      if(this.number>2)this.number=1;
+      if(this.number>23)this.number=0;
       
     }
   
