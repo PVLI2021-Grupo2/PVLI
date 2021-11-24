@@ -185,7 +185,7 @@ export default class extends Phaser.Scene{
     }
 
     preguntaHora(){
-        console.log(this.time_bar.horas_eventos);
+       console.log(this.time_bar.horas_eventos);
        return this.time_bar.horas_eventos;
       
     }
