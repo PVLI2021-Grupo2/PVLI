@@ -30,35 +30,49 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
     {
         //contador de tazas
         this.tazas_totales=0;
-        //contador de las horas de timebar (incompleto)
+        //horas totales por dia
         this.horas_totales=19;
+        //horas disponibles o restantes
+        this.horas_disponibles=19;
         
     }
         
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
     menostiempo(a){
-        if(this.remaining_time.scaleX>=0.01)
+        if(this.remaining_time.scaleX>=0.01){
+            this.horas_disponibles--;
+            this.remaining_time.scaleX-=(1/this.horas_totales);
        
-       this.remaining_time.scaleX-=0.1;
+        }
        
+      
        else this.remaining_time.scaleX-=0;
         console.log(a);
+        console.log("quedan "+this.horas_disponibles+"horas");
     }
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
     
-    mastiempo(b,tazas){
+    //suma horas, aumentando el tamaño de la barra, con la condicion de no haber
+    //consumido más de dos tazas
+    mastiempo(b){
 
-       this.tazas_totales++;
+       
        console.log(this.tazas_totales)
         
-        if(this.remaining_time.scaleX<1.4 && this.tazas_totales<=2)
-       this.remaining_time.scaleX+=0.1;
+       //podemos tomar café siempre y cuando hayamos gastado dos horas de nuestro día
+        if(this.horas_disponibles<this.horas_totales-2 && this.tazas_totales<2){
+            this.tazas_totales++;
+            this.remaining_time.scaleX+=(1/this.horas_totales);
+        }       
+        //si hemos consumido nuestras dos tazas de café no podremos tomar más
+       
 
-       else if(this.tazas_totales > 2) console.log("has tomado mucho café");
-
-       else if (this.tazas_totales>2  ||this.remaining_time.scaleX >= 1.4  )
+       else if (this.tazas_totales>2  ||this.remaining_time.scaleX >= 1.4  ){
+        console.log("has tomado mucho café");
         this.remaining_time.scaleX+=0;
-        console.log(b);
+        
+       }
+       console.log(b);
     }
 
    
