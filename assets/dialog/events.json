@@ -5,123 +5,169 @@
             {
                "event0":[
                   "*Parece que están durmiendo*"
-               ]
+               ],
+               "isevent" : false
             },
             {
                "event1":[
                   "*Parece que están durmiendo*"
-               ]
+               ],
+               "isevent" : false
             },
             {
                "event2":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event3":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event4":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event5":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event6":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event7":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event8":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event9":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event10":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event11":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event12":[
                   "*La radio informa sobre el tiempo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event13":[
                   "*Conversación de ir a la compra*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event14":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event15":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event16":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event17":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event18":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event19":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event20":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event21":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event22":[
                   "*Parece que están cenando*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event23":[
                   "*Conversación de irse a dormir*"
 
                ]
+               ,
+               "isevent" : false
             }
             
          ],
@@ -552,13 +598,15 @@
       {
          "room1":[
             {
-               "event1":[
-                  "nose naaa"
+               "tetera":[
+                  "soy una tetera",
+                  "soy una teterax2",
+                  "soy una teterax3"
                   
                ]
             },
             {
-               "event2":[
+               "pastilla":[
                   "room1",
                   "room1 uhu"
                ]
