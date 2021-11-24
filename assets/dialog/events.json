@@ -34,17 +34,17 @@
             },
             {
                "event6":[
-                  "*Parece que están durmiendo*"
+                  "No pasa nada"
                ]
             },
             {
                "event7":[
-                  "*Parece que están durmiendo*"
+                  "No pasa nada"
                ]
             },
             {
                "event8":[
-                  "*Parece que están durmiendo*"
+                  "No pasa nada"
                ]
             },
             {
@@ -151,6 +151,26 @@
                "event4":[
                   "*No se escucha nada*"
 
+               ]
+            },
+            {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
                ]
             },
             {
@@ -275,6 +295,26 @@
                ]
             },
             {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
+            {
                "event9":[
                   "*No parece que esté en casa*"
 
@@ -395,7 +435,26 @@
 
                ]
             },
-
+            {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
             {
                "event9":[
                   "*No parece que esté en casa*"
@@ -493,16 +552,13 @@
       {
          "room1":[
             {
-               "tetera":[
-                  "soy una tetera",
-                  "estoy a mitad",
-                  "de momento nose naa",
-                  "sigo sin saber naa"
+               "event1":[
+                  "nose naaa"
                   
                ]
             },
             {
-               "pastilla":[
+               "event2":[
                   "room1",
                   "room1 uhu"
                ]
