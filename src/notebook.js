@@ -15,24 +15,36 @@ export default class NoteBook extends Phaser.Scene{
     //creamos un back
         this.backbutton=this.add.sprite(20,20,'back');
         //llamamos a select, metodo que habilita click
+
         this.select();
         this.input.mouse.disableContextMenu();
         this.lista_observacion = 
         this.game.estadoCompartido.observaciones;
-        let it = 1;
-        console.log(this.lista_observacion)
-        this.lista_observacion.forEach(element => {
-        element.active = false;
-        this.add.text(200,it*50,element.text,)
-        .setOrigin(0.5,0.5)
-        .setColor('red')
-        .setBackgroundColor('white')
-        .setAlign('center')
-        .setInteractive()
-        .on('pointerdown',()=>{this.select_text(element)})        
-        it++;       
-        });
 
+        console.log(this.lista_observacion)
+        for(let i=0;i<this.lista_observacion.length;i++){
+            this.lista_observacion[i].active = false;
+            this.add.text(200,(i+1)*50,this.lista_observacion[i].text,)
+            .setOrigin(0.5,0.5)
+            .setColor('red')
+            .setBackgroundColor('white')
+            .setAlign('center')
+            .setInteractive()
+            .on('pointerdown',()=>{this.select_text(this.lista_observacion[i])})        
+           
+        }
+        // this.lista_observacion.forEach(element => {
+        // element.active = false;
+        // this.add.text(200,it*50,element.text,)
+        // .setOrigin(0.5,0.5)
+        // .setColor('red')
+        // .setBackgroundColor('white')
+        // .setAlign('center')
+        // .setInteractive()
+        // .on('pointerdown',()=>{this.select_text(element)})              
+        // });
+
+       
         let arr = this.game.estadoCompartido.deducciones
         console.log(arr)
         arr.forEach(element => {

@@ -74,7 +74,7 @@ export default class extends Phaser.Scene{
             this.prismaticarry[a-1].on('pointerdown',()=>{this.scene.switch(roomName)});
             this.selectted = true;
         }
-   
+        
         
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();
