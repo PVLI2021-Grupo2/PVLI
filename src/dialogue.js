@@ -7,7 +7,7 @@ export default class Dialogue{
 //se construye el dialogo pasándole la escena en la que esté
   constructor(scene) { 
     this.scene = scene;
-    let posX = this.scene.cameras.main.centerX;
+    let posX = this.scene.cameras.main.centerX*0.95;
     let posY = this.scene.cameras.main.height*0.8;
     this.background = this.scene.add.sprite(posX, posY,'dialog'); //añadimos el fondo de la textbox
     this.numFraseActual = 0; //numero en el array de la frase que se escribe en pantalla
