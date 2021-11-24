@@ -7,6 +7,7 @@ export default class NoteBook extends Phaser.Scene{
         super.update(t,dt);
     }
     create(){
+        console.log("create")
     //creamos el background de la escena
          this.background = this.add.image(0,0,'dialog');        
          this.background.setOrigin(0,0)
@@ -16,33 +17,67 @@ export default class NoteBook extends Phaser.Scene{
         //llamamos a select, metodo que habilita click
         this.select();
         this.input.mouse.disableContextMenu();
-        this.arraytext = 
+        this.lista_observacion = 
         this.game.estadoCompartido.observaciones;
         let it = 1;
-        this.arraytext.forEach(element => {
-        this.add.text(200,it*50,element,)
+        console.log(this.lista_observacion)
+        this.lista_observacion.forEach(element => {
+        element.active = false;
+        this.add.text(200,it*50,element.text,)
         .setOrigin(0.5,0.5)
         .setColor('red')
         .setBackgroundColor('white')
         .setAlign('center')
         .setInteractive()
-        .once('pointerdown',()=>{console.log("abc")})
-        it++;
+        .on('pointerdown',()=>{this.select_text(element)})        
+        it++;       
         });
-        
+
+        let arr = this.game.estadoCompartido.deducciones
+        console.log(arr)
+        arr.forEach(element => {
+            //element.active = false;
+            this.add.text(400,50,element)
+            .setOrigin(0.5,0.5)
+            .setColor('blue')
+            .setBackgroundColor('white')
+            .setAlign('center')     
+            });
+
     }
     //metodo que de momento habilita la funcion back
     select()
     {
+
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();        
         this.backbutton.on('pointerdown',backbutton=>{this.scene.switch('general')})
         
     }
     backactive(b){
+
         this.backbutton.setVisible(b);
         this.backbutton.setInteractive(b);
         
+    }
+    select_text(elem){
+        elem.active = true;
+        console.log(elem.active)
+        this.lista_observacion.forEach(element => {
+            if(element.active){
+                console.log("hay activo")
+                if(element.id===elem.id){
+                    this.game.estadoCompartido.deducciones.push("aaaaaa")
+                    console.log("hay iden")
+                    console.log( this.game.estadoCompartido.deducciones)
+                }
+            }
+        })
+    }
+
+    init(){
+      
+
     }
 
 

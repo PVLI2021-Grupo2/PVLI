@@ -601,15 +601,16 @@
                "tetera":[
                   "soy una tetera",
                   "soy una teterax2",
-                  "soy una teterax3"
-                  
-               ]
+                  "soy una teterax3"  
+               ],
+               "id":0
             },
             {
                "pastilla":[
                   "room1",
                   "room1 uhu"
-               ]
+               ],
+               "id":0
             }
          ],
          "room2":[

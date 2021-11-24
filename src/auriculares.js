@@ -26,9 +26,12 @@ import Dialogue from "./dialogue.js";
     showdialog(){
   
       this.textbox = new Dialogue(this.scene);
+      let text =this.arrayText["earphone"][0][this.roomName][this.number][this.event+this.number]
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
-      this.textbox.changeDialogue(this.arrayText["earphone"][0][this.roomName][this.number][this.event+this.number])
-      console.log(this.arrayText["earphone"][0][this.roomName][this.number]["isevent"])
+      this.textbox.changeDialogue(text)
+      if(this.arrayText["earphone"][0][this.roomName][this.number]["isevent"]){
+         this.scene.game.estadoCompartido.observaciones.push({text,id:1})
+      }
       console.log(this.number)
       //console.log(this.arrayText["earphone"][0]["room1"][2]["event2"])
       //this.textbox.changeDialogue(this.arrayText["text"][this.roomNum-1][room][this.number-1][this.event+this.number])
