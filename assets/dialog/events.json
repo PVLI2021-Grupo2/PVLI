@@ -1,58 +1,548 @@
 {
    "earphone":[
       {
-         "room1":[
+         "room1":[ 
+            {
+               "event0":[
+                  "*Parece que están durmiendo*"
+               ]
+            },
             {
                "event1":[
-                  "Somos los smith",
-                  "Nuestro hijo ha muerto",
-                  "Queremos matar a William",
-                  "Ni puta idea de como hacerlo"
+                  "*Parece que están durmiendo*"
                ]
             },
             {
                "event2":[
-                  "room1",
-                  "room1 uhu"
+                  "*Parece que están durmiendo*"
+               ]
+            },
+            {
+               "event3":[
+                  "*Parece que están durmiendo*"
+               ]
+            },
+            {
+               "event4":[
+                  "*Parece que están durmiendo*"
+               ]
+            },
+            {
+               "event5":[
+                  "*Parece que están durmiendo*"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event9":[
+                  "Conversación de odio al profesor"
+               ]
+            },
+            {
+               "event10":[
+                  "Conversación de odio al profesor"
+               ]
+            },
+            {
+               "event11":[
+                  "Conversación de odio al profesor"
+               ]
+            },
+            {
+               "event12":[
+                  "*La radio informa sobre el tiempo*"
+               ]
+            },
+            {
+               "event13":[
+                  "*Conversación de ir a la compra*"
+               ]
+            },
+            {
+               "event14":[
+                  "*Suena la televisión*"
+               ]
+            },
+            {
+               "event15":[
+                  "*Suena la televisión*"
+               ]
+            },
+            {
+               "event16":[
+                  "Conversación de odio al profesor"
+               ]
+            },
+            {
+               "event17":[
+                  "Conversación de odio al profesor"
+               ]
+            },
+            {
+               "event18":[
+                  "Conversación de odio al profesor"
+               ]
+            },
+            {
+               "event19":[
+                  "*Suena la televisión*"
+               ]
+            },
+            {
+               "event20":[
+                  "*Suena la televisión*"
+               ]
+            },
+            {
+               "event21":[
+                  "*Suena la televisión*"
+               ]
+            },
+            {
+               "event22":[
+                  "*Parece que están cenando*"
+               ]
+            },
+            {
+               "event23":[
+                  "*Conversación de irse a dormir*"
+
                ]
             }
+            
          ],
          "room2":[
             {
+               "event0":[
+                  "*No se escucha nada*"
+               ]
+            },
+            {
                "event1":[
-                  "Soy la amargada de Cooper", "Tengo un perro y muchos gatos",
-                  "Me han envenenao al perro", "Voy a dejar a William hecho un colador"
+                  "*No se escucha nada*"
                ]
             },
             {
                "event2":[
-                  "room2","room2 uhu"
+                  "*No se escucha nada*"
+               ]
+            },
+            {
+               "event3":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event4":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event9":[
+                  "*Se escuchan los ladridos de un perro*"
+
+               ]
+            },
+            {
+               "event10":[
+                  "*Se escuchan los ladridos de un perro*"
+
+               ]
+            },
+            {
+               "event11":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event12":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event13":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event14":[
+                  "*Suena la televisión*"
+
+               ]
+            },
+            {
+               "event15":[
+                  "*Se escucha a alguien susurrando*"
+
+               ]
+            },
+            {
+               "event16":[
+                  "*Se escucha la televisión*"
+
+               ]
+            },
+            {
+               "event17":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event18":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event19":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event20":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event21":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event22":[
+                  "*No se escucha nada*"
+
+               ]
+            },
+            {
+               "event23":[
+                  "*No se escucha nada*"
+
                ]
             }
          ],
          "room3":[
             {
+               "event0":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
                "event1":[
-                  "Soy el detective corrupto Charles", "Da más pasta traficar que detener a los traficantes",
-                  "El cabrón de William me está sobornando", "Pues te tiro por las escaleras"
+                  "*No parece que esté en casa*"
                ]
             },
             {
                "event2":[
-                  "room3","room3 uhu"
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event3":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event4":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event9":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event10":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event11":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event12":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event13":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event14":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event15":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event16":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event17":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event18":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event19":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event20":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event21":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event22":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event23":[
+                  "*Se oyen pasos*"
+
                ]
             }
          ],
          "room4":[
             {
+               "event0":[
+                  "*Se escuchan lamentos de culpabilidad*"
+
+               ]
+            },
+            {
                "event1":[
-                  "Soy William, un profesor que bebe y se mete", "Paso olímpicamente del bulling, por mi como si se fostian", 
-                  "He pillado trapicheando al vecino y me estoy haciendo de oro", "Empiezo a creer que no les caigo bien a los vecinos"
+                  "*Se escuchan lamentos de culpabilidad*"
                ]
             },
             {
                "event2":[
-                  "room4","room4 uhu"
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event3":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event4":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event9":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event10":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event11":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event12":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event13":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event14":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event15":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event16":[
+                  "*Se escuchan lamentos de culpabilidad*"
+
+               ]
+            },
+            {
+               "event17":[
+                  "*Se escuchan lamentos de culpabilidad*"
+
+               ]
+            },
+            {
+               "event18":[
+                  "*Se escuchan lamentos de culpabilidad*"
+
+               ]
+            },
+            {
+               "event19":[
+                  "*Se escucha el sonido de la ducha*"
+
+               ]
+            },
+            {
+               "event20":[
+                  "*Se escucha el sonido de la ducha*"
+
+               ]
+            },
+            {
+               "event21":[
+                  "*Se escuchan vasos y botellas de cristal siendo transportados de un lado a otro*"
+
+               ]
+            },
+            {
+               "event22":[
+                  "*No parece que esté en casa*"
+
+               ]
+            },
+            {
+               "event23":[
+                  "*Se escuchan lamentos de culpabilidad*"
+
                ]
             }
          ]
@@ -62,16 +552,13 @@
       {
          "room1":[
             {
-               "tetera":[
-                  "soy una tetera",
-                  "estoy a mitad",
-                  "de momento nose naa",
-                  "sigo sin saber naa"
+               "event1":[
+                  "nose naaa"
                   
                ]
             },
             {
-               "pastilla":[
+               "event2":[
                   "room1",
                   "room1 uhu"
                ]
