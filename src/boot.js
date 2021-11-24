@@ -58,4 +58,12 @@ export default class Boot extends Phaser.Scene {
   create() {
     this.scene.start('menu');
   }
+  init(){
+    this.game.estadoCompartido = {
+      observaciones:[],
+      deducciones:[],
+      conclusiones:[],
+    };
+
+  }
 }

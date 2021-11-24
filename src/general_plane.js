@@ -26,7 +26,6 @@ export default class extends Phaser.Scene{
         this.prismaticarry.forEach(item => item.setScale(0.5))
 
         //creación de los auriculares
-
         this.auriculares1 = new Auriculares (this,200,425,dialogJson,"room1")
         this.auriculares2 = new Auriculares (this,400,425,dialogJson,"room2")
         this.auriculares3 = new Auriculares (this,600,425,dialogJson,"room3")
@@ -65,7 +64,8 @@ export default class extends Phaser.Scene{
 /** select habilita la aparicion del prismático correspondiente a la habitacion
  * seleccionada y deshabilita la posibilidad de seleccionar otra habitación para evitar
  * que aparezcan las opciones de otras que no sean la seleccionada
- *  @param {number} a*/
+ *  @param {number} a
+ * */
     
       select(a){
       
@@ -75,8 +75,10 @@ export default class extends Phaser.Scene{
         let roomName = 'room' + a;
         this.prismaticarry[a-1].setVisible(true)
         .setInteractive()
-        .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un prismatico y resto tiempo')})
-        .on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene)});
+
+        .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un prismatico y resto tiempo')}) 
+        .on('pointerdown',()=>{this.scene.start(roomName,this.notebookscene)});
+
         
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
@@ -95,8 +97,8 @@ export default class extends Phaser.Scene{
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
         this.menubutton.setVisible(false);
+        this.notebook.setVisible(false);
 
-              
    
     }
     roomconfig(){
@@ -114,7 +116,7 @@ export default class extends Phaser.Scene{
           this.notebook.setOrigin(0,0);
           this.notebook.setVisible(true);
           this.notebook.setInteractive();
-          this.notebook.on('pointerdown',()=>{this.scene.launch('notebook')})
+          this.notebook.on('pointerdown',()=>{this.scene.start('notebook')})
           //todos los sprites de prismáticos desaparecen si no hay habitacion pulsada
           this.prismaticarry.forEach(item => item.setVisible(false))
 
@@ -158,6 +160,7 @@ export default class extends Phaser.Scene{
         //hacemos visible el boton del menu
         this.menubutton.setVisible(true);
 
+        this.notebook.setVisible(true);
        //hacemos invisibles de nuevo tanto los auriculares como los        
        //prismáticos de cada ventana al volver a la visión general y los cuadros de texto
        this.prismaticarry.forEach(item => item.setVisible(false))
