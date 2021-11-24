@@ -23,11 +23,15 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         this.scene.add.existing(this);  
 
             this.init();
-    } 
 
+            
+    } 
+  
 
     init()
     {
+
+        
         //contador de tazas
         this.tazas_totales=0;
         //horas totales por dia
@@ -74,8 +78,6 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
        }
        console.log(b);
     }
-
-   
 
     // create(){
     //     //creamos los 3 sprites que usará timebar

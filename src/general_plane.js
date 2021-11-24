@@ -87,6 +87,7 @@ export default class extends Phaser.Scene{
         .on('pointerdown',()=>{this.time_bar.menostiempo('me llamo desde un auricular y resto tiempo')})
         .on('pointerdown',()=>{this.auriculararray[a-1].showdialog(),this.backactive(false)});
 
+        this.preguntaHora();
         
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();
@@ -170,5 +171,11 @@ export default class extends Phaser.Scene{
     backactive(b){
         this.backbutton.setVisible(b);
         this.backbutton.setInteractive(b);
+    }
+
+    preguntaHora(){
+        console.log(this.time_bar.horas_disponibles);
+       return this.time_bar.horas_disponibles;
+      
     }
 }
