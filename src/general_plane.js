@@ -36,17 +36,17 @@ export default class extends Phaser.Scene{
         
 
         //sprites de las ventanas de las habitaciones
-        this.room1= this.add.sprite(0,0,'room1');              
-        this.room2= this.add.sprite(450,0,'room2');       
-        this.room3= this.add.sprite(0,180,'room3');       
-        this.room4= this.add.sprite(450,180,'room4');
+        this.room1= this.add.sprite(0,0,'window1');              
+        this.room2= this.add.sprite(450,0,'window2');       
+        this.room3= this.add.sprite(0,180,'window3');       
+        this.room4= this.add.sprite(450,180,'window4');
 
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
         //NEW FEATURE
 
         //creacion del timeBar
-        this.time_bar= new TimeBar (this,200,500);
+        this.time_bar= new TimeBar (this,200,480);
 
         //creacion del coffe
         this.coffe_= new Coffe (this,950,400);
