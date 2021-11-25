@@ -1,7 +1,7 @@
 {
     "frames": [
         {
-            "filename": "object-3",
+            "filename": "object_cup",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -14,7 +14,7 @@
             }
         },
         {
-            "filename": "object-2",
+            "filename": "object_phone",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -27,7 +27,7 @@
             }
         },
         {
-            "filename": "object-1",
+            "filename": "object_cartoy",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -40,7 +40,7 @@
             }
         },
         {
-            "filename": "object-26",
+            "filename": "object_drawing",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -53,7 +53,7 @@
             }
         },
         {
-            "filename": "object-25",
+            "filename": "object_radio",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -66,7 +66,7 @@
             }
         },
         {
-            "filename": "object-24",
+            "filename": "object_cat",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -79,7 +79,7 @@
             }
         },
         {
-            "filename": "object-19",
+            "filename": "object_dog",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -92,7 +92,7 @@
             }
         },
         {
-            "filename": "object-18",
+            "filename": "object_agujas",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -105,7 +105,7 @@
             }
         },
         {
-            "filename": "object-17",
+            "filename": "object_coffee",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -118,7 +118,7 @@
             }
         },
         {
-            "filename": "object-16",
+            "filename": "object_tejido",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -131,7 +131,7 @@
             }
         },
         {
-            "filename": "object-15",
+            "filename": "object_ovillo",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -144,7 +144,7 @@
             }
         },
         {
-            "filename": "object-14",
+            "filename": "object_william",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -157,7 +157,7 @@
             }
         },
         {
-            "filename": "object-13",
+            "filename": "object_cooper",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -170,7 +170,7 @@
             }
         },
         {
-            "filename": "object-11",
+            "filename": "object_charles",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -183,7 +183,7 @@
             }
         },
         {
-            "filename": "object-12",
+            "filename": "object_smith",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -196,7 +196,7 @@
             }
         },
         {
-            "filename": "object-10",
+            "filename": "object_sara",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -209,7 +209,7 @@
             }
         },
         {
-            "filename": "object-9",
+            "filename": "object_books",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -222,7 +222,7 @@
             }
         },
         {
-            "filename": "object-8",
+            "filename": "object_picture",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -235,7 +235,7 @@
             }
         },
         {
-            "filename": "object-7",
+            "filename": "object_ball",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -248,7 +248,7 @@
             }
         },
         {
-            "filename": "object-6",
+            "filename": "object_bread",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -261,7 +261,7 @@
             }
         },
         {
-            "filename": "object-5",
+            "filename": "object_poison",
             "frame": {
                 "w": 192,
                 "h": 192,
@@ -274,7 +274,7 @@
             }
         },
         {
-            "filename": "object-4",
+            "filename": "object_bag",
             "frame": {
                 "w": 192,
                 "h": 192,

@@ -11,7 +11,7 @@ export default class Room1 extends BaseRoom{
     let dialogJson = this.cache.json.get('dialog');
     super.create();
 
-    this.tetera =new clickableobjects(this,200,100,'tetera',true,dialogJson,"room1",0);
+    this.tetera =new clickableobjects(this,200,100,'objects', 'object_cup',true,dialogJson,"room1",0);
     this.tetera.setInteractive();
     this.tetera.once('pointerdown', () => {this.tetera.showtext()});
 
