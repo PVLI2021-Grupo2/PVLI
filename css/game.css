@@ -1,3 +1,15 @@
 h1 {
   text-align: center;
 }
+
+body{
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(46, 24, 24);
+  font-size: 1.3rem;
+  line-height: 1.4em;
+  background: rgb(197, 173, 194);
+}
+
+p{
+  margin-bottom: 1.4em;
+}
