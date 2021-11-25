@@ -9,14 +9,8 @@ export default class menu extends Phaser.Scene{
      this.background = this.add.image(0,0,'houses');
      this.background.setOrigin(0,0);
      
-     this.add.text(250,300,"Bienvenidos a Through the Window",)
-       .setOrigin(0,0)
-       .setFont('Georgia')
-       .setColor('red')
-       .setResolution(10)
-       .setScale(0.3)
-       .setBackgroundColor('white')
-       .setAlign('center');
+     this.add.bitmapText(200, 300, 'press_start_2p_font', "Bienvenidos a Through The Window!", 20).setOrigin(0.5,0.5);
+      
 
  
      let startbottom = this.add.sprite(500,200,'play')
