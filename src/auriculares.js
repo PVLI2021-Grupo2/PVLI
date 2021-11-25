@@ -35,6 +35,8 @@ import TimeBar from "./timeBar.js";
          this.scene.game.estadoCompartido.observaciones.push({text,id:1})
       }
       console.log(hora_consultada)
+
+      
       //console.log(this.arrayText["earphone"][0]["room1"][2]["event2"])
       //this.textbox.changeDialogue(this.arrayText["text"][this.roomNum-1][room][this.number-1][this.event+this.number])
       // this.number +=1;

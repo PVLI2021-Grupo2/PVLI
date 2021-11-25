@@ -24,13 +24,14 @@ export default class NoteBook extends Phaser.Scene{
         console.log(this.lista_observacion)
         for(let i=0;i<this.lista_observacion.length;i++){
             this.lista_observacion[i].active = false;
-            this.add.text(200,(i+1)*50,this.lista_observacion[i].text,)
+            this.lista_observacion[i].activated = false;
+            this.lista_observacion[i].screentext = this.add.text(200,(i+1)*50,this.lista_observacion[i].text,)
             .setOrigin(0.5,0.5)
             .setColor('red')
             .setBackgroundColor('white')
             .setAlign('center')
             .setInteractive()
-            .on('pointerdown',()=>{this.select_text(this.lista_observacion[i])})        
+            .on('pointerdown',()=>{this.select_text(this.lista_observacion[i],i)})        
            
         }
         // this.lista_observacion.forEach(element => {
@@ -72,27 +73,29 @@ export default class NoteBook extends Phaser.Scene{
         this.backbutton.setInteractive(b);
         
     }
-    select_text(elem){
+    select_text(elem,indiceelem){
         elem.active = true;
         console.log(elem.active)
-        this.lista_observacion.forEach(element => {
-            if(element.active){
-                console.log("hay activo")
-                if(element.id===elem.id){
-                    this.game.estadoCompartido.deducciones.push("aaaaaa")
-                    console.log("hay iden")
-                    console.log( this.game.estadoCompartido.deducciones)
-                }
+
+        for(let i=0;i<this.lista_observacion.length;i++){
+           if(this.lista_observacion[i].active && i!==indiceelem)     {
+            console.log("hay activo")
+            if(this.lista_observacion[i].id ===elem.id){
+                this.game.estadoCompartido.deducciones.push("aaaaaa")                 
+                this.lista_observacion[i].screentext.off('pointerdown')
+                elem.screentext.off('pointerdown')
             }
-        })
+           } 
+        }
+        // this.lista_observacion.forEach(element => {
+        //     if(element.active){
+        //         console.log("hay activo")
+        //         if(element.id===elem.id){
+        //             this.game.estadoCompartido.deducciones.push("aaaaaa")
+        //             console.log("hay iden")
+        //             console.log( this.game.estadoCompartido.deducciones)
+        //         }
+        //     }
+        // })
     }
-
-    init(){
-      
-
-    }
-
-
-
-
 }
