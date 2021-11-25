@@ -54,9 +54,9 @@ export default class extends Phaser.Scene{
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
         //sprite del boton menu
-        this.menubutton=this.add.text(900,10,"Menu")
+        this.menubutton=this.add.bitmapText(900,10,'press_start_2p_font', "Menu", 13)
         //
-        this.notebook = this.add.sprite(0,400,'player');
+        this.notebook = this.add.sprite(0,400,'notebook_icon');
         //llamada inicial a la configuración 0 del plano general
        
         this.selectted = false;
@@ -139,10 +139,8 @@ export default class extends Phaser.Scene{
         this.auriculararray.forEach(item => item.setVisible(false))   
                 
         //damos propiedades al boton menu
-        this.menubutton.setColor('blue')
+        this.menubutton
         .setOrigin(0,0)
-        .setBackgroundColor('white')
-        .setScale(1.2)
         .setInteractive()
         .on('pointerdown',menubutton=>{this.scene.switch('menu')});
 
