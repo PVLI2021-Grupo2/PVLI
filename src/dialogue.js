@@ -11,8 +11,8 @@ export default class Dialogue{
     let posY = this.scene.cameras.main.height*0.8;
     this.background = this.scene.add.sprite(posX, posY,'dialog'); //añadimos el fondo de la textbox
     this.numFraseActual = 0; //numero en el array de la frase que se escribe en pantalla
-    //this.dialogo = this.scene.add.bitmapText(posX/3 , posY*0.8, 'press_start_2p_font', "", 16);      //el texto del dialogo
-    this.dialogo = this.scene.add.text(posX/3 , posY*0.8, "", 16);      //el texto del dialogo
+    this.dialogo = this.scene.add.bitmapText(posX/3 , posY*0.8, 'press_start_2p_font', "", 16);      //el texto del dialogo
+    //this.dialogo = this.scene.add.text(posX/3 , posY*0.8, "", 16);      //el texto del dialogo
     this.arrayWord;
     this.dialogo.text = "";
     this.dialogoTerminado = false; 
