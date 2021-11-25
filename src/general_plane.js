@@ -13,7 +13,8 @@ export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
 
     create(){
-        
+        this.background = this.add.image(500, 250,'generalbg'); //añadimos el fondo de la textbox
+
         //dialogo en formato json
         let dialogJson = this.cache.json.get('dialog');
 
@@ -33,11 +34,12 @@ export default class extends Phaser.Scene{
         this.auriculararray = [this.auriculares1,this.auriculares2,this.auriculares3,this.auriculares4]
         this.auriculararray.forEach(item => item.setScale(0.4))
         
+
         //sprites de las ventanas de las habitaciones
-        this.room1= this.add.sprite(100,150,'room1');              
-        this.room2= this.add.sprite(300,150,'room2');       
-        this.room3= this.add.sprite(500,150,'room3');       
-        this.room4= this.add.sprite(700,150,'room4');
+        this.room1= this.add.sprite(0,0,'room1');              
+        this.room2= this.add.sprite(450,0,'room2');       
+        this.room3= this.add.sprite(0,180,'room3');       
+        this.room4= this.add.sprite(450,180,'room4');
 
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
