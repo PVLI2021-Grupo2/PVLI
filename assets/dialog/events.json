@@ -598,7 +598,7 @@
       {
          "room1":[
             {
-               "tetera":[
+               "object_ball":[
                   "soy una tetera",
                   "soy una teterax2",
                   "soy una teterax3"  
@@ -606,11 +606,40 @@
                "id":0
             },
             {
-               "pastilla":[
-                  "room1",
+               "object_cartoy":[
+                  "room1  cartoy",
                   "room1 uhu"
                ],
                "id":0
+            }
+            ,
+            {
+               "object_books":[
+                  "room1  book",
+                  "room1 uhu"
+               ],
+               "id":1
+            },
+            {
+               "object_picture":[
+                  "room1 picture",
+                  "room1 uhu"
+               ],
+               "id":2
+            },
+            {
+               "object_drawing":[
+                  "room1  drawing",
+                  "room1 uhu"
+               ],
+               "id":3
+            },
+            {
+               "object_bag":[
+                  "room1  bag",
+                  "room1 uhu"
+               ],
+               "id":4
             }
          ],
          "room2":[

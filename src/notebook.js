@@ -9,9 +9,9 @@ export default class NoteBook extends Phaser.Scene{
     create(){
         console.log("create")
     //creamos el background de la escena
-         this.background = this.add.image(0,0,'dialog');        
-         this.background.setOrigin(0,0)
-         .setScale(2)
+         this.background = this.add.image(0,0,'notebook');        
+         this.background.setOrigin(-0.1,0)
+         .setScale(1.1)
     //creamos un back
         this.backbutton=this.add.sprite(20,20,'back');
         //llamamos a select, metodo que habilita click
@@ -25,7 +25,7 @@ export default class NoteBook extends Phaser.Scene{
         for(let i=0;i<this.lista_observacion.length;i++){
             this.lista_observacion[i].active = false;
             this.lista_observacion[i].activated = false;
-            this.lista_observacion[i].screentext = this.add.text(200,(i+1)*50,this.lista_observacion[i].text,)
+            this.lista_observacion[i].screentext = this.add.text(220,(i+1)*50,this.lista_observacion[i].text,)
             .setOrigin(0.5,0.5)
             .setColor('red')
             .setBackgroundColor('white')

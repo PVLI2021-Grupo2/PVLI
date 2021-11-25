@@ -70,7 +70,7 @@ export default class Boot extends Phaser.Scene {
     this.load.bitmapFont(
       'press_start_2p_font', 'press_start_2p_white.png',
       'press_start_2p.xml');
-      this.load.bitmapFont(
+    this.load.bitmapFont(
         'dogica_font', 'dogica_0.png',
         'dogica.xml');
 

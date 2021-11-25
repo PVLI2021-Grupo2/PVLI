@@ -1,9 +1,9 @@
 import Dialogue from "./dialogue.js";
 import NoteBook from "./notebook.js";
 export default class clickableobjects extends Phaser.GameObjects.Sprite {
-    constructor( scene , x, y, name, event,json,roomName, num) {
-        super(scene, x, y, name);
-        this.name =  name;
+    constructor( scene , x, y, name, obname, event,json, roomName, num) {
+        super(scene, x, y, name,obname);
+        this.name =  obname;
         this.scene = scene;
         this.scene.add.existing(this);  
         this.event = event;
