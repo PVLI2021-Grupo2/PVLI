@@ -13,7 +13,7 @@ import TimeBar from "./timeBar.js";
      * @param {number} y coordenada y    
      */
     constructor(scene,x,y) {
-        super(scene,x,y,'coffe')
+        super(scene,x,y,'objects', 'objects_coffee')
         
         this.scene= scene;
         
