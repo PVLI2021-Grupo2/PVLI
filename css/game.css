@@ -15,7 +15,27 @@ p{
   margin-bottom: 1.4em;
 }
 
-.container{
+
+.header{
+  background: rgb(63, 53, 42);
+  color: aliceblue;
+}
+ .header a{
+   color: aliceblue;
+   text-decoration: none;
+
+
+ }
+
+
+ .footer {
+  background: rgb(63, 53, 42);
+  color: aliceblue;
+
+ }
+ 
+
+ .container{
   width: 85%;
   max-width: 1400px;
   margin: 0 auto;
@@ -35,18 +55,11 @@ p{
   display: block;
   padding: 1.2rem 0.8rem;
   transition: all 0.5s;
+  text-decoration: none;
+  color: aliceblue;
+
+
 }
 .navigation ul li a:hover{
   background: rgb(160, 144, 144);
 }
-
-.header{
-  background: rgb(63, 53, 42);
-  color: aliceblue;
-}
- .header a{
-   color: aliceblue;
-   text-decoration: none;
-
-
- }
