@@ -599,59 +599,95 @@
          "room1":[
             {
                "object_ball":[
-                  "soy una tetera",
-                  "soy una teterax2",
-                  "soy una teterax3"  
+                  "WoW una pelota de futbol!",
+                  "Mira una pelota de futbol!",
+                  "Que guay una pelota de fulbol!"  
                ],
                "id":0
             },
             {
                "object_cartoy":[
-                  "room1  cartoy",
-                  "room1 uhu"
+                  "WoW un coche!",
+                  "Mira, mira, un coche!",
+                  "Nunca he visto un coche!"
                ],
                "id":0
             }
             ,
             {
                "object_books":[
-                  "room1  book",
-                  "room1 uhu"
+                  "WoW parece que hay muchos libros en la estanteria",
+                  "todo son libros de medicinas"
                ],
                "id":1
             },
             {
                "object_picture":[
-                  "room1 picture",
-                  "room1 uhu"
+                  "Una foto de familia?",
+                  "Parece que la pareja Smith tienen un hijo"
                ],
                "id":2
             },
             {
                "object_drawing":[
-                  "room1  drawing",
-                  "room1 uhu"
+                  "Un dibujo de niño?",
+                  "Puede ser que el dibujo ha sido dibujado por el hijo"
                ],
                "id":3
             },
             {
                "object_bag":[
-                  "room1  bag",
-                  "room1 uhu"
+                  "Una bolsa de plastico?",
+                  "Que hay dentro?"
                ],
                "id":4
             }
          ],
          "room2":[
             {
-               "event1":[
-                  "nose naaa"
-               ]
+               "object_tetera":[
+                  "Una tetera?",
+                  "Parece que a la señora Cooper le encanta beber el té"  
+               ],
+               "id":0
             },
             {
-               "event2":[
-                  "room2","room2 uhu"
-               ]
+               "object_cat":[
+                  "WoW una gatita!",
+                  "Que mona!",
+                  "Ojala tener una!"  
+               ],
+               "id":1
+            },
+            {
+               "object_dog":[
+                  "Un perro persiguiendo a la gata",
+                  "Parece que a la señora Cooper les gusta mucho a los animales"  
+               ],
+               "id":2
+            },
+            {
+               "object_aguja":[
+                  "Un bolso de aguja",
+                  "Parece que va coser algo",
+                  "Uy, las agujas parece muy afilados"
+               ],
+               "id":3
+            },
+            {
+               "object_tejido":[
+                  "Un tejido?",
+                  "Puede ser que la señora Cooper está cosiendo una bufanda",
+                  "Me echo de menos a la bufando que cosí mi madre"
+               ],
+               "id":4
+            },
+            {
+               "object_ovillo":[
+                  "Un ovillo",
+                  "A los gatos les encantan jugar ovillos jjj"
+               ],
+               "id":5
             }
          ],
          "room3":[
