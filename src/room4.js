@@ -11,7 +11,7 @@ export default class Room4 extends BaseRoom{
       let dialogJson = this.cache.json.get('dialog');
       super.create();
  
-      this.william =new clickableobjects(this,600,130,'objects', 'object_william',false,dialogJson,"room4",-1);
+      this.william =new clickableobjects(this,600,130,'objects', 'object_william',false,dialogJson,"room4",0);
 
       this.objectarray = [this.william];
       this.objectarray.forEach(elem => elem.setInteractive()
