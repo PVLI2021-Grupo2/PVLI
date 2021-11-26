@@ -11,13 +11,23 @@ export default class Room2 extends BaseRoom{
        let dialogJson = this.cache.json.get('dialog');
        super.create();
   
-       this.tetera =new clickableobjects(this,350,150,'objects', 'object_cup',true,dialogJson,"room2",0);
-       this.tetera.setInteractive();
-       this.tetera.once('pointerdown', () => {this.tetera.showtext()});
+       this.tetera =new clickableobjects(this,280,60,'objects', 'object_cup',false,dialogJson,"room2",0);
 
-       this.cat = new clickableobjects(this,300,350,'objects', 'object_cat',true,dialogJson,"room2",0);
-       this.cat.setInteractive();
+       this.cat = new clickableobjects(this,200,270,'objects', 'object_cat',false,dialogJson,"room2",1);
       
-       this.dog=new clickableobjects(this,400,350,'objects', 'object_dog',true,dialogJson,"room2",1);
+       this.dog=new clickableobjects(this,300,230,'objects', 'object_dog',false,dialogJson,"room2",2);
+       
+       this.aguja=new clickableobjects(this,60,250,'objects', 'object_agujas',false,dialogJson,"room2",3);
+
+       this.tejido=new clickableobjects(this,60,140,'objects', 'object_tejido',false,dialogJson,"room2",4);
+
+       this.ovillo=new clickableobjects(this,140,200,'objects', 'object_ovillo',false,dialogJson,"room2",5);
+
+       this.cooper=new clickableobjects(this,520,120,'objects', 'object_cooper',false,dialogJson,"room2",6);
+
+       this.objectarray = [this.tetera,this.cat,this.dog,this.aguja,this.tejido,this.ovillo,this.cooper];
+       this.objectarray.forEach(elem => elem.setInteractive()
+       .setOrigin(0,0)
+       .once('pointerdown', () => {elem.showtext()}))
       }
   }

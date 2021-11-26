@@ -90,6 +90,6 @@ export default class Boot extends Phaser.Scene {
       deducciones:[],
       conclusiones:[],
     };
-    this.game.room1objects = [true,true,true,false,false,false]
+    this.game.room1objects = [true,true,true,false,false,false,false,false]
   }
 }

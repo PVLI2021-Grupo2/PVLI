@@ -24,7 +24,11 @@ export default class Room1 extends BaseRoom{
 
     this.bag=new clickableobjects(this,780,350,'objects','object_bag',this.game.room1objects[5],dialogJson,"room1",5);
 
-    this.objectarray = [this.ball,this.cartoy,this.books,this.picture,this.drawing,this.bag];
+    this.sara=new clickableobjects(this,100,130,'objects','object_sara',this.game.room1objects[6],dialogJson,"room1",6);
+    
+    this.smith=new clickableobjects(this,750,100,'objects','object_smith',this.game.room1objects[7],dialogJson,"room1",7);
+
+    this.objectarray = [this.ball,this.cartoy,this.books,this.picture,this.drawing,this.bag,this.sara,this.smith];
 
     this.objectarray.forEach(elem => elem.setInteractive()
     .setOrigin(0,0)
