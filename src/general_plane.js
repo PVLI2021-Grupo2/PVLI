@@ -19,18 +19,18 @@ export default class extends Phaser.Scene{
         let dialogJson = this.cache.json.get('dialog');
 
         //creación de los prismáticos
-        this.prismaticos1 = new Prismaticos (this,125,425)
-        this.prismaticos2 = new Prismaticos (this,325,425)
-        this.prismaticos3 = new Prismaticos (this,525,425)
-        this.prismaticos4 = new Prismaticos (this,725,425)
+        this.prismaticos1 = new Prismaticos (this,400,400)
+        this.prismaticos2 = new Prismaticos (this,400,400)
+        this.prismaticos3 = new Prismaticos (this,400,400)
+        this.prismaticos4 = new Prismaticos (this,400,400)
         this.prismaticarry =[this.prismaticos1,this.prismaticos2,this.prismaticos3,this.prismaticos4] 
         this.prismaticarry.forEach(item => item.setScale(0.5))
 
         //creación de los auriculares
-        this.auriculares1 = new Auriculares (this,200,425,dialogJson,"room1")
-        this.auriculares2 = new Auriculares (this,400,425,dialogJson,"room2")
-        this.auriculares3 = new Auriculares (this,600,425,dialogJson,"room3")
-        this.auriculares4 = new Auriculares (this,800,425,dialogJson,"room4")
+        this.auriculares1 = new Auriculares (this,500,400,dialogJson,"room1")
+        this.auriculares2 = new Auriculares (this,500,400,dialogJson,"room2")
+        this.auriculares3 = new Auriculares (this,500,400,dialogJson,"room3")
+        this.auriculares4 = new Auriculares (this,500,400,dialogJson,"room4")
         this.auriculararray = [this.auriculares1,this.auriculares2,this.auriculares3,this.auriculares4]
         this.auriculararray.forEach(item => item.setScale(0.4))
         
@@ -79,30 +79,12 @@ export default class extends Phaser.Scene{
         let roomName = 'room' + a;
         this.prismaticarry[a-1].setVisible(true)
         .setInteractive()
-       
-        
-        // .on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene),
-        //     this.time_bar.menostiempo()});
-
+               
         
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
 
-        //para registrarse solo una vez
-        if(!this.selectted){
-            this.auriculararray[a-1].on('pointerdown',()=>{this.auriculararray[a-1].showdialog(this.preguntaHora()),this.backactive(false),
-                this.time_bar.menostiempo()});
-    
-            this.prismaticarry[a-1].on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene),
-                this.time_bar.menostiempo()});
-            this.selectted = true;
-        }
-        
-        //uso de menostiempo en timebar (nofunciona la dimensionabilidad)        
-        // .on('pointerdown',()=>{this.auriculararray[a-1].showdialog(this.preguntaHora()),this.backactive(false),
-        //     this.time_bar.menostiempo()});
-
-        this.preguntaHora();
+        //this.preguntaHora();
         
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();
@@ -143,7 +125,7 @@ export default class extends Phaser.Scene{
         //igual que los auriculares
         for(let i = 0;i<  this.auriculararray.length;i++){
             let roomName = 'room'+i;
-            this.auriculararray[i].setVisible(false).on('pointerdown',()=>{this.auriculararray[a-1].showdialog(this.preguntaHora()),this.backactive(false),
+            this.auriculararray[i].setVisible(false).on('pointerdown',()=>{this.auriculararray[i].showdialog(this.preguntaHora()),this.backactive(false),
                 this.time_bar.menostiempo()})
         }
 

@@ -616,7 +616,7 @@
             ,
             {
                "object_books":[
-                  "WoW parece que hay muchos libros en la estanteria",
+                  "Parece que hay muchos libros en la estanteria",
                   "todo son libros de medicinas"
                ],
                "id":1
@@ -641,6 +641,18 @@
                   "Que hay dentro?"
                ],
                "id":4
+            },
+            {
+               "object_sara":[
+                  "Es Sara Smith"
+               ],
+               "id":-1
+            },
+            {
+               "object_smith":[
+                  "Es John Smith"
+               ],
+               "id":-1
             }
          ],
          "room2":[
@@ -657,14 +669,14 @@
                   "Que mona!",
                   "Ojala tener una!"  
                ],
-               "id":1
+               "id":-1
             },
             {
                "object_dog":[
                   "Un perro persiguiendo a la gata",
                   "Parece que a la señora Cooper les gusta mucho a los animales"  
                ],
-               "id":2
+               "id":1
             },
             {
                "object_aguja":[
@@ -672,7 +684,7 @@
                   "Parece que va coser algo",
                   "Uy, las agujas parece muy afilados"
                ],
-               "id":3
+               "id":2
             },
             {
                "object_tejido":[
@@ -680,38 +692,36 @@
                   "Puede ser que la señora Cooper está cosiendo una bufanda",
                   "Me echo de menos a la bufando que cosí mi madre"
                ],
-               "id":4
+               "id":3
             },
             {
                "object_ovillo":[
                   "Un ovillo",
                   "A los gatos les encantan jugar ovillos jjj"
                ],
-               "id":5
+               "id":4
+            },
+            {
+               "object_cooper":[
+                  "Es la señora Edna Cooper"
+               ],
+               "id":-1
             }
          ],
          "room3":[
             {
-               "event1":[
-                  "nose naaa"
-               ]
-            },
-            {
-               "event2":[
-                  "room3","room3 uhu"
-               ]
+               "object_charles":[
+                  "Es el detective Charles Doyle"
+               ],
+               "id":-1
             }
          ],
          "room4":[
             {
-               "event1":[
-                  "nose naaa"
-               ]
-            },
-            {
-               "event2":[
-                  "room4","room4 uhu"
-               ]
+               "object_william":[
+                  "Es el profesor William Scott"
+               ],
+               "id":-1
             }
          ]
       }
