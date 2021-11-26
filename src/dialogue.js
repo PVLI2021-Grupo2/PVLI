@@ -11,9 +11,10 @@ export default class Dialogue{
     let posY = this.scene.cameras.main.height*0.8;
     this.background = this.scene.add.sprite(posX, posY,'dialog'); //añadimos el fondo de la textbox
     this.numFraseActual = 0; //numero en el array de la frase que se escribe en pantalla
-    this.dialogo = this.scene.add.text(posX/3 , posY*0.8, "");      //el texto del dialogo
+    this.dialogo = this.scene.add.bitmapText(posX/3 , posY*0.8, 'press_start_2p_font', "", 16);      //el texto del dialogo
     this.arrayWord;
     this.dialogo.text = "";
+    this.dialogo.setMaxWidth(700)
     this.dialogoTerminado = false; 
     this.background.setVisible(false);
     this.dialogo.setVisible(false);
@@ -38,22 +39,26 @@ export default class Dialogue{
         this.numFraseActual++;
       }
       else{
-        this.deactivateDialogue();          
+        this.deactivateDialogue();     
+        this.scene.backactive(true);     
       }        
     }    
   }
   
   //para que se deje de ver el cuadro de dialogo y se reseteen valores
   deactivateDialogue(){
+
     this.numFraseActual = 1; //se pone a 1 porque la frase 0 ya está puesta al hacer click
     this.dialogoTerminado = true;
     this.background.setVisible(false);
     this.dialogo.setVisible(false);
     this.background.disableInteractive();
     this.dialogo.text = "";
+
   }
   //para activar la caja de dialogo 
   activateDialogue(){
+    
     this.dialogoTerminado = false;
     this.background.setVisible(true);
     this.dialogo.setVisible(true);

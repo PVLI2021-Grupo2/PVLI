@@ -5,108 +5,169 @@
             {
                "event0":[
                   "*Parece que están durmiendo*"
-               ]
+               ],
+               "isevent" : false
             },
             {
                "event1":[
                   "*Parece que están durmiendo*"
-               ]
+               ],
+               "isevent" : false
             },
             {
                "event2":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event3":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event4":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event5":[
                   "*Parece que están durmiendo*"
                ]
+               ,
+               "isevent" : false
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+               ,
+               "isevent" : false
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+               ,
+               "isevent" : false
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+               ,
+               "isevent" : false
             },
             {
                "event9":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event10":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event11":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event12":[
                   "*La radio informa sobre el tiempo*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event13":[
                   "*Conversación de ir a la compra*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event14":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event15":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event16":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event17":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event18":[
                   "Conversación de odio al profesor"
                ]
+               ,
+               "isevent" : true
             },
             {
                "event19":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event20":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event21":[
                   "*Suena la televisión*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event22":[
                   "*Parece que están cenando*"
                ]
+               ,
+               "isevent" : false
             },
             {
                "event23":[
                   "*Conversación de irse a dormir*"
 
                ]
+               ,
+               "isevent" : false
             }
             
          ],
@@ -136,6 +197,26 @@
                "event4":[
                   "*No se escucha nada*"
 
+               ]
+            },
+            {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
                ]
             },
             {
@@ -260,6 +341,26 @@
                ]
             },
             {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
+            {
                "event9":[
                   "*No parece que esté en casa*"
 
@@ -380,7 +481,26 @@
 
                ]
             },
-
+            {
+               "event5":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event6":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event7":[
+                  "No pasa nada"
+               ]
+            },
+            {
+               "event8":[
+                  "No pasa nada"
+               ]
+            },
             {
                "event9":[
                   "*No parece que esté en casa*"
@@ -478,52 +598,130 @@
       {
          "room1":[
             {
-               "event1":[
-                  "nose naaa"
-                  
-               ]
+               "object_ball":[
+                  "WoW una pelota de futbol!",
+                  "Mira una pelota de futbol!",
+                  "Que guay una pelota de fulbol!"  
+               ],
+               "id":0
             },
             {
-               "event2":[
-                  "room1",
-                  "room1 uhu"
-               ]
+               "object_cartoy":[
+                  "WoW un coche!",
+                  "Mira, mira, un coche!",
+                  "Nunca he visto un coche!"
+               ],
+               "id":0
+            }
+            ,
+            {
+               "object_books":[
+                  "Parece que hay muchos libros en la estanteria",
+                  "todo son libros de medicinas"
+               ],
+               "id":1
+            },
+            {
+               "object_picture":[
+                  "Una foto de familia?",
+                  "Parece que la pareja Smith tienen un hijo"
+               ],
+               "id":2
+            },
+            {
+               "object_drawing":[
+                  "Un dibujo de niño?",
+                  "Puede ser que el dibujo ha sido dibujado por el hijo"
+               ],
+               "id":3
+            },
+            {
+               "object_bag":[
+                  "Una bolsa de plastico?",
+                  "Que hay dentro?"
+               ],
+               "id":4
+            },
+            {
+               "object_sara":[
+                  "Es Sara Smith"
+               ],
+               "id":-1
+            },
+            {
+               "object_smith":[
+                  "Es John Smith"
+               ],
+               "id":-1
             }
          ],
          "room2":[
             {
-               "event1":[
-                  "nose naaa"
-               ]
+               "object_cup":[
+                  "Una tetera?",
+                  "Parece que a la señora Cooper le encanta beber el té"  
+               ],
+               "id":0
             },
             {
-               "event2":[
-                  "room2","room2 uhu"
-               ]
+               "object_cat":[
+                  "WoW una gatita!",
+                  "Que mona!",
+                  "Ojala tener una!"  
+               ],
+               "id":-1
+            },
+            {
+               "object_dog":[
+                  "Un perro persiguiendo a la gata",
+                  "Parece que a la señora Cooper les gusta mucho a los animales"  
+               ],
+               "id":1
+            },
+            {
+               "object_aguja":[
+                  "Un bolso de aguja",
+                  "Parece que va coser algo",
+                  "Uy, las agujas parece muy afilados"
+               ],
+               "id":2
+            },
+            {
+               "object_tejido":[
+                  "Un tejido?",
+                  "Puede ser que la señora Cooper está cosiendo una bufanda",
+                  "Me echo de menos a la bufando que cosí mi madre"
+               ],
+               "id":3
+            },
+            {
+               "object_ovillo":[
+                  "Un ovillo",
+                  "A los gatos les encantan jugar ovillos jjj"
+               ],
+               "id":4
+            },
+            {
+               "object_cooper":[
+                  "Es la señora Edna Cooper"
+               ],
+               "id":-1
             }
          ],
          "room3":[
             {
-               "event1":[
-                  "nose naaa"
-               ]
-            },
-            {
-               "event2":[
-                  "room3","room3 uhu"
-               ]
+               "object_charles":[
+                  "Es el detective Charles Doyle"
+               ],
+               "id":-1
             }
          ],
          "room4":[
             {
-               "event1":[
-                  "nose naaa"
-               ]
-            },
-            {
-               "event2":[
-                  "room4","room4 uhu"
-               ]
+               "object_william":[
+                  "Es el profesor William Scott"
+               ],
+               "id":-1
             }
          ]
       }
