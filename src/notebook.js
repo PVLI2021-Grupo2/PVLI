@@ -13,44 +13,37 @@ export default class NoteBook extends Phaser.Scene{
          this.background.setOrigin(-0.1,0)
          .setScale(1.1)
     //creamos un back
-        this.backbutton=this.add.sprite(20,20,'back');
+        this.backbutton=this.add.sprite(0,0,'back')
+        .setOrigin(0,0);
+
         //llamamos a select, metodo que habilita click
 
         this.select();
         this.input.mouse.disableContextMenu();
+
+        this.numberoftextselected =0;
         this.lista_observacion = 
         this.game.estadoCompartido.observaciones;
 
         console.log(this.lista_observacion)
-        for(let i=0;i<this.lista_observacion.length;i++){
-            this.lista_observacion[i].active = false;
-            this.lista_observacion[i].activated = false;
-            this.lista_observacion[i].screentext = this.add.text(220,(i+1)*50,this.lista_observacion[i].text,)
+        for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
+            this.game.estadoCompartido.observaciones[i].selected = false;
+            this.game.estadoCompartido.observaciones[i].screentext = this.add.text(250,(i+1)*50,this.game.estadoCompartido.observaciones[i].text,)
             .setOrigin(0.5,0.5)
-            .setColor('red')
-            .setBackgroundColor('white')
+            .setColor('green')
+            //.setBackgroundColor('white')
             .setAlign('center')
             .setInteractive()
-            .on('pointerdown',()=>{this.select_text(this.lista_observacion[i],i)})        
+            if(!this.game.estadoCompartido.observaciones[i].activated)
+            this.game.estadoCompartido.observaciones[i].screentext.on('pointerdown',()=>{this.select_text(this.game.estadoCompartido.observaciones[i],i)})        
            
         }
-        // this.lista_observacion.forEach(element => {
-        // element.active = false;
-        // this.add.text(200,it*50,element.text,)
-        // .setOrigin(0.5,0.5)
-        // .setColor('red')
-        // .setBackgroundColor('white')
-        // .setAlign('center')
-        // .setInteractive()
-        // .on('pointerdown',()=>{this.select_text(element)})              
-        // });
-
-       
+          
         let arr = this.game.estadoCompartido.deducciones
         console.log(arr)
         arr.forEach(element => {
             //element.active = false;
-            this.add.text(400,50,element)
+            this.add.text(450,50,element)
             .setOrigin(0.5,0.5)
             .setColor('blue')
             .setBackgroundColor('white')
@@ -74,28 +67,45 @@ export default class NoteBook extends Phaser.Scene{
         
     }
     select_text(elem,indiceelem){
-        elem.active = true;
-        console.log(elem.active)
-
-        for(let i=0;i<this.lista_observacion.length;i++){
-           if(this.lista_observacion[i].active && i!==indiceelem)     {
+        elem.selected = true;
+        console.log(elem.selected)
+        elem.screentext.setColor('red')
+        this.numberoftextselected ++;
+        console.log( this.numberoftextselected)
+        for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
+           if(this.game.estadoCompartido.observaciones[i].selected && i!==indiceelem){  
             console.log("hay activo")
-            if(this.lista_observacion[i].id ===elem.id){
-                this.game.estadoCompartido.deducciones.push("aaaaaa")                 
-                this.lista_observacion[i].screentext.off('pointerdown')
-                elem.screentext.off('pointerdown')
-            }
-           } 
+            if(this.game.estadoCompartido.observaciones[i].id === elem.id){
+                console.log("son idem")
+                this.game.estadoCompartido.deducciones.push("soy una deduccion")                 
+                this.game.estadoCompartido.observaciones[i].activated=true;
+                elem.activated = true;
+                this.adddeduccion()
+           }
+          } 
         }
-        // this.lista_observacion.forEach(element => {
-        //     if(element.active){
-        //         console.log("hay activo")
-        //         if(element.id===elem.id){
-        //             this.game.estadoCompartido.deducciones.push("aaaaaa")
-        //             console.log("hay iden")
-        //             console.log( this.game.estadoCompartido.deducciones)
-        //         }
-        //     }
-        // })
+    }
+    update(t,td){
+        super.update(t,td);
+        if(this.numberoftextselected===2){
+            for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
+                this.game.estadoCompartido.observaciones[i].selected=false;
+                this.game.estadoCompartido.observaciones[i].screentext.setColor('green')
+             }
+             this.numberoftextselected=0
+        }
+        
+    }
+    adddeduccion(){
+        let arr = this.game.estadoCompartido.deducciones
+        console.log(arr)
+        arr.forEach(element => {
+            //element.active = false;
+            this.add.text(600,50,element)
+            .setOrigin(0.5,0.5)
+            .setColor('blue')
+            .setBackgroundColor('white')
+            .setAlign('center')     
+            });
     }
 }

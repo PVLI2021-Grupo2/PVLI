@@ -13,7 +13,7 @@ import TimeBar from "./timeBar.js";
      * @param {number} y coordenada y    
      */
     constructor(scene,x,y) {
-        super(scene,x,y,'objects', 'objects_coffee')
+        super(scene, x ,y , 'objects','object_cup')
         
         this.scene= scene;
         
@@ -28,10 +28,6 @@ import TimeBar from "./timeBar.js";
     uso(){
       
     }
-   
-
-   
-
     // create(){
     //     //creamos los 3 sprites que usará timebar
 

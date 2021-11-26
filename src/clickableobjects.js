@@ -13,11 +13,12 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
       }
     showtext(){
         let text = this.jsonfile["prismatic"][0][this.roomName][this.num][this.name]
+        let idi = this.jsonfile["prismatic"][0][this.roomName][this.num]["id"]
         this.textbox = new Dialogue(this.scene);
         this.textbox.changeDialogue(text);
         this.scene.backactive(false);
         if(this.event === true){
-            this.scene.game.estadoCompartido.observaciones.push({text,id:1})
+            this.scene.game.estadoCompartido.observaciones.push({text,id:idi,activated:false})
             
             //this.scene.game.estadoCompartido.observaciones_id.push( this.jsonfile["prismatic"][0][this.roomName][this.num]["id"])
         }      
