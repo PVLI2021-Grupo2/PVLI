@@ -113,7 +113,7 @@ export default class extends Phaser.Scene{
         this.notebook.setOrigin(0,0);
         this.notebook.setVisible(true);
         this.notebook.setInteractive();
-        this.notebook.on('pointerdown',()=>{this.scene.sleep;  this.scene.start('notebook')})
+        this.notebook.on('pointerdown',()=>{this.scene.sleep('general'); this.scene.launch('notebook')})
 
 
         //todos los sprites de prismáticos desaparecen si no hay habitacion pulsada
