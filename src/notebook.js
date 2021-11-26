@@ -7,7 +7,6 @@ export default class NoteBook extends Phaser.Scene{
         super.update(t,dt);
     }
     create(){
-        console.log("create")
     //creamos el background de la escena
          this.background = this.add.image(0,0,'notebook');        
          this.background.setOrigin(-0.1,0)
@@ -28,7 +27,7 @@ export default class NoteBook extends Phaser.Scene{
         console.log(this.lista_observacion)
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
             this.game.estadoCompartido.observaciones[i].selected = false;
-            this.game.estadoCompartido.observaciones[i].screentext = this.add.text(300,(i+1)*50,this.game.estadoCompartido.observaciones[i].text,)
+            this.game.estadoCompartido.observaciones[i].screentext = this.add.text(320,(i+1)*50,this.game.estadoCompartido.observaciones[i].text,)
             .setOrigin(0.5,0.5)
             .setColor('green')
             //.setBackgroundColor('white')
@@ -39,17 +38,7 @@ export default class NoteBook extends Phaser.Scene{
            
         }
           
-        let arr = this.game.estadoCompartido.deducciones
-        console.log(arr)
-        arr.forEach(element => {
-            //element.active = false;
-            this.add.text(600,50,element)
-            .setOrigin(0.5,0.5)
-            .setColor('blue')
-            .setBackgroundColor('white')
-            .setAlign('center')     
-            });
-
+        this.adddeduccion()
     }
     //metodo que de momento habilita la funcion back
     select()
@@ -80,8 +69,10 @@ export default class NoteBook extends Phaser.Scene{
                 this.game.estadoCompartido.deducciones.push("soy una deduccion")                 
                 this.game.estadoCompartido.observaciones[i].activated=true;
                 elem.activated = true;
+                elem.screentext.off('pointerdown')
+                this.game.estadoCompartido.observaciones[i].screentext.off('pointerdown');
                 this.adddeduccion()
-           }
+            }
           } 
         }
     }
@@ -93,19 +84,20 @@ export default class NoteBook extends Phaser.Scene{
                 this.game.estadoCompartido.observaciones[i].screentext.setColor('green')
              }
              this.numberoftextselected=0
-        }
-        
+        }   
     }
     adddeduccion(){
+        let it = 1;
         let arr = this.game.estadoCompartido.deducciones
         console.log(arr)
         arr.forEach(element => {
             //element.active = false;
-            this.add.text(600,50,element)
+            this.add.text(620,50*it,element)
             .setOrigin(0.5,0.5)
             .setColor('blue')
             .setBackgroundColor('white')
             .setAlign('center')     
+            it++
             });
     }
 }
