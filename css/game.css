@@ -3,13 +3,50 @@ h1 {
 }
 
 body{
-  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cochin, Georgia,'Times New Roman', serif;
   color: rgb(46, 24, 24);
   font-size: 1.3rem;
   line-height: 1.4em;
   background: rgb(197, 173, 194);
+  margin: 0;
 }
 
 p{
   margin-bottom: 1.4em;
 }
+
+.container{
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navigation ul li{
+  display: inline-block;
+}
+.navigation ul li a{
+  display: block;
+  padding: 1.2rem 0.8rem;
+  transition: all 0.5s;
+}
+.navigation ul li a:hover{
+  background: rgb(160, 144, 144);
+}
+
+.header{
+  background: rgb(63, 53, 42);
+  color: aliceblue;
+}
+ .header a{
+   color: aliceblue;
+   text-decoration: none;
+
+
+ }
