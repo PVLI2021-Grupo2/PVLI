@@ -24,7 +24,6 @@ export default class NoteBook extends Phaser.Scene{
         this.lista_observacion = 
         this.game.estadoCompartido.observaciones;
 
-        console.log(this.lista_observacion)
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
             this.game.estadoCompartido.observaciones[i].selected = false;
             this.game.estadoCompartido.observaciones[i].screentext = this.add.text(320,(i+1)*50,this.game.estadoCompartido.observaciones[i].text,)
@@ -69,9 +68,9 @@ export default class NoteBook extends Phaser.Scene{
                 this.game.estadoCompartido.deducciones.push("soy una deduccion")                 
                 this.game.estadoCompartido.observaciones[i].activated=true;
                 elem.activated = true;
-                elem.screentext.off('pointerdown')
+                elem.screentext.off('pointerdown');
                 this.game.estadoCompartido.observaciones[i].screentext.off('pointerdown');
-                this.adddeduccion()
+                this.adddeduccion();
             }
           } 
         }
@@ -89,9 +88,7 @@ export default class NoteBook extends Phaser.Scene{
     adddeduccion(){
         let it = 1;
         let arr = this.game.estadoCompartido.deducciones
-        console.log(arr)
         arr.forEach(element => {
-            //element.active = false;
             this.add.text(620,50*it,element)
             .setOrigin(0.5,0.5)
             .setColor('blue')

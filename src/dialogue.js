@@ -14,6 +14,7 @@ export default class Dialogue{
     this.dialogo = this.scene.add.bitmapText(posX/3 , posY*0.8, 'press_start_2p_font', "", 16);      //el texto del dialogo
     this.arrayWord;
     this.dialogo.text = "";
+    this.dialogo.setMaxWidth(700)
     this.dialogoTerminado = false; 
     this.background.setVisible(false);
     this.dialogo.setVisible(false);

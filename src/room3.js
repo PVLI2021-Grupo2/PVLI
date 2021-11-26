@@ -16,6 +16,6 @@ export default class Room3 extends BaseRoom{
       this.objectarray = [this.charles];
       this.objectarray.forEach(elem => elem.setInteractive()
       .setOrigin(0,0)
-      .once('pointerdown', () => {elem.showtext()}))
+      .on('pointerdown', () => {elem.showtext()}))
     }
   }

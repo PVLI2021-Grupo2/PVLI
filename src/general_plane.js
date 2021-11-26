@@ -90,7 +90,7 @@ export default class extends Phaser.Scene{
         this.backbutton.setInteractive();
         
         //oscurece fondo de las ventanas
-        this.roomarray.forEach(item => item.setAlpha(0.2))
+        this.roomarray.forEach(item => item.setAlpha(0.5))
 
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})

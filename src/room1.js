@@ -32,7 +32,7 @@ export default class Room1 extends BaseRoom{
 
     this.objectarray.forEach(elem => elem.setInteractive()
     .setOrigin(0,0)
-    .once('pointerdown', () => {elem.showtext()}))
+    .on('pointerdown', () => {elem.showtext()}))
 
    }
    

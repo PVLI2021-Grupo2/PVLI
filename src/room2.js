@@ -28,6 +28,6 @@ export default class Room2 extends BaseRoom{
        this.objectarray = [this.tetera,this.cat,this.dog,this.aguja,this.tejido,this.ovillo,this.cooper];
        this.objectarray.forEach(elem => elem.setInteractive()
        .setOrigin(0,0)
-       .once('pointerdown', () => {elem.showtext()}))
+       .on('pointerdown', () => {elem.showtext()}))
       }
   }
