@@ -11,9 +11,10 @@ export default class Room3 extends BaseRoom{
       let dialogJson = this.cache.json.get('dialog');
       super.create();
  
-      this.charles =new clickableobjects(this,250,200,'objects', 'object_charles',false,dialogJson,"room3",0);
+      // this.charles =new clickableobjects(this,250,200,'objects', 'object_charles',false,dialogJson,"room3",0);
 
-      this.objectarray = [this.charles];
+      // this.objectarray = [this.charles];
+      this.objectarray = this.dayscont.getdayobject(this,"room3");
       this.objectarray.forEach(elem => elem.setInteractive()
       .setOrigin(0,0)
       .on('pointerdown', () => {elem.showtext()}))

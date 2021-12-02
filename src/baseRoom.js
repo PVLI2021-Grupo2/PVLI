@@ -1,3 +1,4 @@
+import Days from "./days.js";
 export default class BaseRoom extends Phaser.Scene{
 
        constructor(key,image){
@@ -17,6 +18,7 @@ export default class BaseRoom extends Phaser.Scene{
             this.input.mouse.disableContextMenu();
        
             let pointer = this.input.activePointer;
+            this.dayscont = new Days;
          }
          //metodo que de momento habilita la funcion back
            select()

@@ -1,11 +1,11 @@
 export default class NoteBook extends Phaser.Scene{
-
     constructor(){
       super({ key: 'notebook' });
     }
     update(t,dt){
         super.update(t,dt);
     }
+    
     create(){
     //creamos el background de la escena
          this.background = this.add.image(0,0,'notebook');        
@@ -35,10 +35,11 @@ export default class NoteBook extends Phaser.Scene{
             if(!this.game.estadoCompartido.observaciones[i].activated)
             this.game.estadoCompartido.observaciones[i].screentext.on('pointerdown',()=>{this.select_text(this.game.estadoCompartido.observaciones[i],i)})        
            
-        }
-          
-        this.adddeduccion()
+        }      
+        this.showdeduccion()
+        this.showconclusion()
     }
+
     //metodo que de momento habilita la funcion back
     select()
     {
@@ -48,16 +49,18 @@ export default class NoteBook extends Phaser.Scene{
         this.backbutton.on('pointerdown',backbutton=>{this.scene.switch('general')})
         
     }
+
     backactive(b){
 
         this.backbutton.setVisible(b);
         this.backbutton.setInteractive(b);
         
     }
+
     select_text(elem,indiceelem){
         elem.selected = true;
         console.log(elem.selected)
-        elem.screentext.setColor('red')
+        elem.screentext.setColor('yellow')
         this.numberoftextselected ++;
         console.log( this.numberoftextselected)
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
@@ -70,11 +73,12 @@ export default class NoteBook extends Phaser.Scene{
                 elem.activated = true;
                 elem.screentext.off('pointerdown');
                 this.game.estadoCompartido.observaciones[i].screentext.off('pointerdown');
-                this.adddeduccion();
+                this.showdeduccion();
             }
           } 
         }
     }
+
     update(t,td){
         super.update(t,td);
         if(this.numberoftextselected===2){
@@ -85,13 +89,27 @@ export default class NoteBook extends Phaser.Scene{
              this.numberoftextselected=0
         }   
     }
-    adddeduccion(){
+
+    showdeduccion(){
         let it = 1;
         let arr = this.game.estadoCompartido.deducciones
         arr.forEach(element => {
             this.add.text(620,50*it,element)
             .setOrigin(0.5,0.5)
             .setColor('blue')
+            .setBackgroundColor('white')
+            .setAlign('center')     
+            it++
+            });
+    }
+
+    showconclusion(){
+        let it = 1;
+        let arr = this.game.estadoCompartido.conclusiones
+        arr.forEach(element => {
+            this.add.text(620,50*it,element)
+            .setOrigin(0.5,0.5)
+            .setColor('red')
             .setBackgroundColor('white')
             .setAlign('center')     
             it++
