@@ -49,7 +49,7 @@ export default class extends Phaser.Scene{
         this.icono_pregunta=this.add.sprite(950,100,'star');
 
         //creacion del timeBar
-        this.time_bar= new TimeBar (this,200,480);
+        this.time_bar= new TimeBar (this,400,480);
 
         //creacion del coffe
         this.coffe_= new Coffe (this,950,400);

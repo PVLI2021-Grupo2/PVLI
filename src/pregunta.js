@@ -2,7 +2,8 @@ import Dialogue from "./dialogue.js";
 
 export default class Pregunta extends Phaser.Scene{
 
-  constructor(){super({key: 'pregunta'})}
+  constructor(){super({key: 'pregunta'})
+}
 
 
      create(){
@@ -16,8 +17,9 @@ export default class Pregunta extends Phaser.Scene{
        //creamos un back
          this.backbutton=this.add.sprite(0,0,'back');
          this.backbutton.setOrigin(0,0)
-         //llamamos a select, metodo que habilita click
+         //llamamos a select, metodo que habilita clicK
          this.select();
+        
         
         
       }
@@ -30,7 +32,7 @@ export default class Pregunta extends Phaser.Scene{
         }
 
         muestrapregunta(){
-          this.textbox = new Dialogue(this.scene);
+          
           
           
         }
