@@ -45,7 +45,7 @@ export default class extends Phaser.Scene{
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
         //NEW FEATURE
-        //sptrite que te lleva a la pregunta del dia
+        //sptrite que te lleva a la escena pregunta del dia
         this.icono_pregunta=this.add.sprite(950,100,'star');
 
         //creacion del timeBar
