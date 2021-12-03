@@ -9,6 +9,7 @@ import Room2 from './room2.js';
 import Room3 from './room3.js';
 import Room4 from './room4.js';
 import NoteBook from './notebook.js';
+import Pregunta from './pregunta.js';
 
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
@@ -24,7 +25,7 @@ let config = {
         autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
     },
     pixelArt: true,
-    scene: [Boot,Menu,General,End,Room1,Room2,Room3,Room4,NoteBook],
+    scene: [Boot,Menu,General,End,Room1,Room2,Room3,Room4,NoteBook,Pregunta],
     physics: { 
         default: 'arcade', 
         arcade: { 
