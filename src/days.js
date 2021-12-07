@@ -21,21 +21,22 @@ export default class Days extends Phaser.Scene{
         let dialogJson = scene.cache.json.get('dialog');
         if(room==="room1"){
            
-            let ball= new clickableobjects(scene,245,250,'objects','object_ball',scene.game.room1objects[0],dialogJson,"room1",0);
-     
-            let cartoy = new clickableobjects(scene,300,330,'objects', 'object_cartoy' ,scene.game.room1objects[1],dialogJson,"room1",1);
-        
-            let books= new clickableobjects(scene,315,110,'objects','object_books',scene.game.room1objects[2],dialogJson,"room1",2);
-        
-            let picture= new clickableobjects(scene,140,85,'objects','object_picture',scene.game.room1objects[3],dialogJson,"room1",3);
-        
-            let drawing= new clickableobjects(scene,900,200,'objects','object_drawing',scene.game.room1objects[4],dialogJson,"room1",4);
-        
-            let bag= new clickableobjects(scene,780,350,'objects','object_bag',scene.game.room1objects[5],dialogJson,"room1",5);
-        
-            let sara= new clickableobjects(scene,100,130,'objects','object_sara',scene.game.room1objects[6],dialogJson,"room1",6);
-            
-            let smith= new clickableobjects(scene,750,100,'objects','object_smith',scene.game.room1objects[7],dialogJson,"room1",7);
+            let ball= new clickableobjects(scene,205,215,'objects','object_ball',scene.game.room1objects[0],dialogJson,"room1",0);
+     
+            let cartoy = new clickableobjects(scene,150,270,'objects', 'object_cartoy' ,scene.game.room1objects[1],dialogJson,"room1",1);
+        
+            let books= new clickableobjects(scene,270,78,'objects','object_books',scene.game.room1objects[2],dialogJson,"room1",2);
+        
+            let picture= new clickableobjects(scene,50,60,'objects','object_picture',scene.game.room1objects[3],dialogJson,"room1",3);
+        
+            let drawing= new clickableobjects(scene,810,130,'objects','object_drawing',scene.game.room1objects[4],dialogJson,"room1",4);
+        
+            let bag= new clickableobjects(scene,660,250,'objects','object_bag',scene.game.room1objects[5],dialogJson,"room1",5);
+        
+            let sara= new clickableobjects(scene,70,150,'objects','object_sara',scene.game.room1objects[6],dialogJson,"room1",6);
+            
+            let smith= new clickableobjects(scene,750,100,'objects','object_smith',scene.game.room1objects[7],dialogJson,"room1",7);
+        
         
             let objectarray = [ball,cartoy,books,picture,drawing,bag,sara,smith];
             return objectarray;
@@ -130,3 +131,4 @@ export default class Days extends Phaser.Scene{
  
 
 }
+
