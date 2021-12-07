@@ -5,6 +5,7 @@ import BaseRoom from "./baseRoom.js";
 
 import TimeBar from "./timeBar.js";
 import Coffe from "./coffe.js";
+import Pregunta from "./pregunta.js";
 
 import NoteBook from "./notebook.js";
 
@@ -44,9 +45,11 @@ export default class extends Phaser.Scene{
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
         //NEW FEATURE
+        //sptrite que te lleva a la escena pregunta del dia
+        this.icono_pregunta=this.add.sprite(950,100,'star');
 
         //creacion del timeBar
-        this.time_bar= new TimeBar (this,200,480);
+        this.time_bar= new TimeBar (this,400,480);
 
         //creacion del coffe
         this.coffe_= new Coffe (this,950,400);
@@ -137,6 +140,10 @@ export default class extends Phaser.Scene{
         .on('pointerdown',menubutton=>{this.scene.switch('menu')});
 
           //NEW FEATURE
+          this.icono_pregunta
+          .setOrigin(0,0)
+          .setInteractive()
+          .on('pointerdown',()=>{this.scene.switch('pregunta')});
 
           //uso de coffe
         this.coffe_

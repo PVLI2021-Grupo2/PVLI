@@ -9,8 +9,7 @@ export default class NoteBook extends Phaser.Scene{
     create(){
     //creamos el background de la escena
          this.background = this.add.image(0,0,'notebook');        
-         this.background.setOrigin(-0.1,0)
-         .setScale(1.1)
+         this.background.setOrigin(0,0);
     //creamos un back
         this.backbutton=this.add.sprite(0,0,'back')
         .setOrigin(0,0);

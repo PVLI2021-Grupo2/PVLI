@@ -16,16 +16,15 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         super(scene,x,y)
         this.scene= scene;
         
-        this.total_time = this.scene.add.sprite(x,y,'red');
-        this.remaining_time = this.scene.add.sprite(x,y,'green');
-        this.clock = this.scene.add.sprite(x-175,y,'clock');
-        this.clock.scaleY = this.clock.scaleY/2;
+        this.total_time = this.scene.add.sprite(x+50,y-10,'red');
+        this.remaining_time = this.scene.add.sprite(x+50,y-10,'green');
         this.scene.add.existing(this);  
-
             this.init();
 
             
     } 
+
+   
   
 
     init()
@@ -40,8 +39,30 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         this.horas_disponibles=20;
         //horas que se pasan para la gestión de eventos
         this.horas_eventos=9;
+
+        this.updateTimes();
+
         
     }
+
+    updateTimes(){
+        //creamos los fondos de 
+        this.hora_actual_background = this.scene.add.sprite(160,470,'dialog');
+        this.hora_actual_background.scaleY = this.hora_actual_background.scaleY/4;
+        this.hora_actual_background.scaleX = this.hora_actual_background.scaleX/5;
+        this.hora_disponible_background = this.scene.add.sprite(750,470,'dialog');
+        this.hora_disponible_background.scaleY /=4;
+        this.hora_disponible_background.scaleX /=3.75;
+        
+        this.scene.add.text(100,470,"Hora: ");
+        this.scene.add.text(650,470,"Horas disponibles:")
+
+        //texto que muestra las horas disponibles
+        this.texto_hora_disponible=this.scene.add.text(830,470,this.horas_disponibles,{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
+
+        //texto que muestra la hora actual
+        this.texto_hora_actual=this.scene.add.text(160,470,this.horas_eventos+":00",{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
+            }
         
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
     menostiempo(a){
@@ -59,8 +80,8 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
        
       
        else this.remaining_time.scaleX-=0;
-       
-        console.log("quedan "+this.horas_disponibles+"horas");
+        
+        this.updateTimes();
     }
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
     
@@ -72,19 +93,21 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
        console.log(this.tazas_totales)
         
        //podemos tomar café siempre y cuando hayamos gastado dos horas de nuestro día
-        if(this.horas_disponibles<this.horas_totales-2 && this.tazas_totales<2){
+        if(this.horas_disponibles<this.horas_totales && this.tazas_totales<2){
+            //añadimos uno al contador de tazas consumidas, y al de horas disponibles
             this.tazas_totales++;
+            this.horas_disponibles++;
             this.remaining_time.scaleX+=(1/this.horas_totales);
         }       
-        //si hemos consumido nuestras dos tazas de café no podremos tomar más
-       
 
+
+        //si hemos consumido nuestras dos tazas de café no podremos tomar más
        else if (this.tazas_totales>2  ||this.remaining_time.scaleX >= 1.4  ){
-        console.log("has tomado mucho café");
         this.remaining_time.scaleX+=0;
         
-       }
-       console.log(b);
+       }     
+
+       this.updateTimes();
     }
 
     // create(){
