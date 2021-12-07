@@ -93,7 +93,7 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
        console.log(this.tazas_totales)
         
        //podemos tomar café siempre y cuando hayamos gastado dos horas de nuestro día
-        if(this.horas_disponibles<this.horas_totales-2 && this.tazas_totales<2){
+        if(this.horas_disponibles<this.horas_totales && this.tazas_totales<2){
             //añadimos uno al contador de tazas consumidas, y al de horas disponibles
             this.tazas_totales++;
             this.horas_disponibles++;

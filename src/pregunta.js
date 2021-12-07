@@ -6,7 +6,6 @@ export default class Pregunta extends Phaser.Scene{
   constructor(){super({key: 'pregunta'})}
  
 
-
      create(){
        //creamos el background de la escena
          this.background = this.add.image(0,0, 'general_plane');        
@@ -35,9 +34,7 @@ export default class Pregunta extends Phaser.Scene{
           this.game.estadoCompartido.deducciones;
 
           this.muestrapregunta();
-          this.añadeconclusion();
-        
-        
+          this.añadeconclusion(); 
       }
 
       
@@ -58,7 +55,7 @@ export default class Pregunta extends Phaser.Scene{
        */
         muestrapregunta(){
           //muestra el texto de la pregunta
-          this.add.text(250,100,"¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith",
+          this.add.text(250,100,"¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?",
             { fontFamily: 'Arial', color: '#00ff00' });
           //muestra titulo de "conclusiones"
           this.add.text(425,215,"-CONCLUSIONES-",
@@ -70,8 +67,7 @@ export default class Pregunta extends Phaser.Scene{
           let texto_conclusion = this.lista_observacion;
           this.add.text(250,200,texto_conclusion,
             { fontFamily: 'Arial', color: '#00ff00' });
-
-            
+          
         }
 
 
