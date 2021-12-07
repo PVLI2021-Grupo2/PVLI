@@ -17,13 +17,8 @@ import TimeBar from "./timeBar.js";
         
         this.scene= scene;
            
-      
       this.scene.add.existing(this);  
     }    
-
-   
-
-    
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
     uso(){
       
