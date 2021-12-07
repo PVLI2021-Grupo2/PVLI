@@ -16,10 +16,10 @@ import TimeBar from "./timeBar.js";
         super(scene, x ,y , 'objects','object_cup')
         
         this.scene= scene;
-        
+           
       
       this.scene.add.existing(this);  
-    } 
+    }    
 
    
 
