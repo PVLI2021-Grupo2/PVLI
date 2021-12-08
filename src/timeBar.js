@@ -69,31 +69,28 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         
         
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
-    menostiempo(a){
+menostiempo(a){
 
-        console.log("antes de haber restado hora " + this.horas_eventos);
-        if(this.remaining_time.scaleX>=0.01){
-            if(this.horas_eventos>=23){
-                this.horas_eventos=-1;
-            }
-            else{
-            //disminuimos las horas disponibles
-            this.horas_disponibles--;
-            //aumentamos la hora real
-            this.horas_eventos++;
-            this.remaining_time.scaleX-=(1/this.horas_totales);
-            }
-       
-       
+    console.log("antes de haber restado hora " + this.horas_eventos);
+    if(this.remaining_time.scaleX>=0.01){
+        if(this.horas_eventos>=23){
+            this.horas_eventos=-1;
         }
-       
-      
-       else this.remaining_time.scaleX-=0;
-        
-        this.updateTimes();
-
-        console.log("después de haber restado hora" + this.horas_eventos);
+        //disminuimos las horas disponibles
+        this.horas_disponibles--;
+        //aumentamos la hora real
+        this.horas_eventos++;
+        this.remaining_time.scaleX-=(1/this.horas_totales);
+   
     }
+   
+  
+   else this.remaining_time.scaleX-=0;
+    
+    this.updateTimes();
+
+    console.log("después de haber restado hora" + this.horas_eventos);
+}
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
     
     //suma horas, aumentando el tamaño de la barra, con la condicion de no haber
