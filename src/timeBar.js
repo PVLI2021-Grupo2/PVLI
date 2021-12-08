@@ -70,11 +70,14 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
             if(this.horas_eventos>23){
                 this.horas_eventos=0;
             }
+            else{
             //disminuimos las horas disponibles
             this.horas_disponibles--;
             //aumentamos la hora real
             this.horas_eventos++;
             this.remaining_time.scaleX-=(1/this.horas_totales);
+            }
+       
        
         }
        

@@ -37,7 +37,6 @@ export default class Days extends Phaser.Scene{
             
             let smith= new clickableobjects(scene,750,100,'objects','object_smith',scene.game.room1objects[7],dialogJson,"room1",7);
         
-        
             let objectarray = [ball,cartoy,books,picture,drawing,bag,sara,smith];
             return objectarray;
         }
