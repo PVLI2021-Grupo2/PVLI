@@ -46,7 +46,7 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
     }
 
     updateTimes(){
-        //creamos los fondos de 
+        //creamos los fondos de la barra de horas disponibles
         this.hora_actual_background = this.scene.add.sprite(160,470,'dialog');
         this.hora_actual_background.scaleY = this.hora_actual_background.scaleY/4;
         this.hora_actual_background.scaleX = this.hora_actual_background.scaleX/5;
