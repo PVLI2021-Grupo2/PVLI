@@ -724,22 +724,39 @@
          "room4":[
             {
                "event0":[
-                  "*Se escuchan lamentos de culpabilidad*"
-
+                  "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
+                  "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
+                  "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras.",
+                  "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
+                  "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
+                  "...no no no, imposible. No debería estar aquí. Debería, debería entregarme y—”",
+                  "Antes de terminar la frase, se escucha un vidrio rompiéndose, seguido de otro golpe seco, como al golpear algo.",
+                  "“...joder, joder, joder!”",
+                  "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
+                  "La voz se va escuchando cada vez menos, hasta que se funde con el silencio del cuarto."
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event1":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
+                  "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
+                  "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras.",
+                  "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
+                  "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
+                  "...no no no, imposible. No debería estar aquí. Debería, debería entregarme y—”",
+                  "Antes de terminar la frase, se escucha un vidrio rompiéndose, seguido de otro golpe seco, como al golpear algo.",
+                  "“...joder, joder, joder!”",
+                  "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
+                  "La voz se va escuchando cada vez menos, hasta que se funde con el silencio del cuarto."
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event2":[
@@ -879,33 +896,60 @@
             },
             {
                "event16":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
+                  "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
+                  "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras.",
+                  "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
+                  "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
+                  "...no no no, imposible. No debería estar aquí. Debería, debería entregarme y—”",
+                  "Antes de terminar la frase, se escucha un vidrio rompiéndose, seguido de otro golpe seco, como al golpear algo.",
+                  "“...joder, joder, joder!”",
+                  "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
+                  "La voz se va escuchando cada vez menos, hasta que se funde con el silencio del cuarto."
 
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event17":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
+                  "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
+                  "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras.",
+                  "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
+                  "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
+                  "...no no no, imposible. No debería estar aquí. Debería, debería entregarme y—”",
+                  "Antes de terminar la frase, se escucha un vidrio rompiéndose, seguido de otro golpe seco, como al golpear algo.",
+                  "“...joder, joder, joder!”",
+                  "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
+                  "La voz se va escuchando cada vez menos, hasta que se funde con el silencio del cuarto."
 
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event18":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
+                  "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
+                  "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras.",
+                  "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
+                  "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
+                  "...no no no, imposible. No debería estar aquí. Debería, debería entregarme y—”",
+                  "Antes de terminar la frase, se escucha un vidrio rompiéndose, seguido de otro golpe seco, como al golpear algo.",
+                  "“...joder, joder, joder!”",
+                  "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
+                  "La voz se va escuchando cada vez menos, hasta que se funde con el silencio del cuarto."
 
                ]
                ,
                "isevent" : false
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event19":[
@@ -949,11 +993,20 @@
             },
             {
                "event23":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
+                  "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
+                  "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras.",
+                  "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
+                  "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
+                  "...no no no, imposible. No debería estar aquí. Debería, debería entregarme y—”",
+                  "Antes de terminar la frase, se escucha un vidrio rompiéndose, seguido de otro golpe seco, como al golpear algo.",
+                  "“...joder, joder, joder!”",
+                  "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
+                  "La voz se va escuchando cada vez menos, hasta que se funde con el silencio del cuarto."
 
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
                "notebookinfo": ""
             }
