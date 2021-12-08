@@ -26,7 +26,7 @@ import TimeBar from "./timeBar.js";
       
     }
     showdialog(hora_consultada){
-      
+      if (hora_consultada>23) hora_consultada-=24;
       this.textbox = new Dialogue(this.scene);
       let text =this.arrayText["earphone"][0][this.roomName][hora_consultada][this.event+hora_consultada]
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
