@@ -44,7 +44,10 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
 
         
     }
-
+/**
+ * Metodo que controla la parte de la interfaz que muestra las horas que quedan
+ * la barra de tiempo y la hora real
+ */
     updateTimes(){
         //creamos los fondos de la barra de horas disponibles
         this.hora_actual_background = this.scene.add.sprite(160,470,'dialog');
@@ -57,18 +60,21 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         this.scene.add.text(100,470,"Hora: ");
         this.scene.add.text(650,470,"Horas disponibles:")
 
-        //texto que muestra las horas disponibles
-        this.texto_hora_disponible=this.scene.add.text(830,470,this.horas_disponibles,{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
-
         //texto que muestra la hora actual
         this.texto_hora_actual=this.scene.add.text(160,470,this.horas_eventos+":00",{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
-            }
+   
+        //texto que muestra las horas disponibles
+        this.texto_hora_disponible=this.scene.add.text(830,470,this.horas_disponibles,{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
+    }
+        
         
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
     menostiempo(a){
+
+        console.log("antes de haber restado hora " + this.horas_eventos);
         if(this.remaining_time.scaleX>=0.01){
-            if(this.horas_eventos>23){
-                this.horas_eventos=0;
+            if(this.horas_eventos>=23){
+                this.horas_eventos=-1;
             }
             else{
             //disminuimos las horas disponibles
@@ -85,6 +91,8 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
        else this.remaining_time.scaleX-=0;
         
         this.updateTimes();
+
+        console.log("después de haber restado hora" + this.horas_eventos);
     }
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
     
