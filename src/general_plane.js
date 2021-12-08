@@ -119,13 +119,13 @@ export default class extends Phaser.Scene{
         this.notebook.on('pointerdown',()=>{this.scene.sleep('general'); this.scene.launch('notebook')})
 
 
-        //todos los sprites de prismáticos desaparecen si no hay habitacion pulsada
+        //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
         for(let i = 0;i<  this.prismaticarry.length;i++){
             let roomName = 'room'+(i+1);
             this.prismaticarry[i].setVisible(false).on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene),
                 this.time_bar.menostiempo()})
         }
-        //igual que los auriculares
+        //al pulsar encima del prismático cambia la escena y muestra la habitación pulsada
         for(let i = 0;i<  this.auriculararray.length;i++){
             let roomName = 'room'+i;
             this.auriculararray[i].setVisible(false).on('pointerdown',()=>{this.auriculararray[i].showdialog(this.preguntaHora()),this.backactive(false),
@@ -184,7 +184,8 @@ export default class extends Phaser.Scene{
     }
 
     preguntaHora(){
-       console.log(this.time_bar.horas_eventos);
+
+       console.log("Al preguntar la hora desde general para saber que hora pasar: "+this.time_bar.horas_eventos);
        return this.time_bar.horas_eventos;
       
     }
