@@ -7,12 +7,18 @@
                   "*Parece que están durmiendo*"
                ],
                "isevent" : false
+               ,
+               "notebookinfo": ""
+               
+               
             },
             {
                "event1":[
                   "*Parece que están durmiendo*"
                ],
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event2":[
@@ -20,6 +26,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event3":[
@@ -27,6 +35,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event4":[
@@ -34,6 +44,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event5":[
@@ -41,6 +53,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event6":[
@@ -48,6 +62,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event7":[
@@ -55,6 +71,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event8":[
@@ -62,27 +80,63 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event9":[
-                  "Conversación de odio al profesor"
+                  "—...es curioso realmente, cómo las cosas cambian tan rápido—se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
+                  "—¿Al siguiente...?",
+                  "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
+                  "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?",
+                  "Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
+                  "...",
+                  "....................................",
+                  "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
+                  "—Eso dicen, mi vida",
+                  "—Sé paciente, Sarah, que todo villano recogerá lo sembrado. Si él decide seguir ignorando la realidad, no le quedará otra que enterarse cuando las raíces del árbol ya estén inundando su hogar."
                ]
                ,
-               "isevent" : false
+               "isevent" : true
+               ,
+               "notebookinfo": "Rencor de los Smith a un profesor"
             },
             {
                "event10":[
-                  "Conversación de odio al profesor"
+                  "—...es curioso realmente, cómo las cosas cambian tan rápido—se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
+                  "—¿Al siguiente...?",
+                  "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
+                  "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?",
+                  "Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
+                  "...",
+                  "....................................",
+                  "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
+                  "—Eso dicen, mi vida",
+                  "—Sé paciente, Sarah, que todo villano recogerá lo sembrado. Si él decide seguir ignorando la realidad, no le quedará otra que enterarse cuando las raíces del árbol ya estén inundando su hogar."
+
                ]
                ,
-               "isevent" : false
+               "isevent" : true
+               ,
+               "notebookinfo": "Rencor de los Smith a un profesor"
             },
             {
                "event11":[
-                  "Conversación de odio al profesor"
+                  "—...es curioso realmente, cómo las cosas cambian tan rápido—se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
+                  "—¿Al siguiente...?",
+                  "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
+                  "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?",
+                  "Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
+                  "...",
+                  "....................................",
+                  "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
+                  "—Eso dicen, mi vida",
+                  "—Sé paciente, Sarah, que todo villano recogerá lo sembrado. Si él decide seguir ignorando la realidad, no le quedará otra que enterarse cuando las raíces del árbol ya estén inundando su hogar."
                ]
                ,
-               "isevent" : false
+               "isevent" : true
+               ,
+               "notebookinfo": "Rencor de los Smith a un profesor"
             },
             {
                "event12":[
@@ -90,6 +144,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event13":[
@@ -97,6 +153,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event14":[
@@ -104,6 +162,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event15":[
@@ -111,27 +171,35 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event16":[
                   "Conversación de odio al profesor"
                ]
                ,
-               "isevent" : true
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event17":[
                   "Conversación de odio al profesor"
                ]
                ,
-               "isevent" : true
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event18":[
                   "Conversación de odio al profesor"
                ]
                ,
-               "isevent" : true
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event19":[
@@ -139,6 +207,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event20":[
@@ -146,6 +216,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event21":[
@@ -153,6 +225,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event22":[
@@ -160,6 +234,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event23":[
@@ -168,6 +244,8 @@
                ]
                ,
                "isevent" : false
+               ,
+               "notebookinfo": ""
             }
             
          ],
@@ -176,138 +254,234 @@
                "event0":[
                   "*No se escucha nada*"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event1":[
                   "*No se escucha nada*"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event2":[
                   "*No se escucha nada*"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event3":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event4":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event5":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event6":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event7":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event8":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event9":[
                   "*Se escuchan los ladridos de un perro*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event10":[
                   "*Se escuchan los ladridos de un perro*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event11":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event12":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event13":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event14":[
                   "*Suena la televisión*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event15":[
                   "*Se escucha a alguien susurrando*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event16":[
                   "*Se escucha la televisión*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event17":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event18":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event19":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event20":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event21":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event22":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event23":[
                   "*No se escucha nada*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             }
          ],
          "room3":[
@@ -316,139 +490,235 @@
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event1":[
                   "*No parece que esté en casa*"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event2":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event3":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event4":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event5":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event6":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event7":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event8":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event9":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event10":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event11":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event12":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event13":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event14":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event15":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event16":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event17":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event18":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event19":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event20":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event21":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event22":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event23":[
                   "*Se oyen pasos*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             }
          ],
          "room4":[
@@ -457,139 +727,235 @@
                   "*Se escuchan lamentos de culpabilidad*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event1":[
                   "*Se escuchan lamentos de culpabilidad*"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event2":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event3":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event4":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event5":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event6":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event7":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event8":[
                   "No pasa nada"
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event9":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event10":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event11":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event12":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event13":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event14":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event15":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event16":[
                   "*Se escuchan lamentos de culpabilidad*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event17":[
                   "*Se escuchan lamentos de culpabilidad*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event18":[
                   "*Se escuchan lamentos de culpabilidad*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event19":[
                   "*Se escucha el sonido de la ducha*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event20":[
                   "*Se escucha el sonido de la ducha*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event21":[
                   "*Se escuchan vasos y botellas de cristal siendo transportados de un lado a otro*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event22":[
                   "*No parece que esté en casa*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             },
             {
                "event23":[
                   "*Se escuchan lamentos de culpabilidad*"
 
                ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
             }
          ]
       }
