@@ -22,17 +22,24 @@ import TimeBar from "./timeBar.js";
       this.arrayText = dialog;
       this.roomName = roomName;
       this.event = "event";
+      
       //this.number = 0;
       
     }
+
+    /**
+     * Muestra el diálogo correspondiente a la hora en la que estemos al haber pulsado el auricular
+     * así como manda apuntar la información asociada a lo escuchado -si es relevante-
+     */
     showdialog(hora_consultada){
       if (hora_consultada>23) hora_consultada-=24;
       this.textbox = new Dialogue(this.scene);
       let text =this.arrayText["earphone"][0][this.roomName][hora_consultada][this.event+hora_consultada]
+      let text_notebook =this.arrayText["earphone"][0][this.roomName][hora_consultada]["notebookinfo"]
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
-      this.textbox.changeDialogue(text)
+      this.textbox.changeDialogue(text)      
       if(this.arrayText["earphone"][0][this.roomName][hora_consultada]["isevent"]){
-         this.scene.game.estadoCompartido.observaciones.push({text,id:1})
+         this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:1})
       }
       console.log(hora_consultada)
 
