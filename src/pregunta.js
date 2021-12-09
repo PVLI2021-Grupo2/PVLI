@@ -65,8 +65,8 @@ export default class Pregunta extends Phaser.Scene{
         /**añade las conclusiones que haya en la libreta */
         añadeconclusion(){
           let texto_conclusion = this.lista_observacion;
-          this.add.text(250,200,texto_conclusion,
-            { fontFamily: 'Arial', color: '#00ff00' });
+          this.add.text(425,250,texto_conclusion,
+            { fontFamily: 'Arial', color: '#d0ff00' });
           
         }
 

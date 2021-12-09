@@ -4,7 +4,7 @@
          "room1":[ 
             {
                "event0":[
-                  "*Parece que están durmiendo*"
+                  "* Se oyen ronquidos, parece que están durmiendo*"
                ],
                "isevent" : false
                ,
@@ -14,7 +14,7 @@
             },
             {
                "event1":[
-                  "*Parece que están durmiendo*"
+                  "*Se oyen ronquidos, parece que están durmiendo*"
                ],
                "isevent" : false
                ,
@@ -22,7 +22,7 @@
             },
             {
                "event2":[
-                  "*Parece que están durmiendo*"
+                  "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
                "isevent" : false
@@ -31,7 +31,7 @@
             },
             {
                "event3":[
-                  "*Parece que están durmiendo*"
+                  "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
                "isevent" : false
@@ -40,7 +40,7 @@
             },
             {
                "event4":[
-                  "*Parece que están durmiendo*"
+                  "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
                "isevent" : false
@@ -49,7 +49,7 @@
             },
             {
                "event5":[
-                  "*Parece que están durmiendo*"
+                  "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
                "isevent" : false
@@ -58,7 +58,7 @@
             },
             {
                "event6":[
-                  "No pasa nada"
+                  "No se escucha nada"
                ]
                ,
                "isevent" : false
@@ -67,7 +67,7 @@
             },
             {
                "event7":[
-                  "No pasa nada"
+                  "No se escucha nada"
                ]
                ,
                "isevent" : false
@@ -76,7 +76,7 @@
             },
             {
                "event8":[
-                  "No pasa nada"
+                  "No se escucha nada"
                ]
                ,
                "isevent" : false
@@ -85,16 +85,10 @@
             },
             {
                "event9":[
-                  "—...es curioso realmente, cómo las cosas cambian tan rápido—se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
-                  "—¿Al siguiente...?",
-                  "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
-                  "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?",
-                  "Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
-                  "...",
-                  "....................................",
-                  "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
-                  "—Eso dicen, mi vida",
-                  "—Sé paciente, Sarah, que todo villano recogerá lo sembrado. Si él decide seguir ignorando la realidad, no le quedará otra que enterarse cuando las raíces del árbol ya estén inundando su hogar."
+                 "-Parece mentira que hace poco le tuvieramos saltando encima de la cama para despertarnos ¿verdad?",
+                 "-Si, casi puedo verle entrar corriendo en nuestra habitación gritando '¡A desayunar!, ¡A desayunar!",
+                 "-La casa parece más silenciosa desde que ya no está",
+                 "-Yo también lo creo cariño, a nuestra vida le falta su risa por culpa del cabrón de William"
                ]
                ,
                "isevent" : true
@@ -103,18 +97,11 @@
             },
             {
                "event10":[
-                  "—...es curioso realmente, cómo las cosas cambian tan rápido—se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
+                  "—Es curioso realmente, cómo las cosas cambian tan rápido — se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
                   "—¿Al siguiente...?",
                   "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
-                  "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?",
-                  "Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
-                  "...",
-                  "....................................",
-                  "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
-                  "—Eso dicen, mi vida",
-                  "—Sé paciente, Sarah, que todo villano recogerá lo sembrado. Si él decide seguir ignorando la realidad, no le quedará otra que enterarse cuando las raíces del árbol ya estén inundando su hogar."
-
-               ]
+                  "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?"
+                ]
                ,
                "isevent" : true
                ,
@@ -122,13 +109,7 @@
             },
             {
                "event11":[
-                  "—...es curioso realmente, cómo las cosas cambian tan rápido—se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
-                  "—¿Al siguiente...?",
-                  "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
-                  "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?",
-                  "Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
-                  "...",
-                  "....................................",
+                  "-Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
                   "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
                   "—Eso dicen, mi vida",
                   "—Sé paciente, Sarah, que todo villano recogerá lo sembrado. Si él decide seguir ignorando la realidad, no le quedará otra que enterarse cuando las raíces del árbol ya estén inundando su hogar."
@@ -149,7 +130,10 @@
             },
             {
                "event13":[
-                  "*Conversación de ir a la compra*"
+                  " -Cariño, deberíamos de hacer la lista de la compra, apenas queda nada en el frigorífico",
+                  " -Es cierto, además, nos hemos quedado sin refrescos y sin leche",
+                  " -Puedo pasar a recogerte después de salir de la oficina y vamos juntos al mercado",
+                  " -Me parece perfecto, recuérdame comprar azafrán, el próximo guiso va a estar de muerte"
                ]
                ,
                "isevent" : false
@@ -158,7 +142,7 @@
             },
             {
                "event14":[
-                  "*Suena la televisión*"
+                  "*Escuchas el informativo diario en la televisión*"
                ]
                ,
                "isevent" : false
@@ -167,7 +151,7 @@
             },
             {
                "event15":[
-                  "*Suena la televisión*"
+                  "*Escuchas el informativo diario en la televisión*"
                ]
                ,
                "isevent" : false
@@ -176,34 +160,41 @@
             },
             {
                "event16":[
-                  "Conversación de odio al profesor"
+                  "-Parece mentira que todo cuando puedes llegar a planear pueda esfumarse en un momento, en un diminuto instante",
+                  "-No podemos anclarnos en el pasado mi vida, Kevin ya no está con nosotros y no podemos hacer nada por cambiarlo",
+                  "-No puedo seguir así John, la rabia me corroe día a día, quiero hacérselo pagar, hacerle sufrir, hacerle...."
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Rencor de los Smith a un profesor"
             },
             {
                "event17":[
-                  "Conversación de odio al profesor"
+                  "-Es cierto que tiene la culpa cariño, y por eso hemos de ser pacientes, no podemos precipitarnos en algo tan delicado",
+                  "-Lo se John, pero no dejo de pensar que cuanto más esperemos más probable es que todo se complique, que no seamos capaces",
+                  "-Lo haremos Sarah, pronto, te lo prometo"
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Rencor de los Smith a un profesor"
             },
             {
                "event18":[
-                  "Conversación de odio al profesor"
+                  "-¿Qué pensaría Kevin si nos viera, si supiera lo que estamos planeando hacer, lo que ronda ahora nuestras cabezas",
+                  "-Nunca lo sabremos vida mía, él tan solo era un crío, no creo que pudiera llegar a comprender lo que perdemos de nuestra alma en esta situación",
+                  "-Los padres jamás deberían sobrevivir a sus hijos",
+                  "*Escuchas el llanto de Sarah*"
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Rencor de los Smith a un profesor"
             },
             {
                "event19":[
-                  "*Suena la televisión*"
+                  "*Suena la televisión, informan sobre la subida de la luz*"
                ]
                ,
                "isevent" : false
@@ -212,7 +203,7 @@
             },
             {
                "event20":[
-                  "*Suena la televisión*"
+                  "*Suena la televisión, informan sobre una posible pandemia en el continente asiático*"
                ]
                ,
                "isevent" : false
@@ -221,7 +212,7 @@
             },
             {
                "event21":[
-                  "*Suena la televisión*"
+                  "*Suena la televisión, escuchas un programa sobre fútbol y resúmenes deportivos*"
                ]
                ,
                "isevent" : false
@@ -230,7 +221,7 @@
             },
             {
                "event22":[
-                  "*Parece que están cenando*"
+                  "*Parece que están cenando, escuchas el entrechocar de los cubiertos*"
                ]
                ,
                "isevent" : false
@@ -239,7 +230,8 @@
             },
             {
                "event23":[
-                  "*Conversación de irse a dormir*"
+                  "-Buenas noches Sarah, que descanses",
+                  "-Buenas noches cariño, estoy segura de que dentro de poco podré descansar tranquila"
                ]
                ,
                "isevent" : false
@@ -251,7 +243,7 @@
          "room2":[
             {
                "event0":[
-                  "*No se escucha nada*"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -260,7 +252,7 @@
             },
             {
                "event1":[
-                  "*No se escucha nada*"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -269,7 +261,7 @@
             },
             {
                "event2":[
-                  "*No se escucha nada*"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -278,7 +270,7 @@
             },
             {
                "event3":[
-                  "*No se escucha nada*"
+                  "*Escuchas ronquidos, parece que duerme*"
 
                ]
                ,
@@ -288,7 +280,7 @@
             },
             {
                "event4":[
-                  "*No se escucha nada*"
+                  "*Escuchas ronquidos, parece que duerme*"
 
                ]
                ,
@@ -298,7 +290,7 @@
             },
             {
                "event5":[
-                  "No pasa nada"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -307,7 +299,7 @@
             },
             {
                "event6":[
-                  "No pasa nada"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -316,7 +308,7 @@
             },
             {
                "event7":[
-                  "No pasa nada"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -325,7 +317,7 @@
             },
             {
                "event8":[
-                  "No pasa nada"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -354,7 +346,7 @@
             },
             {
                "event11":[
-                  "*No se escucha nada*"
+                  "*Escuchas música ,parece antigua, ¿tal vez de los años 50?*"
 
                ]
                ,
@@ -364,7 +356,7 @@
             },
             {
                "event12":[
-                  "*No se escucha nada*"
+                  "*Escuchas un programa de radio sobre la precaria situación de las pensiones*"
 
                ]
                ,
@@ -374,7 +366,7 @@
             },
             {
                "event13":[
-                  "*No se escucha nada*"
+                  "*Escuchas un programa de radio sobre una creciente pandemia en el continente asiático*"
 
                ]
                ,
@@ -384,7 +376,7 @@
             },
             {
                "event14":[
-                  "*Suena la televisión*"
+                  "*Escuchas la televisión, parece un programa del corazón*"
 
                ]
                ,
@@ -394,7 +386,7 @@
             },
             {
                "event15":[
-                  "*Se escucha a alguien susurrando*"
+                  "*Escuchas ronquidos, parece que la señora Cooper se ha quedado dormida*"
 
                ]
                ,
@@ -404,7 +396,7 @@
             },
             {
                "event16":[
-                  "*Se escucha la televisión*"
+                  "*Escuchas ronquidos, parece que la señora Cooper se ha quedado dormida*"
 
                ]
                ,
@@ -414,7 +406,7 @@
             },
             {
                "event17":[
-                  "*No se escucha nada*"
+                  "*Escuchas ronquidos, parece que la señora Cooper se ha quedado dormida*"
 
                ]
                ,
@@ -424,7 +416,7 @@
             },
             {
                "event18":[
-                  "*No se escucha nada*"
+                  "*Escuchas los ladridos de un perro, parece contento*"
 
                ]
                ,
@@ -434,7 +426,7 @@
             },
             {
                "event19":[
-                  "*No se escucha nada*"
+                  "*Escuchas los ladridos de un perro, parece contento*"
 
                ]
                ,
@@ -444,7 +436,11 @@
             },
             {
                "event20":[
-                  "*No se escucha nada*"
+                  "-¿Quién es el perro más bonito?¿Quién es el perrito de mamá?",
+                  "*Ladridos alegres*",
+                  "-Pues claro, tú Candy, tú eres la joyita de mamá, toma una galletita",
+                  "*Escuchas como el perro come algo*"
+
 
                ]
                ,
@@ -454,7 +450,7 @@
             },
             {
                "event21":[
-                  "*No se escucha nada*"
+                  "*Escuchas ruidos en la cocina, parece que la anciana está preparando la cena*"
 
                ]
                ,
@@ -464,7 +460,7 @@
             },
             {
                "event22":[
-                  "*No se escucha nada*"
+                  "*Escuchas el entrechocar de los cubiertos, parece que esté cenando*"
 
                ]
                ,
@@ -474,7 +470,7 @@
             },
             {
                "event23":[
-                  "*No se escucha nada*"
+                  "*Escuchas ronquidos, parece que duerme*"
 
                ]
                ,
@@ -486,7 +482,7 @@
          "room3":[
             {
                "event0":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -496,7 +492,7 @@
             },
             {
                "event1":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -505,7 +501,7 @@
             },
             {
                "event2":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -515,7 +511,7 @@
             },
             {
                "event3":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -525,7 +521,7 @@
             },
             {
                "event4":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -535,7 +531,7 @@
             },
             {
                "event5":[
-                  "No pasa nada"
+                  "No escuchas nada, no parece que esté en casa"
                ]
                ,
                "isevent" : false
@@ -544,7 +540,7 @@
             },
             {
                "event6":[
-                  "No pasa nada"
+                  "No escuchas nada, no parece que esté en casa"
                ]
                ,
                "isevent" : false
@@ -553,7 +549,7 @@
             },
             {
                "event7":[
-                  "No pasa nada"
+                  "No escuchas nada, no parece que esté en casa"
                ]
                ,
                "isevent" : false
@@ -562,7 +558,7 @@
             },
             {
                "event8":[
-                  "No pasa nada"
+                  "No escuchas nada, no parece que esté en casa"
                ]
                ,
                "isevent" : false
@@ -571,7 +567,7 @@
             },
             {
                "event9":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -581,7 +577,7 @@
             },
             {
                "event10":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -591,7 +587,7 @@
             },
             {
                "event11":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -601,7 +597,7 @@
             },
             {
                "event12":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -611,7 +607,7 @@
             },
             {
                "event13":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -621,7 +617,7 @@
             },
             {
                "event14":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -631,7 +627,7 @@
             },
             {
                "event15":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -641,7 +637,7 @@
             },
             {
                "event16":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -651,7 +647,7 @@
             },
             {
                "event17":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -661,7 +657,7 @@
             },
             {
                "event18":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -671,7 +667,7 @@
             },
             {
                "event19":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -681,7 +677,7 @@
             },
             {
                "event20":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -691,7 +687,7 @@
             },
             {
                "event21":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -701,7 +697,7 @@
             },
             {
                "event22":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -711,7 +707,9 @@
             },
             {
                "event23":[
-                  "*Se oyen pasos*"
+                  "*Oyes como se abre la puerta de casa, y una voz cansada:*",
+                  "Joder, el día que me pillen en la comisaría sacando cosas de la sala de incautaciones me meteré en un buen lío",
+                  "Hasta entonces que me quiten lo bailado, me estoy haciendo de oro con estos 'encocados'"
 
                ]
                ,
@@ -723,17 +721,17 @@
          "room4":[
             {
                "event0":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*Se escuchan lamentos de culpabilidad, y el sonido de un vaso de cristal*"
 
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
                "notebookinfo": ""
             },
             {
                "event1":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*-Pude haber hecho algo, tendría que haber estado más pendiente del chaval, fue mi culpa, mi culpa...*"
                ]
                ,
                "isevent" : false
@@ -742,7 +740,7 @@
             },
             {
                "event2":[
-                  "*No parece que esté en casa*"
+                  "*Escuchas ronquidos, parece que duerme*"
 
                ]
                ,
@@ -752,7 +750,7 @@
             },
             {
                "event3":[
-                  "*No parece que esté en casa*"
+                  "*Escuchas ronquidos, parece que duerme*"
 
                ]
                ,
@@ -762,7 +760,7 @@
             },
             {
                "event4":[
-                  "*No parece que esté en casa*"
+                  "*Escuchas ronquidos, parece que duerme*"
 
                ]
                ,
@@ -772,7 +770,7 @@
             },
             {
                "event5":[
-                  "No pasa nada"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -781,7 +779,7 @@
             },
             {
                "event6":[
-                  "No pasa nada"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -790,7 +788,7 @@
             },
             {
                "event7":[
-                  "No pasa nada"
+                  "Escuchas ruidos en la cocina, parece que está desayunando"
                ]
                ,
                "isevent" : false
@@ -799,7 +797,7 @@
             },
             {
                "event8":[
-                  "No pasa nada"
+                  "Escuchas el sonido del agua en la ducha, parece que se ducha para irse"
                ]
                ,
                "isevent" : false
@@ -808,7 +806,7 @@
             },
             {
                "event9":[
-                  "*No parece que esté en casa*"
+                  "*No escuchas nada, no parece que esté en casa*"
 
                ]
                ,
@@ -818,8 +816,7 @@
             },
             {
                "event10":[
-                  "*No parece que esté en casa*"
-
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -828,8 +825,7 @@
             },
             {
                "event11":[
-                  "*No parece que esté en casa*"
-
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -838,8 +834,7 @@
             },
             {
                "event12":[
-                  "*No parece que esté en casa*"
-
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -848,8 +843,7 @@
             },
             {
                "event13":[
-                  "*No parece que esté en casa*"
-
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -858,8 +852,7 @@
             },
             {
                "event14":[
-                  "*No parece que esté en casa*"
-
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -868,8 +861,7 @@
             },
             {
                "event15":[
-                  "*No parece que esté en casa*"
-
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -878,37 +870,38 @@
             },
             {
                "event16":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "-Joder, si hasta en el colegio me miran mal, parece que tenga yo la culpa de todo",
+                  "-Estos cabrones que van de santos me ponen negro, ellos también lo sabían, también podrían haber hecho algo"
 
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "El profesor se recrimina algo relacionado con un  alumno"
             },
             {
                "event17":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*Escuchas el sonido de un vaso de cristal y la voz ebria e ininteligible de William*"
 
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
                "notebookinfo": ""
             },
             {
                "event18":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*Escuchas sollozos y una voz ebria que repite constantemente 'fue mi culpa'*"
 
                ]
                ,
-               "isevent" : false
+               "isevent" : true
                ,
                "notebookinfo": ""
             },
             {
                "event19":[
-                  "*Se escucha el sonido de la ducha*"
+                  "*Se escucha el sonido de la ducha,parece que se esté duchando*"
 
                ]
                ,
@@ -918,7 +911,7 @@
             },
             {
                "event20":[
-                  "*Se escucha el sonido de la ducha*"
+                  "*Escuchas la radio de fondo, parece que informan sobre una creciente pandemia en el continente asiático*"
 
                ]
                ,
@@ -928,7 +921,7 @@
             },
             {
                "event21":[
-                  "*Se escuchan vasos y botellas de cristal siendo transportados de un lado a otro*"
+                  "*Se escuchan vasos y botellas de cristal siendo llevados de un lado a otro*"
 
                ]
                ,
@@ -938,7 +931,7 @@
             },
             {
                "event22":[
-                  "*No parece que esté en casa*"
+                  "*Escuchas el sonido de sartenes y cubiertos, parece que vaya a preparar la cena*"
 
                ]
                ,
@@ -948,7 +941,7 @@
             },
             {
                "event23":[
-                  "*Se escuchan lamentos de culpabilidad*"
+                  "*Escuchasr ronquidos, parece que duerme*"
 
                ]
                ,
@@ -1009,13 +1002,13 @@
             },
             {
                "object_sara":[
-                  "Es Sara Smith"
+                  "Es Sara Smith,la madre de Kevin Smith"
                ],
                "id":-1
             },
             {
                "object_smith":[
-                  "Es John Smith"
+                  "Es John Smith, el padre de Kevin Smith"
                ],
                "id":-1
             }
@@ -1061,7 +1054,7 @@
             },
             {
                "object_ovillo":[
-                  "Un ovillo",
+                  "Un ovillo de lana",
                   "A los gatos les encantan jugar ovillos jjj"
                ],
                "id":4
@@ -1084,7 +1077,7 @@
          "room4":[
             {
                "object_william":[
-                  "Es el profesor William Scott"
+                  "Es el profesor William Scott, el antiguo profesor de Kevin Smith"
                ],
                "id":-1
             }
