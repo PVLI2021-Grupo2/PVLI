@@ -29,6 +29,8 @@ export default class Room2 extends BaseRoom{
       this.objectarray = this.dayscont.getdayobject(this,"room2");
        this.objectarray.forEach(elem => elem.setInteractive()
        .setOrigin(0,0)
+       .on('pointerover',()=>elem.setTint(0x999999))
+       .on('pointerout',()=>elem.clearTint())
        .on('pointerdown', () => {elem.showtext()}))
       }
   }
