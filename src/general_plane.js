@@ -63,6 +63,7 @@ export default class extends Phaser.Scene{
         //llamada inicial a la configuración 0 del plano general
        
         this.selectted = false;
+        this.today = this.add.bitmapText(900,100,'press_start_2p_font', "Day:"+this.game.nowday , 13)
 
         this.roomconfig();
     }    
