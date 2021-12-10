@@ -25,7 +25,8 @@ export default class NoteBook extends Phaser.Scene{
 
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
             this.game.estadoCompartido.observaciones[i].selected = false;
-            this.game.estadoCompartido.observaciones[i].screentext = this.add.text(200,((i+1)*50)+50,this.game.estadoCompartido.observaciones[i].text_notebook,)
+            this.game.estadoCompartido.observaciones[i].screentext = this.add.text(200,((i+1)*50)+50
+                        ,this.game.estadoCompartido.observaciones[i].text_notebook,)
             .setOrigin(0.5,0.5)
             .setColor('green')
             //.setBackgroundColor('white')
