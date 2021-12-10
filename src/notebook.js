@@ -70,6 +70,9 @@ export default class NoteBook extends Phaser.Scene{
     }
 
     select_text(elem,indiceelem){
+
+        let deducciones_json=this.cache.json.get('deducciones');
+
         elem.selected = true;
         console.log(elem.selected)
         elem.screentext.setColor('yellow')
@@ -79,15 +82,21 @@ export default class NoteBook extends Phaser.Scene{
            if(this.game.estadoCompartido.observaciones[i].selected && i!==indiceelem){  
             console.log("hay activo")
             if(this.game.estadoCompartido.observaciones[i].id === elem.id){
-                console.log("son idem")
-                this.game.estadoCompartido.deducciones.push("soy una deduccion")
+                console.log("son idem", elem.id)
+                this.game.estadoCompartido.deducciones.push(deducciones_json["deduccion"+[elem.id]].text); //toma el archivo json y accede a la deduccion con el id en el que coinciden las observaciones
                 this.game.estadoCompartido.observaciones[i].activated=true;
+                
+                
                 elem.activated = true;
                 elem.screentext.off('pointerdown');
                 this.game.estadoCompartido.observaciones[i].screentext.off('pointerdown');
                 this.showdeduccion();
             }
           } 
+        }
+
+        for(let i=0;i<this.game.estadoCompartido.deducciones.length;i++){
+
         }
     }
 
@@ -106,11 +115,13 @@ export default class NoteBook extends Phaser.Scene{
         let it = 1;
         let arr = this.game.estadoCompartido.deducciones
         arr.forEach(element => {
-            this.add.text(470,30+(50*it),element)
+            this.add.text(540,30+(50*it),element)
             .setOrigin(0.5,0.5)
             .setColor('blue')
             .setBackgroundColor('white')
-            .setAlign('center')     
+            .setAlign('center')    
+            .setInteractive() 
+            .setWordWrapWidth(300)
             it++
             });
     }

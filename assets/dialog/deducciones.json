@@ -1,12 +1,10 @@
 {
-    "day1":[
-        {
-            "deduccion1":
-            ["Sentimiento de ira de los Smith hacia el profesor de Kevin"]
-        },
-        {
-            "deduccion2":
-            ["El profesor sabía que le hacían bulling a Kevin y no hizo nada"]
-        }
-    ]
+    "deduccion1":{
+        "text":["Sentimiento de ira de los Smith hacia el profesor de Kevin"],
+        "id":1
+    },
+    "deduccion2":{
+        "text":["El profesor sabía que le hacían bullying a Kevin y no hizo nada"],
+        "id":2
+    }
 }
