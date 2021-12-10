@@ -41,7 +41,7 @@ export default class Days extends Phaser.Scene{
             return objectarray;
         }
         else if(room==="room2"){
-            let tetera =new clickableobjects(scene,280,60,'objects', 'object_cup',false,dialogJson,"room2",0);
+            let tetera =new clickableobjects(scene,280,60,'objects', 'object_cup',scene.game.room2objects[0],dialogJson,"room2",0);
 
             let cat = new clickableobjects(scene,200,270,'objects', 'object_cat',false,dialogJson,"room2",1);
            
@@ -60,12 +60,12 @@ export default class Days extends Phaser.Scene{
         }
         else if(room==="room3"){
             
-            let charles =new clickableobjects(scene,250,200,'objects', 'object_charles',false,dialogJson,"room3",0);
+            let charles =new clickableobjects(scene,250,200,'objects', 'object_charles',scene.game.room3objects[0],dialogJson,"room3",0);
             let objectarray = [charles];
             return objectarray;
         }
         else if(room==="room4"){
-            let william =new clickableobjects(scene,600,130,'objects', 'object_william',false,dialogJson,"room4",0);
+            let william =new clickableobjects(scene,600,130,'objects', 'object_william',scene.game.room4objects[0],dialogJson,"room4",0);
 
             let objectarray = [william];
             return objectarray;

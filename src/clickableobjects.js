@@ -28,6 +28,7 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
             this.activated=true;
             //this.scene.game.estadoCompartido.observaciones_id.push( this.jsonfile["prismatic"][0][this.roomName][this.num]["id"])
         }      
+        console.log(this.event)
     }
     setfalse(){
         this.event=false;
