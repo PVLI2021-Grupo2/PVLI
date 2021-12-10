@@ -4,7 +4,7 @@
          "room1":[ 
             {
                "event0":[
-                  "* Se oyen ronquidos, parece que están durmiendo*"
+                  "*Se oyen ronquidos, parece que están durmiendo*"
                ],
                "isevent" : false
                ,
@@ -85,7 +85,7 @@
             },
             {
                "event9":[
-                 "—Parece mentira que hace poco le tuvieramos saltando encima de la cama para despertarnos ¿verdad?",
+                  "—Parece mentira que hace poco le tuvieramos saltando encima de la cama para despertarnos ¿verdad?",
                  "—Si, casi puedo verle entrar corriendo en nuestra habitación gritando '¡A desayunar!, ¡A desayunar!'",
                  "—La casa parece más silenciosa desde que ya no está",
                  "—Yo también lo creo cariño, a nuestra vida le falta su risa por culpa del cabrón de William"
@@ -101,7 +101,7 @@
                   "—¿Al siguiente...?",
                   "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
                   "¿no te parece cruel que por un maldito profesor, que por culpa de alguien que lo debía proteger, todos sus sueños tuvieran que acabarse tan pronto?"
-                ]
+               ]
                ,
                "isevent" : true
                ,
@@ -113,6 +113,7 @@
                   "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
                   "—Eso dicen, mi vida",
                   "—Sé paciente, Sarah, que todo villano recogerá lo sembrado. Si él decide seguir ignorando la realidad, no le quedará otra que enterarse cuando las raíces del árbol ya estén inundando su hogar."
+
                ]
                ,
                "isevent" : true
@@ -151,7 +152,7 @@
             },
             {
                "event15":[
-                  "*Escuchas el informativo diario en la televisión*"
+                  "*Suena la televisión, están dando las noticias del día*"
                ]
                ,
                "isevent" : false
@@ -174,6 +175,7 @@
                   "—Es cierto que tiene la culpa cariño, y por eso hemos de ser pacientes, no podemos precipitarnos en algo tan delicado",
                   "—Lo se John, pero no dejo de pensar que cuanto más esperemos más probable es que todo se complique, que no seamos capaces",
                   "—Lo haremos Sarah, pronto, te lo prometo"
+
                ]
                ,
                "isevent" : true
@@ -186,6 +188,7 @@
                   "—Nunca lo sabremos vida mía, él tan solo era un crío, no creo que pudiera llegar a comprender lo que perdemos de nuestra alma en esta situación",
                   "—Los padres jamás deberían sobrevivir a sus hijos",
                   "*Escuchas el llanto de Sarah*"
+
                ]
                ,
                "isevent" : true
@@ -232,6 +235,8 @@
                "event23":[
                   "—Buenas noches Sarah, que descanses",
                   "—Buenas noches cariño, estoy segura de que dentro de poco podré descansar tranquila"
+
+
                ]
                ,
                "isevent" : false
@@ -531,7 +536,7 @@
             },
             {
                "event5":[
-                  "No escuchas nada, no parece que esté en casa"
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -540,7 +545,7 @@
             },
             {
                "event6":[
-                  "No escuchas nada, no parece que esté en casa"
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -549,7 +554,7 @@
             },
             {
                "event7":[
-                  "No escuchas nada, no parece que esté en casa"
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -558,7 +563,7 @@
             },
             {
                "event8":[
-                  "No escuchas nada, no parece que esté en casa"
+                  "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
                "isevent" : false
@@ -721,22 +726,28 @@
          "room4":[
             {
                "event0":[
-                  "*Se escuchan lamentos de culpabilidad, y el sonido de un vaso de cristal*"
-
+                  "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
+                  "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
+                  "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras."
+                  
                ]
+               ,
+               "id": 0
                ,
                "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event1":[
                   "*—Pude haber hecho algo, tendría que haber estado más pendiente del chaval, fue mi culpa, mi culpa...*"
                ]
                ,
-               "isevent" : false
+               "id": 0
                ,
-               "notebookinfo": ""
+               "isevent" : true
+               ,
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event2":[
@@ -788,7 +799,7 @@
             },
             {
                "event7":[
-                  "Escuchas ruidos en la cocina, parece que está desayunando"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -797,7 +808,7 @@
             },
             {
                "event8":[
-                  "Escuchas el sonido del agua en la ducha, parece que se ducha para irse"
+                  "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
                "isevent" : false
@@ -817,6 +828,7 @@
             {
                "event10":[
                   "*No escuchas nada, no parece que esté en casa*"
+
                ]
                ,
                "isevent" : false
@@ -826,6 +838,7 @@
             {
                "event11":[
                   "*No escuchas nada, no parece que esté en casa*"
+
                ]
                ,
                "isevent" : false
@@ -835,6 +848,7 @@
             {
                "event12":[
                   "*No escuchas nada, no parece que esté en casa*"
+
                ]
                ,
                "isevent" : false
@@ -844,6 +858,7 @@
             {
                "event13":[
                   "*No escuchas nada, no parece que esté en casa*"
+
                ]
                ,
                "isevent" : false
@@ -853,6 +868,7 @@
             {
                "event14":[
                   "*No escuchas nada, no parece que esté en casa*"
+
                ]
                ,
                "isevent" : false
@@ -862,6 +878,7 @@
             {
                "event15":[
                   "*No escuchas nada, no parece que esté en casa*"
+
                ]
                ,
                "isevent" : false
@@ -873,35 +890,46 @@
                   "—Joder, si hasta en el colegio me miran mal, parece que tenga yo la culpa de todo",
                   "—Estos cabrones que van de santos me ponen negro, ellos también lo sabían, también podrían haber hecho algo"
 
+
                ]
+               ,
+               "id": 0
                ,
                "isevent" : true
                ,
-               "notebookinfo": "El profesor se recrimina algo relacionado con un  alumno"
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event17":[
-                  "*Escuchas el sonido de un vaso de cristal y la voz ebria e ininteligible de William*"
+                  "*Escuchas sollozos y una voz ebria que repite constantemente 'fue mi culpa'*"
+
 
                ]
                ,
+               "id": 0
+               ,
                "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event18":[
-                  "*Escuchas sollozos y una voz ebria que repite constantemente 'fue mi culpa'*"
-
-               ]
+                 
+                  "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
+                  "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
+                  "...no no no, imposible. No debería estar aquí. Debería, debería entregarme y—”",
+                  "Antes de terminar la frase, se escucha un vidrio rompiéndose, seguido de otro golpe seco, como al golpear algo."
+              ]
+               ,
+               "id": 0
                ,
                "isevent" : true
                ,
-               "notebookinfo": ""
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
             {
                "event19":[
-                  "*Se escucha el sonido de la ducha, parece que se esté duchando*"
+                  "*Se escucha el sonido de la ducha*"
 
                ]
                ,
@@ -921,7 +949,7 @@
             },
             {
                "event21":[
-                  "*Se escuchan vasos y botellas de cristal siendo llevados de un lado a otro*"
+                  "*Se escuchan vasos y botellas de cristal siendo transportados de un lado a otro*"
 
                ]
                ,
@@ -941,13 +969,17 @@
             },
             {
                "event23":[
-                  "*Escuchas ronquidos, parece que duerme*"
-
-               ]
+                 
+                 "“...joder, joder, joder!”",
+                  "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
+                  "La voz se va escuchando cada vez menos, hasta que se funde con el silencio del cuarto."
+                ]
                ,
-               "isevent" : false
+               "id": 0
                ,
-               "notebookinfo": ""
+               "isevent" : true
+               ,
+               "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             }
          ]
       }
@@ -961,7 +993,9 @@
                   "Mira una pelota de futbol!",
                   "Que guay una pelota de fulbol!"  
                ],
-               "id":0
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_cartoy":[
@@ -969,7 +1003,9 @@
                   "Mira, mira, un coche!",
                   "Nunca he visto un coche!"
                ],
-               "id":0
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             }
             ,
             {
@@ -977,40 +1013,52 @@
                   "Parece que hay muchos libros en la estanteria",
                   "todo son libros de medicinas"
                ],
-               "id":1
+               "id": 1,
+               "isevent" : true,
+               "notebookinfo": "Libros de medicina de los Smith"
             },
             {
                "object_picture":[
                   "Una foto de familia?",
                   "Parece que la pareja Smith tienen un hijo"
                ],
-               "id":2
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_drawing":[
                   "Un dibujo de niño?",
                   "Puede ser que el dibujo ha sido dibujado por el hijo"
                ],
-               "id":3
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_bag":[
                   "Una bolsa de plastico?",
                   "Que hay dentro?"
                ],
-               "id":4
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_sara":[
-                  "Es Sara Smith,la madre de Kevin Smith"
+                  "Es Sara Smith"
                ],
-               "id":-1
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_smith":[
-                  "Es John Smith, el padre de Kevin Smith"
+                  "Es John Smith"
                ],
-               "id":-1
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             }
          ],
          "room2":[
@@ -1019,7 +1067,9 @@
                   "Una tetera?",
                   "Parece que a la señora Cooper le encanta beber el té"  
                ],
-               "id":0
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_cat":[
@@ -1027,14 +1077,18 @@
                   "Que mona!",
                   "Ojala tener una!"  
                ],
-               "id":-1
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_dog":[
                   "Un perro persiguiendo a la gata",
                   "Parece que a la señora Cooper les gusta mucho a los animales"  
                ],
-               "id":1
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_aguja":[
@@ -1042,7 +1096,9 @@
                   "Parece que va coser algo",
                   "Uy, las agujas parece muy afilados"
                ],
-               "id":2
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_tejido":[
@@ -1050,36 +1106,46 @@
                   "Puede ser que la señora Cooper está cosiendo una bufanda",
                   "Me echo de menos a la bufando que cosí mi madre"
                ],
-               "id":3
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_ovillo":[
-                  "Un ovillo de lana",
+                  "Un ovillo",
                   "A los gatos les encantan jugar ovillos jjj"
                ],
-               "id":4
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
             {
                "object_cooper":[
                   "Es la señora Edna Cooper"
                ],
-               "id":-1
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             }
          ],
          "room3":[
             {
                "object_charles":[
-                  "Es el detective Charles Doyle"
+                  "Finjamos que esto es la maleta sospechosa de Doyle, CAMBIAR"
                ],
-               "id":-1
+               "id": 2,
+               "isevent" : true,
+               "notebookinfo": "Maletín pequeño de Doyle"
             }
          ],
          "room4":[
             {
                "object_william":[
-                  "Es el profesor William Scott, el antiguo profesor de Kevin Smith"
+                  "Finjamos que esto son los partes que se juntan con los lamentos, CAMBIAR"
                ],
-               "id":-1
+               "id": 0,
+               "isevent" : true,
+               "notebookinfo": "Partes sobre alumno"
             }
          ]
       }
