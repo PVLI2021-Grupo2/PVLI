@@ -19,9 +19,20 @@ export default class NoteBook extends Phaser.Scene{
         this.select();
         this.input.mouse.disableContextMenu();
 
+
+        //numero de elementos seleccionados
         this.numberoftextselected =0;
+        //lista de elementos que se almacenan en observaciones
         this.lista_observacion = 
         this.game.estadoCompartido.observaciones;
+        //lista de elementos que se almacenan en deducciones
+        this.lista_deduccion = 
+        this.game.estadoCompartido.deducciones;
+        //lista de elementos que se almacenan en conclusiones
+        this.lista_conclusion =
+        this.game.estadoCompartido.conclusiones;
+
+        
 
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
             this.game.estadoCompartido.observaciones[i].selected = false;
@@ -69,7 +80,7 @@ export default class NoteBook extends Phaser.Scene{
             console.log("hay activo")
             if(this.game.estadoCompartido.observaciones[i].id === elem.id){
                 console.log("son idem")
-                this.game.estadoCompartido.deducciones.push("soy una deduccion")                 
+                this.game.estadoCompartido.deducciones.push("soy una deduccion")
                 this.game.estadoCompartido.observaciones[i].activated=true;
                 elem.activated = true;
                 elem.screentext.off('pointerdown');
