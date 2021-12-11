@@ -93,6 +93,7 @@ export default class extends Phaser.Scene{
         
         //oscurece fondo de las ventanas
         this.roomarray.forEach(item => item.setAlpha(0.5))
+        this.roomarray[a-1].setAlpha(1);
 
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()});
@@ -148,7 +149,7 @@ export default class extends Phaser.Scene{
           .setInteractive()
           .on('pointerover',()=>this.icono_pregunta.setTint(0x999999))
           .on('pointerout',()=>this.icono_pregunta.clearTint())
-          .on('pointerdown',()=>{this.scene.switch('pregunta')});
+          .on('pointerdown',()=>{this.scene.launch('pregunta')});
 
           //uso de coffe
         this.coffe_

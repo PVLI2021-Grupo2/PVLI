@@ -95,7 +95,7 @@ menostiempo(a){
 
     console.log("después de haber restado hora" + this.horas_eventos);
     if(this.horas_disponibles===0){
-        this.scene.scene.switch('pregunta')
+        this.scene.scene.launch('pregunta')
     }
 }
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
@@ -117,7 +117,7 @@ menostiempo(a){
 
 
         //si hemos consumido nuestras dos tazas de café no podremos tomar más
-       else if (this.tazas_totales>2  ||this.remaining_time.scaleX >= 1.4  ){
+        else if (this.tazas_totales>2  ||this.remaining_time.scaleX >= 1.4  ){
         this.remaining_time.scaleX+=0;
         
        }     
