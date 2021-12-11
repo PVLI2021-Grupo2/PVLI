@@ -60,8 +60,12 @@ export default class Pregunta extends Phaser.Scene{
        */
         muestrapregunta(){
 
+          this.pregunta_array=["¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?","¿Dónde está Candy, el perro de la señora Cooper?",
+          "¿Qué relación tiene el detective Charles Doyle con el resto de vecinos?","¿Cómo es la relación del Profesor William Scott con el resto de vecinos?",
+          "¿Quién ha matado al profesor William Scott?"]
+
           //muestra el texto de la pregunta
-          this.add.text(250,100,"¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?",
+          this.add.text(250,100,this.pregunta_array[this.game.nowday-1],
             { fontFamily: 'Arial', color: '#00ff00' });
           //muestra titulo de "conclusiones"
           this.add.text(425,215,"-RESPUESTA-",
@@ -78,9 +82,13 @@ export default class Pregunta extends Phaser.Scene{
         }
 
         pasardia(){
-          console.log(this.game.nowday);
-          this.game.nowday+=1;
-          this.scene.launch('general');
+          
+          if(this.game.nowday<5){
+            console.log(this.game.nowday);
+            this.game.nowday+=1;
+            this.scene.launch('general');
+          }
+          
             
         }
 
