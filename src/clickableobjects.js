@@ -10,7 +10,6 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
         this.jsonfile = json;
         this.roomName = roomName;
         this.num = num;
-        this.activated=false;
       }
       /**
        * Muestra el diálogo correspondiente al objeto pulsado
@@ -22,13 +21,18 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
         this.textbox = new Dialogue(this.scene);
         this.textbox.changeDialogue(text_notebook);
         this.scene.backactive(false);
-        if(this.event === true&&!this.activated){
-            this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:idi,activated:false})
-            this.scene.game.room1objects[this.num]=false;
-            this.activated=true;
+        if(this.event === true){
+            let apuntado = false;
+            this.scene.game.estadoCompartido.observaciones.forEach(element => {
+                if(element.text_notebook===text_notebook) apuntado=true;
+              });
+            if(!apuntado){
+                this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:idi,activated:false})
+                this.scene.game.room1objects[this.num]=false;
+            }
+           
             //this.scene.game.estadoCompartido.observaciones_id.push( this.jsonfile["prismatic"][0][this.roomName][this.num]["id"])
         }      
-        console.log(this.event)
     }
     setfalse(){
         this.event=false;

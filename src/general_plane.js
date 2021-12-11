@@ -122,7 +122,7 @@ export default class extends Phaser.Scene{
         //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
         for(let i = 0;i<  this.prismaticarry.length;i++){
             let roomName = 'room'+(i+1);
-            this.prismaticarry[i].setVisible(false).on('pointerdown',()=>{this.scene.switch(roomName,this.notebookscene),
+            this.prismaticarry[i].setVisible(false).on('pointerdown',()=>{this.scene.sleep();this.scene.launch(roomName,this.notebookscene),
                 this.time_bar.menostiempo()})
         }
         //al pulsar encima del prismático cambia la escena y muestra la habitación pulsada
@@ -188,5 +188,11 @@ export default class extends Phaser.Scene{
        console.log("Al preguntar la hora desde general para saber que hora pasar: "+this.time_bar.horas_eventos);
        return this.time_bar.horas_eventos;
       
+    }
+    update(t,dt){
+        if (this.time_bar.horas_disponibles ===0){
+            this.prismaticarry.forEach(item => item.disableInteractive())
+            this.auriculararray.forEach(item => item.disableInteractive())    
+        }
     }
 }

@@ -94,6 +94,9 @@ menostiempo(a){
     this.updateTimes();
 
     console.log("después de haber restado hora" + this.horas_eventos);
+    if(this.horas_disponibles===0){
+        this.scene.scene.switch('pregunta')
+    }
 }
     //suma horas o lo que es lo mismo aumenta el tamaño de la barra
     
@@ -121,6 +124,7 @@ menostiempo(a){
 
        this.updateTimes();
     }
+
 
    
   }

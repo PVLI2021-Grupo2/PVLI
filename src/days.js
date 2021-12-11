@@ -13,6 +13,7 @@ export default class Days extends Phaser.Scene{
             return this.day1(scene,room); 
             break;     
             case 2:
+            return this.day2(scene,room);
                 break;
         }
     }
@@ -78,7 +79,7 @@ export default class Days extends Phaser.Scene{
            
             let ball= new clickableobjects(scene,245,250,'objects','object_ball',scene.game.room1objects[0],dialogJson,"room1",0);
      
-            let cartoy = new clickableobjects(scene,300,330,'objects', 'object_cartoy' ,scene.game.room1objects[1],dialogJson,"room1",1);
+            //let cartoy = new clickableobjects(scene,300,330,'objects', 'object_cartoy' ,scene.game.room1objects[1],dialogJson,"room1",1);
         
             let books= new clickableobjects(scene,315,110,'objects','object_books',scene.game.room1objects[2],dialogJson,"room1",2);
         
@@ -92,7 +93,7 @@ export default class Days extends Phaser.Scene{
             
             let smith= new clickableobjects(scene,750,100,'objects','object_smith',scene.game.room1objects[7],dialogJson,"room1",7);
         
-            let objectarray = [ball,cartoy,books,picture,drawing,bag,sara,smith];
+            let objectarray = [ball,books,picture,drawing,bag,sara,smith];
             return objectarray;
         }
         else if(room==="room2"){
