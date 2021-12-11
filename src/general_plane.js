@@ -56,14 +56,12 @@ export default class extends Phaser.Scene{
         
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
-        //sprite del boton menu
-        this.menubutton=this.add.bitmapText(900,10,'press_start_2p_font', "Menu", 13)
-        //
+
         this.notebook = this.add.sprite(0,400,'notebook_icon');
         //llamada inicial a la configuración 0 del plano general
        
         this.selectted = false;
-        this.today = this.add.bitmapText(900,100,'press_start_2p_font', "Day:"+this.game.nowday , 13)
+        this.today = this.add.bitmapText(900,10,'press_start_2p_font', "Day:"+this.game.nowday , 13)
 
         this.roomconfig();
     }    
@@ -98,7 +96,6 @@ export default class extends Phaser.Scene{
 
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()});
-        this.menubutton.setVisible(false);
         this.notebook.setVisible(false);
 
    
@@ -144,13 +141,6 @@ export default class extends Phaser.Scene{
         }
 
                    
-        //damos propiedades al boton menu
-        this.menubutton
-        .setOrigin(0,0)
-        .setInteractive()
-        .on('pointerover',()=>this.menubutton.setTint(0x999999))
-        .on('pointerout',()=>this.menubutton.clearTint())
-        .on('pointerdown',menubutton=>{this.scene.switch('menu')});
 
           //NEW FEATURE
           this.icono_pregunta
@@ -185,8 +175,6 @@ export default class extends Phaser.Scene{
         //restauramos la claridad del sprite de las ventanas
         this.roomarray.forEach(item => item.setAlpha(1))
 
-        //hacemos visible el boton del menu
-        this.menubutton.setVisible(true);
 
         this.notebook.setVisible(true);
        //hacemos invisibles de nuevo tanto los auriculares como los        
