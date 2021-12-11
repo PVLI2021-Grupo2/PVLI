@@ -88,13 +88,12 @@ export default class Boot extends Phaser.Scene {
   init(){
     this.game.estadoCompartido = {
       observaciones:[],
-      observaciones_id:[],
       deducciones:[],
       conclusiones:[],
     };
     this.game.nowday = 1 ;
-    this.game.room1objects = [true,true,true,false,false,false,false,false]
-    this.game.room2objects = [true,false,false,false,false,false,false,false]
+    this.game.room1objects = [false,false,true,false,false,false,false,false]
+    this.game.room2objects = [false,false,false,false,false,false,false,false]
     this.game.room3objects = [true]
     this.game.room4objects = [true]
   }
