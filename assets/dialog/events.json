@@ -1013,7 +1013,7 @@
                   "Parece que hay muchos libros en la estanteria",
                   "todo son libros de medicinas"
                ],
-               "id": 1,
+               "id": 0,
                "isevent" : true,
                "notebookinfo": "Libros de medicina de los Smith"
             },
@@ -1133,7 +1133,7 @@
                "object_charles":[
                   "Finjamos que esto es la maleta sospechosa de Doyle, CAMBIAR"
                ],
-               "id": 2,
+               "id": 1,
                "isevent" : true,
                "notebookinfo": "Maletín pequeño de Doyle"
             }
@@ -1143,7 +1143,7 @@
                "object_william":[
                   "Finjamos que esto son los partes que se juntan con los lamentos, CAMBIAR"
                ],
-               "id": 2,
+               "id": 1,
                "isevent" : true,
                "notebookinfo": "Partes sobre alumno"
             }

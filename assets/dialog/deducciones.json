@@ -1,10 +1,10 @@
 {
-    "deduccion1":{
+    "deduccion0":{
         "text":["Sentimiento de ira de los Smith hacia el profesor de Kevin"],
-        "id":1
+        "id":0
     },
-    "deduccion2":{
+    "deduccion1":{
         "text":["El profesor sabía que le hacían bullying a Kevin y no hizo nada"],
-        "id":1
+        "id":0
     }
 }

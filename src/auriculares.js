@@ -39,7 +39,7 @@ import TimeBar from "./timeBar.js";
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
       this.textbox.changeDialogue(text)      
       if(this.arrayText["earphone"][0][this.roomName][hora_consultada]["isevent"]){
-         this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:1})
+         this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:0})
       }
       console.log(hora_consultada)
 
