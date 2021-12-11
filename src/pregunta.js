@@ -69,7 +69,8 @@ export default class Pregunta extends Phaser.Scene{
 
           for(let i=0;i<texto_conclusion.length;i++){    
             this.add.text(100,250+i*50,texto_conclusion[i],
-              { fontFamily: 'Arial', color: '#d0ff00' })            
+              { fontFamily: 'Arial', color: '#d0ff00' })   
+                       
         }
           // this.add.text(425,250,texto_conclusion,
           //   { fontFamily: 'Arial', color: '#d0ff00' });
