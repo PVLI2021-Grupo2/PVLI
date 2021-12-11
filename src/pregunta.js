@@ -7,7 +7,7 @@ export default class Pregunta extends Phaser.Scene{
  
 
      create(){
-       //creamos el background de la escena
+        //creamos el background de la escena
          this.background = this.add.image(0,0, 'general_plane');        
          this.background.setOrigin(0,0);
 
@@ -18,7 +18,7 @@ export default class Pregunta extends Phaser.Scene{
          this.pregunta_background.scaleX/3;
 
          //fondo conclusiones
-        this.conclusiones_background= this.add.sprite(250,250,'dialog').setOrigin(0.2,0.2);
+         this.conclusiones_background= this.add.sprite(250,250,'dialog').setOrigin(0.2,0.2);
 
        //creamos un back
          this.backbutton=this.add.sprite(0,0,'back');
@@ -30,8 +30,8 @@ export default class Pregunta extends Phaser.Scene{
 
          this.notebook_pregunta= new NoteBook();
         
-         this.lista_observacion = 
-          this.game.estadoCompartido.deducciones;
+         this.lista_conclusion = 
+          this.game.estadoCompartido.conclusiones;
 
           this.muestrapregunta();
           this.añadeconclusion(); 
@@ -64,9 +64,15 @@ export default class Pregunta extends Phaser.Scene{
 
         /**añade las conclusiones que haya en la libreta */
         añadeconclusion(){
-          let texto_conclusion = this.lista_observacion;
-          this.add.text(425,250,texto_conclusion,
-            { fontFamily: 'Arial', color: '#d0ff00' });
+          let texto_conclusion = this.lista_conclusion;
+
+
+          for(let i=0;i<texto_conclusion.length;i++){    
+            this.add.text(100,250+i*50,texto_conclusion[i],
+              { fontFamily: 'Arial', color: '#d0ff00' })            
+        }
+          // this.add.text(425,250,texto_conclusion,
+          //   { fontFamily: 'Arial', color: '#d0ff00' });
           
         }
 
