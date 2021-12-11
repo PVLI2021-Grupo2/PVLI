@@ -3,6 +3,7 @@
  * 
  */
 
+import Pregunta from "./pregunta.js";
 export default class TimeBar extends Phaser.GameObjects.Sprite {
   
     /**
@@ -83,7 +84,10 @@ menostiempo(a){
         this.remaining_time.scaleX-=(1/this.horas_totales);
    
     }
-   
+    //condición para cambiar de escena hacia pregunta para pasar de día por falta de tiempo
+    else if(this.horas_disponibles<=0){
+      //  this.scene.
+    }
   
    else this.remaining_time.scaleX-=0;
     
@@ -118,11 +122,5 @@ menostiempo(a){
        this.updateTimes();
     }
 
-    // create(){
-    //     //creamos los 3 sprites que usará timebar
-
-    //     this.clock= this.add.sprite(50,100,'clock');
-    //     this.total_time = this.add.Sprite(75,100,'red');
-    //     this.remaining_time= this.add.Sprite(100,100,'green');
-    // }
+   
   }

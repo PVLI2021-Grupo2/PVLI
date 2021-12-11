@@ -20,19 +20,23 @@ export default class Pregunta extends Phaser.Scene{
          //fondo conclusiones
          this.conclusiones_background= this.add.sprite(250,250,'dialog').setOrigin(0.2,0.2);
 
-       //creamos un back
+         //creamos un back
          this.backbutton=this.add.sprite(0,0,'back');
          this.backbutton.setOrigin(0,0)
+
+         //creamos el boton de pasar de dia
+         this.icono_avanzar_dia = this.add.sprite(950,250,'clock');
+
          //llamamos a select, metodo que habilita clicK
          this.select();
-         //llamamos a muestrapregunta
+        
         
 
          this.notebook_pregunta= new NoteBook();
         
          this.lista_conclusion = 
           this.game.estadoCompartido.conclusiones;
-
+           //llamamos a muestrapregunta
           this.muestrapregunta();
           this.añadeconclusion(); 
       }
@@ -43,10 +47,16 @@ export default class Pregunta extends Phaser.Scene{
        */
         select()
         {
-         
+
          this.backbutton.setVisible(true);
          this.backbutton.setInteractive();        
-         this.backbutton.on('pointerdown',backbutton=>{this.scene.switch('general')})
+         this.backbutton.on('pointerdown',backbutton=>{this.scene.switch('general')});
+
+         this.icono_avanzar_dia.setVisible(true)
+         .setOrigin(0.5,0)
+         .setInteractive()
+         .on('pointerdown',icono_avanzar_dia=>{this.scene.switch('menu'),this.pasardia()})
+         
         }
 
 
@@ -54,6 +64,7 @@ export default class Pregunta extends Phaser.Scene{
        * metodo que muestra la pregunta y la cabecera de las conclusiones        
        */
         muestrapregunta(){
+
           //muestra el texto de la pregunta
           this.add.text(250,100,"¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?",
             { fontFamily: 'Arial', color: '#00ff00' });
@@ -77,11 +88,24 @@ export default class Pregunta extends Phaser.Scene{
           
         }
 
-
-        backactive(b)
-        {
-        this.backbutton.setVisible(b);
-        this.backbutton.setInteractive(b);
+        pasardia(){
+          console.log(this.game.nowday);
+          this.game.nowday+=1;
+          this.scene.launch('general');
+            
         }
+
+        notime(){
+         // this.backbutton.setVisible(false);
+          this.scene.launch('pregunta');
+          console.log('te has quedado sin tiempo')
+        }
+
+
+        // backactive(b)
+        // {
+        // this.backbutton.setVisible(b);
+        // this.backbutton.setInteractive(b);
+        // }
 
 }
