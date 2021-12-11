@@ -22,21 +22,21 @@ export default class Days extends Phaser.Scene{
         if(room==="room1"){
            
             let ball= new clickableobjects(scene,210,225,'objects','object_ball',scene.game.room1objects[0],dialogJson,"room1",0);
-     
-            let cartoy = new clickableobjects(scene,165,300,'objects', 'object_cartoy' ,scene.game.room1objects[1],dialogJson,"room1",1);
-        
-            let books= new clickableobjects(scene,287,97,'objects','object_books',scene.game.room1objects[2],dialogJson,"room1",2);
-        
-            let picture= new clickableobjects(scene,50,60,'objects','object_picture',scene.game.room1objects[3],dialogJson,"room1",3);
-        
-            let drawing= new clickableobjects(scene,840,170,'objects','object_drawing',scene.game.room1objects[4],dialogJson,"room1",4);
-        
-            let bag= new clickableobjects(scene,660,300,'objects','object_bag',scene.game.room1objects[5],dialogJson,"room1",5);
-        
-            let sara= new clickableobjects(scene,70,150,'objects','object_sara',scene.game.room1objects[6],dialogJson,"room1",6);
-            
-            let smith= new clickableobjects(scene,750,70,'objects','object_smith',scene.game.room1objects[7],dialogJson,"room1",7);
-        
+
+            let cartoy = new clickableobjects(scene,165,300,'objects', 'object_cartoy' ,scene.game.room1objects[1],dialogJson,"room1",1);
+
+            let books= new clickableobjects(scene,287,97,'objects','object_books',scene.game.room1objects[2],dialogJson,"room1",2);
+ 
+            let picture= new clickableobjects(scene,50,60,'objects','object_picture',scene.game.room1objects[3],dialogJson,"room1",3);
+
+            let drawing= new clickableobjects(scene,840,170,'objects','object_drawing',scene.game.room1objects[4],dialogJson,"room1",4);
+
+            let bag= new clickableobjects(scene,660,300,'objects','object_bag',scene.game.room1objects[5],dialogJson,"room1",5);
+ 
+            let sara= new clickableobjects(scene,70,150,'objects','object_sara',scene.game.room1objects[6],dialogJson,"room1",6);
+ 
+            let smith= new clickableobjects(scene,750,70,'objects','object_smith',scene.game.room1objects[7],dialogJson,"room1",7);
+            
             let objectarray = [ball,cartoy,books,picture,drawing,bag,sara,smith];
             return objectarray;
         }
