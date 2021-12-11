@@ -128,7 +128,8 @@ export default class NoteBook extends Phaser.Scene{
             console.log("hay activo")
             if(this.game.estadoCompartido.deducciones[i].id === elem.id){
                 console.log("son idem", elem.id)
-                this.game.estadoCompartido.conclusiones.push(conclusiones_json["conclusion"+[elem.id]].text); //toma el archivo json y accede a la deduccion con el id en el que coinciden las observaciones
+                this.game.estadoCompartido.conclusiones[this.game.nowday-1]=(conclusiones_json["conclusion"+[elem.id]].text);
+                         //toma el archivo json y accede a la deduccion con el id en el que coinciden las observaciones
                 this.game.estadoCompartido.deducciones[i].activated=true;
 
                 //erase de los elementos si fuera necesario por espacio
@@ -137,7 +138,8 @@ export default class NoteBook extends Phaser.Scene{
                 elem.screentext.off('pointerdown');
                 this.game.estadoCompartido.deducciones[i].screentext.off('pointerdown');
                 this.showconclusion();
-                console.log(this.game.estadoCompartido.conclusiones[i]+ elem.id)
+                console.log(this.game.estadoCompartido.conclusiones);
+
             }
           } 
         }

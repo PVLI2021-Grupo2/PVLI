@@ -31,11 +31,6 @@ export default class Pregunta extends Phaser.Scene{
          this.select();
         
         
-
-         this.notebook_pregunta= new NoteBook();
-        
-         this.lista_conclusion = 
-          this.game.estadoCompartido.conclusiones;
            //llamamos a muestrapregunta
           this.muestrapregunta();
           this.añadeconclusion(); 
@@ -69,23 +64,17 @@ export default class Pregunta extends Phaser.Scene{
           this.add.text(250,100,"¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?",
             { fontFamily: 'Arial', color: '#00ff00' });
           //muestra titulo de "conclusiones"
-          this.add.text(425,215,"-CONCLUSIONES-",
+          this.add.text(425,215,"-RESPUESTA-",
           { fontFamily: 'Arial', color: '#00ff00' });
         }
 
         /**añade las conclusiones que haya en la libreta */
         añadeconclusion(){
-          let texto_conclusion = this.lista_conclusion;
+          let texto_conclusion = this.game.estadoCompartido.conclusiones[this.game.nowday-1];
 
-
-          for(let i=0;i<texto_conclusion.length;i++){    
-            this.add.text(100,250+i*50,texto_conclusion[i],
+            this.add.text(100,250,texto_conclusion,
               { fontFamily: 'Arial', color: '#d0ff00' })   
                        
-        }
-          // this.add.text(425,250,texto_conclusion,
-          //   { fontFamily: 'Arial', color: '#d0ff00' });
-          
         }
 
         pasardia(){
