@@ -36,10 +36,17 @@ import TimeBar from "./timeBar.js";
       this.textbox = new Dialogue(this.scene);
       let text =this.arrayText["earphone"][0][this.roomName][hora_consultada][this.event+hora_consultada]
       let text_notebook =this.arrayText["earphone"][0][this.roomName][hora_consultada]["notebookinfo"]
+      //let id = this.arrayText["earphone"][0][this.roomName][hora_consultada]["id"]
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
       this.textbox.changeDialogue(text)      
       if(this.arrayText["earphone"][0][this.roomName][hora_consultada]["isevent"]){
+        let apuntado = false;
+        this.scene.game.estadoCompartido.observaciones.forEach(element => {
+          if(element.text_notebook===text_notebook) apuntado=true;
+        });
+        if(!apuntado)
          this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:0})
+         console.log(this.scene.game.estadoCompartido.observaciones)
       }
       console.log(hora_consultada)
 
