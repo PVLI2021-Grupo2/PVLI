@@ -16,7 +16,7 @@ import Pregunta from './pregunta.js';
  * la clase Game de Phaser, encargada de crear e iniciar el juego.
  */
 let config = {
-    type: Phaser.canvas,
+    type: Phaser.WEBGL,
     canvas: document.getElementById('juego'),
     width:  1000,
     height: 500,

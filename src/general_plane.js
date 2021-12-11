@@ -56,13 +56,12 @@ export default class extends Phaser.Scene{
         
         //sprite del boton atras
         this.backbutton=this.add.sprite(0,0,'back');
-        //sprite del boton menu
-        this.menubutton=this.add.bitmapText(900,10,'press_start_2p_font', "Menu", 13)
-        //
+
         this.notebook = this.add.sprite(0,400,'notebook_icon');
         //llamada inicial a la configuración 0 del plano general
        
         this.selectted = false;
+        this.today = this.add.bitmapText(900,10,'press_start_2p_font', "Day:"+this.game.nowday , 13)
 
         this.roomconfig();
     }    
@@ -96,8 +95,7 @@ export default class extends Phaser.Scene{
         this.roomarray.forEach(item => item.setAlpha(0.5))
 
         //volvemos hacia atras si pulsamos <--
-        this.backbutton.on('pointerdown',backbutton=>{this.disableselect()})
-        this.menubutton.setVisible(false);
+        this.backbutton.on('pointerdown',backbutton=>{this.disableselect()});
         this.notebook.setVisible(false);
 
    
@@ -107,48 +105,57 @@ export default class extends Phaser.Scene{
         for(let i = 0;i<this.roomarray.length;i++){
             this.roomarray[i].setOrigin(0,0)
             .setInteractive()
+            .on('pointerover',()=>this.roomarray[i].setTint(0x999999))
+            .on('pointerout',()=>this.roomarray[i].clearTint())
             .on('pointerdown',()=>{this.select(i+1)});
         }
         //backbutton es invisible si no hay habitación pulsada
         this.backbutton.setOrigin(0,0);
         this.backbutton.setVisible(false);
         
-        this.notebook.setOrigin(0,0);
-        this.notebook.setVisible(true);
-        this.notebook.setInteractive();
-        this.notebook.on('pointerdown',()=>{this.scene.sleep('general'); this.scene.launch('notebook')})
+        this.notebook.setOrigin(0,0)
+        .setVisible(true)
+        .setInteractive()
+        .on('pointerover',()=>this.notebook.setTint(0x999999))
+        .on('pointerout',()=>this.notebook.clearTint())
+        .on('pointerdown',()=>{this.scene.sleep('general'); this.scene.launch('notebook')})
 
 
         //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
         for(let i = 0;i<  this.prismaticarry.length;i++){
             let roomName = 'room'+(i+1);
-            this.prismaticarry[i].setVisible(false).on('pointerdown',()=>{this.scene.sleep();this.scene.launch(roomName,this.notebookscene),
+            this.prismaticarry[i].setVisible(false)
+            .on('pointerover',()=>this.prismaticarry[i].setTint(0x999999))
+            .on('pointerout',()=>this.prismaticarry[i].clearTint())
+            .on('pointerdown',()=>{this.scene.sleep();this.scene.launch(roomName,this.notebookscene),
                 this.time_bar.menostiempo()})
         }
         //al pulsar encima del prismático cambia la escena y muestra la habitación pulsada
         for(let i = 0;i<  this.auriculararray.length;i++){
             let roomName = 'room'+i;
-            this.auriculararray[i].setVisible(false).on('pointerdown',()=>{this.auriculararray[i].showdialog(this.preguntaHora()),this.backactive(false),
+            this.auriculararray[i].setVisible(false)
+            .on('pointerover',()=>this.auriculararray[i].setTint(0x999999))
+            .on('pointerout',()=>this.auriculararray[i].clearTint())
+            .on('pointerdown',()=>{this.auriculararray[i].showdialog(this.preguntaHora()),this.backactive(false),
                 this.time_bar.menostiempo()})
         }
 
                    
-        //damos propiedades al boton menu
-        this.menubutton
-        .setOrigin(0,0)
-        .setInteractive()
-        .on('pointerdown',menubutton=>{this.scene.switch('menu')});
 
           //NEW FEATURE
           this.icono_pregunta
           .setOrigin(0,0)
           .setInteractive()
+          .on('pointerover',()=>this.icono_pregunta.setTint(0x999999))
+          .on('pointerout',()=>this.icono_pregunta.clearTint())
           .on('pointerdown',()=>{this.scene.switch('pregunta')});
 
           //uso de coffe
         this.coffe_
         .setInteractive()
         //.on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde un auricular y resto tiempo')})
+        .on('pointerover',()=>this.coffe_.setTint(0x999999))
+        .on('pointerout',()=>this.coffe_.clearTint())
         .on('pointerdown',()=>{this.time_bar.mastiempo(1)}); 
  
     }
@@ -168,8 +175,6 @@ export default class extends Phaser.Scene{
         //restauramos la claridad del sprite de las ventanas
         this.roomarray.forEach(item => item.setAlpha(1))
 
-        //hacemos visible el boton del menu
-        this.menubutton.setVisible(true);
 
         this.notebook.setVisible(true);
        //hacemos invisibles de nuevo tanto los auriculares como los        
