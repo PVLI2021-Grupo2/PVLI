@@ -96,6 +96,7 @@ export default class NoteBook extends Phaser.Scene{
             if(this.game.estadoCompartido.observaciones[i].id === elem.id){
                 console.log("son idem: ", elem.id)
                 this.game.estadoCompartido.deducciones.push(deducciones_json["deduccion"+[elem.id]].text); //toma el archivo json y accede a la deduccion con el id en el que coinciden las observaciones
+                //id de la deduccion
                 this.game.estadoCompartido.deducciones[this.game.estadoCompartido.deducciones.length-1].id = deducciones_json["deduccion"+[elem.id]].id;
                 this.game.estadoCompartido.observaciones[i].activated=true;
 
@@ -191,12 +192,12 @@ export default class NoteBook extends Phaser.Scene{
         let it = 1;
         let arr = this.game.estadoCompartido.conclusiones
         arr.forEach(element => {
-            this.add.text(620,50*it,element)
+            this.add.text(870,50*it+50,element)
             .setOrigin(0.5,0.5)
             .setColor('red')
             .setBackgroundColor('white')
             .setAlign('center')
-            .setWordWrapWidth(300)     
+            .setWordWrapWidth(200)     
             it++
             });
     }
