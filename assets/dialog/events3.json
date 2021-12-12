@@ -1,9 +1,10 @@
 {
-    "earphone":[
+    "earphone":
        {
-          "room1":[ 
+          "room1":
              {
-                "event0":[
+                "event0":{
+                   "text":[
                    "*Se oyen ronquidos, parece que están durmiendo*"
                 ],
                 "isevent" : false
@@ -12,16 +13,18 @@
                 
                 
              },
-             {
-                "event1":[
+             
+                "event1":{
+                  "text":[
                    "*Se oyen ronquidos, parece que están durmiendo*"
                 ],
                 "isevent" : false
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event2":[
+             
+                "event2":{
+                  "text":[
                    "*Se oyen ronquidos, parece que están durmiendo*"
                 ]
                 ,
@@ -29,8 +32,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event3":[
+             
+                "event3":{
+                  "text":[
                    "*Se oyen ronquidos, parece que están durmiendo*"
                 ]
                 ,
@@ -38,8 +42,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event4":[
+             
+                "event4":{
+                  "text":[
                    "*Se oyen ronquidos, parece que están durmiendo*"
                 ]
                 ,
@@ -47,8 +52,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event5":[
+             
+                "event5":{
+                  "text":[
                    "*Se oyen ronquidos, parece que están durmiendo*"
                 ]
                 ,
@@ -56,8 +62,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event6":[
+             
+                "event6":{
+                  "text":[
                    "*Se oyen ronquidos, parece que están durmiendo*"
                 ]
                 ,
@@ -65,8 +72,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event7":[
+             
+                "event7":{
+                  "text":[
                    "*Escuchas el ruido de persianas subiéndose, parece acaben de despertar*"
                 ]
                 ,
@@ -74,8 +82,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event8":[
+             
+                "event8":{
+                  "text":[
                    "*Escuchas el agua correr, parece que estén duchándose*"
                 ]
                 ,
@@ -83,8 +92,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event9":[
+             
+                "event9":{
+                  "text":[
                    "-Espera, espera, espera...¿nos estás chantajeando?¿Dónde a quedado el 'lo hago encantado y gratis, que le jodan al profesor'?",
                    "-Pues precisamente por eso, ahora es él quien me pide dinero a mi por...por...cosas que no os incumben",
                    "-Eres un cabrón Charles, sabía que algo así podría pasar pero me dije 'mientras nos facilite el veneno'...en la hora en que te contactamos"
@@ -95,8 +105,9 @@
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event10":[
+             
+                "event10":{
+                  "text":[
                    "-Tened clara una cosa parejita, si yo caigo me aseguraré de arrastraros conmigo, y lo mío es distribución de sustancias ilícitas, mientras que...",
                    "-Lo sé joder, lo nuestro sería como mínimo 'tentativa de asesinato en primer grado', joder...",
                    "-Fíjate, si el medicucho también entiende de leyes y condenas ja ja ja...qué más da, pagad, o me aseguraré de que se sepa lo del veneno"
@@ -107,8 +118,9 @@
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event11":[
+             
+                "event11":{
+                  "text":[
                    "-Ademas mi chantaje será doble, por una parte, si le digo a William que habéis intentado envenenarlo, tal vez deje de sobornarme",
                    "-¿Y por otro lado hijo de la gran puta? ",
                    "-Informaré anónimamente a la policía, tengo una grabación con mi voz distorsionada...como véis no tenéis alternativa, tenéis hasta la tarde"
@@ -119,8 +131,9 @@
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event12":[
+             
+                "event12":{
+                  "text":[
                    "-¿Qué vamos a hacer Sarah?",
                    "-Pagar John, no tenemos alternativa, ya le has oído tiene pruebas",
                    "-Tal vez esta venganza fue un error Sarah"
@@ -130,8 +143,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event13":[
+             
+                "event13":{
+                  "text":[
                    "*Escuchas ruido en la cocina, parece que estén friéndo algo de cara a la comida*"
                 ]
                 ,
@@ -139,8 +153,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event14":[
+             
+                "event14":{
+                  "text":[
                    "*Escuchas la televisión de fondo, informan de la creciente alarma y peligrosidad de la pandemia"
                 ]
                 ,
@@ -148,8 +163,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event15":[
+             
+                "event15":{
+                  "text":[
                    "*Escuchas el ruido de platos, vasos y la cubertería, parece que estén recogiendo la mesa*"
                 ]
                 ,
@@ -157,8 +173,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event16":[
+             
+                "event16":{
+                  "text":[
                    "-Bueno, bueno, bueno matrimonio Smith, ¿tenéis el dinero o preferís las rejas?",
                    "-Tenemos que esperar una hora más todavía, el banco está autorizando la retirada de fondos",
                    "-Tenéis una hora, ni más ni menos"
@@ -169,8 +186,9 @@
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event17":[
+             
+                "event17":{
+                  "text":[
                     "-Ya estoy de vuelta amigos mios y mi paciencia tiene un límite",
                     "-Sólo necesitamos que esperes a que nos acepten la transferencia de fondos, todo es un proceso Charles joder",
                     "-Me importa una mierda, lo único que quiero es el jodido dinero, ¡Y YA! ¡TODO!"
@@ -182,8 +200,9 @@
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event18":[
+             
+                "event18":{
+                  "text":[
                    "—Ya lo tenemos todo Charles, puedes contarlo, el mensajero del banco acaba de traerlo",
                    "-Solo con vuestras caras de miedo me basta para saber que estar todo porque ¿no la cagaríais en el último momento, verdad?",
                    "-Después de esto esperamos no tener que volver a verte en la vida Charles. Una enfermedad terminal sería demasiado bueno para ti",
@@ -196,8 +215,9 @@
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event19":[
+             
+                "event19":{
+                  "text":[
                    "-Necesito tomar el aire John, necesito salir de casa",
                    "-Vámonos a tomar un café"
                 ]
@@ -206,8 +226,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event20":[
+             
+                "event20":{
+                  "text":[
                    "*No escuchas nada, no parecen estar en casa*"
                 ]
                 ,
@@ -215,8 +236,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event21":[
+             
+                "event21":{
+                  "text":[
                    "-Y si todo nos sale mal cariño, y si todo ha sido un error",
                    "-No pienses más en ello Sarah, ya no hay vuelta atrás"
                 ]
@@ -225,8 +247,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event22":[
+             
+                "event22":{
+                  "text":[
                    "*Parece que están cenando, escuchas el entrechocar de los cubiertos*"
                 ]
                 ,
@@ -234,8 +257,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event23":[
+             
+                "event23":{
+                  "text":[
                    "—Buenas noches Sarah, que descanses",
                    "—Buenas noches cariño, estoy segura de que dentro de poco podré descansar tranquila"
  
@@ -246,11 +270,13 @@
                 ,
                 "notebookinfo": ""
              }
+            }
              
-          ],
-          "room2":[
+          ,
+          "room2":
              {
-                "event0":[
+                "event0":{
+                  "text":[
                     "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -258,8 +284,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event1":[
+             
+                "event1":{
+                  "text":[
                     "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -267,8 +294,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event2":[
+             
+                "event2":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -276,8 +304,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event3":[
+             
+                "event3":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
  
                 ]
@@ -286,8 +315,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event4":[
+             
+                "event4":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
  
                 ]
@@ -296,8 +326,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event5":[
+             
+                "event5":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -305,8 +336,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event6":[
+             
+                "event6":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -314,8 +346,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event7":[
+             
+                "event7":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -323,8 +356,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event8":[
+             
+                "event8":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -332,8 +366,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event9":[
+             
+                "event9":{
+                  "text":[
                    "*Escuchas un aspirador por la casa, parece que esté limpiando*"
  
                 ]
@@ -342,8 +377,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event10":[
+             
+                "event10":{
+                  "text":[
                     "*Escuchas un aspirador por la casa, parece que esté limpiando*"
  
                 ]
@@ -352,8 +388,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event11":[
+             
+                "event11":{
+                  "text":[
                    "*Escuchas el televisor dando el informativo matutino, informan de que la situación empeora con la epidemia*"
  
                 ]
@@ -362,8 +399,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event12":[
+             
+                "event12":{
+                  "text":[
                    "*Escuchas un programa de radio sobre el corazón, no podría ser más irrelevante*"
                    
  
@@ -373,8 +411,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event13":[
+             
+                "event13":{
+                  "text":[
                    "*Escuchas ruido en la cocina, parece que prepara la comida*"
  
                 ]
@@ -383,8 +422,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event14":[
+             
+                "event14":{
+                  "text":[
                    "-¿Quién haría daño a mi Candy?¿Quién puede ser tan malo para envenenarlo?"
  
                 ]
@@ -393,8 +433,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event15":[
+             
+                "event15":{
+                  "text":[
                     "*Escuchas a la señora Cooper llorar desconsolada lamentando la muerte de su perro*"                    
  
                 ]
@@ -403,8 +444,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event16":[
+             
+                "event16":{
+                  "text":[
                     "-Ay mi perrito, mi dulce y buen perrito",
                     "*Continúa llorando*",
                     "-Si supiera quien te ha hecho esto se lo haría pagar caro"
@@ -415,8 +457,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event17":[
+             
+                "event17":{
+                  "text":[
                     "-Creo que necesito tomar el aire, necesito dar un paseo y salir de casa",
                     "*Escuchas gatos maullando dentro de la casa*",
                     "-Lo sé mis pequeños, vosotros también le echáis de menos" 
@@ -426,8 +469,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event18":[
+             
+                "event18":{
+                  "text":[
                     "*No escuchas nada, no parece estar en casa*"
  
                 ]
@@ -436,8 +480,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event19":[
+             
+                "event19":{
+                  "text":[
                     "*No escuchas nada, no parece estar en casa*"
  
                 ]
@@ -446,8 +491,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event20":[
+             
+                "event20":{
+                  "text":[
                     "*No escuchas nada, no parece estar en casa*"
  
  
@@ -457,8 +503,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event21":[
+             
+                "event21":{
+                  "text":[
                    "*Escuchas ruido de la cocina, parece que esté haciendo la cena*"
  
                 ]
@@ -467,8 +514,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event22":[
+             
+                "event22":{
+                  "text":[
                    "Escuchas el sonido de los cubiertos cortando comida y la tele de fondo, parece que esté cenando"
  
                 ]
@@ -477,8 +525,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event23":[
+             
+                "event23":{
+                  "text":[
                     "Escuchas ronquidos, parece que esté durmiendo"
  
                 ]
@@ -487,10 +536,12 @@
                 ,
                 "notebookinfo": ""
              }
-          ],
-          "room3":[
+            }
+          ,
+          "room3": 
              {
-                "event0":[
+                "event0":{
+                  "text":[
                    "*Escuchas insultos y música extremadamente alta*"
  
                 ]
@@ -499,8 +550,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event1":[
+             
+                "event1":{
+                  "text":[
                    "*No escuchas nada, no parece haber nadie en casa*"
                 ]
                 ,
@@ -508,8 +560,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event2":[
+             
+                "event2":{
+                  "text":[
                     "*No escuchas nada, no parece haber nadie en casa*"
                 ]
                 ,
@@ -517,8 +570,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event3":[
+             
+                "event3":{
+                  "text":[
                     "*No escuchas nada, no parece haber nadie en casa*"
                 ]
                 ,
@@ -526,8 +580,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event4":[
+             
+                "event4":{
+                  "text":[
                    "*Escuchas ronquidos, parece que esté durmiendo*"
  
                 ]
@@ -536,40 +591,45 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event5":[
+             
+                "event5":{
+                  "text":[
                     "*Escuchas ronquidos, parece que esté durmiendo*"                ]
                 ,
                 "isevent" : false
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event6":[
+             
+                "event6":{
+                  "text":[
                     "*Escuchas ronquidos, parece que esté durmiendo*"                ]
                 ,
                 "isevent" : false
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event7":[
+             
+                "event7":{
+                  "text":[
                     "*Escuchas ronquidos, parece que esté durmiendo*"                ]
                 ,
                 "isevent" : false
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event8":[
+             
+                "event8":{
+                  "text":[
                     "*Escuchas ronquidos, parece que esté durmiendo*"                ]
                 ,
                 "isevent" : false
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event9":[
+             
+                "event9":{
+                  "text":[
                     "-Espera, espera, espera...¿nos estás chantajeando?¿Dónde a quedado el 'lo hago encantado y gratis, que le jodan al profesor'?",
                     "-Pues precisamente por eso, ahora es él quien me pide dinero a mi por...por...cosas que no os incumben",
                     "-Eres un cabrón Charles, sabía que algo así podría pasar pero me dije 'mientras nos facilite el veneno'...en la hora en que te contactamos"
@@ -580,8 +640,9 @@
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
               },
-              {
-                 "event10":[
+              
+                 "event10":{
+                  "text":[
                     "-Tened clara una cosa parejita, si yo caigo me aseguraré de arrastraros conmigo, y lo mío es distribución de sustancias ilícitas, mientras que...",
                     "-Lo sé joder, lo nuestro sería como mínimo 'tentativa de asesinato en primer grado', joder...",
                     "-Fíjate, si el medicucho también entiende de leyes y condenas ja ja ja...qué más da, pagad, o me aseguraré de que se sepa lo del veneno"
@@ -592,8 +653,9 @@
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
               },
-              {
-                 "event11":[
+              
+                 "event11":{
+                  "text":[
                     "-Ademas mi chantaje será doble, por una parte, si le digo a William que habéis intentado envenenarlo, tal vez deje de sobornarme",
                     "-¿Y por otro lado hijo de la gran puta? ",
                     "-Informaré anónimamente a la policía, tengo una grabación con mi voz distorsionada...como véis no tenéis alternativa, tenéis hasta la tarde"
@@ -604,8 +666,9 @@
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event12":[
+             
+                "event12":{
+                  "text":[
                    "*Escuchas un murmullo inteligible y un caminar constante. Parece que no para de andar de un lado a otro*"
  
                 ]
@@ -614,8 +677,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event13":[
+             
+                "event13":{
+                  "text":[
                    "-Buenas tardes Charles, has pensado ya en como pagarme",
                    "-Estoy en ello William, para esta tarde debería de tener tu dinero, no me metas más prisa",
                    "-Recuerda Charles, el tiempo corre ...tic, tac...tic,tac"
@@ -627,8 +691,9 @@
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
              },
-             {
-                "event14":[
+             
+                "event14":{
+                  "text":[
                    "-No has pensado nunca en que si haces cosas malas, cosas malas te pueden pasar",
                    "-Lo que tú digas William, a mi me da igual, mientras cojas tu dinero y me dejes en paz",
                    "-Deberías de ser más amable conmigo Charles pues un soborno sabes cuando empieza, pero nunca cuando acaba"
@@ -640,8 +705,9 @@
                 ,
                 "notebookinfo":  "William continua con su chantaje a Charles "
              },
-             {
-                "event15":[
+             
+                "event15":{
+                  "text":[
                    "-¿Vas a seguir regodeándote todo el día?¿No tienes nada mejor que hacer que ponerme nervioso?",
                    "-Efectivamente Charles, disfruto viendo como alguien que es la inmoralidad personificada encuentra la horma de su zapato",
                    "-Que te jodan William, a ti y a tu soborno. Que me toques los cojones no hará que el dinero aparezca de la nada, necesito hasta la tarde"
@@ -653,8 +719,9 @@
                 ,
                 "notebookinfo":  "William continua con su chantaje a Charles "
              },
-             {
-                "event16":[
+             
+                "event16":{
+                  "text":[
                     "-Bueno, bueno, bueno matrimonio Smith, ¿tenéis el dinero o preferís las rejas?",
                     "-Tenemos que esperar una hora más todavía, el banco está autorizando la retirada de fondos",
                     "-Tenéis una hora, ni más ni menos"
@@ -665,8 +732,9 @@
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
               },
-              {
-                 "event17":[
+              
+                 "event17":{
+                  "text":[
                      "-Ya estoy de vuelta amigos mios y mi paciencia tiene un límite",
                      "-Sólo necesitamos que esperes a que nos acepten la transferencia de fondos, todo es un proceso Charles joder",
                      "-Me importa una mierda, lo único que quiero es el jodido dinero, ¡Y YA! ¡TODO!"
@@ -678,8 +746,9 @@
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
               },
-              {
-                 "event18":[
+              
+                 "event18":{
+                  "text":[
                     "—Ya lo tenemos todo Charles, puedes contarlo, el mensajero del banco acaba de traerlo",
                     "-Solo con vuestras caras de miedo me basta para saber que estar todo porque ¿no la cagaríais en el último momento, verdad?",
                     "-Después de esto esperamos no tener que volver a verte en la vida Charles. Una enfermedad terminal sería demasiado bueno para ti",
@@ -692,8 +761,9 @@
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
-             {
-                "event19":[
+             
+                "event19":{
+                  "text":[
                    "*Escuchas un monton de papeles , parece que los esté sacando de un lugar para ponerlos en otro*"
  
                 ]
@@ -702,8 +772,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event20":[
+             
+                "event20":{
+                  "text":[
                     "*Escuchas un monton de papeles , parece que los esté sacando de un lugar para ponerlos en otro*"
  
                 ]
@@ -712,8 +783,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event21":[
+             
+                "event21":{
+                  "text":[
                    "-Bueno Charles, has tenido tiempo de sobra a lo largo del día para conseguir mi dinero no crees",
                    "-Ya lo tengo William, y espero que se te atragante o te cortes con los billetes cada vez que los toques",
                    "-Eres como un niño que sabe que tiene que tirar su último caramelo, solo que este es mucho más valioso ja ja ja"
@@ -725,8 +797,9 @@
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
              },
-             {
-                "event22":[
+             
+               "event22":{
+                  "text":[
                    "-Y qué piensas hacer con todo este dinero William, no deja de ser dinero sucio, de un soborno",
                    "-Hay maneras y maneras de hacerlo 'limpio' poco a poco, y lo mejor es que nadie sabrá de donde viene",
                    "-Solamente yo y tengo las manos atadas ¿eh? delatarte sería delatarme. Eres un cabrón con pintas ¿lo sabías?"
@@ -738,8 +811,9 @@
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
              },
-             {
-                "event23":[
+             
+                "event23":{
+                  "text":[
                    "-Piensa que si sigues tocándome las narices, Charles, el soborno no tiene por qué haber acabado ¿eh? ja ja ja",
                    "-Me estás cansando William, eres viejo y con una vida de mierda, coge tu dinero y márchate, no quiero volver a verte",
                    "-Oh, querido, una cosa es lo que quieras y otra cosa es querer lo imposible, nos volveremos a ver...te lo aseguro"
@@ -751,10 +825,12 @@
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
              }
-          ],
-          "room4":[
+            }
+          ,
+          "room4":
              {
-                "event0":[
+                "event0":{
+                  "text":[
                     "Escuchasr ruidos de vasos y botellas moviéndose de un lado a otro"
   
                  ]
@@ -763,8 +839,9 @@
                  ,
                  "notebookinfo": ""
              },
-             {
-                "event1":[
+             
+                "event1":{
+                  "text":[
                     "*Escuchas a William sollozar, parece tremendamente infeliz*"
                  ]
                  ,
@@ -772,8 +849,9 @@
                  ,
                  "notebookinfo": ""
              },
-             {
-                "event2":[
+             
+                "event2":{
+                  "text":[
                     "*Escuchas a William maldecir, su voz parece cada vez más ebria*"
   
                  ]
@@ -782,8 +860,9 @@
                  ,
                  "notebookinfo": ""
              },
-             {
-                "event3":[
+             
+                "event3":{
+                  "text":[
                     "*Escuchas ronquidos, parece que duerme*" 
                  ]
                  ,
@@ -791,8 +870,9 @@
                  ,
                  "notebookinfo": "William está chantajeando a Charles"
              },
-             {
-                "event4":[
+             
+                "event4":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
  
                 ]
@@ -801,8 +881,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event5":[
+             
+                "event5":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -810,8 +891,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event6":[
+             
+                "event6":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -819,8 +901,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event7":[
+             
+                "event7":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -828,8 +911,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event8":[
+             
+                "event8":{
+                  "text":[
                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
@@ -837,8 +921,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event9":[
+             
+                "event9":{
+                  "text":[
                     "*Escuchas el ruido de la ducha, parece que William está despierto*"
                              ]
                 ,
@@ -846,8 +931,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event10":[
+             
+                "event10":{
+                  "text":[
                    "*Escuchas ruido en la cocina, parece que William está preparando el desayuno*"
  
                 ]
@@ -856,8 +942,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event11":[
+             
+                "event11":{
+                  "text":[
                    "*Escuchas la radio, parece que la pandemia se está diseminando peligrosamente por el mundo*",
                    "-Por si no estuvieran mal las cosas en el mundo, súmale ahora una pandemia a nivel global"
  
@@ -867,8 +954,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event12":[
+             
+                "event12":{
+                  "text":[
                     "*Escuchas la radio, parece que el Ministerio de Magia ha hecho a Guille Auror supremo (hehe)*",
                     "-Esto es un EasterEgg de Javi"
  
@@ -878,8 +966,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event13":[
+             
+                "event13":{
+                  "text":[
                     "-Buenas tardes Charles, has pensado ya en como pagarme",
                     "-Estoy en ello William, para esta tarde debería de tener tu dinero, no me metas más prisa",
                     "-Recuerda Charles, el tiempo corre ...tic, tac...tic,tac"
@@ -891,8 +980,9 @@
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
               },
-              {
-                 "event14":[
+              
+                 "event14":{
+                  "text":[
                     "-No has pensado nunca en que si haces cosas malas, cosas malas te pueden pasar",
                     "-Lo que tú digas William, a mi me da igual, mientras cojas tu dinero y me dejes en paz",
                     "-Deberías de ser más amable conmigo Charles pues un soborno sabes cuando empieza, pero nunca cuando acaba"
@@ -904,8 +994,9 @@
                  ,
                  "notebookinfo":  "William continua con su chantaje a Charles "
               },
-              {
-                 "event15":[
+              
+                 "event15":{
+                  "text":[
                     "-¿Vas a seguir regodeándote todo el día?¿No tienes nada mejor que hacer que ponerme nervioso?",
                     "-Efectivamente Charles, disfruto viendo como alguien que es la inmoralidad personificada encuentra la horma de su zapato",
                     "-Que te jodan William, a ti y a tu soborno. Que me toques los cojones no hará que el dinero aparezca de la nada, necesito hasta la tarde"
@@ -917,8 +1008,9 @@
                  ,
                  "notebookinfo":  "William continua con su chantaje a Charles "
              },
-             {
-                "event16":[
+             
+                "event16":{
+                  "text":[
                     "*Escuchas ruido de vasos y una botella llenándolo, parece que William vuelve a beber*"
   
                  ]
@@ -927,8 +1019,9 @@
                  ,
                  "notebookinfo": ""
              },
-             {
-                "event17":[
+             
+                "event17":{
+                  "text":[
                     "*Escuchas la voz ebria de William murmurar sobre dinero, corrupción y suicidio*"
   
                  ]
@@ -937,8 +1030,9 @@
                  ,
                  "notebookinfo": ""
              },
-             {
-                "event18":[
+             
+                "event18":{
+                  "text":[
                   
                    "*Escuchas ronquidos, seguramente William está dormido por la borrachera*"
                ]
@@ -948,8 +1042,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event19":[
+             
+                "event19":{
+                  "text":[
                    "*Se escucha el sonido de la ducha, parece que William vuelve a estar despierto*"
  
                 ]
@@ -958,8 +1053,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event20":[
+             
+                "event20":{
+                  "text":[
                    "*Escuchas la televisión de fondo, parece que informan de que los primeros casos del nuevo virus ya han llegado a Europa*"
  
                 ]
@@ -968,8 +1064,9 @@
                 ,
                 "notebookinfo": ""
              },
-             {
-                "event21":[
+             
+                "event21":{
+                  "text":[
                     "-Bueno Charles, has tenido tiempo de sobra a lo largo del día para conseguir mi dinero no crees",
                     "-Ya lo tengo William, y espero que se te atragante o te cortes con los billetes cada vez que los toques",
                     "-Eres como un niño que sabe que tiene que tirar su último caramelo, solo que este es mucho más valioso ja ja ja"
@@ -981,8 +1078,9 @@
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
               },
-              {
-                 "event22":[
+              
+                 "event22":{
+                  "text":[
                     "-Y qué piensas hacer con todo este dinero William, no deja de ser dinero sucio, de un soborno",
                     "-Hay maneras y maneras de hacerlo 'limpio' poco a poco, y lo mejor es que nadie sabrá de donde viene",
                     "-Solamente yo y tengo las manos atadas ¿eh? delatarte sería delatarme. Eres un cabrón con pintas ¿lo sabías?"
@@ -994,8 +1092,9 @@
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
               },
-              {
-                 "event23":[
+              
+                 "event23":{
+                  "text":[
                     "-Piensa que si sigues tocándome las narices, Charles, el soborno no tiene por qué haber acabado ¿eh? ja ja ja",
                     "-Me estás cansando William, eres viejo y con una vida de mierda, coge tu dinero y márchate, no quiero volver a verte",
                     "-Oh, querido, una cosa es lo que quieras y otra cosa es querer lo imposible, nos volveremos a ver...te lo aseguro"
@@ -1007,14 +1106,16 @@
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
              }
-          ]
+            }
+          
        }
-    ],
-    "prismatic":[
+    ,
+    "prismatic":
        {
-          "room1":[
+          "room1":
              {
-                "object_ball":[
+                "object_ball":{
+                  "text":[
                    "WoW una pelota de futbol!",
                    "Mira una pelota de futbol!",
                    "Que guay una pelota de fulbol!"  
@@ -1023,8 +1124,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_cartoy":[
+             
+                "object_cartoy":{
+                  "text":[
                    "WoW un coche!",
                    "Mira, mira, un coche!",
                    "Nunca he visto un coche!"
@@ -1033,8 +1135,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_books":[
+             
+                "object_books":{
+                  "text":[
                    "Parece que hay muchos libros en la estanteria",
                    "todo son libros de medicinas"
                 ],
@@ -1042,8 +1145,9 @@
                 "isevent" : false,
                 "notebookinfo": "Libros de medicina de los Smith"
              },
-             {
-                "object_picture":[
+             
+                "object_picture":{
+                  "text":[
                    "Una foto de familia?",
                    "Parece que la pareja Smith tienen un hijo"
                 ],
@@ -1051,8 +1155,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_drawing":[
+             
+                "object_drawing":{
+                  "text":[
                    "Un dibujo de niño?",
                    "Puede ser que el dibujo ha sido dibujado por el hijo"
                 ],
@@ -1060,8 +1165,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_bag":[
+             
+                "object_bag":{
+                  "text":[
                    "Una bolsa de plastico?",
                    "Que hay dentro?"
                 ],
@@ -1069,24 +1175,27 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_sara":[
+             
+                "object_sara":{
+                  "text":[
                    "Es Sara Smith"
                 ],
                 "id":-1,
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_smith":[
+             
+                "object_smith":{
+                  "text":[
                    "Es John Smith"
                 ],
                 "id":-1,
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                 "object_tarro_veneno":[
+             
+                 "object_tarro_veneno":{
+                  "text":[
                      "Es un tarro con veneno",
                      "¿Qué hace un tarro de veneno cerca del chocolate y la vainilla?"
                  ],
@@ -1095,10 +1204,12 @@
                  "notebookinfo": "En la cocina de los Smith hay veneno cerca del chocolate"
 
              }
-          ],
-          "room2":[
+            }
+          ,
+          "room2":
              {
-                "object_cup":[
+                "object_cup":{
+                  "text":[
                    "Una tetera?",
                    "Parece que a la señora Cooper le encanta beber el té"  
                 ],
@@ -1106,8 +1217,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_cat":[
+             
+                "object_cat":{
+                  "text":[
                    "WoW una gatita!",
                    "Que mona!",
                    "Ojala tener una!"  
@@ -1116,8 +1228,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_dog":[
+             
+                "object_dog":{
+                  "text":[
                    "Un perro persiguiendo a la gata",
                    "Parece que a la señora Cooper les gusta mucho a los animales"  
                 ],
@@ -1125,8 +1238,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_aguja":[
+             
+                "object_aguja":{
+                  "text":[
                    "Un bolso de aguja",
                    "Parece que va coser algo",
                    "Uy, las agujas parece muy afilados"
@@ -1135,8 +1249,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_tejido":[
+             
+                "object_tejido":{
+                  "text":[
                    "Un tejido?",
                    "Puede ser que la señora Cooper está cosiendo una bufanda",
                    "Me echo de menos a la bufando que cosí mi madre"
@@ -1145,8 +1260,9 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                "object_ovillo":[
+             
+                "object_ovillo":{
+                  "text":[
                    "Un ovillo",
                    "A los gatos les encantan jugar ovillos jjj"
                 ],
@@ -1154,60 +1270,69 @@
                 "isevent" : false,
                 "notebookinfo": ""
              },             
-             {
-                "object_cooper":[
+             
+                "object_cooper":{
+                  "text":[
                    "Es la señora Edna Cooper"
                 ],
                 "id":-1,
                 "isevent" : false,
                 "notebookinfo": ""
              }
-          ],
-          "room3":[
+            }
+          ,
+          "room3":
              {
-                "object_charles":[
+                "object_charles":{
+                  "text":[
                    "Es el detective Charles Doyle"
                 ],
                 "id": -1,
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                 "object_calendario":[
+             
+                 "object_calendario":{
+                  "text":[
                      "Es un calendario con distintos días marcados en rojo"
                  ],
                  "id": -1,
                  "isevent":false,
                  "notebookinfo": ""
              },
-             {
-                 "object_papel_cita":[
+             
+                 "object_papel_cita":{
+                  "text":[
                      "Es un papel en el que hay apuntado: 'Quedar con X'"
                  ],
                  "id":-1,
                  "isevent":false,
                  "notebookinfo": ""
              },
-             {
-                 "object_maletin":[
+             
+                 "object_maletin":{
+                  "text":[
                      "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
                  ],
                  "id":4,
                  "isevent":true,
                  "notebookinfo": ""
              }
-          ],
-          "room4":[
+            }
+          ,
+          "room4":
              {
-                "object_william":[
+                "object_william":{
+                  "text":[
                    "Es el profesor William Scott"
                 ],
                 "id": -1,
                 "isevent" : false,
                 "notebookinfo": ""
              },
-             {
-                 "object_partes":[
+             
+                 "object_partes":{
+                  "text":[
                      "*Son un montón de partes de incidencia, puedo leer palabras sueltas*",
                      "*'Bullying', 'Kevin Smith', 'atención urgente', 'parece grave', 'daño psicológico' *"
                  ],
@@ -1215,32 +1340,35 @@
                  "isevent": false,
                  "notebookinfo": ""
              },
-             {
-                 "object_cuadro_alumnos":[
+             
+                 "object_cuadro_alumnos":{
+                  "text":[
                      "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
                  ],
                  "id":-1,
                  "isevent":false,
                  "notebookinfo": ""
              },
-             {
-                 "object_botella":[
+             
+                 "object_botella":{
+                  "text":[
                      "Es una botella de Whisky, parece distinta a la de ayer y está a la mitad"
                  ],
                  "id":-1,
                  "isevent":false,
                  "notebookinfo": ""
              },
-             {
-                "object_maletin_grande":[
+             
+                "object_maletin_grande":{
+                  "text":[
                     "Es un maletín, parece estar lleno de dinero"
                 ],
                 "id":5,
                 "isevent":true,
                 "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
             }
-
-          ]
+         }
+          
        }
-    ]
+    
  }
