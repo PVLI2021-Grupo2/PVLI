@@ -1,12 +1,12 @@
 import Dialogue from "./dialogue.js";
 import NoteBook from "./notebook.js";
 export default class clickableobjects extends Phaser.GameObjects.Sprite {
-    constructor( scene , x, y, name, obname, event,json, roomName, num) {
+    constructor( scene , x, y, name, obname,json, roomName, num) {
         super(scene, x, y, name,obname);
         this.name =  obname;
         this.scene = scene;
         this.scene.add.existing(this);  
-        this.event = event;
+        this.event
         this.jsonfile = json;
         this.roomName = roomName;
         this.num = num;
@@ -16,8 +16,9 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
        * así como manda apuntar la información asociada al mismo
        */
     showtext(){
-        let text_notebook = this.jsonfile["prismatic"][0][this.roomName][this.num][this.name]
-        let idi = this.jsonfile["prismatic"][0][this.roomName][this.num]["id"]
+        let text_notebook = this.jsonfile["prismatic"][this.roomName][this.name]["text"]
+        let idi = this.jsonfile["prismatic"][this.roomName][this.name]["id"]
+        this.event = this.jsonfile["prismatic"][this.roomName][this.name]["isevent"]
         this.textbox = new Dialogue(this.scene);
         this.textbox.changeDialogue(text_notebook);
         this.scene.backactive(false);

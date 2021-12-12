@@ -1,9 +1,10 @@
 {
-   "earphone":[
+   "earphone":
       {
-         "room1":[ 
+         "room1": 
             {
-               "event0":[
+               "event0":{
+               "text":[
                   "*Se oyen ronquidos, parece que están durmiendo*"
                ],
                "isevent" : false
@@ -12,16 +13,18 @@
                
                
             },
-            {
-               "event1":[
+            
+               "event1":{
+                  "text":[
                   "*Se oyen ronquidos, parece que están durmiendo*"
                ],
                "isevent" : false
                ,
                "notebookinfo": ""
             },
-            {
-               "event2":[
+            
+               "event2":{
+                  "text":[
                   "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
@@ -29,8 +32,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event3":[
+            
+               "event3":{
+                  "text":[
                   "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
@@ -38,8 +42,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event4":[
+            
+               "event4":{
+                  "text":[
                   "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
@@ -47,8 +52,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event5":[
+            
+               "event5":{
+                  "text":[
                   "*Se oyen ronquidos, parece que están durmiendo*"
                ]
                ,
@@ -56,8 +62,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event6":[
+            
+               "event6":{
+                  "text":[
                   "No se escucha nada"
                ]
                ,
@@ -65,8 +72,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event7":[
+            
+               "event7":{
+                  "text":[
                   "No se escucha nada"
                ]
                ,
@@ -74,8 +82,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event8":[
+            
+               "event8":{
+                  "text":[
                   "No se escucha nada"
                ]
                ,
@@ -83,8 +92,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event9":[
+            
+               "event9":{
+                  "text":[
                   "—Parece mentira que hace poco le tuvieramos saltando encima de la cama para despertarnos ¿verdad?",
                  "—Si, casi puedo verle entrar corriendo en nuestra habitación gritando '¡A desayunar!, ¡A desayunar!'",
                  "—La casa parece más silenciosa desde que ya no está",
@@ -96,8 +106,9 @@
                ,
                "notebookinfo": "Rencor de los Smith a un profesor"
             },
-            {
-               "event10":[
+            
+               "event10":{
+                  "text":[
                   "—Es curioso realmente, cómo las cosas cambian tan rápido — se oye hablar a una mujer—. Un día crees que eres feliz, que las personas a tu alrededor también lo son, que todo marcha bien, y, sin embargo, al siguiente—",
                   "—¿Al siguiente...?",
                   "—¿Sabes, John, cuando venía a casa y corría ilusionado a abrazarnos? ¿Recuerdas cuando le dijiste que no podías ir a recogerlo al colegio, y que al día siguiente cuando te vio ahí, sonreía? Como intentando parecer mosqueado cuando en realidad se alegraba de verte. Sabes, John—hace una pausa—, ¿no te parecía un niño feliz en aquel entonces?.",
@@ -109,8 +120,9 @@
                ,
                "notebookinfo": "Rencor de los Smith a un profesor"
             },
-            {
-               "event11":[
+            
+               "event11":{
+                  "text":[
                   "-Dicen, John, que los pecados confesados serán perdonados. No veo razón en perdonar a una rata rastrera que detrás de artimañas y mentiras se esconde",
                   "—Dicen también, cariño, que a los hombres malos solo les persigue el mal, y que los justos serán recompensados con el bien.",
                   "—Eso dicen, mi vida",
@@ -123,8 +135,9 @@
                ,
                "notebookinfo": "Rencor de los Smith a un profesor"
             },
-            {
-               "event12":[
+            
+               "event12":{
+                  "text":[
                   "*La radio informa sobre el tiempo*"
                ]
                ,
@@ -132,8 +145,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event13":[
+            
+               "event13":{
+                  "text":[
                   " —Cariño, deberíamos de hacer la lista de la compra, apenas queda nada en el frigorífico",
                   " —Es cierto, además, nos hemos quedado sin refrescos y sin leche",
                   " —Puedo pasar a recogerte después de salir de la oficina y vamos juntos al mercado",
@@ -144,8 +158,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event14":[
+            
+               "event14":{
+                  "text":[
                   "*Escuchas el informativo diario en la televisión*"
                ]
                ,
@@ -153,8 +168,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event15":[
+            
+               "event15":{
+                  "text":[
                   "*Suena la televisión, están dando las noticias del día*"
                ]
                ,
@@ -162,8 +178,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event16":[
+            
+               "event16":{
+                  "text":[
                   "—Parece mentira que todo cuando puedes llegar a planear pueda esfumarse en un momento, en un diminuto instante",
                   "—No podemos anclarnos en el pasado mi vida, Kevin ya no está con nosotros y no podemos hacer nada por cambiarlo",
                   "—No puedo seguir así John, la rabia me corroe día a día, quiero hacérselo pagar, hacerle sufrir, hacerle...."
@@ -174,8 +191,9 @@
                ,
                "notebookinfo": "Rencor de los Smith a un profesor"
             },
-            {
-               "event17":[
+            
+               "event17":{
+                  "text":[
                   "—Es cierto que tiene la culpa cariño, y por eso hemos de ser pacientes, no podemos precipitarnos en algo tan delicado",
                   "—Lo se John, pero no dejo de pensar que cuanto más esperemos más probable es que todo se complique, que no seamos capaces",
                   "—Lo haremos Sarah, pronto, te lo prometo"
@@ -187,8 +205,9 @@
                ,
                "notebookinfo": "Rencor de los Smith a un profesor"
             },
-            {
-               "event18":[
+            
+               "event18":{
+                  "text":[
                   "—¿Qué pensaría Kevin si nos viera, si supiera lo que estamos planeando hacer, lo que ronda ahora nuestras cabezas",
                   "—Nunca lo sabremos vida mía, él tan solo era un crío, no creo que pudiera llegar a comprender lo que perdemos de nuestra alma en esta situación",
                   "—Los padres jamás deberían sobrevivir a sus hijos",
@@ -200,8 +219,9 @@
                ,
                "notebookinfo": "Rencor de los Smith a un profesor"
             },
-            {
-               "event19":[
+            
+               "event19":{
+                  "text":[
                   "*Suena la televisión, informan sobre la subida de la luz*"
                ]
                ,
@@ -209,8 +229,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event20":[
+            
+               "event20":{
+                  "text":[
                   "*Suena la televisión, informan sobre una posible pandemia en el continente asiático*"
                ]
                ,
@@ -218,8 +239,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event21":[
+            
+               "event21":{
+                  "text":[
                   "*Suena la televisión, escuchas un programa sobre fútbol y resúmenes deportivos*"
                ]
                ,
@@ -227,8 +249,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event22":[
+            
+               "event22":{
+                  "text":[
                   "*Parece que están cenando, escuchas el entrechocar de los cubiertos*"
                ]
                ,
@@ -236,8 +259,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event23":[
+            
+               "event23":{
+                  "text":[
                   "—Buenas noches Sarah, que descanses",
                   "—Buenas noches cariño, estoy segura de que dentro de poco podré descansar tranquila"
 
@@ -247,12 +271,23 @@
                "isevent" : false
                ,
                "notebookinfo": ""
-            }
+            }    
+         }   
+         ,
+         "room2":
+            {
+               "event0":{
+                  "text":[
+                  "*Escuchas ronquidos, parece que duerme*"
+               ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
+            },
             
-         ],
-         "room2":[
-            {
-               "event0":[
+               "event1":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -260,8 +295,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event1":[
+            
+               "event2":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -269,17 +305,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event2":[
-                  "*Escuchas ronquidos, parece que duerme*"
-               ]
-               ,
-               "isevent" : false
-               ,
-               "notebookinfo": ""
-            },
-            {
-               "event3":[
+            
+               "event3":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
 
                ]
@@ -288,8 +316,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event4":[
+            
+               "event4":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
 
                ]
@@ -298,8 +327,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event5":[
+            
+               "event5":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -307,8 +337,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event6":[
+            
+               "event6":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -316,8 +347,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event7":[
+            
+               "event7":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -325,8 +357,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event8":[
+            
+               "event8":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -334,8 +367,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event9":[
+            
+               "event9":{
+                  "text":[
                   "*Se escuchan los ladridos de un perro*"
 
                ]
@@ -344,8 +378,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event10":[
+            
+               "event10":{
+                  "text":[
                   "*Se escuchan los ladridos de un perro*"
 
                ]
@@ -354,8 +389,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event11":[
+            
+               "event11":{
+                  "text":[
                   "*Escuchas música, parece antigua, ¿tal vez de los años 50?*"
 
                ]
@@ -364,8 +400,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event12":[
+            
+               "event12":{
+                  "text":[
                   "*Escuchas un programa de radio sobre la precaria situación de las pensiones*"
 
                ]
@@ -374,8 +411,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event13":[
+            
+               "event13":{
+                  "text":[
                   "*Escuchas un programa de radio sobre una creciente pandemia en el continente asiático*"
 
                ]
@@ -384,8 +422,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event14":[
+            
+               "event14":{
+                  "text":[
                   "*Escuchas la televisión, parece un programa del corazón*"
 
                ]
@@ -394,8 +433,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event15":[
+            
+               "event15":{
+                  "text":[
                   "*Escuchas ronquidos, parece que la señora Cooper se ha quedado dormida*"
 
                ]
@@ -404,8 +444,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event16":[
+            
+               "event16":{
+                  "text":[
                   "*Escuchas ronquidos, parece que la señora Cooper se ha quedado dormida*"
 
                ]
@@ -414,8 +455,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event17":[
+            
+               "event17":{
+                  "text":[
                   "*Escuchas ronquidos, parece que la señora Cooper se ha quedado dormida*"
 
                ]
@@ -424,8 +466,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event18":[
+            
+               "event18":{
+                  "text":[
                   "*Escuchas los ladridos de un perro, parece contento*"
 
                ]
@@ -434,8 +477,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event19":[
+            
+               "event19":{
+                  "text":[
                   "*Escuchas los ladridos de un perro, parece contento*"
 
                ]
@@ -444,8 +488,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event20":[
+            
+               "event20":{
+                  "text":[
                   "—¿Quién es el perro más bonito? ¿Quién es el perrito de mamá?",
                   "*Ladridos alegres*",
                   "—Pues claro, tú Candy, tú eres la joyita de mamá, toma una galletita",
@@ -458,8 +503,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event21":[
+            
+               "event21":{
+                  "text":[
                   "*Escuchas ruidos en la cocina, parece que la anciana está preparando la cena*"
 
                ]
@@ -468,8 +514,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event22":[
+            
+               "event22":{
+                  "text":[
                   "*Escuchas el entrechocar de los cubiertos, parece que esté cenando*"
 
                ]
@@ -478,8 +525,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event23":[
+            
+               "event23":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
 
                ]
@@ -488,10 +536,12 @@
                ,
                "notebookinfo": ""
             }
-         ],
-         "room3":[
+         }
+         ,
+         "room3":
             {
-               "event0":[
+               "event0":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -500,8 +550,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event1":[
+            
+               "event1":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
                ]
                ,
@@ -509,18 +560,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event2":[
-                  "*No escuchas nada, no parece que esté en casa*"
-
-               ]
-               ,
-               "isevent" : false
-               ,
-               "notebookinfo": ""
-            },
-            {
-               "event3":[
+            
+               "event2":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -529,8 +571,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event4":[
+            
+               "event3":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -539,44 +582,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event5":[
-                  "*No escuchas nada, no parece que esté en casa*"
-               ]
-               ,
-               "isevent" : false
-               ,
-               "notebookinfo": ""
-            },
-            {
-               "event6":[
-                  "*No escuchas nada, no parece que esté en casa*"
-               ]
-               ,
-               "isevent" : false
-               ,
-               "notebookinfo": ""
-            },
-            {
-               "event7":[
-                  "*No escuchas nada, no parece que esté en casa*"
-               ]
-               ,
-               "isevent" : false
-               ,
-               "notebookinfo": ""
-            },
-            {
-               "event8":[
-                  "*No escuchas nada, no parece que esté en casa*"
-               ]
-               ,
-               "isevent" : false
-               ,
-               "notebookinfo": ""
-            },
-            {
-               "event9":[
+            
+               "event4":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -585,8 +593,48 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event10":[
+            
+               "event5":{"text":[
+                  "*No escuchas nada, no parece que esté en casa*"
+               ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
+            },
+            
+               "event6":
+               {"text":[
+                  "*No escuchas nada, no parece que esté en casa*"
+               ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
+            },
+            
+               "event7":{
+                  "text":[
+                  "*No escuchas nada, no parece que esté en casa*"
+               ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
+            },
+            
+               "event8":{
+                  "text":[
+                  "*No escuchas nada, no parece que esté en casa*"
+               ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
+            },
+            
+               "event9":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -595,8 +643,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event11":[
+            
+               "event10":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -605,8 +654,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event12":[
+            
+               "event11":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -615,8 +665,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event13":[
+            
+               "event12":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -625,8 +676,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event14":[
+            
+               "event13":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -635,8 +687,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event15":[
+            
+               "event14":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -645,8 +698,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event16":[
+            
+               "event15":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -655,8 +709,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event17":[
+            
+               "event16":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -665,8 +720,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event18":[
+            
+               "event17":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -675,8 +731,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event19":[
+            
+               "event18":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -685,8 +742,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event20":[
+            
+               "event19":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -695,8 +753,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event21":[
+            
+               "event20":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -705,8 +764,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event22":[
+            
+               "event21":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -715,8 +775,20 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event23":[
+            
+               "event22":{"text":
+                  [
+                  "*No escuchas nada, no parece que esté en casa*"
+
+               ]
+               ,
+               "isevent" : false
+               ,
+               "notebookinfo": ""
+            },
+            
+               "event23":{
+                  "text":[
                   "*Oyes como se abre la puerta de casa, y una voz cansada:*",
                   "—Joder, el día que me pillen en la comisaría sacando cosas de la sala de incautaciones me meteré en un buen lío",
                   "Hasta entonces que me quiten lo bailado, me estoy haciendo de oro con estos 'encocados'"
@@ -727,10 +799,12 @@
                ,
                "notebookinfo": ""
             }
-         ],
-         "room4":[
+         }
+         ,
+         "room4":
             {
-               "event0":[
+               "event0":{
+                  "text":[
                   "*se oye el sonido de vidrios moviéndose o siendo desplazados por una superficie, como al barrerse*",
                   "*la habitación continúa en silencio hasta que lo rompe un golpe seco*",
                   "“¡...joder!”, se escucha a una voz ligeramente áspera, arrastrando las palabras."
@@ -743,8 +817,9 @@
                ,
                "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
-            {
-               "event1":[
+            
+               "event1":{
+                  "text":[
                   "*—Pude haber hecho algo, tendría que haber estado más pendiente del chaval, fue mi culpa, mi culpa...*"
                ]
                ,
@@ -754,8 +829,9 @@
                ,
                "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
-            {
-               "event2":[
+            
+               "event2":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
 
                ]
@@ -764,8 +840,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event3":[
+            
+               "event3":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
 
                ]
@@ -774,8 +851,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event4":[
+            
+               "event4":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
 
                ]
@@ -784,8 +862,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event5":[
+            
+               "event5":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -793,8 +872,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event6":[
+            
+               "event6":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -802,8 +882,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event7":[
+            
+               "event7":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -811,8 +892,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event8":[
+            
+               "event8":{
+                  "text":[
                   "*Escuchas ronquidos, parece que duerme*"
                ]
                ,
@@ -820,8 +902,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event9":[
+            
+               "event9":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -830,8 +913,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event10":[
+            
+               "event10":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -840,8 +924,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event11":[
+            
+               "event11":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -850,8 +935,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event12":[
+            
+               "event12":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -860,8 +946,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event13":[
+            
+               "event13":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -870,8 +957,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event14":[
+            
+               "event14":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -880,8 +968,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event15":[
+            
+               "event15":{
+                  "text":[
                   "*No escuchas nada, no parece que esté en casa*"
 
                ]
@@ -890,8 +979,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event16":[
+            
+               "event16":{
+                  "text":[
                   "—Joder, si hasta en el colegio me miran mal, parece que tenga yo la culpa de todo",
                   "—Estos cabrones que van de santos me ponen negro, ellos también lo sabían, también podrían haber hecho algo"
 
@@ -904,8 +994,9 @@
                ,
                "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
-            {
-               "event17":[
+            
+               "event17":{
+                  "text":[
                   "*Escuchas sollozos y una voz ebria que repite constantemente 'fue mi culpa'*"
                ]
                ,
@@ -915,8 +1006,9 @@
                ,
                "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
-            {
-               "event18":[
+            
+               "event18":{
+                  "text":[
                  
                   "“Si es que ni siquiera valgo para, ni siquiera valgo para... ”, el hombre hace una pausa antes de que se comiencen a oír llantos y balbuceos incomprensibles.",
                   "“...tendría que haber hecho algo tendría que haber dicho algo, quizá habría podido...",
@@ -930,8 +1022,9 @@
                ,
                "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             },
-            {
-               "event19":[
+            
+               "event19":{
+                  "text":[
                   "*Se escucha el sonido de la ducha*"
 
                ]
@@ -940,8 +1033,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event20":[
+            
+               "event20":{
+                  "text":[
                   "*Escuchas la radio de fondo, parece que informan sobre una creciente pandemia en el continente asiático*"
 
                ]
@@ -950,8 +1044,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event21":[
+            
+               "event21":{
+                  "text":[
                   "*Se escuchan vasos y botellas de cristal siendo transportados de un lado a otro*"
 
                ]
@@ -960,8 +1055,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event22":[
+            
+               "event22":{
+                  "text":[
                   "*Escuchas el sonido de sartenes y cubiertos, parece que vaya a preparar la cena*"
 
                ]
@@ -970,8 +1066,9 @@
                ,
                "notebookinfo": ""
             },
-            {
-               "event23":[
+            
+               "event23":{
+                  "text":[
                  
                  "“...joder, joder, joder!”",
                   "“...joder estaba llena tengo que limpiar esto no puedo dejar que se siga esparciendo joder se me ha olvidado levantarla se está saliendo todo tengo que ir a por algo dónde coño están los trapos tengo que—”",
@@ -984,14 +1081,17 @@
                ,
                "notebookinfo": "Lamentos de culpabilidad en el piso de William"
             }
-         ]
+         }
+         
       }
-   ],
-   "prismatic":[
+   ,
+   "prismatic":
       {
-         "room1":[
+         "room1":
             {
-               "object_ball":[
+               "object_ball":
+               {
+               "text":[
                   "WoW una pelota de futbol!",
                   "Mira una pelota de futbol!",
                   "Que guay una pelota de fulbol!"  
@@ -999,9 +1099,12 @@
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
-            },
-            {
-               "object_cartoy":[
+               }
+            ,
+            
+               "object_cartoy":
+               {
+                  "text":[
                   "WoW un coche!",
                   "Mira, mira, un coche!",
                   "Nunca he visto un coche!"
@@ -1009,64 +1112,81 @@
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
-            }
+               }
+            
             ,
-            {
-               "object_books":[
+            
+               "object_books":
+               {
+                  "text": [
                   "Parece que hay muchos libros en la estanteria",
                   "todo son libros de medicinas"
                ],
                "id": 0,
                "isevent" : true,
                "notebookinfo": "Libros de medicina de los Smith"
-            },
-            {
-               "object_picture":[
+               }
+            ,
+            
+               "object_picture":
+               {
+                  "text":[
                   "Una foto de familia?",
                   "Parece que la pareja Smith tienen un hijo"
                ],
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
-            },
-            {
-               "object_drawing":[
+               }
+            ,
+            
+               "object_drawing":
+               {
+                  "text":[
                   "Un dibujo de niño?",
                   "Puede ser que el dibujo ha sido dibujado por el hijo"
                ],
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
-            },
-            {
-               "object_bag":[
+               }
+            ,
+            
+               "object_bag":{
+                  "text":[
                   "Una bolsa de plastico?",
                   "Que hay dentro?"
                ],
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
-            },
-            {
-               "object_sara":[
+            }
+            ,
+            
+               "object_sara":{
+                  "text":[
                   "Es Sara Smith"
                ],
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
-            },
-            {
-               "object_smith":[
+            }
+            ,
+            
+               "object_smith":{
+                  "text":[
                   "Es John Smith"
                ],
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
             }
-         ],
-         "room2":[
+          }
+         ,
+         "room2":
             {
-               "object_cup":[
+               "object_cup":{
+                  "text":[
                   "Una tetera?",
                   "Parece que a la señora Cooper le encanta beber el té"  
                ],
@@ -1074,8 +1194,9 @@
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-               "object_cat":[
+            
+               "object_cat":{
+                  "text":[
                   "WoW una gatita!",
                   "Que mona!",
                   "Ojala tener una!"  
@@ -1084,8 +1205,9 @@
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-               "object_dog":[
+            
+               "object_dog":{
+                  "text":[
                   "Un perro persiguiendo a la gata",
                   "Parece que a la señora Cooper les gusta mucho a los animales"  
                ],
@@ -1093,8 +1215,9 @@
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-               "object_aguja":[
+            
+               "object_aguja":{
+                  "text":[
                   "Un bolso de aguja",
                   "Parece que va coser algo",
                   "Uy, las agujas parece muy afilados"
@@ -1103,8 +1226,9 @@
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-               "object_tejido":[
+            
+               "object_tejido":{
+                  "text":[
                   "Un tejido?",
                   "Puede ser que la señora Cooper está cosiendo una bufanda",
                   "Me echo de menos a la bufando que cosí mi madre"
@@ -1113,8 +1237,9 @@
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-               "object_ovillo":[
+            
+               "object_ovillo":{
+                  "text":[
                   "Un ovillo",
                   "A los gatos les encantan jugar ovillos jjj"
                ],
@@ -1122,60 +1247,69 @@
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-               "object_cooper":[
+            
+               "object_cooper":{
+                  "text":[
                   "Es la señora Edna Cooper"
                ],
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
             }
-         ],
-         "room3":[
+         }
+         ,
+         "room3":
             {
-               "object_charles":[
+               "object_charles":{
+                  "text":[
                   "Es el detective Charles Doyle"
                ],
                "id": -1,
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-                "object_calendario":[
+            
+                "object_calendario":{
+                  "text":[
                     "Es un calendario con distintos días marcados en rojo"
                 ],
                 "id": -1,
                 "isevent":false,
                 "notebookinfo": ""
             },
-            {
-                "object_papel_cita":[
+            
+                "object_papel_cita":{
+                  "text":[
                     "Es un papel en el que hay apuntado: 'Quedar con X'"
                 ],
                 "id":-1,
                 "isevent":false,
                 "notebookinfo": ""
             },
-            {
-                "object_maletin":[
+            
+                "object_maletin":{
+                  "text":[
                     "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
                 ],
                 "id":4,
                 "isevent":true,
                 "notebookinfo": ""
             }
-         ],
-         "room4":[
+         }
+         ,
+         "room4":
             {
-               "object_william":[
+               "object_william":{
+                  "text":[
                   "Es el profesor William Scott"
                ],
                "id": -1,
                "isevent" : false,
                "notebookinfo": ""
             },
-            {
-                "object_partes":[
+            
+                "object_partes":{
+                  "text":[
                     "*Son un montón de partes de incidencia, puedo leer palabras sueltas*",
                     "*'Bullying', 'Kevin Smith', 'atención urgente', 'parece grave', 'daño psicológico' *"
                 ],
@@ -1183,32 +1317,36 @@
                 "isevent": true,
                 "notebookinfo": ""
             },
-            {
-                "object_cuadro_alumnos":[
+            
+                "object_cuadro_alumnos":{
+                  "text":[
                     "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
                 ],
                 "id":-1,
                 "isevent":false,
                 "notebookinfo": ""
             },
-            {
-                "object_botella":[
+            
+                "object_botella":{
+                  "text":[
                     "Es una botella de Whisky, parece distinta a la de ayer y está a la mitad"
                 ],
                 "id":-1,
                 "isevent":false,
                 "notebookinfo": ""
             },
-            {
-               "object_maletin_grande":[
+            
+               "object_maletin_grande":{
+                  "text":[
                    "Es un maletín, parece estar lleno de dinero"
                ],
                "id":-1,
                "isevent":false,
                "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
-           }
+            }
+         }
 
-         ]         
-      }
-   ]
+      }            
+      
+   
 }
