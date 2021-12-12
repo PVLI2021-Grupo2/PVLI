@@ -1,5 +1,3 @@
-import Dialogue from "./dialogue.js";
-
 export default class menu extends Phaser.Scene{
     constructor() {
         super({ key: 'menu' });

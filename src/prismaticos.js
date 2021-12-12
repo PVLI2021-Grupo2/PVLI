@@ -1,5 +1,3 @@
-import BaseRoom from "./baseRoom.js";
-
 /**
  * Clase para crear el objeto prismáticos que te lleva a la habitación asociada 
  * @extends Phaser.GameObjects.Sprite

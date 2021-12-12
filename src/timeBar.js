@@ -2,8 +2,6 @@
  * Clase para crear un timebar que controla el tiempo
  * 
  */
-
-import Pregunta from "./pregunta.js";
 export default class TimeBar extends Phaser.GameObjects.Sprite {
   
     /**

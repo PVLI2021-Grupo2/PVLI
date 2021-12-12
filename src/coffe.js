@@ -1,4 +1,3 @@
-import TimeBar from "./timeBar.js";
 /**
  * Clase para crear un timebar que controla el tiempo
  * @extends Phaser.GameObjects.Sprite

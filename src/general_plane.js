@@ -1,14 +1,7 @@
 import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
-import Dialogue from "./dialogue.js";
-import BaseRoom from "./baseRoom.js";
-
 import TimeBar from "./timeBar.js";
 import Coffe from "./coffe.js";
-import Pregunta from "./pregunta.js";
-
-import NoteBook from "./notebook.js";
-
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
@@ -175,7 +168,7 @@ export default class extends Phaser.Scene{
     preguntaHora(){
        return this.time_bar.horas_eventos;      
     }
-    
+
     update(t,dt){
         if (this.time_bar.horas_disponibles ===0){
             this.prismaticarry.forEach(item => item.disableInteractive())

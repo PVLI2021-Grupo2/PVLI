@@ -1,6 +1,4 @@
 import Dialogue from "./dialogue.js";
-import TimeBar from "./timeBar.js";
-
 /**
  * Clase para crear el objeto auriculares que al ser pulsado te muestra
  * un cuadro de texto con información de la habitación asociada

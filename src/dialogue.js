@@ -1,4 +1,3 @@
-import general_plane from "./general_plane.js";
 /*
 Hay un diálogo por escena que vaya a tener diálogos. y el dialogo de cada escena cambia de texto al hacer click en algún objeto
 */ 

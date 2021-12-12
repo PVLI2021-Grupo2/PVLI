@@ -1,5 +1,3 @@
-import Dialogue from "./dialogue.js";
-import NoteBook from "./notebook.js";
 
 export default class Pregunta extends Phaser.Scene{
 
