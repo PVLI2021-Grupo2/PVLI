@@ -57,11 +57,6 @@ export default class Pregunta extends Phaser.Scene{
        * metodo que muestra la pregunta y la cabecera de las conclusiones        
        */
         muestrapregunta(){
-
-          this.pregunta_array=["¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?","¿Dónde está Candy, el perro de la señora Cooper?",
-          "¿Qué relación intrínseca existe entre el matrimonio Smith, el detective Charles Doyle y el profesor William Scott?","¿Cómo es la relación del Profesor William Scott con el resto de vecinos?",
-          "¿Quién ha matado al profesor William Scott?"]
-
           //muestra el texto de la pregunta
           this.add.text(250,100,this.pregunta_array[this.game.nowday-1],
             { fontFamily: 'Arial', color: '#00ff00' });
