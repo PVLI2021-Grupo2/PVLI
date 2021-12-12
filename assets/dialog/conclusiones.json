@@ -8,7 +8,11 @@
         "text":["Candy, el perro de la señora Cooper ha muerto envenenado"],
         "id":2
 
-     }
+    },
+    "conclusion2":{
+        "text":["La relación entre estos vecinos ha sido que Charles necesitaba más dinero para cubrir el chantaje de William y para conseguirlo a chantajeado él al matrimonio de los Smith"],
+        "id":3
+    }
     
     
 }

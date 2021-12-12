@@ -8,12 +8,20 @@
         "id":0
     },
     "deduccion2":{
-        "text":["La tarta que le dieron los Smitha a William está envenenada"],
+        "text":["La tarta que le dieron los Smith a William está envenenada"],
         "id":1
     },
     "deduccion3":{
         "text":["El perro ha tenido que ir al veterinario por algo que ha comido"],
         "id":1
+    },
+    "deduccion4":{
+        "text":["El maletín contenía dinero insuficiente y Charles necesita más para cubrir el chantaje de William"],
+        "id":2
+    },
+    "deduccion5":{
+        "text":["Para terminar de llenar el maletín de dinero Charles ha sobornado al matrimonio Smith"],
+        "id":2
     }
 
 }

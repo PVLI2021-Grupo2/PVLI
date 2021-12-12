@@ -1131,23 +1131,81 @@
          "room3":[
             {
                "object_charles":[
-                  "Finjamos que esto es la maleta sospechosa de Doyle, CAMBIAR"
+                  "Es el detective Charles Doyle"
                ],
-               "id": 1,
-               "isevent" : true,
-               "notebookinfo": "Maletín pequeño de Doyle"
+               "id": -1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            {
+                "object_calendario":[
+                    "Es un calendario con distintos días marcados en rojo"
+                ],
+                "id": -1,
+                "isevent":false,
+                "notebookinfo": ""
+            },
+            {
+                "object_papel_cita":[
+                    "Es un papel en el que hay apuntado: 'Quedar con X'"
+                ],
+                "id":-1,
+                "isevent":false,
+                "notebookinfo": ""
+            },
+            {
+                "object_maletin":[
+                    "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
+                ],
+                "id":4,
+                "isevent":true,
+                "notebookinfo": ""
             }
          ],
          "room4":[
             {
                "object_william":[
-                  "Finjamos que esto son los partes que se juntan con los lamentos, CAMBIAR"
+                  "Es el profesor William Scott"
                ],
-               "id": 1,
-               "isevent" : true,
-               "notebookinfo": "Partes sobre alumno"
-            }
-         ]
+               "id": -1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            {
+                "object_partes":[
+                    "*Son un montón de partes de incidencia, puedo leer palabras sueltas*",
+                    "*'Bullying', 'Kevin Smith', 'atención urgente', 'parece grave', 'daño psicológico' *"
+                ],
+                "id":1,
+                "isevent": false,
+                "notebookinfo": ""
+            },
+            {
+                "object_cuadro_alumnos":[
+                    "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
+                ],
+                "id":-1,
+                "isevent":false,
+                "notebookinfo": ""
+            },
+            {
+                "object_botella":[
+                    "Es una botella de Whisky, parece distinta a la de ayer y está a la mitad"
+                ],
+                "id":-1,
+                "isevent":false,
+                "notebookinfo": ""
+            },
+            {
+               "object_maletin_grande":[
+                   "Es un maletín, parece estar lleno de dinero"
+               ],
+               "id":-1,
+               "isevent":true,
+               "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
+           }
+
+         ]         
       }
    ]
 }
