@@ -85,32 +85,42 @@
              },
              {
                 "event9":[
-                   "-¿Me podrías traer el tarro del café cariño?",
-                   "-Claro que si, ahora mismo te lo llevo",
-                   "-No soy persona hasta que no me tomo el café de la mañana"
+                   "-Espera, espera, espera...¿nos estás chantajeando?¿Dónde a quedado el 'lo hago encantado y gratis, que le jodan al profesor'?",
+                   "-Pues precisamente por eso, ahora es él quien me pide dinero a mi por...por...cosas que no os incumben",
+                   "-Eres un cabrón Charles, sabía que algo así podría pasar pero me dije 'mientras nos facilite el veneno'...en la hora en que te contactamos"
                 ]
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
              {
                 "event10":[
-                   "-Acuérdate de comprar esencia de vainilla y azúcar glass al ir a la compra",
-                   "-¿La de siempre o alguna en particular?",
-                   "-Hoy coge alguna más intensa, necesitamos que el sabor no parezca raro."
+                   "-Tened clara una cosa parejita, si yo caigo me aseguraré de arrastraros conmigo, y lo mío es distribución de sustancias ilícitas, mientras que...",
+                   "-Lo sé joder, lo nuestro sería como mínimo 'tentativa de asesinato en primer grado', joder...",
+                   "-Fíjate, si el medicucho también entiende de leyes y condenas ja ja ja...qué más da, pagad, o me aseguraré de que se sepa lo del veneno"
                 ]
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
              {
                 "event11":[
-                   "-Ya he vuelto de la compra, aquí tienes la esencia de vainilla intensa Sarah",
-                   "-Perfecto, ahora alcánzame el bote que está abierto, no puede faltar el ingrediente especial ¿verdad?",
-                   "-Cariño, esta vez te has superado, esta tarta va a estar 'de muerte'"
- 
+                   "-Ademas mi chantaje será doble, por una parte, si le digo a William que habéis intentado envenenarlo, tal vez deje de sobornarme",
+                   "-¿Y por otro lado hijo de la gran puta? ",
+                   "-Informaré anónimamente a la policía, tengo una grabación con mi voz distorsionada...como véis no tenéis alternativa, tenéis hasta la tarde"
+                ]
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+             },
+             {
+                "event12":[
+                   "-¿Qué vamos a hacer Sarah?",
+                   "-Pagar John, no tenemos alternativa, ya le has oído tiene pruebas",
+                   "-Tal vez esta venganza fue un error Sarah"
                 ]
                 ,
                 "isevent" : false
@@ -118,40 +128,22 @@
                 "notebookinfo": ""
              },
              {
-                "event12":[
-                   "*Escuchas a los Smith hablando con alguien dentro de casa, su voz te resulta familiar*",
-                   "-Muchas gracias por la invitación señor y señora Smith, lo agradezco",
-                   "-Estamos encantados de que hayas aceptado nuestra invitación ¿verdad cariño?",
-                   "-Por supuerto que si, además te hemos preparado un postre especial para que te lo lleves después."
-                ]
-                ,
-                "isevent" : true
-                ,
-                "notebookinfo": "Los smith han invitado al William a comer"
-             },
-             {
                 "event13":[
-                   "-Y cuéntanos William, nos dijeron en el colegio que habías solicitado una excedencia",
-                   "-Emmmmm...si, estos últimos meses no me encuentro bien de salud y lo he considerado apropiado",
-                   "-Lo entendemos, a día de hoy o nos cuidamos o cualquier cosa podría acabar matándonos ¿eh? ja ja ja",
-                   "*Escuchas la risa de William pero por su tono de voz parece incómodo con la situación"
+                   "*Escuchas ruido en la cocina, parece que estén friéndo algo de cara a la comida*"
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": ""
              },
              {
                 "event14":[
-                   "-Y bueno, después de esta comida y antes de que te vayas, la sorpresa que te teníamos preparada es...¡Una tarta de chocolate!",
-                   "-Kevin nos dijo en su día que era tu favorita, así que la hemos preparado de una manera muy especial",
-                   "-Oh no hacía falta - El tono de William parece cada vez más incómodo - Pero muchas gracias por ella - Ahora si me disculpáis, he de irme, muchas gracias de nuevo",
-                   "-Que la disfrutes William, acuérdate de nosotros mientras la comes y que nó se te atragante ¿eh? ¿eh? jajaja "
+                   "*Escuchas la televisión de fondo, informan de la creciente alarma y peligrosidad de la pandemia"
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": ""
              },
              {
                 "event15":[
@@ -164,17 +156,44 @@
              },
              {
                 "event16":[
-                   "*Suena la televisión de fondo, parece un programa sobre nutrición*"
+                   "-Bueno, bueno, bueno matrimonio Smith, ¿tenéis el dinero o preferís las rejas?",
+                   "-Tenemos que esperar una hora más todavía, el banco está autorizando la retirada de fondos",
+                   "-Tenéis una hora, ni más ni menos"
                 ]
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
              {
                 "event17":[
-                    "*Suena la televisión de fondo, parece un programa sobre nutrición*"
+                    "-Ya estoy de vuelta amigos mios y mi paciencia tiene un límite",
+                    "-Sólo necesitamos que esperes a que nos acepten la transferencia de fondos, todo es un proceso Charles joder",
+                    "-Me importa una mierda, lo único que quiero es el jodido dinero, ¡Y YA! ¡TODO!"
  
+                ]
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+             },
+             {
+                "event18":[
+                   "—Ya lo tenemos todo Charles, puedes contarlo, el mensajero del banco acaba de traerlo",
+                   "-Solo con vuestras caras de miedo me basta para saber que estar todo porque ¿no la cagaríais en el último momento, verdad?",
+                   "-Después de esto esperamos no tener que volver a verte en la vida Charles. Una enfermedad terminal sería demasiado bueno para ti",
+                   "-Habéis sido unos excelentes clientes queridos, hasta más ver ja ja ja"
+ 
+                ]
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+             },
+             {
+                "event19":[
+                   "-Necesito tomar el aire John, necesito salir de casa",
+                   "-Vámonos a tomar un café"
                 ]
                 ,
                 "isevent" : false
@@ -182,49 +201,23 @@
                 "notebookinfo": ""
              },
              {
-                "event18":[
-                   "—Creo que él sabía algo, no parecía cómodo, creo que sospecha algo John",
-                   "-No sé cariño, creo que lo que le incomodaba era la situación ... en fin, que se joda, ahora solo falta esperar",
-                   "-No termino de creerme que lo hayamos hecho John, ha sido tan...fácil"
- 
-                ]
-                ,
-                "isevent" : true
-                ,
-                "notebookinfo": "Los smith han invitado al William a comer"
-             },
-             {
-                "event19":[
-                   "-La comida con William hay que reconocer que ha sido cuanto menos incómoda",
-                   "-Parecía que no pudiera mirar siquiera los cuadros que tenemos colgados de Kevin por el salón",
-                   "-Tú también te has fijado ¿verdad?"
-                ]
-                ,
-                "isevent" : true
-                ,
-                "notebookinfo": "Los smith han invitado al William a comer"
-             },
-             {
                 "event20":[
-                   "-¿Te has asegurado de dejar de nuevo el tarro que he usado para preparar la tarta de William en su sitio?",
-                   "-Si, lo he colocado justo donde estaba esta mañana, tampoco quiero tenerlo cerca de las especias ja ja ja",
-                   "-Me resulta raro hablar de algo tan trascendental de la comida de hoy con William con tal impersonalidad"
+                   "*No escuchas nada, no parecen estar en casa*"
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": ""
              },
              {
                 "event21":[
-                   "-Lo hecho, hecho está Sarah, ahora no podemos pensar en qué podríamos o no haber hecho",
-                   "-Lo sé...Lo sé...pero no puedo dejar de pensar en ello, en la tarta que le hemos dado a William después de la comida",
-                   "-Esa tarta cariño, es la respuesta a toda la incertidumbre de los últimos meses"
+                   "-Y si todo nos sale mal cariño, y si todo ha sido un error",
+                   "-No pienses más en ello Sarah, ya no hay vuelta atrás"
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": ""
              },
              {
                 "event22":[
@@ -252,7 +245,7 @@
           "room2":[
              {
                 "event0":[
-                   "*Escuchas el llano incontenible de la señora Cooper*"
+                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
                 "isevent" : false
@@ -261,7 +254,7 @@
              },
              {
                 "event1":[
-                   "*Escuchas el llanto incontenible de la señora Cooper*"
+                    "*Escuchas ronquidos, parece que duerme*"
                 ]
                 ,
                 "isevent" : false
@@ -355,7 +348,7 @@
              },
              {
                 "event11":[
-                   "*Escuchas el televisor dando el informativo matutino, siguen informando de una posible epidemia*"
+                   "*Escuchas el televisor dando el informativo matutino, informan de que la situación empeora con la epidemia*"
  
                 ]
                 ,
@@ -365,8 +358,8 @@
              },
              {
                 "event12":[
-                   "*Escuchas un programa de radio sobre la precaria situación de las pensiones y el ladrido de un perro de fondo*",
-                   "-El gobierno está lleno de incompetentes, nos están quitando dinero que es nuestro por todo lo trabajado"
+                   "*Escuchas un programa de radio sobre el corazón, no podría ser más irrelevante*"
+                   
  
                 ]
                 ,
@@ -376,8 +369,7 @@
              },
              {
                 "event13":[
-                   "*Escuchas un programa de radio sobre una creciente pandemia en el continente asiático un perro ladra dentro de la casa*",
-                   "-Y ahora, si nos parecía poco la que estaba cayendo súmale el 'coril' o 'corid' o como narices se llame"
+                   "*Escuchas ruido en la cocina, parece que prepara la comida*"
  
                 ]
                 ,
@@ -387,9 +379,7 @@
              },
              {
                 "event14":[
-                   "*Escuchas a los gatos bufar al perro y a este contestarles con ladridos, se están peleando*",
-                   "-Caaaaandy no enfades a los gatitos, tienes que ser bueno con ellos",
-                   "*Escuchas como los animales siguen peleándose entre si*"
+                   "-¿Quién haría daño a mi Candy?¿Quién puede ser tan malo para envenenarlo?"
  
                 ]
                 ,
@@ -399,7 +389,7 @@
              },
              {
                 "event15":[
-                    "*No escuchas nada, no parece estar en casa*"
+                    "*Escuchas a la señora Cooper llorar desconsolada lamentando la muerte de su perro*"                    
  
                 ]
                 ,
@@ -409,7 +399,9 @@
              },
              {
                 "event16":[
-                    "*No escuchas nada, no parece estar en casa*"
+                    "-Ay mi perrito, mi dulce y buen perrito",
+                    "*Continúa llorando*",
+                    "-Si supiera quien te ha hecho esto se lo haría pagar caro"
  
                 ]
                 ,
@@ -419,8 +411,9 @@
              },
              {
                 "event17":[
-                    "*No escuchas nada, no parece estar en casa*"
- 
+                    "-Creo que necesito tomar el aire, necesito dar un paseo y salir de casa",
+                    "*Escuchas gatos maullando dentro de la casa*",
+                    "-Lo sé mis pequeños, vosotros también le echáis de menos" 
                 ]
                 ,
                 "isevent" : false
@@ -460,89 +453,72 @@
              },
              {
                 "event21":[
-                   "-Pero doctor está muy mal, mi Candy no tiene buen color y le cuesta respirar, no sé que le pasa a mi perrito",
-                   "*...*",
-                   "-Lo comprendo, ahora mismo se lo llevo, ay por Dios que no sea nada, ay ay ay"
+                   "*Escuchas ruido de la cocina, parece que esté haciendo la cena*"
  
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
+                "notebookinfo": ""
              },
              {
                 "event22":[
-                   "-Hay madre mia a ver que me dice el Veterinario, ay mi Candy, mi perrito bueno",
-                   "*Escuchas como la señora Cooper llora desconsoladamente*",
-                   "-Y qué voy a hacer yo sin mi perrito, si mi Candy bonito ¿Qué le puede haber pasado?"
+                   "Escuchas el sonido de los cubiertos cortando comida y la tele de fondo, parece que esté cenando"
  
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
+                "notebookinfo": ""
              },
              {
                 "event23":[
-                    "*La señora Cooper llora amargamente mientras habla con el veterinario por teléfono",
-                    "-¡¡¡ NOOOOOOOOOOOOOOOO !!! ¿Cómo puede haber muerto? si esta mañana estaba bien, estaba feliz...",
-                    "*...*"
+                    "Escuchas ronquidos, parece que esté durmiendo"
  
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
+                "notebookinfo": ""
              }
           ],
           "room3":[
              {
                 "event0":[
-                   "-Te digo que no se de qué me hablas, yo no estaba ahí aquella noche",
-                   "-Sabes perféctamente que sí Charles, te vi con mis propios ojos",
-                   "-Te estás inventando todo, no pienso darte un sólo dólar, esto es un ultraje ¡ Un escándalo !"
+                   "*Escuchas insultos y música extremadamente alta*"
  
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": ""
              },
              {
                 "event1":[
-                   "-Creías que nadie estaría pendiente del callejón abandonado ¿verdad?",
-                   "-Te repito que no sé de que me hablas ¿acaso estás senil ya William?",
-                   "-No se te ocurra tomarlo por los delirios de un viejo, sé lo que vi, o pagas iré a comisaría"
+                   "*No escuchas nada, no parece haber nadie en casa*"
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": ""
              },
              {
                 "event2":[
-                   "-William, William no estás en condiciones de chantajearme lo más mínimo, eres patético",
-                   "-¿Perdona? ¿acaso me estás amenazando? Te recuerdo que soy yo quien tiene la sartén por el mango yo te he visto traficando",
-                   "-Tú no has visto nada viejo, y no te daré nada, tal vez debas de andarte con cuidado"
- 
+                    "*No escuchas nada, no parece haber nadie en casa*"
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": ""
              },
              {
                 "event3":[
-                   "-Tienes hasta la mañana de hoy para reunir el dinero, no pienso darte más tiempo",
-                   "-¿Pero tú estás loco? ¡Es imposible reunir esa cantidad en tan poco tiempo !",
-                   "-Si tú te aprovechas del dinero de las drogas incautadas, yo me aprovecho de ti, del latín 'quid pro quo' ja ja ja ",
-                   "-Tienes que darme más tiempo, no tengo ese dinero ni manera de conseguirlo"
- 
+                    "*No escuchas nada, no parece haber nadie en casa*"
                 ]
                 ,
-                "isevent" : true
+                "isevent" : false
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": ""
              },
              {
                 "event4":[
@@ -588,42 +564,40 @@
              },
              {
                 "event9":[
-                    "-Hola Charles, te dije hace tiempo que no eras 'trigo limpio' y estaba en lo cierto, y ahora te voy a hacer pagar por ello",
-                    "-¿De qué demonios hablas viejo? No tengo la menor idea de lo que dices",
-                    "-Yo creo que si, creo que si te menciono un callejón abajo en la esquina ya te vas ubicando ¿verdad?"
-                             ]
-                ,
-                "isevent" : true
-                ,
-                "notebookinfo": "William está chantajeando a Charles"
-             },
-             {
-                "event10":[
-                   "-Parece mentira que perteneciendo a la policía hayas sido tan descuidado, ahora me vas a pagar por ello",
-                   "-No te pienso dar nada profesor, no dirás nada, ni harás nada ¿me has entendido?",
-                   "-No lo entiendes ¿verdad? tú no amenazas, tú no chantajeas, ese, corrupto de mierda...ese es mi papel"
- 
-                ]
-                ,
-                "isevent" : true
-                ,
-                "notebookinfo": "William está chantajeando a Charles"
-             },
-             {
-                "event11":[
-                   "-Esta noche hablaremos dado que ahora no te veo muy predispuesto y te niegas a aceptar la nueva situación",
-                   "-No hay situación que valga ¡No puedes hacer esto! ¡Es inmoral William! ¡No puedes chantajearme!",
-                   "-¿inmoral? ¿INMORAL? ¿Acaso no lo es robar las drogas incautadas de la comisaria para venderselas a crios en la calle?"
- 
-                ]
-                ,
-                "isevent" : true
-                ,
-                "notebookinfo": "William está chantajeando a Charles"
+                    "-Espera, espera, espera...¿nos estás chantajeando?¿Dónde a quedado el 'lo hago encantado y gratis, que le jodan al profesor'?",
+                    "-Pues precisamente por eso, ahora es él quien me pide dinero a mi por...por...cosas que no os incumben",
+                    "-Eres un cabrón Charles, sabía que algo así podría pasar pero me dije 'mientras nos facilite el veneno'...en la hora en que te contactamos"
+                 ]
+                 ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+              },
+              {
+                 "event10":[
+                    "-Tened clara una cosa parejita, si yo caigo me aseguraré de arrastraros conmigo, y lo mío es distribución de sustancias ilícitas, mientras que...",
+                    "-Lo sé joder, lo nuestro sería como mínimo 'tentativa de asesinato en primer grado', joder...",
+                    "-Fíjate, si el medicucho también entiende de leyes y condenas ja ja ja...qué más da, pagad, o me aseguraré de que se sepa lo del veneno"
+                 ]
+                 ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+              },
+              {
+                 "event11":[
+                    "-Ademas mi chantaje será doble, por una parte, si le digo a William que habéis intentado envenenarlo, tal vez deje de sobornarme",
+                    "-¿Y por otro lado hijo de la gran puta? ",
+                    "-Informaré anónimamente a la policía, tengo una grabación con mi voz distorsionada...como véis no tenéis alternativa, tenéis hasta la tarde"
+                 ]
+                 ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
              {
                 "event12":[
-                   "*No escuchas nada, no parece que esté en casa*"
+                   "*Escuchas un murmullo inteligible y un caminar constante. Parece que no para de andar de un lado a otro*"
  
                 ]
                 ,
@@ -633,67 +607,79 @@
              },
              {
                 "event13":[
-                   "*No escuchas nada, no parece que esté en casa*"
+                   "-Buenas tardes Charles, has pensado ya en como pagarme",
+                   "-Estoy en ello William, para esta tarde debería de tener tu dinero, no me metas más prisa",
+                   "-Recuerda Charles, el tiempo corre ...tic, tac...tic,tac"
  
                 ]
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "William continua con su chantaje a Charles pidiendo más dinero"
              },
              {
                 "event14":[
-                   "*No escuchas nada, no parece que esté en casa*"
+                   "-No has pensado nunca en que si haces cosas malas, cosas malas te pueden pasar",
+                   "-Lo que tú digas William, a mi me da igual, mientras cojas tu dinero y me dejes en paz",
+                   "-Deberías de ser más amable conmigo Charles pues un soborno sabes cuando empieza, pero nunca cuando acaba"
  
                 ]
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo":  "William continua con su chantaje a Charles pidiendo más dinero"
              },
              {
                 "event15":[
-                   "*No escuchas nada, no parece que esté en casa*"
+                   "-¿Vas a seguir regodeándote todo el día?¿No tienes nada mejor que hacer que ponerme nervioso?",
+                   "-Efectivamente Charles, disfruto viendo como alguien que es la inmoralidad personificada encuentra la horma de su zapato",
+                   "-Que te jodan William, a ti y a tu soborno. Que me toques los cojones no hará que el dinero aparezca de la nada, necesito hasta la tarde"
  
                 ]
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo":  "William continua con su chantaje a Charles pidiendo más dinero"
              },
              {
                 "event16":[
-                    "*No escuchas nada, no parece que esté en casa*"
- 
-                ]
-                ,
-                "isevent" : false
-                ,
-                "notebookinfo": ""
-             },
-             {
-                "event17":[
-                    "*No escuchas nada, no parece que esté en casa*"
- 
-                ]
-                ,
-                "isevent" : false
-                ,
-                "notebookinfo": ""
-             },
-             {
-                "event18":[
-                   "*No escuchas nada, no parece que esté en casa*"
- 
-                ]
-                ,
-                "isevent" : false
-                ,
-                "notebookinfo": ""
+                    "-Bueno, bueno, bueno matrimonio Smith, ¿tenéis el dinero o preferís las rejas?",
+                    "-Tenemos que esperar una hora más todavía, el banco está autorizando la retirada de fondos",
+                    "-Tenéis una hora, ni más ni menos"
+                 ]
+                 ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+              },
+              {
+                 "event17":[
+                     "-Ya estoy de vuelta amigos mios y mi paciencia tiene un límite",
+                     "-Sólo necesitamos que esperes a que nos acepten la transferencia de fondos, todo es un proceso Charles joder",
+                     "-Me importa una mierda, lo único que quiero es el jodido dinero, ¡Y YA! ¡TODO!"
+  
+                 ]
+                 ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+              },
+              {
+                 "event18":[
+                    "—Ya lo tenemos todo Charles, puedes contarlo, el mensajero del banco acaba de traerlo",
+                    "-Solo con vuestras caras de miedo me basta para saber que estar todo porque ¿no la cagaríais en el último momento, verdad?",
+                    "-Después de esto esperamos no tener que volver a verte en la vida Charles. Una enfermedad terminal sería demasiado bueno para ti",
+                    "-Habéis sido unos excelentes clientes queridos, hasta más ver ja ja ja"
+  
+                 ]
+                 ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
              },
              {
                 "event19":[
-                   "*No escuchas nada, no parece que esté en casa*"
+                   "*Escuchas un monton de papeles , parece que los esté sacando de un lugar para ponerlos en otro*"
  
                 ]
                 ,
@@ -703,7 +689,7 @@
              },
              {
                 "event20":[
-                   "*No escuchas nada, no parece que esté en casa*"
+                    "*Escuchas un monton de papeles , parece que los esté sacando de un lugar para ponerlos en otro*"
  
                 ]
                 ,
@@ -713,83 +699,77 @@
              },
              {
                 "event21":[
-                   "*No escuchas nada, no parece que esté en casa*"
- 
-                ]
-                ,
-                "isevent" : false
-                ,
-                "notebookinfo": ""
-             },
-             {
-                "event22":[
-                   "-Joder, Joder, Joder... ¿Cómo cojones he sido tan descuidado? William, el profesor ¿en serio? te ha pillado un viejo",
-                   "*El detective suelta unos cuantos insultos más y golpea el moviliario del piso*",
-                   "¡JODEEEEEER! ¿Qué coño hago ahora? Va a chantajearme ¡A MI! ¡A UN POLICÍA! es absurdo, es jodidamente absurdo"
+                   "-Bueno Charles, has tenido tiempo de sobra a lo largo del día para conseguir mi dinero no crees",
+                   "-Ya lo tengo William, y espero que se te atragante o te cortes con los billetes cada vez que los toques",
+                   "-Eres como un niño que sabe que tiene que tirar su último caramelo, solo que este es mucho más valioso ja ja ja"
  
                 ]
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "William continua con su chantaje a Charles pidiendo más dinero"
              },
              {
-                "event23":[
-                   "*Escuchas música a todo volumen y el ruido de objetos rompiéndose por la casa, el detective parece furioso"
+                "event22":[
+                   "-Y qué piensas hacer con todo este dinero William, no deja de ser dinero sucio, de un soborno",
+                   "-Hay maneras y maneras de hacerlo 'limpio' poco a poco, y lo mejor es que nadie sabrá de donde viene",
+                   "-Solamente yo y tengo las manos atadas ¿eh? delatarte sería delatarme. Eres un cabrón con pintas ¿lo sabías?"
  
                 ]
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "William continua con su chantaje a Charles pidiendo más dinero"
+             },
+             {
+                "event23":[
+                   "-Piensa que si sigues tocándome las narices, Charles, el soborno no tiene por qué haber acabado ¿eh? ja ja ja",
+                   "-Me estás cansando William, eres viejo y con una vida de mierda, coge tu dinero y márchate, no quiero volver a verte",
+                   "-Oh, querido, una cosa es lo que quieras y otra cosa es querer lo imposible, nos volveremos a ver...te lo aseguro"
+ 
+                ]
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": "William continua con su chantaje a Charles pidiendo más dinero"
              }
           ],
           "room4":[
              {
                 "event0":[
-                    "-Te digo que no se de qué me hablas, yo no estaba ahí aquella noche",
-                    "-Sabes perféctamente que sí Charles, te vi con mis propios ojos",
-                    "-Te estás inventando todo, no pienso darte un sólo dólar, esto es un ultraje ¡ Un escándalo !"
+                    "Escuchasr ruidos de vasos y botellas moviéndose de un lado a otro"
   
                  ]
                  ,
-                 "isevent" : true
+                 "isevent" : false
                  ,
-                 "notebookinfo": "William está chantajeando a Charles"
+                 "notebookinfo": ""
              },
              {
                 "event1":[
-                    "-Creías que nadie estaría pendiente del callejón abandonado ¿verdad?",
-                    "-Te repito que no sé de que me hablas ¿acaso estás senil ya William?",
-                    "-No se te ocurra tomarlo por los delirios de un viejo, sé lo que vi, o pagas iré a comisaría"
+                    "*Escuchas a William sollozar, parece tremendamente infeliz*"
                  ]
                  ,
-                 "isevent" : true
+                 "isevent" : false
                  ,
-                 "notebookinfo": "William está chantajeando a Charles"
+                 "notebookinfo": ""
              },
              {
                 "event2":[
-                    "-William, William no estás en condiciones de chantajearme lo más mínimo, eres patético",
-                    "-¿Perdona? ¿acaso me estás amenazando? Te recuerdo que soy yo quien tiene la sartén por el mango yo te he visto traficando",
-                    "-Tú no has visto nada viejo, y no te daré nada, tal vez debas de andarte con cuidado"
+                    "*Escuchas a William maldecir, su voz parece cada vez más ebria*"
   
                  ]
                  ,
-                 "isevent" : true
+                 "isevent" : false
                  ,
-                 "notebookinfo": "William está chantajeando a Charles"
+                 "notebookinfo": ""
              },
              {
                 "event3":[
-                    "-Tienes hasta la mañana de hoy para reunir el dinero, no pienso darte más tiempo",
-                    "-¿Pero tú estás loco? ¡Es imposible reunir esa cantidad en tan poco tiempo !",
-                    "-Si tú te aprovechas del dinero de las drogas incautadas, yo me aprovecho de ti, del latín 'quid pro quo' ja ja ja ",
-                    "-Tienes que darme más tiempo, no tengo ese dinero ni manera de conseguirlo"
-  
+                    "**" 
                  ]
                  ,
-                 "isevent" : true
+                 "isevent" : false
                  ,
                  "notebookinfo": "William está chantajeando a Charles"
              },

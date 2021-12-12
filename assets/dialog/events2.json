@@ -127,7 +127,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
                 "event13":[
@@ -139,7 +139,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
                 "event14":[
@@ -151,7 +151,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
                 "event15":[
@@ -191,7 +191,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
                 "event19":[
@@ -202,7 +202,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
                 "event20":[
@@ -213,7 +213,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
                 "event21":[
@@ -224,7 +224,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los smith han invitado al William a comer"
+                "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
                 "event22":[
@@ -1076,7 +1076,7 @@
                 "notebookinfo": ""
              },
              {
-                "object_smith":[
+                "object_Smith":[
                    "Es John Smith"
                 ],
                 "id":-1,
