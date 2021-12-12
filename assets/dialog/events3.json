@@ -90,6 +90,7 @@
                    "-Eres un cabrón Charles, sabía que algo así podría pasar pero me dije 'mientras nos facilite el veneno'...en la hora en que te contactamos"
                 ]
                 ,
+                "id":5,
                 "isevent" : true
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -101,6 +102,7 @@
                    "-Fíjate, si el medicucho también entiende de leyes y condenas ja ja ja...qué más da, pagad, o me aseguraré de que se sepa lo del veneno"
                 ]
                 ,
+                "id":5,
                 "isevent" : true
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -112,6 +114,7 @@
                    "-Informaré anónimamente a la policía, tengo una grabación con mi voz distorsionada...como véis no tenéis alternativa, tenéis hasta la tarde"
                 ]
                 ,
+                "id":5,
                 "isevent" : true
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -161,6 +164,7 @@
                    "-Tenéis una hora, ni más ni menos"
                 ]
                 ,
+                "id":5,
                 "isevent" : true
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -173,6 +177,7 @@
  
                 ]
                 ,
+                "id":5,
                 "isevent" : true
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -186,6 +191,7 @@
  
                 ]
                 ,
+                "id":5,
                 "isevent" : true
                 ,
                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -569,6 +575,7 @@
                     "-Eres un cabrón Charles, sabía que algo así podría pasar pero me dije 'mientras nos facilite el veneno'...en la hora en que te contactamos"
                  ]
                  ,
+                 "id":5,
                  "isevent" : true
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -580,6 +587,7 @@
                     "-Fíjate, si el medicucho también entiende de leyes y condenas ja ja ja...qué más da, pagad, o me aseguraré de que se sepa lo del veneno"
                  ]
                  ,
+                 "id":5,
                  "isevent" : true
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -591,6 +599,7 @@
                     "-Informaré anónimamente a la policía, tengo una grabación con mi voz distorsionada...como véis no tenéis alternativa, tenéis hasta la tarde"
                  ]
                  ,
+                 "id":5,
                  "isevent" : true
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -613,6 +622,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
@@ -625,6 +635,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo":  "William continua con su chantaje a Charles "
@@ -637,6 +648,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo":  "William continua con su chantaje a Charles "
@@ -648,6 +660,7 @@
                     "-Tenéis una hora, ni más ni menos"
                  ]
                  ,
+                 "id":5,
                  "isevent" : true
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -660,6 +673,7 @@
   
                  ]
                  ,
+                 "id":5,
                  "isevent" : true
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -673,6 +687,7 @@
   
                  ]
                  ,
+                 "id":5,
                  "isevent" : true
                  ,
                  "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
@@ -705,6 +720,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
@@ -717,6 +733,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
@@ -729,6 +746,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William continua con su chantaje a Charles "
@@ -868,6 +886,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
@@ -880,6 +899,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo":  "William continua con su chantaje a Charles "
@@ -892,6 +912,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo":  "William continua con su chantaje a Charles "
@@ -912,7 +933,7 @@
   
                  ]
                  ,
-                 "isevent" : true
+                 "isevent" : false
                  ,
                  "notebookinfo": ""
              },
@@ -955,6 +976,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
@@ -967,6 +989,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
@@ -979,6 +1002,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William continua con su chantaje a Charles "
@@ -1015,7 +1039,7 @@
                    "todo son libros de medicinas"
                 ],
                 "id": -1,
-                "isevent" : true,
+                "isevent" : false,
                 "notebookinfo": "Libros de medicina de los Smith"
              },
              {
@@ -1067,7 +1091,7 @@
                      "¿Qué hace un tarro de veneno cerca del chocolate y la vainilla?"
                  ],
                  "id": -1,
-                 "isevent": true,
+                 "isevent": false,
                  "notebookinfo": "En la cocina de los Smith hay veneno cerca del chocolate"
 
              }
@@ -1168,8 +1192,8 @@
                  "object_maletin":[
                      "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
                  ],
-                 "id":2,
-                 "isevent":false,
+                 "id":4,
+                 "isevent":true,
                  "notebookinfo": ""
              }
           ],
