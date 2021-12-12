@@ -22,6 +22,22 @@
     "deduccion5":{
         "text":["Para terminar de llenar el maletín de dinero Charles ha sobornado al matrimonio Smith"],
         "id":2
+    },
+    "deduccion6":{
+        "text":["Los Smith y la señora Cooper odían a William y tienen motivos para querer matarlo"],
+        "id":3
+    },
+    "deduccion7":{
+        "text":["El detective Charles Doyle odia a William y lo quiere muerto"],
+        "id":3
+    },
+    "deduccion8":{
+        "text":["Para terminar de llenar el maletín de dinero Charles ha sobornado al matrimonio Smith"],
+        "id":4
+    },
+    "deduccion9":{
+        "text":["Para terminar de llenar el maletín de dinero Charles ha sobornado al matrimonio Smith"],
+        "id":4
     }
 
 }

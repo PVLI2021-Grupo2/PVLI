@@ -31,8 +31,8 @@ export default class Pregunta extends Phaser.Scene{
          //llamamos a select, metodo que habilita clicK
          this.select();
          this.pregunta_array=["¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?","¿Dónde está Candy, el perro de la señora Cooper?",
-         "¿Qué relación tiene el detective Charles Doyle con el resto de vecinos?","¿Cómo es la relación del Profesor William Scott con el resto de vecinos?",
-         "¿Quién ha matado al profesor William Scott?"]
+         "¿Qué relación intrínseca existe entre el matrimonio Smith, el detective Charles Doyle y el profesor William Scott?","¿Cómo es la relación del Profesor William Scott con el resto de vecinos?",
+         "¿Sigue William Scott vivo?"]
         
          //llamamos a muestrapregunta
          this.muestrapregunta();

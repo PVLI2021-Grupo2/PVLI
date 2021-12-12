@@ -127,6 +127,7 @@
                 ,
                 "isevent" : true
                 ,
+                "id":2,
                 "notebookinfo": "Los Smith han invitado al William a comer"
              },
              {
@@ -137,6 +138,7 @@
                    "*Escuchas la risa de William pero por su tono de voz parece incómodo con la situación"
                 ]
                 ,
+                "id":2,
                 "isevent" : true
                 ,
                 "notebookinfo": "Los Smith han invitado al William a comer"
@@ -149,6 +151,7 @@
                    "-Que la disfrutes William, acuérdate de nosotros mientras la comes y que nó se te atragante ¿eh? ¿eh? jajaja "
                 ]
                 ,
+                "id":2,
                 "isevent" : true
                 ,
                 "notebookinfo": "Los Smith han invitado al William a comer"
@@ -189,6 +192,7 @@
  
                 ]
                 ,
+                "id":2,
                 "isevent" : true
                 ,
                 "notebookinfo": "Los Smith han invitado al William a comer"
@@ -200,6 +204,7 @@
                    "-Tú también te has fijado ¿verdad?"
                 ]
                 ,
+                "id":2,
                 "isevent" : true
                 ,
                 "notebookinfo": "Los Smith han invitado al William a comer"
@@ -211,6 +216,7 @@
                    "-Me resulta raro hablar de algo tan trascendental de la comida de hoy con William con tal impersonalidad"
                 ]
                 ,
+                "id":2,
                 "isevent" : true
                 ,
                 "notebookinfo": "Los Smith han invitado al William a comer"
@@ -222,6 +228,7 @@
                    "-Esa tarta cariño, es la respuesta a toda la incertidumbre de los últimos meses"
                 ]
                 ,
+                "id":2,
                 "isevent" : true
                 ,
                 "notebookinfo": "Los Smith han invitado al William a comer"
@@ -466,6 +473,7 @@
  
                 ]
                 ,
+                "id":3,
                 "isevent" : true
                 ,
                 "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
@@ -478,6 +486,7 @@
  
                 ]
                 ,
+                "id":3,
                 "isevent" : true
                 ,
                 "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
@@ -490,6 +499,7 @@
  
                 ]
                 ,
+                "id":3,
                 "isevent" : true
                 ,
                 "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
@@ -504,6 +514,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -515,6 +526,7 @@
                    "-No se te ocurra tomarlo por los delirios de un viejo, sé lo que vi, o pagas iré a comisaría"
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -527,6 +539,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -540,6 +553,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -593,6 +607,7 @@
                     "-Yo creo que si, creo que si te menciono un callejón abajo en la esquina ya te vas ubicando ¿verdad?"
                              ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -605,6 +620,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -617,6 +633,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -729,6 +746,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -753,6 +771,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William está chantajeando a Charles"
@@ -764,6 +783,7 @@
                     "-No se te ocurra tomarlo por los delirios de un viejo, sé lo que vi, o pagas iré a comisaría"
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William está chantajeando a Charles"
@@ -776,6 +796,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William está chantajeando a Charles"
@@ -789,6 +810,7 @@
   
                  ]
                  ,
+                 "id":4,
                  "isevent" : true
                  ,
                  "notebookinfo": "William está chantajeando a Charles"
@@ -846,6 +868,7 @@
                     "-Yo creo que si, creo que si te menciono un callejón abajo en la esquina ya te vas ubicando ¿verdad?"
                              ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -858,6 +881,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -870,6 +894,7 @@
  
                 ]
                 ,
+                "id":4,
                 "isevent" : true
                 ,
                 "notebookinfo": "William está chantajeando a Charles"
@@ -913,6 +938,7 @@
   
                  ]
                  ,
+                 "id":3,
                  "isevent" : true
                  ,
                  "notebookinfo": "William ha dado tarta de los Smith a Candy, el perro de la señora Cooper"
@@ -925,6 +951,7 @@
   
                  ]
                  ,
+                 "id":3,
                  "isevent" : true
                  ,
                  "notebookinfo": "William ha dado tarta de los Smith a Candy, el perro de la señora Cooper"
@@ -938,6 +965,7 @@
   
                  ]
                  ,
+                 "id":3,
                  "isevent" : true
                  ,
                  "notebookinfo": "William ha dado tarta de los Smith a Candy, el perro de la señora Cooper"
@@ -948,7 +976,7 @@
                    "*Escuchas la tele, parece el informativo de la tarde"
                ]
                 ,
-                                
+                "id":3,               
                 "isevent" : false
                 ,
                 "notebookinfo": ""
@@ -1038,7 +1066,7 @@
                    "todo son libros de medicinas"
                 ],
                 "id": -1,
-                "isevent" : true,
+                "isevent" : false,
                 "notebookinfo": "Libros de medicina de los Smith"
              },
              {
@@ -1182,7 +1210,7 @@
                     "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
                 ],
                 "id":4,
-                "isevent":false,
+                "isevent":true,
                 "notebookinfo": ""
             }
          ],
