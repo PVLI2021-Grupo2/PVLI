@@ -18,13 +18,8 @@ import TimeBar from "./timeBar.js";
       super(scene, x, y, 'earphone');
       this.scene.add.existing(this);
       this.scene =scene;
-      //this.scene.physics.add.existing(this, true);
-      this.arrayText = dialog;
+      this.json_file = dialog;
       this.roomName = roomName;
-      this.event = "event";
-      
-      //this.number = 0;
-      
     }
 
     /**
@@ -34,36 +29,18 @@ import TimeBar from "./timeBar.js";
     showdialog(hora_consultada){
       if (hora_consultada>23) hora_consultada-=24;
       this.textbox = new Dialogue(this.scene);
-      let text =this.arrayText["earphone"][0][this.roomName][hora_consultada][this.event+hora_consultada]
-      let text_notebook =this.arrayText["earphone"][0][this.roomName][hora_consultada]["notebookinfo"]
+      let dialog =this.json_file["earphone"][0][this.roomName][hora_consultada]["event"+hora_consultada]
+      let text_notebook =this.json_file["earphone"][0][this.roomName][hora_consultada]["notebookinfo"]
       //let id = this.arrayText["earphone"][0][this.roomName][hora_consultada]["id"]
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
-      this.textbox.changeDialogue(text)      
-      if(this.arrayText["earphone"][0][this.roomName][hora_consultada]["isevent"]){
+      this.textbox.changeDialogue(dialog)      
+      if(this.json_file["earphone"][0][this.roomName][hora_consultada]["isevent"]){
         let apuntado = false;
         this.scene.game.estadoCompartido.observaciones.forEach(element => {
           if(element.text_notebook===text_notebook) apuntado=true;
         });
         if(!apuntado)
          this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:0})
-         console.log(this.scene.game.estadoCompartido.observaciones)
       }
-      console.log(hora_consultada)
-
-      
-      //console.log(this.arrayText["earphone"][0]["room1"][2]["event2"])
-      //this.textbox.changeDialogue(this.arrayText["text"][this.roomNum-1][room][this.number-1][this.event+this.number])
-      // this.number +=1;
-      // if(this.number>23)this.number=0;
-      
-      //this.textbox.changeDialogue(this.arrayText["earphone"][0][this.roomName][hora_consultada][this.event+hora_consultada]);
-      //this.textbox.changeDialogue(this.arrayText["text"][this.roomNum-1][room][this.number-1][this.event+this.number])
-      //this.number +=1;
-      //if(this.number>2)this.number=1;
-
-      
-      
-    }
-  
-    
+    } 
   }
