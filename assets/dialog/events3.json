@@ -1061,10 +1061,11 @@
              },
              {
                 "object_bag":[
-                   "Dentro de la bolsa hay un bote medio abierto y la etiqueta indica claramente que es veneno"
+                   "Una bolsa de plastico?",
+                   "Que hay dentro?"
                 ],
-                "id":1,
-                "isevent" : true,
+                "id":-1,
+                "isevent" : false,
                 "notebookinfo": ""
              },
              {
@@ -1082,8 +1083,17 @@
                 "id":-1,
                 "isevent" : false,
                 "notebookinfo": ""
+             },
+             {
+                 "object_tarro_veneno":[
+                     "Es un tarro con veneno",
+                     "¿Qué hace un tarro de veneno cerca del chocolate y la vainilla?"
+                 ],
+                 "id": 1,
+                 "isevent": true,
+                 "notebookinfo": "En la cocina de los Smith hay veneno cerca del chocolate"
+
              }
-             
           ],
           "room2":[
              {
