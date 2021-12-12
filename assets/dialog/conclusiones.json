@@ -2,7 +2,13 @@
     "conclusion0":{
     "text":["El niño se suicidó porque el profe no hizo nada contra el bullying"],
     "id":1
+     },
 
-    }
+    "conclusion1":{
+        "text":["Candy, el perro de la señora Cooper ha muerto envenenado"],
+        "id":2
+
+     }
+    
     
 }
