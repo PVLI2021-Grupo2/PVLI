@@ -35,16 +35,13 @@ export default class extends Phaser.Scene{
         this.auriculararray = [this.auriculares1,this.auriculares2,this.auriculares3,this.auriculares4]
         this.auriculararray.forEach(item => item.setScale(0.4))
         
-
         //sprites de las ventanas de las habitaciones
         this.room1= this.add.sprite(0,0,'room1');              
         this.room2= this.add.sprite(450,0,'room2');       
         this.room3= this.add.sprite(0,180,'room3');       
         this.room4= this.add.sprite(450,180,'room4');
-
         this.roomarray= [this.room1,this.room2,this.room3,this.room4]
 
-        //NEW FEATURE
         //sptrite que te lleva a la escena pregunta del dia
         this.icono_pregunta=this.add.sprite(950,100,'star');
 
@@ -59,22 +56,18 @@ export default class extends Phaser.Scene{
 
         this.notebook = this.add.sprite(0,400,'notebook_icon');
         //llamada inicial a la configuración 0 del plano general
-       
-        this.selectted = false;
+
         this.today = this.add.bitmapText(900,10,'press_start_2p_font', "Day:"+this.game.nowday , 13)
 
         this.roomconfig();
-    }    
-    
+    }      
    
 /** select habilita la aparicion del prismático correspondiente a la habitacion
  * seleccionada y deshabilita la posibilidad de seleccionar otra habitación para evitar
  * que aparezcan las opciones de otras que no sean la seleccionada
  *  @param {number} a
- * */
-    
-      select(a){
-      
+ * */   
+      select(a){    
         //desabilitamos la opción de que pueda pulsar de nuevo en una ventana
         this.roomarray.forEach(item => item.disableInteractive())
         
@@ -82,11 +75,8 @@ export default class extends Phaser.Scene{
         this.prismaticarry[a-1].setVisible(true)
         .setInteractive()
                
-        
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
-
-        //this.preguntaHora();
         
         this.backbutton.setVisible(true);
         this.backbutton.setInteractive();
@@ -98,8 +88,6 @@ export default class extends Phaser.Scene{
         //volvemos hacia atras si pulsamos <--
         this.backbutton.on('pointerdown',backbutton=>{this.disableselect()});
         this.notebook.setVisible(false);
-
-   
     }
     roomconfig(){
     
@@ -121,7 +109,6 @@ export default class extends Phaser.Scene{
         .on('pointerout',()=>this.notebook.clearTint())
         .on('pointerdown',()=>{this.scene.sleep('general'); this.scene.launch('notebook')})
 
-
         //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
         for(let i = 0;i<  this.prismaticarry.length;i++){
             let roomName = 'room'+(i+1);
@@ -141,20 +128,16 @@ export default class extends Phaser.Scene{
                 this.time_bar.menostiempo()})
         }
 
-                   
+        this.icono_pregunta
+        .setOrigin(0,0)
+        .setInteractive()
+        .on('pointerover',()=>this.icono_pregunta.setTint(0x999999))
+        .on('pointerout',()=>this.icono_pregunta.clearTint())
+        .on('pointerdown',()=>{this.scene.switch('pregunta')});
 
-          //NEW FEATURE
-          this.icono_pregunta
-          .setOrigin(0,0)
-          .setInteractive()
-          .on('pointerover',()=>this.icono_pregunta.setTint(0x999999))
-          .on('pointerout',()=>this.icono_pregunta.clearTint())
-          .on('pointerdown',()=>{this.scene.launch('pregunta')});
-
-          //uso de coffe
+        //uso de coffe
         this.coffe_
         .setInteractive()
-        //.on('pointerdown',()=>{this.time_bar.mastiempo('me llamo desde un auricular y resto tiempo')})
         .on('pointerover',()=>this.coffe_.setTint(0x999999))
         .on('pointerout',()=>this.coffe_.clearTint())
         .on('pointerdown',()=>{this.time_bar.mastiempo(1)}); 
@@ -176,7 +159,6 @@ export default class extends Phaser.Scene{
         //restauramos la claridad del sprite de las ventanas
         this.roomarray.forEach(item => item.setAlpha(1))
 
-
         this.notebook.setVisible(true);
        //hacemos invisibles de nuevo tanto los auriculares como los        
        //prismáticos de cada ventana al volver a la visión general y los cuadros de texto
@@ -184,17 +166,16 @@ export default class extends Phaser.Scene{
        this.auriculararray.forEach(item => item.setVisible(false))        
         
     }
+
     backactive(b){
         this.backbutton.setVisible(b);
         this.backbutton.setInteractive(b);
     }
 
     preguntaHora(){
-
-       console.log("Al preguntar la hora desde general para saber que hora pasar: "+this.time_bar.horas_eventos);
-       return this.time_bar.horas_eventos;
-      
+       return this.time_bar.horas_eventos;      
     }
+    
     update(t,dt){
         if (this.time_bar.horas_disponibles ===0){
             this.prismaticarry.forEach(item => item.disableInteractive())

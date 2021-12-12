@@ -27,22 +27,24 @@ import TimeBar from "./timeBar.js";
      * así como manda apuntar la información asociada a lo escuchado -si es relevante-
      */
     showdialog(hora_consultada){
-      if (hora_consultada>23) hora_consultada-=24;
       this.textbox = new Dialogue(this.scene);
-      let dialog =this.json_file["earphone"][this.roomName]["event"+hora_consultada]["text"]
-      let text_notebook =this.json_file["earphone"][this.roomName]["event"+hora_consultada]["notebookinfo"]
-      //let id = this.arrayText["earphone"][this.roomName]["event"+hora_consultada]["id"]
+      if (hora_consultada>23) hora_consultada-=24; //Si se pasa de 24h se va a la 0
+      let file = this.json_file["earphone"][this.roomName]["event"+hora_consultada]  
+      let dialog =file["text"]
+      let text_notebook =file["notebookinfo"]
+      let id = file["id"]
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
       this.textbox.changeDialogue(dialog)      
-      if(this.json_file["earphone"][this.roomName]["event"+hora_consultada]["isevent"]){
+      if(file["isevent"]){
         //Busca si se ha apuntado lo mismo 
         let apuntado = false;
-        this.scene.game.estadoCompartido.observaciones.forEach(element => {
+        this.scene.game.estadoCompartido.observaciones.forEach(element => 
+          {
           if(element.text_notebook===text_notebook) apuntado=true;
-        });
+          });
         //Si no se apunta
         if(!apuntado)
-         this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:0})
+         this.scene.game.estadoCompartido.observaciones.push({text_notebook,id})
       }
     } 
   }

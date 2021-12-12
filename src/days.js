@@ -6,7 +6,6 @@ export default class Days extends Phaser.Scene{
       super(key);
     }
 
-
     getdayobject(scene,room){
         switch(scene.game.nowday) { 
             case 1 :   
@@ -22,7 +21,6 @@ export default class Days extends Phaser.Scene{
         let dialogJson = scene.cache.json.get('dialog');
         if(room==="room1"){
             let time =  scene.game.nowtime;
-            console.log(scene.game.nowtime);
             let objectarray = [];
             let ball= new clickableobjects(scene,210,225,'objects','object_ball',dialogJson,"room1",0);
             objectarray.push(ball);
@@ -33,7 +31,7 @@ export default class Days extends Phaser.Scene{
             let books= new clickableobjects(scene,287,97,'objects','object_books',dialogJson,"room1",2);
             objectarray.push(books);
             
-            if(time>15 && time<20){
+            if(time>1 && time<5){
                 let picture= new clickableobjects(scene,50,60,'objects','object_picture',dialogJson,"room1",3);
                 objectarray.push(picture);
             }

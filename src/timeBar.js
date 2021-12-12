@@ -16,22 +16,15 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
     constructor(scene,x,y) {
         super(scene,x,y)
         this.scene= scene;
-        
         this.total_time = this.scene.add.sprite(x+50,y-10,'red');
         this.remaining_time = this.scene.add.sprite(x+50,y-10,'green');
         this.scene.add.existing(this);  
-            this.init();
-
-            
+        this.init();
+        
     } 
-
-   
-  
 
     init()
     {
-
-        
         //contador de tazas
         this.tazas_totales=0;
         //horas totales por dia
@@ -40,10 +33,7 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         this.horas_disponibles=20;
         //horas que se pasan para la gestión de eventos
         this.horas_eventos=9;
-
         this.updateTimes();
-
-        
     }
 /**
  * Metodo que controla la parte de la interfaz que muestra las horas que quedan
@@ -72,8 +62,6 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra
 menostiempo(a){
-
-    console.log("antes de haber restado hora " + this.horas_eventos);
     if(this.remaining_time.scaleX>=0.01){
         if(this.horas_eventos>=23){
             this.horas_eventos=-1;
@@ -83,31 +71,20 @@ menostiempo(a){
         //aumentamos la hora real
         this.horas_eventos++;
         this.remaining_time.scaleX-=(1/this.horas_totales);
-   
     }
     //condición para cambiar de escena hacia pregunta para pasar de día por falta de tiempo
     else if(this.horas_disponibles<=0){
       //  this.scene.
     }
-  
-   else this.remaining_time.scaleX-=0;
-    
+    else this.remaining_time.scaleX-=0;   
     this.updateTimes();
-
-    console.log("después de haber restado hora" + this.horas_eventos);
     if(this.horas_disponibles===0){
         this.scene.scene.launch('pregunta')
     }
 }
-    //suma horas o lo que es lo mismo aumenta el tamaño de la barra
-    
     //suma horas, aumentando el tamaño de la barra, con la condicion de no haber
     //consumido más de dos tazas
     mastiempo(b){
-
-       
-       console.log(this.tazas_totales)
-        
        //podemos tomar café siempre y cuando hayamos gastado dos horas de nuestro día
         if(this.horas_disponibles<this.horas_totales && this.tazas_totales<2){
             //añadimos uno al contador de tazas consumidas, y al de horas disponibles
@@ -115,17 +92,10 @@ menostiempo(a){
             this.horas_disponibles++;
             this.remaining_time.scaleX+=(1/this.horas_totales);
         }       
-
-
         //si hemos consumido nuestras dos tazas de café no podremos tomar más
         else if (this.tazas_totales>2  ||this.remaining_time.scaleX >= 1.4  ){
-        this.remaining_time.scaleX+=0;
-        
+        this.remaining_time.scaleX+=0; 
        }     
-
        this.updateTimes();
     }
-
-
-   
   }
