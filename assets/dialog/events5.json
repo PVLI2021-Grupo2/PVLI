@@ -125,10 +125,10 @@
                    
                 ]
                 ,
-                "id": ,
+                "id": 8,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Los Smith afirman que William no es posible que siga vivo"
              },
              
                 "event12":{
@@ -141,11 +141,11 @@
                    "—Oh, cariño..."
  
                 ],
-                "id": 
+                "id": 8
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Los Smith afirman que William no es posible que siga vivo"
              },
              
                 "event13":{
@@ -159,11 +159,11 @@
                    "—Nosotros tenemos una vida de arrepentimientos por delante, sin embargo, él..."
                    
                 ],
-                "id": 
+                "id": 8
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Los Smith afirman que William no es posible que siga vivo"
              },
              
                 "event14":{
@@ -194,10 +194,10 @@
                    "Nosotros también, nosotros también." 
                 ]
                 ,
-                "id": ,
+                "id":8 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
              },
              
                 "event17":{
@@ -209,10 +209,10 @@
  
                 ]
                 ,
-                "id": ,
+                "id": 8,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
              },
              
                 "event18":{
@@ -224,10 +224,10 @@
  
                 ]
                 ,
-                "id": ,
+                "id": 8,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
              },
              
                 "event19":{
@@ -465,11 +465,11 @@
                    "Es un poco raro porque por la mañana siempre me saludaba pero..."
  
                 ],
-                "id": 
+                "id": 8
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
              },
              
                 "event17":{
@@ -480,11 +480,11 @@
                    "—Sarah, John un poco de alegría por favor. Seguramente William esté bien, ¿cierto?"
  
                 ],
-                "id":
+                "id":8
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
              },
              
                 "event18":{
@@ -495,11 +495,11 @@
                    "—Sisí, yo cuando era más joven desaparecía todo el rato también..."
  
                 ],
-                "id":
+                "id":8
                 ,
-                "isevent" : false
+                "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
              },
              
                 "event19":{
@@ -759,11 +759,11 @@
                    "—Heyy, hola otra vez compañero... Llamaba para darte las gracias por lo de las ganzúas...",
                    "...que me quieres cobrar cúanto? Pero tú estás loco, si ni siquiera te apareciste por aquí, tuve que hacer todo el trabajo yo—"
                 ],
-                "id":
+                "id": 9
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
              },
              
                 "event20":{
@@ -772,11 +772,11 @@
                    "—Jaja ooohh, amigo, ¿cuál era tu nombre otra vez? Cuando no me estás intentando sacar dinero eres bastante majo...",
                    "...te digo que voy a contratar a otro cerrajero si me vuelvo a meter en el piso de alguien, eso desde ya."
                 ],
-                "id":
+                "id":9
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
              },
              
                 "event21":{
@@ -787,10 +787,10 @@
  
                 ]
                 ,
-                "id": ,
+                "id": 9,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
              },
              
                "event22":{
@@ -946,11 +946,11 @@
  
  
                 ],
-                "id": 
+                "id": 9
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles está en casa de William buscando su maletín con el dinero del chantaje"
              },
              
                 "event13":{
@@ -960,10 +960,10 @@
   
                  ]
                  ,
-                 "id": ,
+                 "id": 9,
                  "isevent" : true
                  ,
-                 "notebookinfo": ""
+                 "notebookinfo": "Charles está en casa de William buscando su maletín con el dinero del chantaje"
               },
               
                  "event14":{
@@ -972,10 +972,10 @@
                    "—¡Aquí está! Ven con papá bonito..."
                  ]
                  ,
-                 "id": ,
+                 "id": 9,
                  "isevent" : true
                  ,
-                 "notebookinfo":  ""
+                 "notebookinfo":  "Charles está en casa de William buscando su maletín con el dinero del chantaje"
               },
               
                  "event15":{
@@ -1280,7 +1280,7 @@
                   "text":[
                      "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
                  ],
-                 "id":4,
+                 "id":9,
                  "isevent":true,
                  "notebookinfo": ""
              }
@@ -1329,7 +1329,7 @@
                   "text":[
                     "Es un maletín, parece estar lleno de dinero"
                 ],
-                "id":5,
+                "id":-1,
                 "isevent":true,
                 "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
             }

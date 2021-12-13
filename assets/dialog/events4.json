@@ -682,7 +682,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
              },
                 "event16":{
                   "text":[
@@ -694,7 +694,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
              },
                 "event17":{
                   "text":[
@@ -707,7 +707,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": ""
+                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
              },
                 "event18":{
                   "text":[
@@ -1223,7 +1223,7 @@
                   "text":[
                      "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
                  ],
-                 "id":4,
+                 "id":-1,
                  "isevent":true,
                  "notebookinfo": ""
              }
@@ -1272,7 +1272,7 @@
                   "text":[
                     "Es un maletín, parece estar lleno de dinero"
                 ],
-                "id":5,
+                "id":-1,
                 "isevent":true,
                 "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
             }
