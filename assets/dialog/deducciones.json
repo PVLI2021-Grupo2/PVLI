@@ -28,15 +28,15 @@
         "id":3
     },
     "deduccion7":{
-        "text":["El detective Charles Doyle odia a William y lo quiere muerto"],
+        "text":["Ha habido actos muy violentos y sospechosos en el edificio hoy en todos los pisos"],
         "id":3
     },
     "deduccion8":{
-        "text":["Para terminar de llenar el maletín de dinero Charles ha sobornado al matrimonio Smith"],
+        "text":["El matrimonio Smith y la señora Cooper afirman que William podría no estar vivo"],
         "id":4
     },
     "deduccion9":{
-        "text":["Para terminar de llenar el maletín de dinero Charles ha sobornado al matrimonio Smith"],
+        "text":["El detective Charles ha hecho lo  posible por eliminar a William y recuperar su dinero"],
         "id":4
     }
 

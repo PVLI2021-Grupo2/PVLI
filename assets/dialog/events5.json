@@ -1,0 +1,1340 @@
+{
+    "earphone":
+       {
+          "room1":
+             {
+                "event0":{
+                   "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ],
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+                
+                
+             },
+             
+                "event1":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ],
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event2":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event3":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event4":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event5":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event6":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event7":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event8":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que están durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event9":{
+                  "text":[
+                   "*Escuchas el agua correr, parece que estén duchándose*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event10":{
+                  "text":[
+                   "*Oyes platos y cubertería colocándose, parece que aparte de eso, el silencio podría cortarse con un cuchillo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event11":{
+                  "text":[
+                   "...",
+                   "—Ayer no dormí mucho, Sarah.",
+                   "—Entonces deberías saber que yo tampoco, John.",
+                   "—¿Crees que tenemos el derecho de haber... arrebatado la vida a alguien y seguir viviendo con ello?",
+                   "—William lo hacía, cielo, tendremos que aprender, como él.",
+                   "...",
+                   "Yo también lo siento, John."
+                   
+                ]
+                ,
+                "id": ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event12":{
+                  "text":[
+                   "...",
+                   "—Sabes, John...",
+                   "—¿Sí, cariño?",
+                   "—Hoy fui a mirar si efectivamente William había, ya sabes... Y lo único que escuché fue el silencio. Y quizá solo estaba durmiendo pero...",
+                   "Me preguntaba si hicimos lo correcto, John.",
+                   "—Oh, cariño..."
+ 
+                ],
+                "id": 
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event13":{
+                  "text":[
+                   "...",
+                   "—Sabes, cariño...",
+                   "Cuando estábamos en el piso de William ayer, vi una foto con sus alumnos...",
+                   "—¿Estaba...?",
+                   "—Sí, estaba Kevin... Me estaba preguntando si él también se arrepentía de lo que ocurrió.",
+                   "—Es probable que a todos nos recorriese la culpa desde ese día, sí.",
+                   "—Nosotros tenemos una vida de arrepentimientos por delante, sin embargo, él..."
+                   
+                ],
+                "id": 
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event14":{
+                  "text":[
+                   "*Escuchas la televisión de fondo"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event15":{
+                  "text":[
+                   "*Escuchas el ruido de platos, vasos y la cubertería, parece que estén recogiendo la mesa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event16":{
+                  "text":[
+                   "*Escuchas a John y Sarah hablar, parece que están por teléfono*",
+                   "—Sí, señora Cooper, nosotros tampoco hemos visto a William desde ayer... ¿Está preocupada?",
+                   "—...",
+                   "Nosotros también, nosotros también." 
+                ]
+                ,
+                "id": ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event17":{
+                  "text":[
+                   "*Escuchas a John y Sarah hablar, parece que están por teléfono*",
+                   "—Señora Cooper, usted conoce las rutinas de los vecinos más, ¿verdad? ¿Usted ha visto a William?",
+                   "—...",
+                   "Ya veo, con que desde hace un par de días que no lo ve ni en pintura..." 
+ 
+                ]
+                ,
+                "id": ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event18":{
+                  "text":[
+                   "*Escuchas a John y Sarah hablar, parece que están por teléfono*",
+                   "—Quizá el profesor William sí se esté tomando unas vacaciones... Usted dice que se estaba dando un tiempo del trabajo, ¿cierto?",
+                   "—...",
+                   "Puede ser que sea por eso que no le hayamos visto, entonces." 
+ 
+                ]
+                ,
+                "id": ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event19":{
+                  "text":[
+                   "—John, ¿y si nos vamos a dar una vuelta? A ver el... barrio y todo eso",
+                   "—Quizá nos vendría bien despejarnos, sí"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event20":{
+                  "text":[
+                   "*No escuchas nada, no parecen estar en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event21":{
+                  "text":[
+                   "*No escuchas nada, no parecen estar en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event22":{
+                  "text":[
+                   "*No escuchas nada, no parecen estar en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event23":{
+                  "text":[
+                   "*No escuchas nada, no parecen estar en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             }
+            }
+             
+          ,
+          "room2":
+             {
+                "event0":{
+                  "text":[
+                    "*Escuchas ronquidos, parece que duerme*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event1":{
+                  "text":[
+                    "*Escuchas ronquidos, parece que duerme*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event2":{
+                  "text":[
+                   "*Escuchas ronquidos, parece que duerme*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event3":{
+                  "text":[
+                   "*Escuchas ronquidos, parece que duerme*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event4":{
+                  "text":[
+                   "*Escuchas ronquidos, parece que duerme*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event5":{
+                  "text":[
+                   "*Escuchas ronquidos, parece que duerme*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event6":{
+                  "text":[
+                   "*Escuchas ronquidos, parece que duerme*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event7":{
+                  "text":[
+                   "*Escuchas ronquidos, parece que duerme*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event8":{
+                  "text":[
+                   "*Escuchas ronquidos, parece que duerme*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event9":{
+                  "text":[
+                   "—Ay ay, mi gatito, ¿quieres el palo? ¡Ve y busca el palo!",
+                   "—...",
+                   "—Un intento admirable, señorito"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event10":{
+                  "text":[
+                   "*Escuchas un programa de radio sobre el corazón*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event11":{
+                  "text":[
+                   "*Escuchas un programa de radio sobre el corazón*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event12":{
+                  "text":[
+                   "*Escuchas un programa de radio sobre el corazón*"
+ 
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event13":{
+                  "text":[
+                   "*Escuchas ruido en la cocina, parece que prepara la comida*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event14":{
+                  "text":[
+                   "*La casa está en silencio, pero se oyen cubiertos, estará comiendo*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event15":{
+                  "text":[
+                   "*La casa está en silencio, pero se oyen cubiertos, estará comiendo*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event16":{
+                  "text":[
+                   "*Oyes a la señora Smith hablando sola, parece que está por teléfono*",
+                   "—Sísí, es como ustedes dicen, no le he visto desde ayer, ese profesor se ha esfumado...",
+                   "Es un poco raro porque por la mañana siempre me saludaba pero..."
+ 
+                ],
+                "id": 
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event17":{
+                  "text":[
+                   "*Oyes a la señora Smith hablando sola, parece que está por teléfono*",
+                   "—Yo digo que es posible quue se haya conseguido amante, ¿por qué si no iba a desaparecer?",
+                   "...",
+                   "—Sarah, John un poco de alegría por favor. Seguramente William esté bien, ¿cierto?"
+ 
+                ],
+                "id":
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event18":{
+                  "text":[
+                   "*Oyes a la señora Smith hablando sola, parece que está por teléfono*",
+                   "—Aunque William lleve un tiempo sin verse, es su propio asunto.",
+                   "...",
+                   "—Sisí, yo cuando era más joven desaparecía todo el rato también..."
+ 
+                ],
+                "id":
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event19":{
+                  "text":[
+                    "*No escuchas nada, no parece estar en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event20":{
+                  "text":[
+                    "*No escuchas nada, no parece estar en casa*"
+ 
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event21":{
+                  "text":[
+                   "*Escuchas ruidos que parece que vienen de la cocina*",
+                   "—Hola minino... hoy te he vuelto a preparar una comida un poco distinta, a ver si te gusta..."
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event22":{
+                  "text":[
+                   "*Escuchas ruidos que parece que vienen de la cocina*",
+                   "—Gatito bonito, te gusta la comida ¿verdad? Disfruta, disfruta jaja."
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event23":{
+                  "text":[
+                   "*No escuchas nada, puede que ya se haya ido a dormir*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             }
+            }
+          ,
+          "room3": 
+             {
+                "event0":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que está durmiendo*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event1":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que está durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event2":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que está durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event3":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que está durmiendo*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event4":{
+                  "text":[
+                   "*Se oyen ronquidos, parece que está durmiendo*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event5":{
+                  "text":[
+                    "*Escuchas ronquidos, parece que esté durmiendo*"                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event6":{
+                  "text":[
+                    "*Escuchas ronquidos, parece que esté durmiendo*"                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event7":{
+                  "text":[
+                    "*Escuchas ronquidos, parece que esté durmiendo*"                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event8":{
+                  "text":[
+                    "*Escuchas ronquidos, parece que esté durmiendo*"                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event9":{
+                  "text":[
+                    "—Hora de montarme el paripé de mi vida... veamos debería prepararme para ir ahí, sí..."
+                    
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+              },
+              
+                 "event10":{
+                  "text":[
+                   "—Después de esto, creo que necesitaré unas vacaciones... veamos dónde puse la dichosa linterna..."
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+              },
+              
+                 "event11":{
+                  "text":[
+                   "*No escuchas nada, no parece estar en casa*"
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event12":{
+                  "text":[
+                   "*No escuchas nada, no parece estar en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event13":{
+                  "text":[
+                   "*No escuchas nada, no parece estar en casa*"
+ 
+                ],
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event14":{
+                  "text":[
+                   "*No escuchas nada, no parece estar en casa*"
+ 
+                ],
+                "isevent" : false
+                ,
+                "notebookinfo":  ""
+             },
+             
+                "event15":{
+                  "text":[
+                   "*Se escucha algo pesado arrastrarse... ¿Estará haciendo redecoración en la casa?*"
+ 
+                ] ,
+                "isevent" : false
+                ,
+                "notebookinfo":  ""
+             },
+             
+                "event16":{
+                  "text":[
+                   "*Se escuchan algunos jadeos, quizá esté haciendo ejercicio*",
+                   "—Vale, vale, creo que ahí está bien... No lo encontraría nadie más..."
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+              },
+              
+                 "event17":{
+                  "text":[
+                   "*Se escucha el sonido de la ducha*"
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+              },
+              
+                 "event18":{
+                  "text":[
+                   "*Se escucha el sonido de la ducha*"
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event19":{
+                  "text":[
+                   "*Escuchas a Charles hablando solo, parece que está al teléfono*",
+                   "—Heyy, hola otra vez compañero... Llamaba para darte las gracias por lo de las ganzúas...",
+                   "...que me quieres cobrar cúanto? Pero tú estás loco, si ni siquiera te apareciste por aquí, tuve que hacer todo el trabajo yo—"
+                ],
+                "id":
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event20":{
+                  "text":[
+                   "*Escuchas a Charles hablando solo, parece que está al teléfono*",
+                   "—Jaja ooohh, amigo, ¿cuál era tu nombre otra vez? Cuando no me estás intentando sacar dinero eres bastante majo...",
+                   "...te digo que voy a contratar a otro cerrajero si me vuelvo a meter en el piso de alguien, eso desde ya."
+                ],
+                "id":
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event21":{
+                  "text":[
+                   "*Escuchas a Charles hablando solo, parece que está al teléfono*",
+                   "—Oye oye, ni siquiera eres cerrajero de verdad, ¿no? Podría caerte una muy gorda por intentar estafarme...",
+                   "...gracias por ayudarme a entrar al piso pero si tú me amenazas, yo te lo devuelvo."
+ 
+                ]
+                ,
+                "id": ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+               "event22":{
+                  "text":[
+                   "Se oye la ducha*"
+ 
+                ],
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event23":{
+                  "text":[
+                   "*No escuchas nada, no parece estar en casa*"
+                ],
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             }
+            }
+          ,
+          "room4":
+             {
+                "event0":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+  
+                 ]
+                 ,
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event1":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                 ]
+                 ,
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event2":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+  
+                 ]
+                 ,
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event3":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                 ]
+                 ,
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event4":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event5":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event6":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event7":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event8":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event9":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event10":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event11":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event12":{
+                  "text":[
+                   "*Se escucha ruido de revolver cosas y abrir armarios, no parece William*",
+                   "—Venga, venga, debería estar por aquí..."
+ 
+ 
+                ],
+                "id": 
+                ,
+                "isevent" : true
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event13":{
+                  "text":[
+                   "*Se escucha ruido de revolver cosas y abrir armarios, no parece William*",
+                   "—Llevo un rato buscando, debería estar en alguna parte..."
+  
+                 ]
+                 ,
+                 "id": ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo": ""
+              },
+              
+                 "event14":{
+                  "text":[
+                   "*Se escucha ruido de revolver cosas y abrir armarios, no parece William*",
+                   "—¡Aquí está! Ven con papá bonito..."
+                 ]
+                 ,
+                 "id": ,
+                 "isevent" : true
+                 ,
+                 "notebookinfo":  ""
+              },
+              
+                 "event15":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo":  ""
+             },
+             
+                "event16":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+  
+                 ]
+                 ,
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event17":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+  
+                 ]
+                 ,
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             },
+             
+                "event18":{
+                  "text":[
+                  
+                   "*No se escucha nada, no hay nadie en casa*"
+               ]
+                ,
+                                
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event19":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event20":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+ 
+                ]
+                ,
+                "isevent" : false
+                ,
+                "notebookinfo": ""
+             },
+             
+                "event21":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+              },
+              
+                 "event22":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+              },
+              
+                 "event23":{
+                  "text":[
+                   "*No se escucha nada, no hay nadie en casa*"
+ 
+                 ],
+                 "isevent" : false
+                 ,
+                 "notebookinfo": ""
+             }
+            }
+          
+       }
+    ,
+    "prismatic":
+       {
+          "room1":
+             {
+                "object_ball":{
+                  "text":[
+                   "WoW una pelota de futbol!",
+                   "Mira una pelota de futbol!",
+                   "Que guay una pelota de fulbol!"  
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_cartoy":{
+                  "text":[
+                   "WoW un coche!",
+                   "Mira, mira, un coche!",
+                   "Nunca he visto un coche!"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_books":{
+                  "text":[
+                   "Parece que hay muchos libros en la estanteria",
+                   "todo son libros de medicinas"
+                ],
+                "id": -1,
+                "isevent" : false,
+                "notebookinfo": "Libros de medicina de los Smith"
+             },
+             
+                "object_picture":{
+                  "text":[
+                   "Una foto de familia?",
+                   "Parece que la pareja Smith tienen un hijo"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_drawing":{
+                  "text":[
+                   "Un dibujo de niño?",
+                   "Puede ser que el dibujo ha sido dibujado por el hijo"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_bag":{
+                  "text":[
+                   "Una bolsa de plastico?",
+                   "Que hay dentro?"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_sara":{
+                  "text":[
+                   "Es Sara Smith"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_smith":{
+                  "text":[
+                   "Es John Smith"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                 "object_tarro_veneno":{
+                  "text":[
+                     "Es un tarro con veneno",
+                     "¿Qué hace un tarro de veneno cerca del chocolate y la vainilla?"
+                 ],
+                 "id": -1,
+                 "isevent": false,
+                 "notebookinfo": "En la cocina de los Smith hay veneno cerca del chocolate"
+ 
+             }
+            }
+          ,
+          "room2":
+             {
+                "object_cup":{
+                  "text":[
+                   "Una tetera?",
+                   "Parece que a la señora Cooper le encanta beber el té"  
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_cat":{
+                  "text":[
+                   "WoW una gatita!",
+                   "Que mona!",
+                   "Ojala tener una!"  
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_dog":{
+                  "text":[
+                   "Un perro persiguiendo a la gata",
+                   "Parece que a la señora Cooper les gusta mucho a los animales"  
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_aguja":{
+                  "text":[
+                   "Un bolso de aguja",
+                   "Parece que va coser algo",
+                   "Uy, las agujas parece muy afilados"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_tejido":{
+                  "text":[
+                   "Un tejido?",
+                   "Puede ser que la señora Cooper está cosiendo una bufanda",
+                   "Me echo de menos a la bufando que cosí mi madre"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                "object_ovillo":{
+                  "text":[
+                   "Un ovillo",
+                   "A los gatos les encantan jugar ovillos jjj"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },             
+             
+                "object_cooper":{
+                  "text":[
+                   "Es la señora Edna Cooper"
+                ],
+                "id":-1,
+                "isevent" : false,
+                "notebookinfo": ""
+             }
+            }
+          ,
+          "room3":
+             {
+                "object_charles":{
+                  "text":[
+                   "Es el detective Charles Doyle"
+                ],
+                "id": -1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                 "object_calendario":{
+                  "text":[
+                     "Es un calendario con distintos días marcados en rojo"
+                 ],
+                 "id": -1,
+                 "isevent":false,
+                 "notebookinfo": ""
+             },
+             
+                 "object_papel_cita":{
+                  "text":[
+                     "Es un papel en el que hay apuntado: 'Quedar con X'"
+                 ],
+                 "id":-1,
+                 "isevent":false,
+                 "notebookinfo": ""
+             },
+             
+                 "object_maletin":{
+                  "text":[
+                     "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
+                 ],
+                 "id":4,
+                 "isevent":true,
+                 "notebookinfo": ""
+             }
+            }
+          ,
+          "room4":
+             {
+                "object_william":{
+                  "text":[
+                   "Es el profesor William Scott"
+                ],
+                "id": -1,
+                "isevent" : false,
+                "notebookinfo": ""
+             },
+             
+                 "object_partes":{
+                  "text":[
+                     "*Son un montón de partes de incidencia, puedo leer palabras sueltas*",
+                     "*'Bullying', 'Kevin Smith', 'atención urgente', 'parece grave', 'daño psicológico' *"
+                 ],
+                 "id":-1,
+                 "isevent": false,
+                 "notebookinfo": ""
+             },
+             
+                 "object_cuadro_alumnos":{
+                  "text":[
+                     "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
+                 ],
+                 "id":-1,
+                 "isevent":false,
+                 "notebookinfo": ""
+             },
+             
+                 "object_botella":{
+                  "text":[
+                     "Es una botella de Whisky, parece distinta a la de ayer y está a la mitad"
+                 ],
+                 "id":-1,
+                 "isevent":false,
+                 "notebookinfo": ""
+             },
+             
+                "object_maletin_grande":{
+                  "text":[
+                    "Es un maletín, parece estar lleno de dinero"
+                ],
+                "id":5,
+                "isevent":true,
+                "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
+            }
+         }
+          
+       }
+    
+ }
