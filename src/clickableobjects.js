@@ -13,21 +13,22 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
        * así como manda apuntar la información asociada al mismo
        */
     showtext(){
-        let file = this.jsonfile["prismatic"][this.roomName][this.name]
-        let text_notebook = file["text"]
-        let idi = file["id"]
-        let isevent = file["isevent"]
+        let file = this.jsonfile["prismatic"][this.roomName][this.name];
+        let dialog = file["text"];
+        let idi = file["id"];
+        let isevent = file["isevent"];
+        let notebookinfo = file["notebookinfo"];
         this.textbox = new Dialogue(this.scene);
-        this.textbox.changeDialogue(text_notebook);
+        this.textbox.changeDialogue(dialog);
         this.scene.backactive(false);
         if(isevent === true){
             let apuntado = false;
             this.scene.game.estadoCompartido.observaciones.forEach(element => 
                 {
-                if(element.text_notebook===text_notebook) apuntado=true;
+                if(element.text_notebook===dialog) apuntado=true;
                 });
             if(!apuntado){
-                this.scene.game.estadoCompartido.observaciones.push({text_notebook,id:idi,activated:false})
+                this.scene.game.estadoCompartido.observaciones.push({text_notebook: notebookinfo,id:idi,activated:false})
                 this.scene.game.room1objects[this.num]=false;
             }
         }      

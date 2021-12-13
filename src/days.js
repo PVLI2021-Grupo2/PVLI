@@ -22,38 +22,35 @@ export default class Days extends Phaser.Scene{
         if(room==="room1"){
             let time =  scene.game.nowtime;
             let objectarray = [];
-            let ball= new clickableobjects(scene,210,225,'objects','object_ball',dialogJson,"room1",0);
-            objectarray.push(ball);
+           
+            objectarray.push(new clickableobjects(scene,210,225,'objects','object_ball',dialogJson,"room1"));
 
-            let cartoy = new clickableobjects(scene,165,300,'objects', 'object_cartoy' ,dialogJson,"room1",1);
+            let cartoy = new clickableobjects(scene,165,300,'objects', 'object_cartoy' ,dialogJson,"room1");
             objectarray.push(cartoy);
 
-            let books= new clickableobjects(scene,287,97,'objects','object_books',dialogJson,"room1",2);
-            objectarray.push(books);
+            objectarray.push(new clickableobjects(scene,287,97,'objects','object_books',dialogJson,"room1"));
             
             if(time>1 && time<5){
-                let picture= new clickableobjects(scene,50,60,'objects','object_picture',dialogJson,"room1",3);
+                let picture= new clickableobjects(scene,50,60,'objects','object_picture',dialogJson,"room1");
                 objectarray.push(picture);
             }
 
-            let drawing= new clickableobjects(scene,840,170,'objects','object_drawing',dialogJson,"room1",4);
+            let drawing= new clickableobjects(scene,840,170,'objects','object_drawing',dialogJson,"room1");
             objectarray.push(drawing);
 
-            let bag= new clickableobjects(scene,660,300,'objects','object_bag',dialogJson,"room1",5);
+            let bag= new clickableobjects(scene,660,300,'objects','object_bag',dialogJson,"room1");
             objectarray.push(bag);
 
-            let sara= new clickableobjects(scene,70,150,'objects','object_sara',dialogJson,"room1",6);
+            let sara= new clickableobjects(scene,70,150,'objects','object_sara',dialogJson,"room1");
             objectarray.push(sara);
 
-            if(time>15 && time<20){
-                let smith = new clickableobjects(scene,750,70,'objects','object_smith',dialogJson,"room1",7);
-                objectarray.push(smith);
-            }
-              
+            let smith = new clickableobjects(scene,750,70,'objects','object_smith',dialogJson,"room1");
+            objectarray.push(smith);
+               
             return objectarray;
         }
         else if(room==="room2"){
-            let tetera =new clickableobjects(scene,340,125  ,'objects', 'object_cup',dialogJson,"room2",0);
+            let tetera =new clickableobjects(scene,340,125,'objects', 'object_cup',dialogJson,"room2",0);
 
             let cat = new clickableobjects(scene,200,310,'objects', 'object_cat',dialogJson,"room2",1);
            
