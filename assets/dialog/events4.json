@@ -556,7 +556,8 @@
                   "*Escuchas el ruido de una motosierra, parece que esté cortando algo blando*"
 
  
-                ]
+                ],
+                "id":7
                 ,
                 "isevent" : true
                 ,
@@ -567,6 +568,8 @@
                   "*El ruido de la motosierra continúa, parece que provenga de este vecindario*"
  
                 ]
+                ,
+                "id":7
                 ,
                 "isevent" : true
                 ,
@@ -805,6 +808,7 @@
   
                  ]
                  ,
+                 "id":7,
                  "isevent" : true
                  ,
                  "notebookinfo": "Se escucha una motosierra cortando algo"
@@ -814,6 +818,8 @@
                   "*Escuchas el ruido de una motosierra, parece cercano, de este mismo bloque de edificios*"
  
                 ]
+                ,
+                "id":7
                 ,
                 "isevent" : true
                 ,
@@ -1020,263 +1026,252 @@
              }
        },
        "prismatic":
-       {
-          "room1":
-             {
-                "object_ball":{
+      {
+         "room1":
+            {
+               "object_ball":
+               {
+               "text":[
+                  "Es una pelota de fútbol. Contrario a lo que cabría de esperar, está bastante limpia"
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+               }
+            ,
+            
+               "object_cartoy":
+               {
                   "text":[
-                   "WoW una pelota de futbol!",
-                   "Mira una pelota de futbol!",
-                   "Que guay una pelota de fulbol!"  
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_cartoy":{
+                     "Es un Chevrolet 3100 de color rojo. Si es del niño, diría que está bastante bien cuidado"
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+               }
+            
+            ,
+            
+               "object_books":
+               {
+                  "text": [
+                     "Es una estantería con libros, parece que hay de todo.",
+                     "'Los venenos del mundo y sus usos',",
+                     "'Cómo matar a alguien y no morir en el intento (sátira)',",
+                     "'La rutina diaria de un profesor de instituto'",
+                     "Además de eso, hay diversos libros de medicina",
+                     "...¿pero qué clase de libros son estos?"
+               ],
+               "id": -1,
+               "isevent" : false,
+               "notebookinfo": ""
+               }
+            ,
+            
+               "object_picture":
+               {
                   "text":[
-                   "WoW un coche!",
-                   "Mira, mira, un coche!",
-                   "Nunca he visto un coche!"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_books":{
+                     "Es una foto familiar. John Smith, el hijo Kevin Smith, y Sarah Smith, en ese orden."
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+               }
+            ,
+            
+               "object_drawing":
+               {
                   "text":[
-                   "Parece que hay muchos libros en la estanteria",
-                   "todo son libros de medicinas"
-                ],
-                "id": -1,
-                "isevent" : false,
-                "notebookinfo": "Libros de medicina de los Smith"
-             },
-             
-                "object_picture":{
+                     "Es un dibujo de un niño. Puede asumirse que son los padres de Kevin, pero el arte no les hace demasiada justicia"
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+               }
+            ,
+            
+               "object_sara":{
                   "text":[
-                   "Una foto de familia?",
-                   "Parece que la pareja Smith tienen un hijo"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_drawing":{
-                  "text":[
-                   "Un dibujo de niño?",
-                   "Puede ser que el dibujo ha sido dibujado por el hijo"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_bag":{
-                  "text":[
-                   "Una bolsa de plastico?",
-                   "Que hay dentro?"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_sara":{
-                  "text":[
-                   "Es Sara Smith"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_smith":{
-                  "text":[
-                   "Es John Smith"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                 "object_tarro_veneno":{
-                  "text":[
-                     "Es un tarro con veneno",
-                     "¿Qué hace un tarro de veneno cerca del chocolate y la vainilla?"
-                 ],
-                 "id": -1,
-                 "isevent": false,
-                 "notebookinfo": "En la cocina de los Smith hay veneno cerca del chocolate"
- 
-             }
+                     "Es Sara Smith, parece que sigue de luto por la muerte de su hijo."
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             }
-          ,
-          "room2":
-             {
-                "object_cup":{
+            ,
+            
+               "object_smith":{
                   "text":[
-                   "Una tetera?",
-                   "Parece que a la señora Cooper le encanta beber el té"  
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_cat":{
-                  "text":[
-                   "WoW una gatita!",
-                   "Que mona!",
-                   "Ojala tener una!"  
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_dog":{
-                  "text":[
-                   "Un perro persiguiendo a la gata",
-                   "Parece que a la señora Cooper les gusta mucho a los animales"  
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_aguja":{
-                  "text":[
-                   "Un bolso de aguja",
-                   "Parece que va coser algo",
-                   "Uy, las agujas parece muy afilados"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_tejido":{
-                  "text":[
-                   "Un tejido?",
-                   "Puede ser que la señora Cooper está cosiendo una bufanda",
-                   "Me echo de menos a la bufando que cosí mi madre"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                "object_ovillo":{
-                  "text":[
-                   "Un ovillo",
-                   "A los gatos les encantan jugar ovillos jjj"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },             
-             
-                "object_cooper":{
-                  "text":[
-                   "Es la señora Edna Cooper"
-                ],
-                "id":-1,
-                "isevent" : false,
-                "notebookinfo": ""
-             }
+                     "Es John Smith, continúa de luto pero parece algo desaliñado."
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
             },
-          "room3":
-             {
-                "object_charles":{
-                  "text":[
-                   "Es el detective Charles Doyle"
-                ],
-                "id": -1,
-                "isevent" : false,
-                "notebookinfo": ""
-             },
-             
-                 "object_calendario":{
-                  "text":[
-                     "Es un calendario con distintos días marcados en rojo"
-                 ],
-                 "id": -1,
-                 "isevent":false,
-                 "notebookinfo": ""
-             },
-             
-                 "object_papel_cita":{
-                  "text":[
-                     "Es un papel en el que hay apuntado: 'Quedar con X'"
-                 ],
-                 "id":-1,
-                 "isevent":false,
-                 "notebookinfo": ""
-             },
-             
-                 "object_maletin":{
-                  "text":[
-                     "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
-                 ],
-                 "id":-1,
-                 "isevent":true,
-                 "notebookinfo": ""
-             }
+            "object_tarro_veneno_vacio":{
+               "text":[
+                  "Es un tarro de veneno ya vacío"
+            ],
+            "id":6,
+            "isevent" : true,
+            "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+
             }
-          ,
-          "room4":
-             {
-                "object_william":{
+          }
+         ,
+         "room2":
+            {
+               "object_cup":{
                   "text":[
-                   "Es el profesor William Scott"
+                     "Una taza de té."
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            
+            "object_cat":{
+               "text":[
+                  "Un gato de color avellana. Se encuentra sentado moviendo la cola, con su mirada está clavada en algo.",
+                  "Tiene un colgante que pone 'Guille'. Dan ganas de tener uno, parece bien cuidado."
+            ],
+            "id":-1,
+            "isevent" : false,
+            "notebookinfo": ""
+         },
+            
+               "object_dog":{
+                  "text":[
+                  "Un perro corriendo de un lado a otro",
+                  "Tiene un collar que pone 'Candy'"  
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            
+               "object_agujas":{
+                  "text":[
+                     "Una caja de galletas, parece que a la señora Cooper le gustan los—",
+                     "espera... ¿la caja está llena de agujas de coser?"   
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            
+               "object_tejido":{
+                  "text":[
+                     "Parece una especie de tejido",
+                     "Teniendo en cuenta la forma y tamaño parecería que es para alguna de sus mascotas."   
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            
+               "object_ovillo":{
+                  "text":[
+                     "Un ovillo de lana, esperemos que el gato no se acerque demasiado..."
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            
+               "object_cooper":{
+                  "text":[
+                  "Es la señora Edna Cooper"
+               ],
+               "id":-1,
+               "isevent" : false,
+               "notebookinfo": ""
+            }
+         }
+         ,
+         "room3":
+            {
+               "object_charles":{
+                  "text":[
+                  "Es el detective Charles Doyle"
+               ],
+               "id": -1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            
+                "object_calendario":{
+                  "text":[
+                    "Es un calendario con distintos días marcados en rojo"
                 ],
                 "id": -1,
-                "isevent" : false,
+                "isevent":false,
                 "notebookinfo": ""
-             },
-             
-                 "object_partes":{
+            },
+            
+                "object_papel_cita":{
                   "text":[
-                     "*Son un montón de partes de incidencia, puedo leer palabras sueltas*",
-                     "*'Bullying', 'Kevin Smith', 'atención urgente', 'parece grave', 'daño psicológico' *"
-                 ],
-                 "id":-1,
-                 "isevent": false,
-                 "notebookinfo": ""
-             },
-             
-                 "object_cuadro_alumnos":{
-                  "text":[
-                     "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
-                 ],
-                 "id":-1,
-                 "isevent":false,
-                 "notebookinfo": ""
-             },
-             
-                 "object_botella":{
-                  "text":[
-                     "Es una botella de Whisky, parece distinta a la de ayer y está a la mitad"
-                 ],
-                 "id":-1,
-                 "isevent":false,
-                 "notebookinfo": ""
-             },
-             
-                "object_maletin_grande":{
-                  "text":[
-                    "Es un maletín, parece estar lleno de dinero"
+                    "Es un papel en el que hay apuntado: 'Quedar con X'"
                 ],
                 "id":-1,
-                "isevent":true,
-                "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
+                "isevent":false,
+                "notebookinfo": ""
             }
-        }          
-    }
-  }
-} 
-
+         }
+         ,
+         "room4":
+            {
+               "object_william":{
+                  "text":[
+                  "Es el profesor William Scott"
+               ],
+               "id": -1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
+            
+                "object_partes":{
+                  "text":[
+                     "Parecen un montón de papeles, con algo de esfuerzo se logran distinguir algunas palabras...",
+                     "REGISTRO DE INCIDENCIAS \nA FECHA DE: 0X/02/19XX\nCAUSAS: Acoso escolar",
+                     "INVOLUCRADOS: Kevin Smith, Graham Taylor, Peter London.",
+                     "DESCRIPCIÓN: El joven Kevin Smith, de 13 años, declara constantes burlas y mofas en su contra de parte de los otros dos involucrados, llegando según él al asalto físico.",
+                     "RESOLUCIÓN: El profesor del salón de los jóvenes, William Scott, ha hablado con los padres de Peter y Taylor. Tras comparar versiones de los jóvenes, se decide que fue una simple disputa entre ellos, no se investiga más."
+   
+                ],
+                "id":-1,
+                "isevent": false,
+                "notebookinfo": ""
+            },
+            
+                "object_cuadro_alumnos":{
+                  "text":[
+                    "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
+                ],
+                "id":-1,
+                "isevent":false,
+                "notebookinfo": ""
+            },
+            
+                "object_botella":{
+                  "text":[
+                    "Es una botella de Whisky, parece distinta a la de ayer y está a la mitad"
+                ],
+                "id":-1,
+                "isevent":false,
+                "notebookinfo": ""
+            }
+            ,
+            
+                "object_maletin_dinero":{
+                  "text":[
+                    "Es un maletín completamente lleno de dinero, parece que lo han llenado muy rápido"
+                ],
+                "id":9,
+                "isevent":true,
+                "notebookinfo": "Hay un maletín completamente lleno de dinero en casa de William, no parecía tenerlo antes"
+            }
+         }
+      } 
+   }
+}

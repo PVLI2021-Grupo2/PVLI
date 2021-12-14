@@ -1279,12 +1279,12 @@
                 "notebookinfo": ""
             },
             
-                "object_maletin":{
+                "object_maletin_pequeño":{
                   "text":[
                     "Es un maletín, no parece estar muy lleno ¿qué contendrá?"
                 ],
-                "id":4,
-                "isevent":true,
+                "id":-1,
+                "isevent":false,
                 "notebookinfo": ""
             }
          }
