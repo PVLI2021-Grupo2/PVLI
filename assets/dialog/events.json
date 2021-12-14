@@ -1124,7 +1124,7 @@
                ],
                "id": 0,
                "isevent" : true,
-               "notebookinfo": "Libros de medicina de los Smith"
+               "notebookinfo": "Libros relacionados con veneno de los Smith"
                }
             ,
             
@@ -1330,15 +1330,6 @@
                 "id":-1,
                 "isevent":false,
                 "notebookinfo": ""
-            },
-            
-               "object_maletin_grande":{
-                  "text":[
-                   "Es un maletín, parece estar lleno de dinero"
-               ],
-               "id":-1,
-               "isevent":false,
-               "notebookinfo": "En casa de William hay un maletín lleno de dinero de un soborno"
             }
          }
       } 
