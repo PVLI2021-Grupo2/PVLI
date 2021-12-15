@@ -63,7 +63,11 @@ export default class Boot extends Phaser.Scene {
 
 
     this.load.setPath('assets/dialog/');
-    this.load.json('dialog', 'events.json');
+    this.load.json('dialog1', 'events.json');
+    this.load.json('dialog2','events2.json');
+    this.load.json('dialog3','events3.json');
+    this.load.json('dialog4','events4.json');
+    this.load.json('dialog5','events5.json');
     this.load.json('conclusiones','conclusiones.json');
     this.load.json('deducciones','deducciones.json');
 

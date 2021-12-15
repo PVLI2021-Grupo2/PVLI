@@ -10,7 +10,8 @@ export default class extends Phaser.Scene{
         this.background = this.add.image(500, 250,'generalbg'); //añadimos el fondo de la textbox
 
         //dialogo en formato json
-        let dialogJson = this.cache.json.get('dialog');
+        let dialogJson = this.cache.json.get('dialog'+this.game.nowday);
+        console.log(dialogJson);
 
         //creación de los prismáticos
         this.prismaticos1 = new Prismaticos (this,400,400)
