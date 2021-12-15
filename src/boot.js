@@ -71,6 +71,7 @@ export default class Boot extends Phaser.Scene {
     this.load.json('conclusiones','conclusiones.json');
     this.load.json('deducciones','deducciones.json');
     this.load.json('preguntas','preguntas.json');
+    this.load.json('objectsjson','objects.json');
 
     this.load.setPath('assets/fonts/');
 

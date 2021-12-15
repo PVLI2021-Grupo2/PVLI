@@ -1,0 +1,60 @@
+{
+    "day1":{
+        "room1":[
+            {
+                "name":"object_ball" ,        
+                "posX":210,
+                "posY":225,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_cartoy" ,        
+                "posX":165,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_books" ,        
+                "posX":287,
+                "posY":97,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_picture" ,        
+                "posX":50,
+                "posY":60,       
+                "timedepend":false
+            },
+            {
+                "name":"object_drawing" ,        
+                "posX":840,
+                "posY":170,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_bag" ,        
+                "posX":660,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_sara" ,        
+                "posX":70,
+                "posY":150,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_smith" ,        
+                "posX":750,
+                "posY":70,       
+                "timedepend":false       
+            }
+        ]
+        ,
+        "room2":[]
+        ,
+        "room3":[]
+        ,
+        "room4":[]
+    }
+}
