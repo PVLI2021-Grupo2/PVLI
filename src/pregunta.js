@@ -28,9 +28,7 @@ export default class Pregunta extends Phaser.Scene{
 
          //llamamos a select, metodo que habilita clicK
          this.select();
-         this.pregunta_array=["¿Qué ha pasado en realidad con Kevin el hijo de la familia Smith?","¿Dónde está Candy, el perro de la señora Cooper?",
-         "¿Qué relación intrínseca existe entre el matrimonio Smith, el detective Charles Doyle y el profesor William Scott?","¿Cómo es la relación del Profesor William Scott con el resto de vecinos?",
-         "¿Sigue William Scott vivo?"]
+         this.pregunta_array=this.scene.scene.cache.json.get('preguntas')['preguntas']
         
          //llamamos a muestrapregunta
          this.muestrapregunta();
@@ -75,8 +73,7 @@ export default class Pregunta extends Phaser.Scene{
           if(this.game.nowday<5){
             console.log(this.game.nowday);
             this.game.nowday+=1;
-            this.scene.restart();
-            this.scene.launch('general');
+            this.scene.start('general');
             
           } 
         }

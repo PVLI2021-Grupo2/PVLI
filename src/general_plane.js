@@ -11,7 +11,6 @@ export default class extends Phaser.Scene{
 
         //dialogo en formato json
         let dialogJson = this.cache.json.get('dialog'+this.game.nowday);
-        console.log(dialogJson);
 
         //creación de los prismáticos
         this.prismaticos1 = new Prismaticos (this,400,400)

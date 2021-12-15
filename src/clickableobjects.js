@@ -31,7 +31,6 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
             if(!apuntado){
                 this.scene.game.estadoCompartido.observaciones.push({text_notebook: notebookinfo,id:idi,activated:false})               
             }
-            console.log( this.scene.game.estadoCompartido.observaciones)
         }      
     }
 }
