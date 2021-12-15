@@ -74,7 +74,6 @@ export default class Pregunta extends Phaser.Scene{
             console.log(this.game.nowday);
             this.game.nowday+=1;
             this.scene.start('general');
-            
           } 
         }
 }
