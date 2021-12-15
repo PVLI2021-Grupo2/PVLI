@@ -77,7 +77,7 @@ menostiempo(a){
     else this.remaining_time.scaleX-=0;   
     this.updateTimes();
     if(this.horas_disponibles===0){
-        this.scene.scene.launch('pregunta')
+        this.scene.scene.switch('pregunta')
     }
 }
     //suma horas, aumentando el tamaño de la barra, con la condicion de no haber

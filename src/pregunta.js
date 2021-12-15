@@ -48,7 +48,7 @@ export default class Pregunta extends Phaser.Scene{
          this.icono_avanzar_dia.setVisible(true)
          .setOrigin(0.5,0)
          .setInteractive()
-         .on('pointerdown',icono_avanzar_dia=>{this.scene.switch('menu'),this.pasardia()})        
+         .on('pointerdown',icono_avanzar_dia=>{this.scene.switch('general'),this.pasardia()})        
         }
 
       /**
@@ -56,8 +56,8 @@ export default class Pregunta extends Phaser.Scene{
        */
         muestrapregunta(){
           //muestra el texto de la pregunta
-          this.add.text(250,100,this.pregunta_array[this.game.nowday-1],
-            { fontFamily: 'Arial', color: '#00ff00' });
+          this.add.text(150,100,this.pregunta_array[this.game.nowday-1],
+            { fontFamily: 'Arial', color: '#00ff00' }).setWordWrapWidth(600);
           //muestra titulo de "conclusiones"
           this.add.text(425,215,"-RESPUESTA-",
           { fontFamily: 'Arial', color: '#00ff00' });
@@ -75,7 +75,9 @@ export default class Pregunta extends Phaser.Scene{
           if(this.game.nowday<5){
             console.log(this.game.nowday);
             this.game.nowday+=1;
+            this.scene.restart();
             this.scene.launch('general');
+            
           } 
         }
 }

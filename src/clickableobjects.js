@@ -22,16 +22,16 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
         this.textbox.changeDialogue(dialog);
         this.scene.backactive(false);
         if(isevent === true){
+            
             let apuntado = false;
             this.scene.game.estadoCompartido.observaciones.forEach(element => 
                 {
-                if(element.text_notebook===dialog) apuntado=true;
+                if(element.text_notebook === notebookinfo) apuntado=true;
                 });
             if(!apuntado){
-                this.scene.game.estadoCompartido.observaciones.push({text_notebook: notebookinfo,id:idi,activated:false});
-                this.scene.game.room1objects[this.num]=false;
-                
+                this.scene.game.estadoCompartido.observaciones.push({text_notebook: notebookinfo,id:idi,activated:false})               
             }
+            console.log( this.scene.game.estadoCompartido.observaciones)
         }      
     }
 }
