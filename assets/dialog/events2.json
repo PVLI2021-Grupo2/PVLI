@@ -141,7 +141,7 @@
                 "isevent" : true
                 ,
                 "id":2,
-                "notebookinfo": "Los Smith han invitado al William a comer"
+                "notebookinfo": "> Los Smith han invitado a William a comer"
              },
              
                 "event13":{
@@ -155,7 +155,7 @@
                 "id":2,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith han invitado al William a comer"
+                "notebookinfo": "> Los Smith han invitado a William a comer"
              },
              
                 "event14":{
@@ -169,7 +169,7 @@
                 "id":2,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith han invitado al William a comer"
+                "notebookinfo": "> Los Smith han invitado a William a comer"
              },
              
                 "event15":{
@@ -214,7 +214,7 @@
                 "id":2,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith han invitado al William a comer"
+                "notebookinfo": "> Los Smith han invitado a William a comer"
              },
              
                 "event19":{
@@ -227,7 +227,7 @@
                 "id":2,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith han invitado al William a comer"
+                "notebookinfo": "> Los Smith han invitado a William a comer"
              },
              
                 "event20":{
@@ -240,7 +240,7 @@
                 "id":2,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith han invitado al William a comer"
+                "notebookinfo": "> Los Smith han invitado a William a comer"
              },
              
                 "event21":{
@@ -253,7 +253,7 @@
                 "id":2,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith han invitado al William a comer"
+                "notebookinfo": "> Los Smith han invitado a William a comer"
              },
              
                 "event22":{
@@ -523,7 +523,7 @@
                 "id":3,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
+                "notebookinfo": "< La señora Cooper ha llamado alarmada al veterinario"
              },
              
                 "event22":{
@@ -537,7 +537,7 @@
                 "id":3,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
+                "notebookinfo": "< La señora Cooper ha llamado alarmada al veterinario"
              },
              
                 "event23":{
@@ -551,7 +551,7 @@
                 "id":3,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper ha llamado alarmada al veterinario"
+                "notebookinfo": "< La señora Cooper ha llamado alarmada al veterinario"
              }
             }
           ,
@@ -568,7 +568,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event1":{
@@ -581,7 +581,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event2":{
@@ -595,7 +595,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event3":{
@@ -610,7 +610,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event4":{
@@ -670,7 +670,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event10":{
@@ -684,7 +684,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event11":{
@@ -698,7 +698,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event12":{
@@ -714,7 +714,7 @@
              
                 "event13":{
                   "text":[
-                   "*No escuchas nada, no parece que esté en casa*"
+                   "* No escuchas nada, no parece que esté en casa*"
  
                 ]
                 ,
@@ -822,7 +822,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event23":{
@@ -850,7 +850,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William está chantajeando a Charles"
+                 "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event1":{
@@ -863,7 +863,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William está chantajeando a Charles"
+                 "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event2":{
@@ -877,7 +877,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William está chantajeando a Charles"
+                 "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event3":{
@@ -892,7 +892,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William está chantajeando a Charles"
+                 "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event4":{
@@ -956,7 +956,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event10":{
@@ -970,7 +970,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event11":{
@@ -984,7 +984,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William está chantajeando a Charles"
+                "notebookinfo": "* William está chantajeando a Charles"
              },
              
                 "event12":{
@@ -1032,7 +1032,7 @@
                  "id":3,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William ha dado tarta de los Smith a Candy, el perro de la señora Cooper"
+                 "notebookinfo": "< William ha dado tarta de los Smith a Candy"
              },
              
                 "event16":{
@@ -1046,7 +1046,7 @@
                  "id":3,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William ha dado tarta de los Smith a Candy, el perro de la señora Cooper"
+                 "notebookinfo": "< William ha dado tarta de los Smith a Candy"
              },
              
                 "event17":{
@@ -1061,7 +1061,7 @@
                  "id":3,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William ha dado tarta de los Smith a Candy, el perro de la señora Cooper"
+                 "notebookinfo": "< William ha dado tarta de los Smith a Candy"
              },
              
                 "event18":{
@@ -1222,7 +1222,7 @@
                "text":["Es un tarro de veneno vacío hasta la mitad, parece que lo han usado recientemente y está cerca de los ingredientes de reposteria"],
                "id":2,
                "isevent":true,
-               "notebookinfo":"Hay un tarro de veneno cerca de los ingredientes para hacer tartas"
+               "notebookinfo":"> Hay un tarro de veneno en la cocina de los Smith"
             }
           }
          ,
@@ -1328,9 +1328,9 @@
          },
          "object_suitcase":{
             "text":["Es una maleta grande, parece que hay un par de billetes asomando, pero no muchos"],
-            "id":2,
+            "id":4,
             "isevent":true,
-            "notebookinfo":"Es una maleta grande, debe de contener dinero, pero no mucho"
+            "notebookinfo":"* Es una maleta grande, debe de contener dinero"
          }
          }
          ,

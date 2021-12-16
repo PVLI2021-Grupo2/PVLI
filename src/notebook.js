@@ -24,14 +24,15 @@ export default class NoteBook extends Phaser.Scene{
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
             if(!this.game.estadoCompartido.observaciones[i].activated){
                 this.game.estadoCompartido.observaciones[i].selected = false;
-                this.game.estadoCompartido.observaciones[i].screentext = this.add.text(200,((textpos+1)*50)+50
+                this.game.estadoCompartido.observaciones[i].screentext = this.add.text(200,((textpos+1)*15)+50
                             ,this.game.estadoCompartido.observaciones[i].text_notebook,)
                 .setOrigin(0.5,0.5)
                 .setColor('green')
+                .setFontSize(11)
                 .setBackgroundColor('white')
                 .setAlign('center')
                 .setInteractive()
-                .setWordWrapWidth(300);          
+                .setWordWrapWidth(350);          
                 this.game.estadoCompartido.observaciones[i].screentext.on('pointerdown',()=>{this.select_text(this.game.estadoCompartido.observaciones[i],i)})
                 textpos++;
             }

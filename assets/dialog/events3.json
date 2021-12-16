@@ -103,7 +103,7 @@
                 "id":5,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
              },
              
                 "event10":{
@@ -116,7 +116,7 @@
                 "id":5,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
              },
              
                 "event11":{
@@ -129,7 +129,7 @@
                 "id":5,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
              },
              
                 "event12":{
@@ -184,7 +184,7 @@
                 "id":5,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
              },
              
                 "event17":{
@@ -198,7 +198,7 @@
                 "id":5,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
              },
              
                 "event18":{
@@ -213,7 +213,7 @@
                 "id":5,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
              },
              
                 "event19":{
@@ -638,7 +638,7 @@
                  "id":5,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                 "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
               },
               
                  "event10":{
@@ -651,7 +651,7 @@
                  "id":5,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                 "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
               },
               
                  "event11":{
@@ -664,7 +664,7 @@
                  "id":5,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                 "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
              },
              
                 "event12":{
@@ -689,7 +689,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William continua con su chantaje a Charles "
+                "notebookinfo": "* William continua con su chantaje a Charles "
              },
              
                 "event14":{
@@ -703,7 +703,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo":  "William continua con su chantaje a Charles "
+                "notebookinfo":  "* William continua con su chantaje a Charles "
              },
              
                 "event15":{
@@ -717,7 +717,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo":  "William continua con su chantaje a Charles "
+                "notebookinfo":  "* William continua con su chantaje a Charles "
              },
              
                 "event16":{
@@ -730,7 +730,7 @@
                  "id":5,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
+                 "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"
               },
               
                  "event17":{
@@ -744,8 +744,7 @@
                  "id":5,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
-              },
+                 "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"              },
               
                  "event18":{
                   "text":[
@@ -759,8 +758,7 @@
                  "id":5,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Charles chantajea a los Smith al haberles vendido el veneno"
-             },
+                 "notebookinfo": "/ Charles chantajea a los Smith por venderles veneno"             },
              
                 "event19":{
                   "text":[
@@ -795,7 +793,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William continua con su chantaje a Charles "
+                "notebookinfo": "* William continua con su chantaje a Charles "
              },
              
                "event22":{
@@ -809,7 +807,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William continua con su chantaje a Charles "
+                "notebookinfo": "* William continua con su chantaje a Charles "
              },
              
                 "event23":{
@@ -823,7 +821,7 @@
                 "id":4,
                 "isevent" : true
                 ,
-                "notebookinfo": "William continua con su chantaje a Charles "
+                "notebookinfo": "* William continua con su chantaje a Charles "
              }
             }
           ,
@@ -978,7 +976,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William continua con su chantaje a Charles "
+                 "notebookinfo": "* William continua con su chantaje a Charles "
               },
               
                  "event14":{
@@ -992,7 +990,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo":  "William continua con su chantaje a Charles "
+                 "notebookinfo":  "* William continua con su chantaje a Charles "
               },
               
                  "event15":{
@@ -1006,7 +1004,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo":  "William continua con su chantaje a Charles "
+                 "notebookinfo":  "* William continua con su chantaje a Charles "
              },
              
                 "event16":{
@@ -1076,7 +1074,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William continua con su chantaje a Charles "
+                 "notebookinfo": "* William continua con su chantaje a Charles "
               },
               
                  "event22":{
@@ -1090,7 +1088,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William continua con su chantaje a Charles "
+                 "notebookinfo": "* William continua con su chantaje a Charles "
               },
               
                  "event23":{
@@ -1104,7 +1102,7 @@
                  "id":4,
                  "isevent" : true
                  ,
-                 "notebookinfo": "William continua con su chantaje a Charles "
+                 "notebookinfo": "* William continua con su chantaje a Charles "
              }
             }
           
@@ -1312,9 +1310,9 @@
          },
          "object_suitcase":{
             "text":["Es una maleta grande, parece que hay un par de billetes asomando, pero no muchos"],
-            "id":2,
+            "id":4,
             "isevent":true,
-            "notebookinfo":"Es una maleta grande, debe de contener dinero, pero no mucho"
+            "notebookinfo":"* Es una maleta grande, debe de contener dinero, pero no mucho"
          }
          },
         
@@ -1322,9 +1320,9 @@
            "text":[
              "Es un maletín completamente lleno de dinero, parece que lo han llenado muy rápido"
          ],
-         "id":9,
+         "id":5,
          "isevent":true,
-         "notebookinfo": "Hay un maletín completamente lleno de dinero en casa de Charles, no parecía tenerlo antes"
+         "notebookinfo": "/ Hay un maletín lleno de dinero en casa de Charles"
       }
          ,
          "room4":
@@ -1363,7 +1361,7 @@
             "notebookinfo": ""
         },
             
-                "object_cuadro_alumnos":{
+                "object_fotoalumnos":{
                   "text":[
                     "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
                 ],
@@ -1387,7 +1385,7 @@
             ],
             "id":5,
             "isevent":true,
-            "notebookinfo": "Hay un maletín completamente lleno de dinero en casa de William, no parecía tenerlo antes"
+            "notebookinfo": "/ Hay un maletín lleno de dinero en casa de William"
         }
       }
    } 

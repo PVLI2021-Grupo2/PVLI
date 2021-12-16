@@ -41,7 +41,7 @@
                 "id":7,
                 "isevent" : true
                 ,
-                "notebookinfo": "Se escucha una motosierra cortando algo"
+                "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event4":{
                   "text":[
@@ -52,7 +52,7 @@
                 "id":7,
                 "isevent" : true
                 ,
-                "notebookinfo": "Se escucha una motosierra cortando algo"
+                "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event5":{
                   "text":[
@@ -100,7 +100,7 @@
                ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+                "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
              },
                 "event10":{
                   "text":[
@@ -112,7 +112,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+                "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
              },
                 "event11":{
                   "text":[
@@ -124,7 +124,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+                "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
                },
                 "event12":{
                   "text":[
@@ -141,7 +141,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+                "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
              },
                 "event13":{
                   "text":[
@@ -299,7 +299,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Se escucha una motosierra cortando algo"
+                "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event4":{
                   "text":[
@@ -311,7 +311,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Se escucha una motosierra cortando algo"
+                "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event5":{
                   "text":[
@@ -411,7 +411,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper está convencida de que William a envenenado a Candy"
+                "notebookinfo": "# La señora Cooper cree que William a envenenado a Candy"
              },
                 "event15":{
                   "text":[
@@ -426,8 +426,8 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper está convencida de que William a envenenado a Candy"
-             },
+                "notebookinfo": "# La señora Cooper cree que William a envenenado a Candy"            
+                },
                 "event16":{
                   "text":[
                   "—Una persona que se aprovecha de los menos favorecidos así no debería ser profesor",
@@ -438,8 +438,8 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper está convencida de que William a envenenado a Candy"
-             },
+                "notebookinfo": "# La señora Cooper cree que William a envenenado a Candy"             
+               },
                 "event17":{
                   "text":[
                     "—Tengo que invitarle a casa, es la única manera de que yo pueda hacerle algo a William, solo así tengo la oportunidad de vengar a Candy."
@@ -449,8 +449,8 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper está convencida de que William a envenenado a Candy"
-             },
+                "notebookinfo": "# La señora Cooper cree que William a envenenado a Candy"             
+               },
                 "event18":{
                   "text":[
                   "—El Sr. Bigotes me va a ayudar a matar a William, ¿verdad que sí cariñito?",
@@ -462,8 +462,8 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper está convencida de que William a envenenado a Candy"
-             },
+                "notebookinfo": "# La señora Cooper cree que William a envenenado a Candy"
+                            },
                 "event19":{
                   "text":[
                     "*Se escuchan cubiertos y tazas posarse sobre la mesa*"
@@ -561,7 +561,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Se escucha una motosierra cortando algo"
+                "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event4":{
                   "text":[
@@ -573,7 +573,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Se escucha una motosierra cortando algo"
+                "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event5":{
                   "text":[
@@ -623,7 +623,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "El detective Charles ha empujado escaleras abajo a William"
+                "notebookinfo": "@ El detective Charles ha empujado escaleras abajo a William"
              },
                 "event10":{
                   "text":[
@@ -633,7 +633,7 @@
                  ,
                  "isevent" : true
                  ,
-                 "notebookinfo": "El detective Charles ha empujado escaleras abajo a William"
+                 "notebookinfo": "@ El detective Charles ha empujado escaleras abajo a William"
              },
                 "event11":{
                   "text":[
@@ -643,7 +643,7 @@
                  ,
                  "isevent" : true
                  ,
-                 "notebookinfo": "El detective Charles ha empujado escaleras abajo a William"
+                 "notebookinfo": "@ El detective Charles ha empujado escaleras abajo a William"
              },
                 "event12":{
                   "text":[
@@ -685,8 +685,8 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
-             },
+                "notebookinfo": "$ Charles a llamado a un cerrajero para entrar en casa de William"
+                            },
                 "event16":{
                   "text":[
                     "*Escuchas a Charles hablando solo, parece que está al teléfono*",
@@ -697,7 +697,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
+                "notebookinfo": "$ Charles a llamado a un cerrajero para entrar en casa de William"
              },
                 "event17":{
                   "text":[
@@ -710,8 +710,8 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
-             },
+                "notebookinfo": "$ Charles a llamado a un cerrajero para entrar en casa de William"
+                            },
                 "event18":{
                   "text":[
                    "*No escuchas nada, no parece que esté en casa*"
@@ -811,7 +811,7 @@
                  "id":7,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Se escucha una motosierra cortando algo"
+                 "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event4":{
                   "text":[
@@ -823,7 +823,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Se escucha una motosierra cortando algo"
+                "notebookinfo": "@ Se escucha una motosierra cortando algo"
              },
                 "event5":{
                   "text":[
@@ -873,7 +873,7 @@
                   ,
                   "isevent" : true
                   ,
-                  "notebookinfo": "El detective Charles ha empujado escaleras abajo a William"
+                  "notebookinfo": "@ El detective Charles ha empujado escaleras abajo a William"
              },
                 "event10":{
                   "text":[
@@ -883,7 +883,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "El detective Charles ha empujado escaleras abajo a William"
+                "notebookinfo": "@ El detective Charles ha empujado escaleras abajo a William"
              },
                 "event11":{
                   "text":[
@@ -893,7 +893,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "El detective Charles ha empujado escaleras abajo a William"
+                "notebookinfo": "@ El detective Charles ha empujado escaleras abajo a William"
              },
                 "event12":{
                   "text":[
@@ -983,7 +983,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+                "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
              },
                 "event21":{
                   "text":[
@@ -997,7 +997,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+                "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
              },
                 "event22":{
                   "text":[
@@ -1011,7 +1011,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+                "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
              },
                 "event23":{
                   "text":[
@@ -1115,7 +1115,7 @@
             ],
             "id":6,
             "isevent" : true,
-            "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+            "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
 
             }
           }
@@ -1267,7 +1267,7 @@
                "notebookinfo": ""
             },
             
-                "object_cuadro_alumnos":{
+                "object_fotoalumnos":{
                   "text":[
                     "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
                 ],
@@ -1292,7 +1292,7 @@
                 ],
                 "id":9,
                 "isevent":true,
-                "notebookinfo": "Hay un maletín completamente lleno de dinero en casa de William, no parecía tenerlo antes"
+                "notebookinfo": "$ Hay un maletín lleno de dinero en casa de William"
             },
             
             "object_sara":{
@@ -1301,7 +1301,7 @@
             ],
             "id":6,
             "isevent" : true,
-            "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+            "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
          }
          ,
          
@@ -1311,7 +1311,7 @@
             ],
             "id":6,
             "isevent" : true,
-            "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+            "notebookinfo": "# Los Smith quieren asegurar la muerte definitiva de William"
          }
 
          }

@@ -128,7 +128,7 @@
                 "id": 8,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith afirman que William no es posible que siga vivo"
+                "notebookinfo": "% Los Smith afirman que William no es posible que siga vivo"
              },
              
                 "event12":{
@@ -145,7 +145,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith afirman que William no es posible que siga vivo"
+                "notebookinfo": "% Los Smith afirman que William no es posible que siga vivo"
              },
              
                 "event13":{
@@ -163,7 +163,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Los Smith afirman que William no es posible que siga vivo"
+                "notebookinfo": "% Los Smith afirman que William no es posible que siga vivo"
              },
              
                 "event14":{
@@ -197,7 +197,7 @@
                 "id":8 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
+                "notebookinfo": "% La señora Cooper afirma a los Smith que no sabe nada de William"
              },
              
                 "event17":{
@@ -212,7 +212,7 @@
                 "id": 8,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
+                "notebookinfo": "% La señora Cooper afirma a los Smith que no sabe nada de William"
              },
              
                 "event18":{
@@ -227,7 +227,7 @@
                 "id": 8,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
+                "notebookinfo": "% La señora Cooper afirma a los Smith que no sabe nada de William"
              },
              
                 "event19":{
@@ -469,7 +469,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
+                "notebookinfo": "% La señora Cooper afirma a los Smith que no sabe nada de William"
              },
              
                 "event17":{
@@ -484,7 +484,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
+                "notebookinfo": "% La señora Cooper afirma a los Smith que no sabe nada de William"
              },
              
                 "event18":{
@@ -499,7 +499,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "La señora Cooper afirma a los Smith que ella no ha visto a William desde hace 2 días"
+                "notebookinfo": "% La señora Cooper afirma a los Smith que no sabe nada de William"
              },
              
                 "event19":{
@@ -763,7 +763,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
+                "notebookinfo": "$ Charles a llamado a un cerrajero para entrar en casa de William"
              },
              
                 "event20":{
@@ -776,7 +776,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
+                "notebookinfo": "$ Charles a llamado a un cerrajero para entrar en casa de William"
              },
              
                 "event21":{
@@ -790,7 +790,7 @@
                 "id": 9,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles a contactado con un cerrajero para entrar en casa de William"
+                "notebookinfo": "$ Charles a llamado a un cerrajero para entrar en casa de William"
              },
              
                "event22":{
@@ -950,7 +950,7 @@
                 ,
                 "isevent" : true
                 ,
-                "notebookinfo": "Charles está en casa de William buscando su maletín con el dinero del chantaje"
+                "notebookinfo": "$ Charles está en casa de William buscando el dinero del chantaje"
              },
              
                 "event13":{
@@ -963,7 +963,7 @@
                  "id": 9,
                  "isevent" : true
                  ,
-                 "notebookinfo": "Charles está en casa de William buscando su maletín con el dinero del chantaje"
+                 "notebookinfo": "$ Charles está en casa de William buscando el dinero del chantaje"
               },
               
                  "event14":{
@@ -975,7 +975,7 @@
                  "id": 9,
                  "isevent" : true
                  ,
-                 "notebookinfo":  "Charles está en casa de William buscando su maletín con el dinero del chantaje"
+                 "notebookinfo": "$ Charles está en casa de William buscando el dinero del chantaje"
               },
               
                  "event15":{
@@ -1186,7 +1186,7 @@
             ],
             "id":7,
             "isevent" : true,
-            "notebookinfo": "Un gato de la señora Cooper está cubierto de sangre, tal vez tenga que ver con los ruidos de anoche"
+            "notebookinfo": "@ Un gato de la señora Cooper está cubierto de sangre"
          },
             
          "object_deaddog":{
@@ -1275,7 +1275,7 @@
             ],
             "id":9,
             "isevent":true,
-            "notebookinfo": "Hay un maletín completamente lleno de dinero en casa de Charles, no parecía tenerlo antes"
+            "notebookinfo": "$ Hay un maletín lleno de dinero en casa de Charles"
          }
          }
          ,
@@ -1307,7 +1307,7 @@
             "notebookinfo": ""
         },
             
-                "object_cuadro_alumnos":{
+                "object_fotoalumnos":{
                   "text":[
                     "Es un cuadro del Profesor William Scott con sus alumnos, ¿Es ese Kevin Smith?"
                 ],
