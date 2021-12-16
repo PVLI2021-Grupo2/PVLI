@@ -26,9 +26,9 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         //contador de tazas
         this.tazas_totales=0;
         //horas totales por dia
-        this.horas_totales=20;
+        this.horas_totales=18;
         //horas disponibles o restantes
-        this.horas_disponibles=20;
+        this.horas_disponibles=18;
         //horas que se pasan para la gestión de eventos
         this.horas_eventos=9;
         this.updateTimes();

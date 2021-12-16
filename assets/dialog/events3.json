@@ -1204,6 +1204,14 @@
          ,
          "room2":
             {
+               "object_william":{
+                  "text":[
+                  "Es el profesor William Scott"
+               ],
+               "id": -1,
+               "isevent" : false,
+               "notebookinfo": ""
+            },
                "object_cup":{
                   "text":[
                      "Una taza de té."
@@ -1223,9 +1231,9 @@
                "notebookinfo": ""
             },
             
-               "object_dog":{
+               "object_deaddog":{
                   "text":[
-                  "Un perro corriendo de un lado a otro",
+                  "Es el perro de la señora Cooper pero esta muerto, ¿quién tiene a su perro muerto en casa? ¡por el amor de dios!",
                   "Tiene un collar que pone 'Candy'"  
                ],
                "id":-1,

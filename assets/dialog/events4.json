@@ -1140,15 +1140,15 @@
             "notebookinfo": ""
          },
             
-               "object_dog":{
-                  "text":[
-                  "Un perro corriendo de un lado a otro",
-                  "Tiene un collar que pone 'Candy'"  
-               ],
-               "id":-1,
-               "isevent" : false,
-               "notebookinfo": ""
-            },
+         "object_deaddog":{
+            "text":[
+            "Es el perro de la señora Cooper pero esta muerto, ¿quién tiene a su perro muerto en casa? ¡por el amor de dios!",
+            "Tiene un collar que pone 'Candy'"  
+         ],
+         "id":-1,
+         "isevent" : false,
+         "notebookinfo": ""
+      },
             
                "object_agujas":{
                   "text":[

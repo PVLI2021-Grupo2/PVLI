@@ -22,6 +22,7 @@ export default class Days extends Phaser.Scene{
             if(time > obj.time[0] && time <= obj.time[1]){
                 objectreturned.push(new clickableobjects(scene,obj.posX,obj.posY,'objects',obj.name,dialogJson,room));
             }
+           
         }
         return objectreturned ;
     }

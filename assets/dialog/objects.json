@@ -374,9 +374,9 @@
             "posY":310,       
             "timedepend":false       
         },{
-            "name":"object_dog" ,        
-            "posX":300,
-            "posY":270,       
+            "name":"object_deaddog" ,        
+            "posX":820,
+            "posY":330,       
             "timedepend":false       
         },{
             "name":"object_agujas" ,        
@@ -499,7 +499,6 @@
                 "timedepend":false       
             },
             {
-
                 "name":"object_poisonopen" ,        
                 "posX":620,
                 "posY":100,       
@@ -529,7 +528,15 @@
             "name":"object_cooper" ,        
             "posX":540,
             "posY":120,       
-            "timedepend":false       
+            "timedepend":true,
+            "time":[22,0]       
+        },
+        {
+            "name":"object_william" ,        
+            "posX":240,
+            "posY":120,       
+            "timedepend":true,
+            "time":[22,0]       
         },
         {
             "name":"object_cup" ,        
@@ -542,9 +549,9 @@
             "posY":310,       
             "timedepend":false       
         },{
-            "name":"object_dog" ,        
-            "posX":300,
-            "posY":270,       
+            "name":"object_deaddog" ,        
+            "posX":820,
+            "posY":330,       
             "timedepend":false       
         },{
             "name":"object_agujas" ,        
@@ -652,6 +659,12 @@
                 "timedepend":false       
             },
             {
+                "name":"object_poisonopen" ,        
+                "posX":620,
+                "posY":100,       
+                "timedepend":false 
+            },
+            {
                 "name":"object_bag" ,        
                 "posX":660,
                 "posY":300,       
@@ -683,14 +696,14 @@
             "posY":125,       
             "timedepend":false       
         },{
-            "name":"object_cat" ,        
+            "name":"object_bloodycat" ,        
             "posX":200,
             "posY":310,       
             "timedepend":false       
         },{
-            "name":"object_dog" ,        
-            "posX":300,
-            "posY":270,       
+            "name":"object_deaddog" ,        
+            "posX":820,
+            "posY":330,       
             "timedepend":false       
         },{
             "name":"object_agujas" ,        
@@ -715,7 +728,9 @@
             "name":"object_charles" ,        
             "posX":250,
             "posY":200,       
-            "timedepend":false       
+            "timedepend":true,
+            "time":[9,11,16,5]
+              
         },{
             "name":"object_calendar" ,        
             "posX":650,
@@ -728,20 +743,23 @@
             "timedepend":false       
         },
         {
-            "name":"object_suitcase" ,        
+            "name":"object_suitcasemoney" ,        
             "posX":25,
             "posY":150,       
-            "timedepend":false       
+            "timedepend":true,
+            "time":[15,5]       
         }
     ]
         ,
         "room4":[
             {
-                "name":"object_william" ,        
-                "posX":600,
-                "posY":130,       
-                "timedepend":false       
-            },{
+                "name":"object_charles" ,        
+                "posX":250,
+                "posY":200,       
+                "timedepend":true,
+                "time":[12,14]       
+            },
+            {
                 "name":"object_bottle" ,        
                 "posX":180,
                 "posY":200,       
