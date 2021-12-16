@@ -20,11 +20,11 @@ export default class NoteBook extends Phaser.Scene{
 
         //numero de elementos seleccionados
         this.numberoftextselected =0;
-
+        let textpos = 0;
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
             if(!this.game.estadoCompartido.observaciones[i].activated){
                 this.game.estadoCompartido.observaciones[i].selected = false;
-                this.game.estadoCompartido.observaciones[i].screentext = this.add.text(200,((i+1)*50)+50
+                this.game.estadoCompartido.observaciones[i].screentext = this.add.text(200,((textpos+1)*50)+50
                             ,this.game.estadoCompartido.observaciones[i].text_notebook,)
                 .setOrigin(0.5,0.5)
                 .setColor('green')
@@ -33,7 +33,8 @@ export default class NoteBook extends Phaser.Scene{
                 .setInteractive()
                 .setWordWrapWidth(300);          
                 this.game.estadoCompartido.observaciones[i].screentext.on('pointerdown',()=>{this.select_text(this.game.estadoCompartido.observaciones[i],i)})
-            }      
+                textpos++;
+            }
         }
        
         this.showdeduccion()
@@ -111,10 +112,11 @@ export default class NoteBook extends Phaser.Scene{
     }
 
     showdeduccion(){
+        let textpos = 0;
         for (let i=0;i<this.game.estadoCompartido.deducciones.length;i++){
                 if(!this.game.estadoCompartido.deducciones[i].activated){
             this.game.estadoCompartido.deducciones[i].selected = false; 
-            this.game.estadoCompartido.deducciones[i].screentext = this.add.text(540,((i+1)*50)+50
+            this.game.estadoCompartido.deducciones[i].screentext = this.add.text(540,((textpos+1)*50)+50
             ,this.game.estadoCompartido.deducciones[i])
                 .setOrigin(0.5,0.5)
                 .setColor('blue')
@@ -123,6 +125,7 @@ export default class NoteBook extends Phaser.Scene{
                 .setInteractive()
                 .setWordWrapWidth(300);
             this.game.estadoCompartido.deducciones[i].screentext.on('pointerdown',()=>{this.select_deducciones(this.game.estadoCompartido.deducciones[i],i)});
+            textpos++;
             }                 
         }
     }
