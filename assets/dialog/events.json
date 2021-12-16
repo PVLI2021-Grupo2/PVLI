@@ -1281,10 +1281,10 @@
              "notebookinfo": ""
          },
          "object_suitcase":{
-            "text":["Es una maleta muy grande pero parece cerrada, no sé que puede haber dentro, no hay pista ninguna"],
-            "id":-1,
-            "isevent":false,
-            "notebookinfo":""
+            "text":["Es una maleta grande, parece que hay un par de billetes asomando, pero no muchos"],
+            "id":2,
+            "isevent":true,
+            "notebookinfo":"Es una maleta grande, debe de contener dinero, pero no mucho"
          }
          }
          ,
@@ -1310,7 +1310,7 @@
                 ],
                 "id":1,
                 "isevent": true,
-                "notebookinfo": ""
+                "notebookinfo": "Son partes de incidencia del instituto. William, el profesor, estaba al tanto de la situación de bullying en el colegio"
             },
          
             "object_paper":{
