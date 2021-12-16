@@ -1,25 +1,18 @@
 {
     "conclusion0":{
-    "text":["El niño se suicidó porque el profe no hizo nada contra el bullying"],
-    "id":1
+    "text":["El niño se suicidó porque el profe no hizo nada contra el bullying"]    
      },
-
     "conclusion1":{
-        "text":["Candy, el perro de la señora Cooper ha muerto envenenado"],
-        "id":2
-
+        "text":["Candy, el perro de la señora Cooper ha muerto envenenado"]
     },
     "conclusion2":{
-        "text":["La relación entre estos vecinos ha sido que Charles necesitaba más dinero para cubrir el chantaje de William y para conseguirlo a chantajeado él al matrimonio de los Smith"],
-        "id":3
+        "text":["La relación entre estos vecinos ha sido que Charles necesitaba más dinero para cubrir el chantaje de William y para conseguirlo a chantajeado él al matrimonio de los Smith"]
     },
     "conclusion3":{
-        "text":["Todos y cada uno de los vecinos odia a William Scott y creen tener motivos justificados para matarlo; hoy ha habido ruidos y actos muy siniestros en el edificio"],
-        "id":3
+        "text":["Todos y cada uno de los vecinos odia a William Scott y creen tener motivos justificados para matarlo; hoy ha habido ruidos y actos muy siniestros en el edificio"]
     },
     "conclusion4":{
-        "text":["El profesor William Scott no sigue vivo"],
-        "id":3
+        "text":["El profesor William Scott no sigue vivo"]
     }
     
     
