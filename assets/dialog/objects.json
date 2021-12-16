@@ -527,16 +527,14 @@
         "room2":[{
             "name":"object_cooper" ,        
             "posX":540,
-            "posY":120,       
-            "timedepend":true,
-            "time":[22,0]       
+            "posY":120       
         },
         {
             "name":"object_william" ,        
             "posX":240,
             "posY":120,       
             "timedepend":true,
-            "time":[22,0]       
+            "time":[22,2]       
         },
         {
             "name":"object_cup" ,        
@@ -598,10 +596,25 @@
         ,
         "room4":[
             {
+                "name":"object_sara" ,        
+                "posX":70,
+                "posY":150,       
+                "timedepend":true,
+                "time":[20,23]       
+            },
+            {
+                "name":"object_smith" ,        
+                "posX":600,
+                "posY":130,       
+                "timedepend":true,
+                "time":[20,23]           
+            },
+            {
                 "name":"object_william" ,        
                 "posX":600,
                 "posY":130,       
-                "timedepend":false       
+                "timedepend":true,
+                "time":[9,19]       
             },{
                 "name":"object_bottle" ,        
                 "posX":180,
@@ -622,6 +635,13 @@
                 "posX":750,
                 "posY":75,       
                 "timedepend":false       
+            },
+            {
+                "name":"object_suitcasemoney",
+                "posX":280,
+                "posY":175,
+                "timedepend":true,
+                "time":[23,5]
             }
         ]
     },
@@ -729,7 +749,7 @@
             "posX":250,
             "posY":200,       
             "timedepend":true,
-            "time":[9,11,16,5]
+            "time":[9,11]
               
         },{
             "name":"object_calendar" ,        
@@ -754,10 +774,10 @@
         "room4":[
             {
                 "name":"object_charles" ,        
-                "posX":250,
-                "posY":200,       
+                "posX":600,
+                "posY":100,       
                 "timedepend":true,
-                "time":[12,14]       
+                "time":[12,15]       
             },
             {
                 "name":"object_bottle" ,        
@@ -779,6 +799,13 @@
                 "posX":750,
                 "posY":75,       
                 "timedepend":false       
+            },
+            {
+                "name":"object_suitcasemoney",
+                "posX":280,
+                "posY":175,
+                "timedepend":true,
+                "time":[9,15]
             }
         ]
     }

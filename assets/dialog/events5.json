@@ -1281,14 +1281,6 @@
          ,
          "room4":
             {
-               "object_william":{
-                  "text":[
-                  "Es el profesor William Scott"
-               ],
-               "id": -1,
-               "isevent" : false,
-               "notebookinfo": ""
-            },
             
                 "object_partes":{
                   "text":[
@@ -1347,6 +1339,6 @@
             "isevent":false,
             "notebookinfo": ""
         }
-         }
-      } 
+      }
+   } 
 }

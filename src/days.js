@@ -19,7 +19,7 @@ export default class Days extends Phaser.Scene{
                 objectreturned.push(new clickableobjects(scene,obj.posX,obj.posY,'objects',obj.name,dialogJson,room));
             }
             else
-            if(time > obj.time[0] && time <= obj.time[1]){
+            if(time > obj.time[0] && time <= obj.time[1]||time>obj.time[0] &&time<=23||time<=obj.time[1]){ //el 9 es por la hora de inicio de cada día, es un fix del sistema de hora
                 objectreturned.push(new clickableobjects(scene,obj.posX,obj.posY,'objects',obj.name,dialogJson,room));
             }
            

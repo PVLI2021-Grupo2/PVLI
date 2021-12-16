@@ -1024,6 +1024,7 @@
                 ,
                 "notebookinfo": ""
              }
+            }
        },
        "prismatic":
       {
@@ -1186,7 +1187,16 @@
                "id":-1,
                "isevent" : false,
                "notebookinfo": ""
-            }
+            },
+            
+            "object_william":{
+               "text":[
+               "Es el Profesor William Scott, parece haber venido a tomar un té con la Señora Cooper"
+            ],
+            "id":-1,
+            "isevent" : false,
+            "notebookinfo": ""
+         }
          }
          ,
          "room3":
@@ -1283,8 +1293,27 @@
                 "id":9,
                 "isevent":true,
                 "notebookinfo": "Hay un maletín completamente lleno de dinero en casa de William, no parecía tenerlo antes"
-            }
+            },
+            
+            "object_sara":{
+               "text":[
+                  "Es Sara Smith, parece que está envenenando la comida del frigorífico de William"
+            ],
+            "id":6,
+            "isevent" : true,
+            "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+         }
+         ,
+         
+            "object_smith":{
+               "text":[
+                  "Es John Smith, parece que está envenenando las especias de William."
+            ],
+            "id":6,
+            "isevent" : true,
+            "notebookinfo": "Los Smith quieren asegurar la muerte definitiva de William"
+         }
+
          }
       } 
    }
-}
