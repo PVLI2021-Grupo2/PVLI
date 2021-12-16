@@ -391,7 +391,7 @@
             }
         },
         {
-            "filename": "object_paper",
+            "filename": "object_partes",
             "frame": {
                 "w": 67,
                 "h": 31,
@@ -404,7 +404,7 @@
             }
         },
         {
-            "filename": "object_partes",
+            "filename": "object_paper",
             "frame": {
                 "w": 64,
                 "h": 52,

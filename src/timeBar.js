@@ -37,25 +37,35 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
  * Metodo que controla la parte de la interfaz que muestra las horas que quedan
  * la barra de tiempo y la hora real
  */
-    updateTimes(){
-        //creamos los fondos de la barra de horas disponibles
-        this.hora_actual_background = this.scene.add.sprite(160,470,'dialog');
-        this.hora_actual_background.scaleY = this.hora_actual_background.scaleY/4;
-        this.hora_actual_background.scaleX = this.hora_actual_background.scaleX/5;
-        this.hora_disponible_background = this.scene.add.sprite(750,470,'dialog');
-        this.hora_disponible_background.scaleY /=4;
-        this.hora_disponible_background.scaleX /=3.75;
-        
-        this.scene.add.text(100,470,"Hora: ");
-        this.scene.add.text(650,470,"Horas disponibles:")
+ updateTimes(){
+    //creamos los fondos de la barra de horas disponibles
+    this.hora_actual_background = this.scene.add.sprite(160,470,'dialog');
+    this.hora_actual_background.scaleY = this.hora_actual_background.scaleY/4;
+    this.hora_actual_background.scaleX = this.hora_actual_background.scaleX/5;
+    this.hora_disponible_background = this.scene.add.sprite(750,470,'dialog');
+    this.hora_disponible_background.scaleY /=4;
+    this.hora_disponible_background.scaleX /=3.75;
+    this.coffe_disponible_background = this.scene.add.sprite(950,470,'dialog');
+    this.coffe_disponible_background.scaleY /=4;
+    this.coffe_disponible_background.scaleX /=5.75;
+    
+    
+    this.scene.add.text(100,470,"Hora: ");
+    this.scene.add.text(650,470,"Horas disponibles:")
+    this.scene.add.text(880,440,"Tazas disponibles:",{wordWrap:{width: 100}})
 
-        //texto que muestra la hora actual
-        this.texto_hora_actual=this.scene.add.text(160,470,this.horas_eventos+":00",{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
-   
-        //texto que muestra las horas disponibles
-        this.texto_hora_disponible=this.scene.add.text(830,470,this.horas_disponibles,{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
-        this.scene.game.nowtime = this.horas_eventos;
-    }
+
+    //texto que muestra la hora actual
+    this.texto_hora_actual=this.scene.add.text(160,470,this.horas_eventos+":00",{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
+
+    //texto que muestra las horas disponibles
+    this.texto_hora_disponible=this.scene.add.text(830,470,this.horas_disponibles,{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
+    this.scene.game.nowtime = this.horas_eventos;
+
+    //texto que muestra las tazas de café disponibles
+    this.texto_coffe_disponible=this.scene.add.text(930,470,(2-this.tazas_totales),{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 200 } });
+    this.scene.game.nowtime = this.horas_eventos;
+}
         
         
 //resta horas o lo que es lo mismo disminuye el tamaño de la barra

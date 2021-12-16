@@ -51,10 +51,717 @@
             }
         ]
         ,
-        "room2":[]
+        "room2":[{
+            "name":"object_cooper" ,        
+            "posX":540,
+            "posY":120,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_cup" ,        
+            "posX":340,
+            "posY":125,       
+            "timedepend":false       
+        },{
+            "name":"object_cat" ,        
+            "posX":200,
+            "posY":310,       
+            "timedepend":false       
+        },{
+            "name":"object_dog" ,        
+            "posX":300,
+            "posY":270,       
+            "timedepend":false       
+        },{
+            "name":"object_agujas" ,        
+            "posX":60,
+            "posY":260,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_tejido" ,        
+            "posX":80,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_ovillo" ,        
+            "posX":90,
+            "posY":320,       
+            "timedepend":false       
+        }
+    ]
         ,
-        "room3":[]
+        "room3":[{
+            "name":"object_charles" ,        
+            "posX":250,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_calendar" ,        
+            "posX":650,
+            "posY":70,       
+            "timedepend":false       
+        },{
+            "name":"object_paper" ,        
+            "posX":150,
+            "posY":320,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_suitcase" ,        
+            "posX":25,
+            "posY":150,       
+            "timedepend":false       
+        }
+    ]
         ,
-        "room4":[]
+        "room4":[
+            {
+                "name":"object_william" ,        
+                "posX":600,
+                "posY":130,       
+                "timedepend":false       
+            },{
+                "name":"object_bottle" ,        
+                "posX":180,
+                "posY":200,       
+                "timedepend":false       
+            },{
+                "name":"object_partes" ,        
+                "posX":330,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_paper" ,        
+                "posX":250,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_fotoalumnos" ,        
+                "posX":750,
+                "posY":75,       
+                "timedepend":false       
+            }
+        ]
+    },
+    "day2":{
+        "room1":[
+            {
+                "name":"object_ball" ,        
+                "posX":210,
+                "posY":225,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_cartoy" ,        
+                "posX":165,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_books" ,        
+                "posX":287,
+                "posY":97,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_picture" ,        
+                "posX":50,
+                "posY":60,       
+                "timedepend":false
+            },
+            {
+                "name":"object_drawing" ,        
+                "posX":840,
+                "posY":170,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_bag" ,        
+                "posX":660,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+
+                "name":"object_poison" ,        
+                "posX":620,
+                "posY":100,       
+                "timedepend":false 
+            },
+            {
+                "name":"object_sara" ,        
+                "posX":70,
+                "posY":150,       
+                "timedepend":false       
+            },
+            
+            {
+                "name":"object_smith" ,        
+                "posX":750,
+                "posY":70,       
+                "timedepend":false       
+            }
+        ]
+        ,
+        "room2":[{
+            "name":"object_cooper" ,        
+            "posX":540,
+            "posY":120,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_cup" ,        
+            "posX":340,
+            "posY":125,       
+            "timedepend":false       
+        },{
+            "name":"object_cat" ,        
+            "posX":200,
+            "posY":310,       
+            "timedepend":false       
+        },{
+            "name":"object_dog" ,        
+            "posX":300,
+            "posY":270,       
+            "timedepend":false       
+        },{
+            "name":"object_agujas" ,        
+            "posX":60,
+            "posY":260,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_tejido" ,        
+            "posX":80,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_ovillo" ,        
+            "posX":90,
+            "posY":320,       
+            "timedepend":false       
+        }
+    ]
+        ,
+        "room3":[{
+            "name":"object_charles" ,        
+            "posX":250,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_calendar" ,        
+            "posX":650,
+            "posY":70,       
+            "timedepend":false       
+        },{
+            "name":"object_paper" ,        
+            "posX":150,
+            "posY":320,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_suitcase" ,        
+            "posX":25,
+            "posY":150,       
+            "timedepend":false       
+        }
+    ]
+        ,
+        "room4":[
+            {
+                "name":"object_william" ,        
+                "posX":600,
+                "posY":130,       
+                "timedepend":false       
+            },{
+                "name":"object_bottle" ,        
+                "posX":180,
+                "posY":200,       
+                "timedepend":false       
+            },{
+                "name":"object_partes" ,        
+                "posX":330,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_paper" ,        
+                "posX":250,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_fotoalumnos" ,        
+                "posX":750,
+                "posY":75,       
+                "timedepend":false       
+            }
+        ]
+    },
+    
+    "day3":{
+        "room1":[
+            {
+                "name":"object_ball" ,        
+                "posX":210,
+                "posY":225,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_cartoy" ,        
+                "posX":165,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_books" ,        
+                "posX":287,
+                "posY":97,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_picture" ,        
+                "posX":50,
+                "posY":60,       
+                "timedepend":false
+            },
+            {
+                "name":"object_drawing" ,        
+                "posX":840,
+                "posY":170,       
+                "timedepend":false       
+            },
+            {
+
+                "name":"object_poison" ,        
+                "posX":620,
+                "posY":100,       
+                "timedepend":false 
+            },
+            {
+                "name":"object_bag" ,        
+                "posX":660,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_sara" ,        
+                "posX":70,
+                "posY":150,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_smith" ,        
+                "posX":750,
+                "posY":70,       
+                "timedepend":false       
+            }
+        ]
+        ,
+        "room2":[{
+            "name":"object_cooper" ,        
+            "posX":540,
+            "posY":120,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_cup" ,        
+            "posX":340,
+            "posY":125,       
+            "timedepend":false       
+        },{
+            "name":"object_cat" ,        
+            "posX":200,
+            "posY":310,       
+            "timedepend":false       
+        },{
+            "name":"object_dog" ,        
+            "posX":300,
+            "posY":270,       
+            "timedepend":false       
+        },{
+            "name":"object_agujas" ,        
+            "posX":60,
+            "posY":260,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_tejido" ,        
+            "posX":80,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_ovillo" ,        
+            "posX":90,
+            "posY":320,       
+            "timedepend":false       
+        }
+    ]
+        ,
+        "room3":[{
+            "name":"object_charles" ,        
+            "posX":250,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_calendar" ,        
+            "posX":650,
+            "posY":70,       
+            "timedepend":false       
+        },{
+            "name":"object_paper" ,        
+            "posX":150,
+            "posY":320,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_suitcase" ,        
+            "posX":25,
+            "posY":150,       
+            "timedepend":true,
+            "time":[9,17]       
+        },
+        {
+            "name":"object_suitcasemoney",
+            "posX":25,
+            "posY":150,
+            "timedepend":true,
+            "time":[18,23]
+        }
+    ]
+        ,
+        "room4":[
+            {
+                "name":"object_william" ,        
+                "posX":600,
+                "posY":130,       
+                "timedepend":false       
+            },{
+                "name":"object_bottle" ,        
+                "posX":180,
+                "posY":200,       
+                "timedepend":false       
+            },{
+                "name":"object_partes" ,        
+                "posX":330,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_paper" ,        
+                "posX":250,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_fotoalumnos" ,        
+                "posX":750,
+                "posY":75,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_suitcasemoney",
+                "posX":280,
+                "posY":175,
+                "timedepend":true,
+                "time":[23,5]
+            }
+        ]
+    },
+    
+    "day4":{
+        "room1":[
+            {
+                "name":"object_ball" ,        
+                "posX":210,
+                "posY":225,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_cartoy" ,        
+                "posX":165,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_books" ,        
+                "posX":287,
+                "posY":97,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_picture" ,        
+                "posX":50,
+                "posY":60,       
+                "timedepend":false
+            },
+            {
+                "name":"object_drawing" ,        
+                "posX":840,
+                "posY":170,       
+                "timedepend":false       
+            },
+            {
+
+                "name":"object_poisonopen" ,        
+                "posX":620,
+                "posY":100,       
+                "timedepend":false 
+            },
+            {
+                "name":"object_bag" ,        
+                "posX":660,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_sara" ,        
+                "posX":70,
+                "posY":150,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_smith" ,        
+                "posX":750,
+                "posY":70,       
+                "timedepend":false       
+            }
+        ]
+        ,
+        "room2":[{
+            "name":"object_cooper" ,        
+            "posX":540,
+            "posY":120,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_cup" ,        
+            "posX":340,
+            "posY":125,       
+            "timedepend":false       
+        },{
+            "name":"object_cat" ,        
+            "posX":200,
+            "posY":310,       
+            "timedepend":false       
+        },{
+            "name":"object_dog" ,        
+            "posX":300,
+            "posY":270,       
+            "timedepend":false       
+        },{
+            "name":"object_agujas" ,        
+            "posX":60,
+            "posY":260,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_tejido" ,        
+            "posX":80,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_ovillo" ,        
+            "posX":90,
+            "posY":320,       
+            "timedepend":false       
+        }
+    ]
+        ,
+        "room3":[{
+            "name":"object_charles" ,        
+            "posX":250,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_calendar" ,        
+            "posX":650,
+            "posY":70,       
+            "timedepend":false       
+        },{
+            "name":"object_paper" ,        
+            "posX":150,
+            "posY":320,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_suitcase" ,        
+            "posX":25,
+            "posY":150,       
+            "timedepend":false       
+        }
+    ]
+        ,
+        "room4":[
+            {
+                "name":"object_william" ,        
+                "posX":600,
+                "posY":130,       
+                "timedepend":false       
+            },{
+                "name":"object_bottle" ,        
+                "posX":180,
+                "posY":200,       
+                "timedepend":false       
+            },{
+                "name":"object_partes" ,        
+                "posX":330,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_paper" ,        
+                "posX":250,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_fotoalumnos" ,        
+                "posX":750,
+                "posY":75,       
+                "timedepend":false       
+            }
+        ]
+    },
+    
+    "day5":{
+        "room1":[
+            {
+                "name":"object_ball" ,        
+                "posX":210,
+                "posY":225,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_cartoy" ,        
+                "posX":165,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_books" ,        
+                "posX":287,
+                "posY":97,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_picture" ,        
+                "posX":50,
+                "posY":60,       
+                "timedepend":false
+            },
+            {
+                "name":"object_drawing" ,        
+                "posX":840,
+                "posY":170,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_bag" ,        
+                "posX":660,
+                "posY":300,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_sara" ,        
+                "posX":70,
+                "posY":150,       
+                "timedepend":false       
+            },
+            {
+                "name":"object_smith" ,        
+                "posX":750,
+                "posY":70,       
+                "timedepend":false       
+            }
+        ]
+        ,
+        "room2":[{
+            "name":"object_cooper" ,        
+            "posX":540,
+            "posY":120,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_cup" ,        
+            "posX":340,
+            "posY":125,       
+            "timedepend":false       
+        },{
+            "name":"object_cat" ,        
+            "posX":200,
+            "posY":310,       
+            "timedepend":false       
+        },{
+            "name":"object_dog" ,        
+            "posX":300,
+            "posY":270,       
+            "timedepend":false       
+        },{
+            "name":"object_agujas" ,        
+            "posX":60,
+            "posY":260,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_tejido" ,        
+            "posX":80,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_ovillo" ,        
+            "posX":90,
+            "posY":320,       
+            "timedepend":false       
+        }
+    ]
+        ,
+        "room3":[{
+            "name":"object_charles" ,        
+            "posX":250,
+            "posY":200,       
+            "timedepend":false       
+        },{
+            "name":"object_calendar" ,        
+            "posX":650,
+            "posY":70,       
+            "timedepend":false       
+        },{
+            "name":"object_paper" ,        
+            "posX":150,
+            "posY":320,       
+            "timedepend":false       
+        },
+        {
+            "name":"object_suitcase" ,        
+            "posX":25,
+            "posY":150,       
+            "timedepend":false       
+        }
+    ]
+        ,
+        "room4":[
+            {
+                "name":"object_william" ,        
+                "posX":600,
+                "posY":130,       
+                "timedepend":false       
+            },{
+                "name":"object_bottle" ,        
+                "posX":180,
+                "posY":200,       
+                "timedepend":false       
+            },{
+                "name":"object_partes" ,        
+                "posX":330,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_paper" ,        
+                "posX":250,
+                "posY":340,       
+                "timedepend":false       
+            },{
+                "name":"object_fotoalumnos" ,        
+                "posX":750,
+                "posY":75,       
+                "timedepend":false       
+            }
+        ]
     }
 }

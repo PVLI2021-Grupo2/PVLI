@@ -1108,7 +1108,7 @@
                "isevent" : false,
                "notebookinfo": ""
             },
-            "object_tarro_veneno_vacio":{
+            "object_poisonopen":{
                "text":[
                   "Es un tarro de veneno ya vacío"
             ],
@@ -1200,18 +1200,20 @@
                "notebookinfo": ""
             },
             
-                "object_calendario":{
+                "object_calendar":{
                   "text":[
-                    "Es un calendario con distintos días marcados en rojo"
+                    "Es un calendario con distintos días marcados en rojo, en este mes hay apuntado en grande: 'Quedar con X'"
                 ],
                 "id": -1,
                 "isevent":false,
                 "notebookinfo": ""
             },
             
-                "object_papel_cita":{
+                "object_paper":{
                   "text":[
-                    "Es un papel en el que hay apuntado: 'Quedar con X'"
+                    "Es un papel en el que hay apuntadas numerosas órdenes de incauto en la comisaría",
+                    "Al lado hay más papeles pero estos apuntan recaudaciones diarias y distintos puntos de la ciudad",
+                    "Parece ser una contabilidad chapucera de un comercio clandestino de drogas."
                 ],
                 "id":-1,
                 "isevent":false,
@@ -1243,6 +1245,17 @@
                 "isevent": false,
                 "notebookinfo": ""
             },
+         
+            "object_paper":{
+              "text":[
+                "Entre los papeles observas que hay cartas dirigidas a los Smith pero que nunca llegaron a enviarse",
+                "También hay papeles de solicitud de dimisión, cartas al colegio, y a distintos alumnos, ninguna pareció enviarse",
+                "Por último hay varios papeles en lo que están apuntadas horas de entrada y salida de uno de sus vecinos: Charles Doyle"
+            ],
+            "id":-1,
+            "isevent":false,
+            "notebookinfo": ""
+        },
             
                 "object_cuadro_alumnos":{
                   "text":[
@@ -1253,7 +1266,7 @@
                 "notebookinfo": ""
             },
             
-                "object_botella":{
+                "object_bottle":{
                   "text":[
                     "Es una botella de Whisky, parece distinta a la de ayer y está a la mitad"
                 ],
@@ -1263,7 +1276,7 @@
             }
             ,
             
-                "object_maletin_dinero":{
+                "object_suitcasemoney":{
                   "text":[
                     "Es un maletín completamente lleno de dinero, parece que lo han llenado muy rápido"
                 ],
