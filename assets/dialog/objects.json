@@ -573,13 +573,8 @@
             "posX":150,
             "posY":320,       
             "timedepend":false       
-        },
-        {
-            "name":"object_suitcase" ,        
-            "posX":25,
-            "posY":150,       
-            "timedepend":false       
         }
+        
     ]
         ,
         "room4":[
@@ -628,8 +623,7 @@
                 "name":"object_suitcasemoney",
                 "posX":280,
                 "posY":175,
-                "timedepend":true,
-                "time":[23,5]
+                "timedepend":false                
             }
         ]
     },

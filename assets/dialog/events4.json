@@ -1242,7 +1242,7 @@
                "notebookinfo": ""
             },
             
-                "object_partes":{
+               "object_partes":{
                   "text":[
                      "Parecen un montón de papeles, con algo de esfuerzo se logran distinguir algunas palabras...",
                      "REGISTRO DE INCIDENCIAS \nA FECHA DE: 0X/02/19XX\nCAUSAS: Acoso escolar",
@@ -1256,16 +1256,16 @@
                 "notebookinfo": ""
             },
          
-            "object_paper":{
-              "text":[
+               "object_paper":{
+               "text":[
                 "Entre los papeles observas que hay cartas dirigidas a los Smith pero que nunca llegaron a enviarse",
                 "También hay papeles de solicitud de dimisión, cartas al colegio, y a distintos alumnos, ninguna pareció enviarse",
                 "Por último hay varios papeles en lo que están apuntadas horas de entrada y salida de uno de sus vecinos: Charles Doyle"
-            ],
-            "id":-1,
-            "isevent":false,
-            "notebookinfo": ""
-        },
+               ],
+               "id":-1,
+               "isevent":false,
+               "notebookinfo": ""
+            },
             
                 "object_cuadro_alumnos":{
                   "text":[
