@@ -1,42 +1,42 @@
 {
     "deduccion0":{
-        "text":["Sentimiento de ira de los Smith hacia el profesor de Kevin"],
+        "text":["- Sentimiento de ira de los Smith hacia el profesor de Kevin"],
         "id":0
     },
     "deduccion1":{
-        "text":["El profesor sabía que le hacían bullying a Kevin y no hizo nada"],
+        "text":["- El profesor sabía que le hacían bullying a Kevin y no hizo nada"],
         "id":0
     },
     "deduccion2":{
-        "text":["La tarta que le dieron los Smith a William está envenenada"],
+        "text":["+ La tarta que le dieron los Smith a William está envenenada"],
         "id":1
     },
     "deduccion3":{
-        "text":["El perro ha tenido que ir al veterinario por algo que ha comido"],
+        "text":["+ El perro ha tenido que ir al veterinario por algo que ha comido"],
         "id":1
     },
     "deduccion4":{
-        "text":["El maletín contenía dinero insuficiente y Charles necesita más para cubrir el chantaje de William"],
+        "text":["* El maletín contenía dinero insuficiente para William y Charles necesita más"],
         "id":2
     },
     "deduccion5":{
-        "text":["Para terminar de llenar el maletín de dinero Charles ha sobornado al matrimonio Smith"],
+        "text":["* Charles ha sobornado a los Smith para conseguir más dinero"],
         "id":2
     },
     "deduccion6":{
-        "text":["Los Smith y la señora Cooper odían a William y tienen motivos para querer matarlo"],
+        "text":["< Los Smith y la señora Cooper tienen motivos para matar a William"],
         "id":3
     },
     "deduccion7":{
-        "text":["Ha habido actos muy violentos y sospechosos en el edificio hoy en todos los pisos"],
+        "text":["< Ha habido actos muy violentos y sospechosos en el edificio en todos los pisos"],
         "id":3
     },
     "deduccion8":{
-        "text":["El matrimonio Smith y la señora Cooper afirman que William podría no estar vivo"],
+        "text":["> Los Smith y la señora Cooper afirman que William podría no estar vivo"],
         "id":4
     },
     "deduccion9":{
-        "text":["El detective Charles ha hecho lo  posible por eliminar a William y recuperar su dinero"],
+        "text":["> El detective Charles ha tratado de eliminar a William y recuperar su dinero"],
         "id":4
     }
 
