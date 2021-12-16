@@ -72,6 +72,7 @@ export default class NoteBook extends Phaser.Scene{
                 elem.screentext.off('pointerdown');
                 this.game.estadoCompartido.observaciones[i].screentext.off('pointerdown');
                 this.showdeduccion(); 
+                this.scene.restart();
             }
           }    
         }
@@ -94,6 +95,7 @@ export default class NoteBook extends Phaser.Scene{
                 elem.screentext.off('pointerdown');
                 this.game.estadoCompartido.deducciones[i].screentext.off('pointerdown');
                 this.showconclusion();
+                this.scene.restart();
 
             }
           } 
