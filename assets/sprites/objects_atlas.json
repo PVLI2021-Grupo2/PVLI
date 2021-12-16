@@ -404,7 +404,7 @@
             }
         },
         {
-            "filename": "object_paper",
+            "filename": "object_paper", 
             "frame": {
                 "w": 64,
                 "h": 52,
