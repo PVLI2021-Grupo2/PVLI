@@ -107,6 +107,10 @@ export default class NoteBook extends Phaser.Scene{
                 this.game.estadoCompartido.observaciones[i].selected=false;
                 this.game.estadoCompartido.observaciones[i].screentext.setColor('green')
              }
+             for(let i=0;i<this.game.estadoCompartido.deducciones.length;i++){
+                this.game.estadoCompartido.deducciones[i].selected=false;
+                this.game.estadoCompartido.deducciones[i].screentext.setColor('blue')
+             }
              this.numberoftextselected=0
         }   
     }
