@@ -60,8 +60,8 @@ export default class Boot extends Phaser.Scene {
 
     
     this.load.image('notebook','notebook.png')
-
-
+    
+    
     this.load.setPath('assets/dialog/');
     this.load.json('dialog1', 'events.json');
     this.load.json('dialog2','events2.json');
@@ -72,22 +72,25 @@ export default class Boot extends Phaser.Scene {
     this.load.json('deducciones','deducciones.json');
     this.load.json('preguntas','preguntas.json');
     this.load.json('objectsjson','objects.json');
-
+    
+    this.load.setPath('assets/sounds/');
+    this.load.audio('bgm','bgm.mp3');
+    
     this.load.setPath('assets/fonts/');
-
+    
     this.load.bitmapFont(
       'press_start_2p_font', 'press_start_2p_white.png',
       'press_start_2p.xml');
-    this.load.bitmapFont(
+      this.load.bitmapFont(
         'dogica_font', 'dogica_0.png',
         'dogica.xml');
-
-  }
-
-  /**
-   * Creación de la escena. En este caso, solo cambiamos a la escena que representa el
-   * nivel del juego
-   */
+        
+      }
+      
+      /**
+       * Creación de la escena. En este caso, solo cambiamos a la escena que representa el
+       * nivel del juego
+       */
   create() {
     this.scene.start('menu');
   }
