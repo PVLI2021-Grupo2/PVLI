@@ -1,5 +1,4 @@
 import Boot from './boot.js';
-import End from './end.js';
 import Menu from './menu.js';
 import General from'./general_plane.js';
 //cuando una clase hereda de otra exportas el padre pero no exportas los hijos
@@ -10,6 +9,7 @@ import Room3 from './room3.js';
 import Room4 from './room4.js';
 import NoteBook from './notebook.js';
 import Pregunta from './pregunta.js';
+import Acusacion from './acusacion.js'
 
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
@@ -25,7 +25,7 @@ let config = {
         autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
     },
     pixelArt: true,
-    scene: [Boot,Menu,General,End,Room1,Room2,Room3,Room4,NoteBook,Pregunta],
+    scene: [Boot,Menu,General,Room1,Room2,Room3,Room4,NoteBook,Pregunta,Acusacion],
     physics: { 
         default: 'arcade', 
         arcade: { 

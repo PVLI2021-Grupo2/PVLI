@@ -7,7 +7,7 @@ export default class Pregunta extends Phaser.Scene{
        create()
        {
         //creamos el background de la escena
-         this.background = this.add.image(0,0, 'general_plane');        
+         this.background = this.add.image(0,0, 'preguntabg');        
          this.background.setOrigin(0,0);
 
          //fondo de la pregunta
@@ -24,7 +24,8 @@ export default class Pregunta extends Phaser.Scene{
          this.backbutton.setOrigin(0,0)
 
          //creamos el boton de pasar de dia
-         this.icono_avanzar_dia = this.add.sprite(950,250,'clock');
+         this.icono_avanzar_dia = this.add.sprite(945,250,'nextday').setOrigin(0,0);
+
 
          //llamamos a select, metodo que habilita clicK
          this.select();
@@ -75,5 +76,7 @@ export default class Pregunta extends Phaser.Scene{
             this.game.nowday+=1;
             this.scene.start('general');
           } 
+          else
+            this.scene.start('acusacion')
         }
 }

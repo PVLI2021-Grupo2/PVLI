@@ -57,6 +57,9 @@ export default class Boot extends Phaser.Scene {
     this.load.image('green','green_time.png')
     this.load.image('red','red_time.png')
     this.load.image('coffe','coffe.png')
+    this.load.image('pregunta','pregunta_button.png')
+    this.load.image('nextday','nextday_button.png')
+    this.load.image('preguntabg','pregunta_background.jpg')
 
     
     this.load.image('notebook','notebook.png')
@@ -72,6 +75,7 @@ export default class Boot extends Phaser.Scene {
     this.load.json('deducciones','deducciones.json');
     this.load.json('preguntas','preguntas.json');
     this.load.json('objectsjson','objects.json');
+    this.load.json('finales','finales.json')
     
     this.load.setPath('assets/sounds/');
     this.load.audio('bgm','bgm.mp3');
