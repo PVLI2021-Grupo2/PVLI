@@ -13,7 +13,7 @@ export default class menu extends Phaser.Scene{
      startbottom.setInteractive();
      startbottom.on('pointerdown', startbottom=>{this.scene.start('general')});
      const config = {
-      volume: 2
+      volume: 1
     };
      this.audio=this.sound.add('bgm',config);
      this.audio.play();
