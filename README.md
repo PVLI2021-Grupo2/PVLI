@@ -116,24 +116,22 @@ El juego principalmente se usará solo el ratón.
 ### 3. Jugabilidad <a name="jugabilidad"></a>
 
 #### 3.1 Mecánica <a name="mecanica"></a>
-**Cambio de escena.** El jugador puede ir de su habitación al plano general de edificios. En este plano general el jugador puede hacer click encima la ventana aparecen dos iconos, el de los prismáticos, con los cuales veremos con detalle la habitación, y el de los auriculares, mediante los cuales escucharemos el micrófono del piso en cuestión.
+**Cambio de escena.** El jugador parte de un plano general en el cual puede hacer click encima de una de las 4 ventanas que se le muestran. Al hacerlo aparecerán dos iconos, el de los prismáticos, con los cuales veremos con detalle la habitación, cambiando de escena, y el de los auriculares, mediante los cuales escucharemos el micrófono del piso en cuestión pero permaneciendo en la escena "general".
 
-**Pregunta al comienzo del día:** Con el comienzo de cada día, el investigador al que encarna nuestro jugador se hará una pregunta, la cual tendrá que responder con la información obtenida a lo largo del mismo.
+**Pregunta al comienzo del día:** Con el comienzo de cada día, el investigador al que encarna nuestro jugador se hará una pregunta, la cual tendrá que responder con la información obtenida a lo largo del mismo. Esta pregunta estará disponible durante todo el día, y se accederá a ella a través de un icono que muestra una interrogación en el plano general, debajo de ella, si hemos llegado a una conclusión ese día se contestará automáticamente.
 
-**Cuadros de texto:** Diálogos en los que se explica lo que sucede en los eventos, visuales o auditivos.
+**Cuadros de texto:** Estos cuadros mostrarán la descripción de los eventos que el jugador "escucha" (en este caso lee), así como la descripción de los objetos en los que pulsa en cada una de las habitaciones.
 
 **Prismáticos.** Al seleccionar una ventana en el plano general del edificio, y elegir la opción de usar los prismáticos, el jugador puede ver lo que ocurre dentro, lo que supondrá el avance de 1 hora en el tiempo al volver a la vista general. Mediante el uso de prismáticos puedes interaccionar con objetos que veas dentro de los pisos, los cuales estarán resaltados para servir de guía al jugador. En caso de que uno de esos objetos aporte una información relevante al jugador, esta se apuntará en la libreta automáticamente.
 
+**Auriculares:** Al hacer click encima de uno de los pisos, y a continuación encima del icono de los auriculares, podremos escuchar el micrófono correspondiente a la ventana previamente pulsada. Los auriculares nos permiten tener acceso a los eventos de carácter sonoro y al igual que los prismáticos, su uso hará que pase una hora después de haber escuchado por ellos. En caso de tener lugar un evento relevante durante su uso, este se apuntará en nuestra libreta.
 
 **Paso de tiempo/ Barra de horas disponibles**  El tiempo transcurre a medida que el jugador bien hace uso de los prismáticos para observar los distintos pisos, bien hace uso de los auriculares para escuchar lo que ocurre dentro de ellos a razón de 1 hora por uso.
-Los días comienzan a las 9:00 de la mañana, y el jugador es capaz de estar despierto en un inicio hasta las 03:00 de ese mismo día. 
-Los eventos que tendrán lugar tanto visuales como auditivos ocurren desde las 9:00 de un día hasta las 5:00 del día siguiente.
+Los días comienzan a las 9:00 de la mañana, y el jugador es capaz de estar despierto en un inicio hasta las 03:00 de ese mismo día, pero con el consumo de las 2 tazas de café de que dispone al día puede ampliar este límite a las 5:00. Es a lo largo de esta franja horaria de 18 o de 20 horas, donde tienen lugar los eventos visuales y auditivos.
 
-**Tomar café.** El jugador puede consumir una taza de café a lo largo del día para aguantar 1 horas más despierto, pudiendo tomar un máximo de 2 cafés por día.
+**Tomar café.** El jugador puede consumir dos tazas de café al dia. El consumo de estas lo que hace es prolongar en una hora por taza la cantidad de horas disponibles o durante las cuales está despierto a lo largo del día.
 
-**Auriculares:** Al hacer click encima de uno de los pisos, y a continuación encima del icono de los auriculares, podremos escuchar los diferentes micrófonos que tenemos instalados en las puertas de las viviendas de nuestros vecinos. Los auriculares nos permiten tener acceso a los eventos de carácter sonoro y al igual que los prismáticos, su uso hará que pase una hora después de haber escuchado por ellos. En caso de tener lugar un evento relevante durante su uso, este se apuntará en nuestra libreta.
-
-**Libreta de información:**  En la cual se va apuntando de manera automática la información relevante obtenida mediante la observación con los prismáticos y el uso de los auriculares. 
+**Libreta de información:**  Es una agenda en la cual se va apuntando de manera automática la información relevante obtenida mediante la observación con los prismáticos y el uso de los auriculares. 
 En la libreta irá apareciendo lo observado por el jugador, cuando la información sea relevante y diferenciados por colores dependiendo de si lo has observado o escuchado en un piso u otro.
 Estas observaciones podrán juntarse a modo de dupla,clicando en los dos cuadros de textos, y en caso de haber una sinergia entre ellos darán pie a una deducción.
 De la misma manera, cuando tengamos varias deducciones podremos repetir la operación, y de estar interrelacionadas aparecerá la conclusión de juntarlas; Esta conclusión es el objeto que buscamos para responder a las preguntas que se nos formulan al comienzo de cada día.
@@ -141,8 +139,8 @@ De la misma manera, cuando tengamos varias deducciones podremos repetir la opera
 <img src="images/libreta_new.png" width=300 height=200>
 
 **Eventos:** Los eventos son información de valor que el jugador puede apuntar en la libreta. Pueden ser de dos tipos, visuales o auditivos, aunque al escribirlos en la libreta se comportan igual. 
-Los eventos visuales ocurren al hacer click en los objetos de las escenas que hay al usar los prismáticos. Tras hacer click, salta un cuadro de diálogo con información y se pondrá un resumen escueto de ella en la libreta, funcionando a modo de “evento”. En caso de clickar en un mismo objeto varias veces, volverá a saltar el cuadro de texto, pero no se volverá a apuntar en la libreta. Hay objetos que no se apuntan en la libreta porque no van a servir para extraer conclusiones y juntarlos con otros.
-Los eventos auditivos saltan como un cuadro de texto al hacer click en una de las habitaciones y elegir la opción de auricular. Hay eventos que duran varias horas, por lo que el jugador puede clickar varias veces en lo mismo y escuchar el mismo evento, el cual solo se pondrá una vez en la libreta. Muchas veces al escuchar una habitación habrá un diálogo genérico como “no se escucha nada” o “está la radio puesta”, estos diálogos no se apuntan como eventos.
+Los eventos visuales ocurren al hacer click en los objetos resaltados de cada una de las habitaciones tras haber activado la función de los prismáticos. Tras hacer click, salta un cuadro de diálogo con información y se pondrá un resumen escueto de ella en la libreta, funcionando a modo de “evento”. En caso de clickar en un mismo objeto varias veces, volverá a saltar el cuadro de texto, pero no se volverá a apuntar en la libreta. Hay objetos que no se apuntan en la libreta porque no van a servir para extraer conclusiones y juntarlos con otros.
+Los eventos auditivos saltan como un cuadro de texto al hacer click en una de las habitaciones y elegir la opción de auricular. Hemos de tener en cuenta que para que el jugador pueda llegar a enterarse de estos eventos abarcarán varias horas consecutivas, de tal forma que la conversación, o el diálogo será distinto, pero el resumen a modo de evento que se apunta en la libreta será el mismo. De la misma manera, se escucharán también diálogos, conversaciónes o sonidos que el protagonista percibe que no tienen información relevante y por tanto no se apuntarán en la libreta.
 
 **Pregunta del día:** Al principio de cada día se notifica una pregunta que está relacionada con eventos de ese día, de modo que sirva de guía para el jugador. Al final del día, cuando el jugador se va a dormir, vuelve a aparecer en pantalla un texto con la pregunta del día. Si el jugador ha llegado a la conclusión que responde la pregunta se mostrará automáticamente. Tendrá la opción de pasar de día.
 
@@ -179,32 +177,34 @@ Para la representación de los escenarios y los personajes usaremos un estilo pi
 **Protagonista:** El jugador encarga al investigador Thomas Seeker, el cual, al leer en un periódico que un niño se había suicidado en en colegio, decide poner su intelecto en juego para obtener más información al respecto sin ser consciente de que al indagar en este hecho, descubrirá que los vecinos de ese edificio esconden secretos que no querrían ser revelados.
 
 
-**Vecino 1 :**  La familia Smith está compuesta por John y Sarah Smith, una pareja que en el momento en el que se desarrolla el juego están de luto por su difunto hijo pequeño, Kevin. Un mes antes de la muerte de William y de los acontecimientos del juego, Kevin Smith sufre acoso escolar, circunstancia que su profesor, el fallecido William, no da importancia, resultando en el suicidio del pequeño. A pesar de su pasividad ante la situación, no hubo consecuencias legales de ningún tipo contra William, causando un tremendo dolor a los padres del pequeño y dando un posible motivo para asesinar a William. John y Sarah consiguen al principio del juego un veneno que intentarán hacer ingerir a William camuflado en una comida que preparan para él sin embargo, este tirará la comida tan pronto como abandona el domicilio, haciendo que desafortunadamente Candy, el perro de la señora Cooper lo ingiera y muera.
+**Vecino 1 :**  La familia Smith está compuesta por John y Sarah Smith, una pareja que en el momento en el que se desarrolla el juego están de luto por su difunto hijo pequeño, Kevin. Un mes antes de la muerte de William y de los acontecimientos del juego, Kevin Smith sufre acoso escolar, circunstancia que su profesor, el fallecido William, no da importancia, resultando en el suicidio del pequeño. A pesar de su pasividad ante la situación, no hubo consecuencias legales de ningún tipo contra William, causando un tremendo dolor a los padres del pequeño y dando un posible motivo para asesinar a William. John y Sarah consiguen al principio del juego un veneno que intentarán hacer ingerir a William camuflado en una comida que preparan para él sin embargo, este se encuentra en la escalera con Candy, el perro de la señora Cooper, al cual se lo dará para comer y desgraciadamente este morirá.
+Los Smith, al no tener éxito en su primer intento de envenenamiento lo intentarán otra vez días después entrando en casa de William para envenenar toda la comida que encuentran dentro del piso del profesor.
 
-**Vecino 2 :** La Señora Edna Cooper llevaba una vida tranquila, en compañía de sus numerosos gatos y Candy, su perro, hasta que un día encuentra muerto a este último, tras haber ingerido una suculenta comida que contenía cianuro. Esta comida, que había preparado la pareja Smith para William acaba llegando al perro, ya que el profesor acostumbraba a darle de comer con frecuencia.
+**Vecino 2 :** La Señora Edna Cooper llevaba una vida tranquila, en compañía de sus numerosos gatos y Candy, su perro, hasta que un día encuentra muerto a este último, tras haber ingerido una suculenta comida que contenía veneno. Esta comida, que había preparado la pareja Smith para William acaba llegando al perro, ya que el profesor acostumbraba a darle de comer con frecuencia.
 Tras este evento la Señora Cooper, consuma su venganza al invitar al profesor a tomar té, el cual está adulterado con pastillas tranquilizantes, y este, tras consumirlo y quedar adormecido es posteriormente apuñalado numerosas veces con las agujas de tejer de la anciana.
-Al ser difícil para una persona de su edad sacar el cadáver, la anciana lo descuartiza poco a poco y mezclándolo con la comida de sus gatos hace que estos vayan dando cuenta del cuerpo.
+Al ser difícil para una persona de su edad sacar el cadáver, la anciana lo descuartiza con una motosierra y mezclándolo con la comida de sus gatos hace que estos vayan dando cuenta del cuerpo.
 
 **Vecino 3:**  El detective Charles Doyle, cansado de su vida de investigador y la poca remuneración que consigue con ello, decide tomar la vía rápida y vender las drogas y sustancias de dudosa procedencia que incautó en sus redadas y venderlas por su cuenta, siendo un negocio mucho más lucrativo.
-Charles tiene montado su pequeño negocio clandestino en el callejón aledaño al edificio, al cual baja numerosas veces a lo largo de la noche para comerciar con su mercancía. Sin embargo, William ha descubierto su negocio, de modo que chantajea a Charles progresivamente. Con el aumento de la cantidad de amenazas, Charles no tiene dinero suficiente para hacer frente al soborno, de manera que decide chantajear a la familia Smith los cuales le habían comprado el veneno que intentarían usar para asesinar al profesor en un principio. No obstante, William no se da por satisfecho con ello y continúa con el chantaje esto da pie a la discusión en el pasillo del edificio resultando en que el detective empuja al profesor por la escalera.
+Charles tiene montado su pequeño negocio clandestino en el callejón aledaño al edificio, al cual baja numerosas veces a lo largo de la noche para comerciar con su mercancía. Sin embargo, William ha descubierto su negocio, de modo que chantajea a Charles progresivamente. Con el aumento de la cantidad de amenazas, Charles no tiene dinero suficiente para hacer frente al soborno, de manera que decide chantajear a la familia Smith los cuales le habían comprado el veneno que intentarían usar para asesinar al profesor en un principio. No obstante, William no se da por satisfecho con ello y continúa con el chantaje esto da pie a la discusión en el pasillo del edificio resultando en que el detective empuja al profesor por la escalera. Posteriormente, creyéndolo muerto, entra en casa de William para recuperar su dinero.
 
 **Vecino 4:**  El profesor William Scott ha ejercido como docente durante muchos años a lo largo de su vida, perdiendo la pasión por su trabajo a lo largo de los años. Tanto ha sido así, que sabiendo que uno de sus alumnos, Kevin, el hijo de los Smith, estaba siendo víctima de acoso escolar no hizo nada, ni tan siquiera hablar con sus padres sobre ello, los cuales son vecinos suyos.
 Tras el suicidio del niño, William ahoga su culpabilidad en alcohol y drogas por las tardes y las noches.
+Asimismo William, por un lado dará de comer, sin saberlo, la comida envenenada que los Smith le habían preparado, conyevando esto a que la señora Cooper lo acabe matando y descuartizando; por otro lado, el profesor descubre el pequeño negocio clandestino de drogas de su vecino Charles, lo que derivará en un agresivo chantaje y un aún más agresivo enfrentamiento entre ambos, acabando por empujar Charles al profesor escalera abajo.
+
 
 
 #### 4.2 Niveles o eventos <a name="niveleseventos"></a>
-En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo largo de los 5 días de la semana.
+En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo largo de 5 días de la semana.
 
-En proceso:
 [Eventos y dialogos](EventosYdialogos.md)         
 [Eventos](https://docs.google.com/spreadsheets/d/1pbKhvv9ovA54C8Tk_gWiwxWM6B4BLxL_j9Yffmv4mjI/edit#gid=1065729110)    
 
 #### 4.3 Personajes <a name="personajes"></a>
 Protagonista: Thomas Seeker
-Vecino 1:  Padre:John Smith Madre: Sarah Smith  HIjo:Kevin Smith  
-Vecino 2 : Señora Edna Cooper  Perro: Candy  
+Vecino 1: Padre:John Smith Madre: Sarah Smith  Hijo: Kevin Smith  
+Vecino 2: Señora Edna Cooper  Perro: Candy  
 Vecino 3: Detective Charles Doyle  
-Vecino 4:  Profesor William Scott.  
+Vecino 4: Profesor William Scott.  
 <img src="images/relacion.png" width=500 height=300>
 
 #### 4.4 Objetos <a name="objetos"></a>
