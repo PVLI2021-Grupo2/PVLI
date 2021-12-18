@@ -7,10 +7,10 @@ export default class Days extends Phaser.Scene{
     }
 
     getdayobject(scene,room){
-        let dialogJson = scene.cache.json.get('dialog' + scene.game.nowday);
+        let dialogJson = scene.cache.json.get('dialog' + scene.game.currentDay);
         let objects = scene.cache.json.get('objectsjson');
-        let day = "day" + scene.game.nowday;
-        let time =  scene.game.nowtime;
+        let day = "day" + scene.game.currentDay;
+        let time =  scene.game.currentTime;
         let objectreturned = [];
         let arrayobjects = objects[day][room];
         for(let i =0;i<arrayobjects.length;i++){

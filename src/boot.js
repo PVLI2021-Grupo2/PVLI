@@ -84,7 +84,7 @@ export default class Boot extends Phaser.Scene {
       deducciones:[],
       conclusiones:[],
     };
-    this.game.nowtime= 9 ;
-    this.game.nowday = 1 ;
+    this.game.currentTime= 9 ;
+    this.game.currentDay = 1 ;
   }
 }

@@ -60,11 +60,11 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
 
     //texto que muestra las horas disponibles
     this.texto_hora_disponible=this.scene.add.text(830,470,this.horas_disponibles,{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 310 } });
-    this.scene.game.nowtime = this.horas_eventos;
+    this.scene.game.currentTime = this.horas_eventos;
 
     //texto que muestra las tazas de café disponibles
     this.texto_coffe_disponible=this.scene.add.text(930,470,(2-this.tazas_totales),{ fontFamily: 'Arial', color: '#00ff00', wordWrap: { width: 200 } });
-    this.scene.game.nowtime = this.horas_eventos;
+    this.scene.game.currentTime = this.horas_eventos;
 }
         
         

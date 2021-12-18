@@ -10,7 +10,7 @@ export default class extends Phaser.Scene{
         this.background = this.add.image(500, 250,'generalbg'); //añadimos el fondo de la textbox
 
         //dialogo en formato json
-        let dialogJson = this.cache.json.get('dialog'+this.game.nowday);
+        let dialogJson = this.cache.json.get('dialog'+this.game.currentDay);
 
         //creación de los prismáticos
         this.prismaticos1 = new Prismaticos (this,400,400)
@@ -45,12 +45,12 @@ export default class extends Phaser.Scene{
         this.coffe_= new Coffe (this,950,400);
         
         //sprite del boton atras
-        this.backbutton=this.add.sprite(0,0,'back');
+        this.backButton=this.add.sprite(0,0,'back');
 
         this.notebook = this.add.sprite(0,400,'notebook_icon');
         //llamada inicial a la configuración 0 del plano general
 
-        this.today = this.add.bitmapText(900,10,'press_start_2p_font', "Day:"+this.game.nowday , 13)
+        this.today = this.add.bitmapText(900,10,'press_start_2p_font', "Day:"+this.game.currentDay , 13)
 
         this.roomconfig();
     }      
@@ -71,15 +71,15 @@ export default class extends Phaser.Scene{
         this.auriculararray[a-1].setVisible(true)
         .setInteractive()
         
-        this.backbutton.setVisible(true);
-        this.backbutton.setInteractive();
+        this.backButton.setVisible(true);
+        this.backButton.setInteractive();
         
         //oscurece fondo de las ventanas
         this.roomarray.forEach(item => item.setAlpha(0.5))
         this.roomarray[a-1].setAlpha(1);
 
         //volvemos hacia atras si pulsamos <--
-        this.backbutton.on('pointerdown',backbutton=>{this.disableselect()});
+        this.backButton.on('pointerdown',backButton=>{this.disableselect()});
         this.notebook.setVisible(false);
     }
     roomconfig(){
@@ -91,9 +91,9 @@ export default class extends Phaser.Scene{
             .on('pointerout',()=>this.roomarray[i].clearTint())
             .on('pointerdown',()=>{this.select(i+1)});
         }
-        //backbutton es invisible si no hay habitación pulsada
-        this.backbutton.setOrigin(0,0);
-        this.backbutton.setVisible(false);
+        //backButton es invisible si no hay habitación pulsada
+        this.backButton.setOrigin(0,0);
+        this.backButton.setVisible(false);
         
         this.notebook.setOrigin(0,0)
         .setVisible(true)
@@ -117,7 +117,7 @@ export default class extends Phaser.Scene{
             this.auriculararray[i].setVisible(false)
             .on('pointerover',()=>this.auriculararray[i].setTint(0x999999))
             .on('pointerout',()=>this.auriculararray[i].clearTint())
-            .on('pointerdown',()=>{this.auriculararray[i].showdialog(this.preguntaHora()),this.backactive(false),
+            .on('pointerdown',()=>{this.auriculararray[i].showdialog(this.preguntaHora()),this.backActive(false),
                 this.time_bar.menostiempo()})
         }
 
@@ -142,8 +142,8 @@ export default class extends Phaser.Scene{
      */
     disableselect(){
         //hacemos desaparecer el boton de volver atrás en el plano general
-        this.backbutton.setVisible(false);
-        this.backbutton.disableInteractive();
+        this.backButton.setVisible(false);
+        this.backButton.disableInteractive();
 
         //si volvemos atrás volvemos a activar las ventanas
         //hacemos interactiva cada ventanita
@@ -160,9 +160,9 @@ export default class extends Phaser.Scene{
         
     }
 
-    backactive(b){
-        this.backbutton.setVisible(b);
-        this.backbutton.setInteractive(b);
+    backActive(b){
+        this.backButton.setVisible(b);
+        this.backButton.setInteractive(b);
     }
 
     preguntaHora(){

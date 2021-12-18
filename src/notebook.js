@@ -11,7 +11,7 @@ export default class NoteBook extends Phaser.Scene{
         this.background = this.add.image(0,0,'notebook');        
         this.background.setOrigin(0,0);
     //creamos un back
-        this.backbutton=this.add.sprite(0,0,'back')
+        this.backButton=this.add.sprite(0,0,'back')
         .setOrigin(0,0);
 
         //llamamos a select, metodo que habilita click
@@ -25,7 +25,7 @@ export default class NoteBook extends Phaser.Scene{
             if(!this.game.estadoCompartido.observaciones[i].activated){
                 this.game.estadoCompartido.observaciones[i].selected = false;
                 this.game.estadoCompartido.observaciones[i].screentext = this.add.text(200,((textpos+1)*15)+50
-                            ,this.game.estadoCompartido.observaciones[i].text_notebook,)
+                            ,this.game.estadoCompartido.observaciones[i].textNotebook,)
                 .setOrigin(0.5,0.5)
                 .setColor('green')
                 .setFontSize(11)
@@ -45,14 +45,14 @@ export default class NoteBook extends Phaser.Scene{
     //metodo que de momento habilita la funcion back
     select()
     {
-        this.backbutton.setVisible(true);
-        this.backbutton.setInteractive();        
-        this.backbutton.on('pointerdown',backbutton=>{this.scene.switch('general')})       
+        this.backButton.setVisible(true);
+        this.backButton.setInteractive();        
+        this.backButton.on('pointerdown',backButton=>{this.scene.switch('general')})       
     }
 
-    backactive(b){
-        this.backbutton.setVisible(b);
-        this.backbutton.setInteractive(b);      
+    backActive(b){
+        this.backButton.setVisible(b);
+        this.backButton.setInteractive(b);      
     }
 
     select_text(elem,indiceelem){
@@ -88,7 +88,7 @@ export default class NoteBook extends Phaser.Scene{
            if(this.game.estadoCompartido.deducciones[i].selected && i!==indiceelem){  
             if(this.game.estadoCompartido.deducciones[i].id === elem.id){
                 //toma el archivo json y accede a la conclusion con el id en el que coinciden las deducciones
-                this.game.estadoCompartido.conclusiones[this.game.nowday-1]=(conclusiones_json["conclusion"+[elem.id]].text);
+                this.game.estadoCompartido.conclusiones[this.game.currentDay-1]=(conclusiones_json["conclusion"+[elem.id]].text);
                 this.game.estadoCompartido.conclusiones[this.game.estadoCompartido.conclusiones.length-1].id = conclusiones_json["conclusion"+[elem.id]].id;
                 //Desactiva del los eventos los usados , lo marca como activados y muestra conclusion
                 this.game.estadoCompartido.deducciones[i].activated=true;  

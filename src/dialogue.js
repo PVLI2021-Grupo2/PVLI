@@ -39,7 +39,7 @@ export default class Dialogue{
       }
       else{
         this.deactivateDialogue();     
-        this.scene.backactive(true);     
+        this.scene.backActive(true);     
       }        
     }    
   } 

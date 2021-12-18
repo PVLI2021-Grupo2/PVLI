@@ -20,8 +20,8 @@ export default class Pregunta extends Phaser.Scene{
          this.conclusiones_background= this.add.sprite(250,250,'dialog').setOrigin(0.2,0.2);
 
          //creamos un back
-         this.backbutton=this.add.sprite(0,0,'back');
-         this.backbutton.setOrigin(0,0)
+         this.backButton=this.add.sprite(0,0,'back');
+         this.backButton.setOrigin(0,0)
 
          //creamos el boton de pasar de dia
          this.icono_avanzar_dia = this.add.sprite(945,250,'nextday').setOrigin(0,0);
@@ -40,9 +40,9 @@ export default class Pregunta extends Phaser.Scene{
        */
         select()
         {
-         this.backbutton.setVisible(true);
-         this.backbutton.setInteractive();        
-         this.backbutton.on('pointerdown',backbutton=>{this.scene.switch('general')});
+         this.backButton.setVisible(true);
+         this.backButton.setInteractive();        
+         this.backButton.on('pointerdown',backButton=>{this.scene.switch('general')});
 
          this.icono_avanzar_dia.setVisible(true)
          .setOrigin(0.5,0)
@@ -55,7 +55,7 @@ export default class Pregunta extends Phaser.Scene{
        */
         muestrapregunta(){
           //muestra el texto de la pregunta
-          this.add.text(150,100,this.pregunta_array[this.game.nowday-1],
+          this.add.text(150,100,this.pregunta_array[this.game.currentDay-1],
             { fontFamily: 'Arial', color: '#00ff00' }).setWordWrapWidth(600);
           //muestra titulo de "conclusiones"
           this.add.text(425,215,"-RESPUESTA-",
@@ -64,16 +64,16 @@ export default class Pregunta extends Phaser.Scene{
 
         /**añade las conclusiones que haya en la libreta */
         añadeconclusion(){
-          let texto_conclusion = this.game.estadoCompartido.conclusiones[this.game.nowday-1];
+          let texto_conclusion = this.game.estadoCompartido.conclusiones[this.game.currentDay-1];
             this.add.text(100,250,texto_conclusion,
               { fontFamily: 'Arial', color: '#d0ff00' })                          
         }
 
         /**Pasa al siguiente dia */
         pasardia(){
-          if(this.game.nowday<5){
-            console.log(this.game.nowday);
-            this.game.nowday+=1;
+          if(this.game.currentDay<5){
+            console.log(this.game.currentDay);
+            this.game.currentDay+=1;
             this.scene.start('general');
           } 
           else
