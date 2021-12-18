@@ -17,7 +17,6 @@ export default class Acusacion extends Phaser.Scene{
            this.pregunta_background.scaleX/3;
            //llamamos a select, metodo que habilita clicK   
            this.pregunta = "Elige una persona para acusar : Quien ha matado a Willian";
-           this.win = false;
            //llamamos a muestrapregunta
            this.smith = this.add.sprite(200,300,'objects','object_sara');
            this.cooper = this.add.sprite(500,300,'objects','object_cooper');
@@ -29,11 +28,11 @@ export default class Acusacion extends Phaser.Scene{
             this.add.text(150,100,this.pregunta,
                 { fontFamily: 'Arial', color: '#00ff00' }).setWordWrapWidth(600);
             this.smith.setInteractive();        
-            this.smith.on('pointerdown',()=>{this.win=false; this.finish('sara');} );
+            this.smith.on('pointerdown',()=>{ this.finish('sara');} );
             this.cooper.setInteractive();        
-            this.cooper.on('pointerdown',()=>{this.win=true; this.finish('cooper');});
+            this.cooper.on('pointerdown',()=>{ this.finish('cooper');});
             this.charles.setInteractive();        
-            this.charles.on('pointerdown',()=>{this.win=false; this.finish('charles');});
+            this.charles.on('pointerdown',()=>{ this.finish('charles');});
           }
           finish(a){
             this.add.sprite(500,200,'dialog').setScale(1.5)
@@ -54,7 +53,6 @@ export default class Acusacion extends Phaser.Scene{
             this.add.text(50,100,this.jsonfile[a+"resumen"]).setWordWrapWidth(900)
             this.add.text(400,400,"RESTART").setBackgroundColor("grey").setScale(2).setInteractive().on('pointerdown',()=>{this.restart();});
         }
-
           restart(){
               this.scene.stop('general');
               this.scene.stop('menu');
