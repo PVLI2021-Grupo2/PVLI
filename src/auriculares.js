@@ -24,7 +24,7 @@ import Dialogue from "./dialogue.js";
      * Muestra el diálogo correspondiente a la hora en la que estemos al haber pulsado el auricular
      * así como manda apuntar la información asociada a lo escuchado -si es relevante-
      */
-    showdialog(hora_consultada){
+    showDialog(hora_consultada){
       this.textbox = new Dialogue(this.scene);
       if (hora_consultada>23) hora_consultada-=24; //Si se pasa de 24h se va a la 0
       let file = this.jsonFile["earphone"][this.roomName]["event"+hora_consultada];

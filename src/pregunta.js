@@ -24,16 +24,16 @@ export default class Pregunta extends Phaser.Scene{
          this.backButton.setOrigin(0,0)
 
          //creamos el boton de pasar de dia
-         this.icono_avanzar_dia = this.add.sprite(945,250,'nextday').setOrigin(0,0);
+         this.iconoAvanzarDia = this.add.sprite(945,250,'nextday').setOrigin(0,0);
 
 
          //llamamos a select, metodo que habilita clicK
          this.select();
-         this.pregunta_array=this.scene.scene.cache.json.get('preguntas')['preguntas']
+         this.preguntaArray=this.scene.scene.cache.json.get('preguntas')['preguntas']
         
-         //llamamos a muestrapregunta
-         this.muestrapregunta();
-         this.añadeconclusion(); 
+         //llamamos a muestraPregunta
+         this.muestraPregunta();
+         this.addConclusion(); 
       }
       /**
        * Método que activa componentes
@@ -44,18 +44,18 @@ export default class Pregunta extends Phaser.Scene{
          this.backButton.setInteractive();        
          this.backButton.on('pointerdown',backButton=>{this.scene.switch('general')});
 
-         this.icono_avanzar_dia.setVisible(true)
+         this.iconoAvanzarDia.setVisible(true)
          .setOrigin(0.5,0)
          .setInteractive()
-         .on('pointerdown',icono_avanzar_dia=>{this.scene.switch('general'),this.pasardia()})        
+         .on('pointerdown',iconoAvanzarDia=>{this.scene.switch('general'),this.pasardia()})        
         }
 
       /**
        * metodo que muestra la pregunta y la cabecera de las conclusiones        
        */
-        muestrapregunta(){
+        muestraPregunta(){
           //muestra el texto de la pregunta
-          this.add.text(150,100,this.pregunta_array[this.game.currentDay-1],
+          this.add.text(150,100,this.preguntaArray[this.game.currentDay-1],
             { fontFamily: 'Arial', color: '#00ff00' }).setWordWrapWidth(600);
           //muestra titulo de "conclusiones"
           this.add.text(425,215,"-RESPUESTA-",
@@ -63,7 +63,7 @@ export default class Pregunta extends Phaser.Scene{
         }
 
         /**añade las conclusiones que haya en la libreta */
-        añadeconclusion(){
+        addConclusion(){
           let texto_conclusion = this.game.estadoCompartido.conclusiones[this.game.currentDay-1];
             this.add.text(100,250,texto_conclusion,
               { fontFamily: 'Arial', color: '#d0ff00' })                          

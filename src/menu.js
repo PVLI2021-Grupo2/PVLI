@@ -8,10 +8,10 @@ export default class menu extends Phaser.Scene{
      this.background.setOrigin(0,0);
      this.add.bitmapText(200, 400, 'press_start_2p_font', "Bienvenidos a Through The Window!", 20).setOrigin(0,1);
   
-     let startbottom = this.add.sprite(500,250,'play')
+     let startButton = this.add.sprite(500,250,'play')
      this.input.mouse.disableContextMenu();
-     startbottom.setInteractive();
-     startbottom.on('pointerdown', startbottom=>{this.scene.start('general')});
+     startButton.setInteractive();
+     startButton.on('pointerdown', startButton=>{this.scene.start('general')});
      const config = {
       volume: 1
     };
