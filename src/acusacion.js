@@ -74,6 +74,7 @@ export default class Acusacion extends Phaser.Scene{
               };
               this.game.nowtime= 9 ;
               this.game.nowday = 1 ;  
+              this.sound.stopAll();
           }
           disableinterative(){
             this.smith.disableInteractive();
