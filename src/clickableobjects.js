@@ -1,11 +1,11 @@
 import Dialogue from "./dialogue.js";
 export default class clickableobjects extends Phaser.GameObjects.Sprite {
-    constructor( scene , x, y, name, obname,json, roomName) {
-        super(scene, x, y, name,obname);
-        this.name =  obname;
+    constructor( scene , x, y, name, obName,json, roomName) {
+        super(scene, x, y, name,obName);
+        this.name =  obName;
         this.scene = scene;
         this.scene.add.existing(this);  
-        this.jsonfile = json;
+        this.jsonFile = json;
         this.roomName = roomName;
       }
       /**
@@ -13,23 +13,23 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
        * así como manda apuntar la información asociada al mismo
        */
     showtext(){
-        let file = this.jsonfile["prismatic"][this.roomName][this.name];
+        let file = this.jsonFile["prismatic"][this.roomName][this.name];
         let dialog = file["text"];
         let idi = file["id"];
         let isevent = file["isevent"];
         let notebookinfo = file["notebookinfo"];
         this.textbox = new Dialogue(this.scene);
         this.textbox.changeDialogue(dialog);
-        this.scene.backactive(false);
+        this.scene.backActive(false);
         if(isevent === true){
             
             let apuntado = false;
             this.scene.game.estadoCompartido.observaciones.forEach(element => 
                 {
-                if(element.text_notebook === notebookinfo) apuntado=true;
+                if(element.textNotebook === notebookinfo) apuntado=true;
                 });
             if(!apuntado){
-                this.scene.game.estadoCompartido.observaciones.push({text_notebook: notebookinfo,id:idi,activated:false})               
+                this.scene.game.estadoCompartido.observaciones.push({textNotebook: notebookinfo,id:idi,activated:false})               
             }
         }      
     }

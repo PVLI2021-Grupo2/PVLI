@@ -11,33 +11,32 @@ export default class Acusacion extends Phaser.Scene{
            this.background.setOrigin(0,0);
   
            //fondo de la pregunta
-           this.pregunta_background=this.add.sprite(250,100,'dialog')
+           this.preguntaBackground=this.add.sprite(250,100,'dialog')
            .setOrigin(0.2,0.2);
-           this.pregunta_background.scaleY/=4;
-           this.pregunta_background.scaleX/3;
+           this.preguntaBackground.scaleY/=4;
+           this.preguntaBackground.scaleX/3;
            //llamamos a select, metodo que habilita clicK   
            this.pregunta = "Elige una persona para acusar : Quien ha matado a Willian";
-           this.win = false;
            //llamamos a muestrapregunta
            this.smith = this.add.sprite(200,300,'objects','object_sara');
            this.cooper = this.add.sprite(500,300,'objects','object_cooper');
            this.charles = this.add.sprite(800,300,'objects','object_charles');
-           this.jsonfile = this.cache.json.get('finales');
+           this.jsonFile = this.cache.json.get('finales');
            this.configescene();
         }
           configescene(){
             this.add.text(150,100,this.pregunta,
                 { fontFamily: 'Arial', color: '#00ff00' }).setWordWrapWidth(600);
             this.smith.setInteractive();        
-            this.smith.on('pointerdown',()=>{this.win=false; this.finish('sara');} );
+            this.smith.on('pointerdown',()=>{ this.finish('sara');} );
             this.cooper.setInteractive();        
-            this.cooper.on('pointerdown',()=>{this.win=true; this.finish('cooper');});
+            this.cooper.on('pointerdown',()=>{ this.finish('cooper');});
             this.charles.setInteractive();        
-            this.charles.on('pointerdown',()=>{this.win=false; this.finish('charles');});
+            this.charles.on('pointerdown',()=>{ this.finish('charles');});
           }
           finish(a){
             this.add.sprite(500,200,'dialog').setScale(1.5)
-            this.add.text(350,180,this.jsonfile[a])
+            this.add.text(350,180,this.jsonFile[a])
             let conclu=0;
             this.game.estadoCompartido.conclusiones.forEach(elem => {
                 if(elem!==undefined)conclu++;
@@ -46,15 +45,14 @@ export default class Acusacion extends Phaser.Scene{
             this.add.text(350,250,"Ver resumen").setBackgroundColor("grey");
             this.add.text(350,270,"SI").setBackgroundColor("grey").setInteractive().on('pointerdown',()=>{this.resumen(a);});
             this.add.text(380,270,"NO").setBackgroundColor("grey").setInteractive().on('pointerdown',()=>{this.restart();});
-            this.disableinterative();
+            this.disableInteractive();
             
           }
           resumen(a){
             this.add.sprite(0,0,'dialog').setOrigin(0,0).setScale(3)
-            this.add.text(50,100,this.jsonfile[a+"resumen"]).setWordWrapWidth(900)
+            this.add.text(50,100,this.jsonFile[a+"resumen"]).setWordWrapWidth(900)
             this.add.text(400,400,"RESTART").setBackgroundColor("grey").setScale(2).setInteractive().on('pointerdown',()=>{this.restart();});
         }
-
           restart(){
               this.scene.stop('general');
               this.scene.stop('menu');
@@ -72,11 +70,16 @@ export default class Acusacion extends Phaser.Scene{
                 deducciones:[],
                 conclusiones:[],
               };
+<<<<<<< HEAD
               this.game.nowtime= 9 ;
               this.game.nowday = 1 ;  
               this.sound.stopAll();
+=======
+              this.game.currentTime= 9 ;
+              this.game.currentDay = 1 ;  
+>>>>>>> refactorizacion_variables
           }
-          disableinterative(){
+          disableInteractive(){
             this.smith.disableInteractive();
             this.cooper.disableInteractive();
             this.charles.disableInteractive();
