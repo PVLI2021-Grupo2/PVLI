@@ -406,14 +406,14 @@
             "posX":25,
             "posY":150,       
             "timedepend":true,
-            "time":[9,17]       
+            "time":[9,10,11,12,13,14,15,16,17]       
         },
         {
             "name":"object_suitcasemoney",
             "posX":25,
             "posY":150,
             "timedepend":true,
-            "time":[18,23]
+            "time":[18,19,20,21,22,23]
         }
     ]
         ,
@@ -449,7 +449,7 @@
                 "posX":280,
                 "posY":175,
                 "timedepend":true,
-                "time":[23,5]
+                "time":[23,0,1,2,3,4,5]
             }
         ]
     },
@@ -522,7 +522,7 @@
             "posX":240,
             "posY":120,       
             "timedepend":true,
-            "time":[22,2]       
+            "time":[13,14,22,23,0,1,2]       
         },
         {
             "name":"object_cup" ,        
@@ -583,21 +583,21 @@
                 "posX":70,
                 "posY":150,       
                 "timedepend":true,
-                "time":[20,23]       
+                "time":[20,21,22,23]       
             },
             {
                 "name":"object_smith" ,        
                 "posX":600,
                 "posY":130,       
                 "timedepend":true,
-                "time":[20,23]           
+                "time":[20,21,22,23]           
             },
             {
                 "name":"object_william" ,        
                 "posX":600,
                 "posY":130,       
                 "timedepend":true,
-                "time":[9,19]       
+                "time":[9,10,11,12,13,14,15,16,17,18,19]       
             },{
                 "name":"object_bottle" ,        
                 "posX":180,
@@ -731,7 +731,7 @@
             "posX":250,
             "posY":200,       
             "timedepend":true,
-            "time":[9,11]
+            "time":[9,10,11]
               
         },{
             "name":"object_calendar" ,        
@@ -749,7 +749,7 @@
             "posX":25,
             "posY":150,       
             "timedepend":true,
-            "time":[15,5]       
+            "time":[15,16,17,18,19,20,21,22,23,0,1,2,3,4,5]       
         }
     ]
         ,
@@ -759,7 +759,7 @@
                 "posX":600,
                 "posY":100,       
                 "timedepend":true,
-                "time":[12,15]       
+                "time":[12,13,14,15]       
             },
             {
                 "name":"object_bottle" ,        
@@ -787,7 +787,7 @@
                 "posX":280,
                 "posY":175,
                 "timedepend":true,
-                "time":[9,15]
+                "time":[9,10,11,12,13,14,15]
             }
         ]
     }
