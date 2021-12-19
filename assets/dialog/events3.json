@@ -1314,7 +1314,7 @@
             "isevent":true,
             "notebookinfo":"* Es una maleta grande, debe de contener dinero, pero no mucho"
          }
-         },
+         ,
         
          "object_suitcasemoney":{
            "text":[
@@ -1324,6 +1324,7 @@
          "isevent":true,
          "notebookinfo": "/ Hay un maletín lleno de dinero en casa de Charles"
       }
+   }
          ,
          "room4":
             {
