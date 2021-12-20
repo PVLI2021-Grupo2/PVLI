@@ -1,3 +1,11 @@
+/**
+ * Clase que gestiona la escena Notebook, que es aquella en la que se almacena toda la información relevante del juego
+ * y que hace progresar al jugador en cuanto a lo que va descubriendo. En ella se almacenan las observaciones, obtenidas de
+ * las descripciones de los objetos en que clicka en las habitaciones o de los textos correspondientes a las conversaciones o ruidos
+ * escuchados en las habitaciones.
+ * En esta escena el jugador puede combinar observaciones relacionadas para dar lugar a deducciones, y hacer lo propio con estas últimas
+ * para generar conclusiones, las cuales se usan para contestar las preguntas de cada día
+ */
 export default class NoteBook extends Phaser.Scene{
     constructor(){
       super({ key: 'notebook' });
@@ -49,12 +57,19 @@ export default class NoteBook extends Phaser.Scene{
         this.backButton.setInteractive();        
         this.backButton.on('pointerdown',backButton=>{this.scene.switch('general')})       
     }
-
+    //método que hace interactivo y visible el boton back
     backActive(b){
         this.backButton.setVisible(b);
         this.backButton.setInteractive(b);      
     }
-
+    /**
+     * Este método permite seleccionar una observación apuntada en la libreta, y en caso de seleccionar otra que tenga
+     * el mismo "id" que la primera las combinará, haciendo un push de una deduccion que también se corresponda en "id"
+     * con las dos observaciones previas
+     * 
+     * @param {*} elem //elemento seleccionado
+     * @param {*} indiceelem //indice correspondiente al evento seleccionado
+     */
     selectText(elem,indiceelem){
         let deduccionesJson=this.cache.json.get('deducciones');
         elem.selected = true;
@@ -78,7 +93,14 @@ export default class NoteBook extends Phaser.Scene{
           }    
         }
     }
-
+/**
+     * Este método es análogo del anterior y permite seleccionar una deducción apuntada en la libreta, y en caso de seleccionar otra que tenga
+     * el mismo "id" que la primera las combinará, haciendo un push de una conclusión que también se corresponda en "id"
+     * con las dos deducciones previas
+     * 
+     * @param {*} elem //elemento seleccionado
+     * @param {*} indiceelem //indice correspondiente a la deducción seleccionada
+ */
     selectDeducciones(elem,indiceelem){
         let conclusiones_json=this.cache.json.get('conclusiones');
         elem.selected = true;
@@ -103,6 +125,8 @@ export default class NoteBook extends Phaser.Scene{
         }
     }
 
+    // método que tiene control de los elementos seleccionados en la escena de libreta para que no puedan combinarse
+    // ni más de dos elementos, ni elementos que no sean de la misma categoría.
     update(t,td){
         super.update(t,td);
         if(this.numberoftextselected===2){
@@ -124,6 +148,9 @@ export default class NoteBook extends Phaser.Scene{
         }   
     }
 
+    /**
+     * Método que muestra las deducciones en pantalla de manera ordenada y apilada 
+     */
     showDeduccion(){
         let textpos = 0;
         for (let i=0;i<this.game.estadoCompartido.deducciones.length;i++){
@@ -143,7 +170,9 @@ export default class NoteBook extends Phaser.Scene{
             }                 
         }
     }
-
+/**
+ * Método que muestra las conclusiones de manera ordenada y apilada
+ */
     showConclusion(){
         let it = 1;
         let arr = this.game.estadoCompartido.conclusiones
