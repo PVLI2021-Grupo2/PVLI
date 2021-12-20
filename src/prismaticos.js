@@ -1,5 +1,7 @@
 /**
- * Clase para crear el objeto prismáticos que te lleva a la habitación asociada 
+ * Clase para crear el objeto prismáticos que te lleva a la habitación asociada en que hayas
+ *  hecho click previamente
+ * 
  * @extends Phaser.GameObjects.Sprite
  */
 
