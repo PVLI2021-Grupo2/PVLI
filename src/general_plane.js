@@ -2,6 +2,13 @@ import Prismaticos from "./prismaticos.js"
 import Auriculares from "./auriculares.js";
 import TimeBar from "./timeBar.js";
 import Coffe from "./coffe.js";
+/**
+ * Clase que crea la escena principal del juego, un plano general en que están los accesos a las escenas de habitación mediante prismáticos,
+ * también a los eventos sonoros de las mismas habitaciones a través del los objetos auriculares.
+ * En ella encontramos los accesos a otras escenas como la de notebook o la de pregunta.
+ * Por último muestra también un timebar que indica la hora de juego y las disponibles, así como las tazas de café que podemos consumir para aumentar
+ * esas horas disponibles
+ */
 
 export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
@@ -58,7 +65,8 @@ export default class extends Phaser.Scene{
 /** select habilita la aparicion del prismático correspondiente a la habitacion
  * seleccionada y deshabilita la posibilidad de seleccionar otra habitación para evitar
  * que aparezcan las opciones de otras que no sean la seleccionada
- *  @param {number} a
+ * 
+ *  @param {number} a //indica la habitación que hemos seleccionado en general plane
  * */   
       select(a){    
         //desabilitamos la opción de que pueda pulsar de nuevo en una ventana
@@ -82,6 +90,11 @@ export default class extends Phaser.Scene{
         this.backButton.on('pointerdown',backButton=>{this.disableSelect()});
         this.notebook.setVisible(false);
     }
+    /**
+     * Configuración general de parámetros cuando hacemos click en una de las habitaciones, desactivando otros
+     * sprites clickables que pudieran alterar la escena tras esta selección y variando la transparencia de las otras
+     * habitaciones para resaltar aquella que hemos seleccionado
+     */
     roomconfig(){
     
         for(let i = 0;i<this.roomarray.length;i++){
@@ -159,16 +172,19 @@ export default class extends Phaser.Scene{
        this.auricularArray.forEach(item => item.setVisible(false));        
         
     }
+    //método que hace el boton back visible e interactivo
 
     backActive(b){
         this.backButton.setVisible(b);
         this.backButton.setInteractive(b);
     }
-
+    //método que devuelve la hora actual de juego
     preguntaHora(){
        return this.timeBar.horasEventos;      
     }
 
+    //método que hace que si hemos agotado todas las horas disponibles se desactiven las funcionalidades
+    //de los prismáticos y de los auriculares
     update(t,dt){
         if (this.timeBar.horasDisponibles ===0){
             this.prismaticArray.forEach(item => item.disableInteractive())
