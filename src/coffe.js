@@ -1,5 +1,5 @@
 /**
- * Clase para crear un timebar que controla el tiempo
+ * Clase para crear un objeto de tipo café
  * @extends Phaser.GameObjects.Sprite
  */
 
