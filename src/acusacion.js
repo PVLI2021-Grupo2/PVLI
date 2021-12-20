@@ -24,6 +24,10 @@ export default class Acusacion extends Phaser.Scene{
            this.jsonFile = this.cache.json.get('finales');
            this.configescene();
         }
+
+        /**
+         * Configuración de sprites en la escena y funciones de pointerdown
+         */
           configescene(){
             this.add.text(150,100,this.pregunta,
                 { fontFamily: 'Arial', color: '#00ff00' }).setWordWrapWidth(600);
@@ -34,6 +38,11 @@ export default class Acusacion extends Phaser.Scene{
             this.charles.setInteractive();        
             this.charles.on('pointerdown',()=>{ this.finish('charles');});
           }
+          /**
+           * Muestra un panel con el resultado de la partida, las conclusiones obtenidas, la posibilidad de ver un resumen
+           * de la historia del vecino que hayas acusado
+           * @param {*} a //indica cual de los 3 vecinos ha sido el acusado, dado que cada uno tiene un resumen asociado
+           */
           finish(a){
             this.add.sprite(500,200,'dialog').setScale(1.5)
             this.add.text(350,180,this.jsonFile[a])
@@ -48,11 +57,19 @@ export default class Acusacion extends Phaser.Scene{
             this.disableInteractive();
             
           }
+          /**
+           * Muestra un resumen del acusado elegido y de toda la subtrama que rodea a dicho personaje, asímismo da opción a 
+           * reiniciar el juego de 0.
+           * @param {*} a //indica cual de los 3 vecinos ha sido el acusado, dado que cada uno tiene un resumen asociado
+           */
           resumen(a){
             this.add.sprite(0,0,'dialog').setOrigin(0,0).setScale(3)
             this.add.text(50,100,this.jsonFile[a+"resumen"]).setWordWrapWidth(900)
             this.add.text(400,400,"RESTART").setBackgroundColor("grey").setScale(2).setInteractive().on('pointerdown',()=>{this.restart();});
         }
+        /**
+         * Reinicio de juego con todos los parámetros iniciales
+         */
           restart(){
               this.scene.stop('general');
               this.scene.stop('menu');
@@ -74,6 +91,9 @@ export default class Acusacion extends Phaser.Scene{
               this.game.currentDay = 1 ;  
               this.sound.stopAll();
           }
+          /**
+           * Desactiva los Sprites que no has seleccionado al acusar a uno de ellos
+           */
           disableInteractive(){
             this.smith.disableInteractive();
             this.cooper.disableInteractive();
