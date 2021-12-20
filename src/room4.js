@@ -1,5 +1,7 @@
 import BaseRoom from "./baseRoom.js";
-
+/**
+ * clase que crea la habitación y escena de Room4
+ */
 export default class Room4 extends BaseRoom{
 
     constructor() {
