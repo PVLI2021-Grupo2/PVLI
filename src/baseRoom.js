@@ -1,4 +1,8 @@
 import Days from "./days.js";
+/**
+ * Clase que crea una habitación base con los parámetros comunes de todas las escenas 
+ * Room que tendremos.
+ */
 export default class BaseRoom extends Phaser.Scene{
 
     constructor(key,image){
@@ -35,6 +39,7 @@ export default class BaseRoom extends Phaser.Scene{
       this.backButton.setInteractive();        
       this.backButton.on('pointerdown',backButton=>{this.scene.switch('general')})
     }
+    //metodo que hace visible e interactivo el boton back
     backActive(b){
       this.backButton.setVisible(b);
       this.backButton.setInteractive(b);
