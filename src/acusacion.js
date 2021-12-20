@@ -70,14 +70,9 @@ export default class Acusacion extends Phaser.Scene{
                 deducciones:[],
                 conclusiones:[],
               };
-<<<<<<< HEAD
-              this.game.nowtime= 9 ;
-              this.game.nowday = 1 ;  
-              this.sound.stopAll();
-=======
               this.game.currentTime= 9 ;
               this.game.currentDay = 1 ;  
->>>>>>> refactorizacion_variables
+              this.sound.stopAll();
           }
           disableInteractive(){
             this.smith.disableInteractive();

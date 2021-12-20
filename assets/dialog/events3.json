@@ -229,7 +229,9 @@
              
                 "event20":{
                   "text":[
-                   "*No escuchas nada, no parecen estar en casa*"
+                   "-Ese paseo debería de haber durado más, no me apetecía volver tan pronto",
+                   "-Me niego a no estar a gusto en mi casa Sarah, me apetece estar a gusto en mi salón",
+                   "-Lo sé John, pero no podía pensar en que iba a estar aquí cuando volviésemos."
                 ]
                 ,
                 "isevent" : false
