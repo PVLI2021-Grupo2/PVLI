@@ -22,7 +22,7 @@ import Dialogue from "./dialogue.js";
 
     /**
      * Muestra el diálogo correspondiente a la hora en la que estemos al haber pulsado el auricular
-     * así como manda apuntar la información asociada a lo escuchado -si es relevante-
+     * así como manda apuntar la información asociada a lo escuchado en caso de ser relevante
      */
     showDialog(hora_consultada){
       this.textbox = new Dialogue(this.scene);
