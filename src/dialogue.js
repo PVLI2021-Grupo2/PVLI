@@ -1,6 +1,8 @@
-/*
-Hay un diálogo por escena que vaya a tener diálogos. y el dialogo de cada escena cambia de texto al hacer click en algún objeto
-*/ 
+/**
+ * Clase que crea un cuadro de diálogo por escena en la que nos encontremos, los textos asociados a los objetos clickables
+ * apareceran en este cuadro de texto, así como los eventos "sonoros" que se muestren al hacer click en los auriculares apareceran
+ * en el del plano general como caso especial
+ */
 export default class Dialogue{
 
 //se construye el dialogo pasándole la escena en la que esté
@@ -19,6 +21,11 @@ export default class Dialogue{
     this.dialogo.setVisible(false);
   }
 
+  /**
+   * Este método muestra el array de frases asociadas a un objeto o evento en el cuadro de texto de la escena en que estemos
+   * 
+   * @param {*} arrayText  //array que contiene los strings del texto asociado al evento que se le pase, visual o sonoro
+   */
   changeDialogue(arrayText){
     this.arrayWord = arrayText; //le pasamos el array de strings
     this.numFraseActual = 1; //iniciamos a la siguiente frase
