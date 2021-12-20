@@ -78,6 +78,9 @@ export default class Boot extends Phaser.Scene {
   create() {
     this.scene.start('menu');
   }
+  /**
+   * Variables fundamentales de control del juego
+   */
   init(){
     this.game.estadoCompartido = {
       observaciones:[],
