@@ -1,4 +1,9 @@
 import clickableobjects from "./clickableobjects.js";
+/**
+ * Escena que controla la gestión de todos los objetos que hay en todas las escenas Room durante el día.
+ * Incluye en un array de objetos todos aquellos clickableobjects que se corresponden con la hora en la que esté el 
+ * juego en ese momento
+ */
 
 export default class Days extends Phaser.Scene{
 
@@ -6,6 +11,15 @@ export default class Days extends Phaser.Scene{
       super(key);
     }
 
+    /**
+     * 
+     * Este método incluye en un array todos los objetos clickables que estén activos en una franja horaria,
+     * dicha franja horaria está determinada en objects.json en aquellos que tienen el booleano "timedepend": true
+     * en caso de ser "timedepend":false los objetos se incluirán siempre
+     * @param {*} scene //escena a la que pertenece el objeto
+     * @param {*} room  //room concreta del que estamos formando el array de clickableobjects de la misma
+     * @returns 
+     */
     getdayobject(scene,room){
         let dialogJson = scene.cache.json.get('dialog' + scene.game.currentDay);
         let objects = scene.cache.json.get('objectsjson');
