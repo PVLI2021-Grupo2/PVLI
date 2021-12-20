@@ -1,4 +1,8 @@
 import Dialogue from "./dialogue.js";
+/**
+ * Clase que crea los objetos clickables de cada una de las escenas de habitación,
+ * adjudicándoles escena, posición, nombre, eventos asociados y nombre de la habitación a que pertenecen
+ */
 export default class clickableobjects extends Phaser.GameObjects.Sprite {
     constructor( scene , x, y, name, obName,json, roomName) {
         super(scene, x, y, name,obName);
@@ -8,6 +12,7 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
         this.jsonFile = json;
         this.roomName = roomName;
       }
+      
       /**
        * Muestra el diálogo correspondiente al objeto pulsado
        * así como manda apuntar la información asociada al mismo
