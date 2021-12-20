@@ -1,8 +1,6 @@
 import Boot from './boot.js';
 import Menu from './menu.js';
 import General from'./general_plane.js';
-//cuando una clase hereda de otra exportas el padre pero no exportas los hijos
-//sino acaba dando error por importación circular
 import Room1 from './room1.js';
 import Room2 from './room2.js';
 import Room3 from './room3.js';
