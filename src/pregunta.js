@@ -1,4 +1,9 @@
-
+/**
+ * Clase que gestiona la pregunta que se le plantea al jugador cada día, estas están almacenadas en un archivo .json
+ * en caso de que el jugador obtenga una conclusión en la libreta, esta pasará automáticamente a contestar la pregunta.
+ * Asimismo esta clase es la que controla el paso de un día a otro ya que es la última accion que se realiza cada día,
+ * ver si se ha contestado a la pregunta.
+ */
 export default class Pregunta extends Phaser.Scene{
 
   constructor(){super({key: 'pregunta'})}
