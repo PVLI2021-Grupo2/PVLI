@@ -1,5 +1,7 @@
 /**
- * Clase para crear un timebar que controla el tiempo
+ * Clase para crear un timebar que controla el tiempo, tanto el que se corresponde con la hora de juego
+ * como aquel que gestiona la cantidad de horas que tenemos disponibles para realizar acciones  * 
+ * a lo largo del juego
  * 
  */
 export default class TimeBar extends Phaser.GameObjects.Sprite {
