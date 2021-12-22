@@ -114,23 +114,23 @@ export default class extends Phaser.Scene{
         .on('pointerover',()=>this.notebook.setTint(0x999999))
         .on('pointerout',()=>this.notebook.clearTint())
         .on('pointerdown',()=>{this.scene.sleep('general'); this.scene.launch('notebook')})
-
-        //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
+        
+        //al pulsar encima del prismático cambia la escena y muestra la habitación pulsada
         for(let i = 0;i<  this.prismaticArray.length;i++){
             let roomName = 'room'+(i+1);
             this.prismaticArray[i].setVisible(false)
             .on('pointerover',()=>this.prismaticArray[i].setTint(0x999999))
             .on('pointerout',()=>this.prismaticArray[i].clearTint())
-            .on('pointerdown',()=>{this.scene.sleep();this.scene.launch(roomName,this.notebookscene),
+            .on('pointerdown',()=>{this.scene.sleep();this.scene.switch(roomName,this.notebookscene),
                 this.timeBar.menosTiempo()})
         }
-        //al pulsar encima del prismático cambia la escena y muestra la habitación pulsada
+        //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
         for(let i = 0;i<  this.auricularArray.length;i++){
             let roomName = 'room'+i;
             this.auricularArray[i].setVisible(false)
             .on('pointerover',()=>this.auricularArray[i].setTint(0x999999))
             .on('pointerout',()=>this.auricularArray[i].clearTint())
-            .on('pointerdown',()=>{this.auricularArray[i].showDialog(this.preguntaHora()),this.backActive(false),
+            .on('pointerdown',()=>{this.auricularArray[i].showDialog(this.preguntaHora()),this.disableObjects(),this.backActive(false),
                 this.timeBar.menosTiempo()})
         }
 
@@ -170,6 +170,7 @@ export default class extends Phaser.Scene{
        //prismáticos de cada ventana al volver a la visión general y los cuadros de texto
        this.prismaticArray.forEach(item => item.setVisible(false));
        this.auricularArray.forEach(item => item.setVisible(false));        
+
         
     }
     //método que hace el boton back visible e interactivo
@@ -190,5 +191,15 @@ export default class extends Phaser.Scene{
             this.prismaticArray.forEach(item => item.disableInteractive())
             this.auricularArray.forEach(item => item.disableInteractive())    
         }
+    }
+    disableObjects(){
+        this.iconoPregunta.disableInteractive();
+        this.coffe_.disableInteractive();
+        this.notebook.disableInteractive();
+    }
+    activeObjects(){ 
+       this.iconoPregunta.setInteractive();
+       this.coffe_.setInteractive();
+       this.notebook.setInteractive();
     }
 }

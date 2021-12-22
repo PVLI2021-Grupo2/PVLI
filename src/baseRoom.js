@@ -21,7 +21,6 @@ export default class BaseRoom extends Phaser.Scene{
       this.select();
       this.input.mouse.disableContextMenu();
 
-      let pointer = this.input.activePointer;
       this.daysCont = new Days;
 
       //Crea un array de objecto de la habitacion
@@ -43,6 +42,18 @@ export default class BaseRoom extends Phaser.Scene{
     backActive(b){
       this.backButton.setVisible(b);
       this.backButton.setInteractive(b);
+    }
+    activeObjects(){
+      this.objectArray.forEach(elem => elem.setInteractive()
+      .on('pointerover',()=>elem.setTint(0x999999))
+      .on('pointerout',()=>elem.clearTint())
+      .on('pointerdown', () => {elem.showtext()}))    
+    } 
+    desactiveObjects(){
+      this.objectArray.forEach(elem => elem.disableInteractive()
+      .off('pointerover')
+      .off('pointerout')
+      .off('pointerdown'))      
     }
   
 }

@@ -23,8 +23,9 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
         let idi = file["id"];
         let isevent = file["isevent"];
         let notebookinfo = file["notebookinfo"];
-        this.textBox = new Dialogue(this.scene);
-        this.textBox.changeDialogue(dialog);
+        this.textbox = new Dialogue(this.scene);
+        this.scene.desactiveObjects();
+        this.textbox.changeDialogue(dialog);
         this.scene.backActive(false);
         if(isevent === true){
             

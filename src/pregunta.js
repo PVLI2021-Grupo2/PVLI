@@ -77,7 +77,6 @@ export default class Pregunta extends Phaser.Scene{
         /**Pasa al siguiente dia */
         pasarDia(){
           if(this.game.currentDay<5){
-            console.log(this.game.currentDay);
             this.game.currentDay+=1;
             this.scene.start('general');
           } 
