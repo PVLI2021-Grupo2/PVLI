@@ -2,6 +2,8 @@
 
 ### Documento de diseño de videojuego
 
+
+# PeekGamesUCM: Grupo 2 de la asignatura Programación de Videojuegos en Lenguajes Interpretados
 Autores:
 
 * Dewei Chen (deweiche@ucm.es) 
