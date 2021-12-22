@@ -218,7 +218,7 @@ En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo lar
 <img src="images/eventos5.PNG">
 
 [Eventos y dialogos](EventosYdialogos.md)         
-[Eventos](https://docs.google.com/spreadsheets/d/1pbKhvv9ovA54C8Tk_gWiwxWM6B4BLxL_j9Yffmv4mjI/edit#gid=1065729110)    
+[Enlace al excel](https://docs.google.com/spreadsheets/d/1pbKhvv9ovA54C8Tk_gWiwxWM6B4BLxL_j9Yffmv4mjI/edit#gid=1065729110)    
 
 #### 4.3 Personajes <a name="personajes"></a>
 Protagonista: Thomas Seeker
@@ -257,3 +257,7 @@ Vecino 4: Profesor William Scott.
 [Enlace al uml](https://app.diagrams.net/#G1fGQLV-oCemIR7E3TGnCeQJ6fHdor2XmO)  
 
 ### 7. Plataformas de gestión y comunicación <a name="gestion"></a>
+
+Como plataforma de gestión se ha utilizado Pivotal Tracker, una herramienta para el desarrollo de software siguiendo las metodologías ágiles. 
+
+Como métodos de comunicación se han utilizado WhatsApp (para preguntar dudas a miembros del equipo y acordar reuniones) y Discord, para hacer las susodichas reuniones en el canal de voz.
