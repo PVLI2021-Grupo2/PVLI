@@ -68,23 +68,23 @@ Se trata de un juego estilo “Point and Click” en el cual el jugador, que enc
 
 ### Tabla de contenidos
 
-1. [AspectosGenerales](#aspectosgenerales)
-    1. [RelatoBreve](#relatobreve)
-2. [MenúsModosDeJuego](#menusmodos)
+1. [Aspectos generales](#aspectosgenerales)
+    1. [Relato breve](#relatobreve)
+2. [Menús y modos de juego](#menusmodos)
     1. [Configuración](#configuracion)
-    2. [InterfazControl](#interfazControl)
+    2. [Interfaz y control](#interfazControl)
 3. [Jugabilidad](#jugabilidad)
     1. [Mecánica](#mecanica)
     2. [Dinámica](#dinamica)
     3. [Estética](#estetica)
 4. [Contenido](#contenido)
     1. [Historia](#historia)
-    2. [NivelesEventos](#niveleseventos)
+    2. [Niveles y eventos](#niveleseventos)
     3. [Personajes](#personajes)
     4. [Objetos](#objetos)
 5. [Referencias](#referencias)
 6. [UML](#uml)
-7. [Plataformas de gestión y administración](#gestion)
+7. [Plataformas de gestión y comunicación](#gestion)
 
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
@@ -211,6 +211,11 @@ Asimismo William, por un lado dará de comer, sin saberlo, la comida envenenada 
 
 #### 4.2 Niveles o eventos <a name="niveleseventos"></a>
 En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo largo de 5 días de la semana.
+<img src="images/eventos1.PNG">
+<img src="images/eventos2.PNG">
+<img src="images/eventos3.PNG">
+<img src="images/eventos4.PNG">
+<img src="images/eventos5.PNG">
 
 [Eventos y dialogos](EventosYdialogos.md)         
 [Eventos](https://docs.google.com/spreadsheets/d/1pbKhvv9ovA54C8Tk_gWiwxWM6B4BLxL_j9Yffmv4mjI/edit#gid=1065729110)    
