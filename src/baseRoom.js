@@ -44,5 +44,11 @@ export default class BaseRoom extends Phaser.Scene{
       this.backButton.setVisible(b);
       this.backButton.setInteractive(b);
     }
+    activeObjects(){
+      this.objectArray.forEach(elem => elem.setInteractive());
+    }
+    desactiveObjects(){
+      this.objectArray.forEach(elem => elem.disableInteractive());
+    }
   
 }

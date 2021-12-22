@@ -47,6 +47,7 @@ export default class Dialogue{
       else{
         this.deactivateDialogue();     
         this.scene.backActive(true);     
+        this.scene.activeObjects();
       }        
     }    
   } 
