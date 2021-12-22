@@ -20,6 +20,7 @@ export default class menu extends Phaser.Scene{
       volume: 1
     };
      this.audio=this.sound.add('bgm',config);
+     this.audio.loop=true;
      this.audio.play();
     }
 }
