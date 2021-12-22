@@ -46,9 +46,11 @@ export default class BaseRoom extends Phaser.Scene{
     }
     activeObjects(){
       this.objectArray.forEach(elem => elem.setInteractive());
+      console.log(this.objectArray)
     }
     desactiveObjects(){
       this.objectArray.forEach(elem => elem.disableInteractive());
+      console.log(this.objectArray)
     }
   
 }

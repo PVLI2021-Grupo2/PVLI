@@ -18,13 +18,13 @@ export default class clickableobjects extends Phaser.GameObjects.Sprite {
        * así como manda apuntar la información asociada al mismo
        */
     showtext(){
-        this.scene.desactiveObjects();
         let file = this.jsonFile["prismatic"][this.roomName][this.name];
         let dialog = file["text"];
         let idi = file["id"];
         let isevent = file["isevent"];
         let notebookinfo = file["notebookinfo"];
         this.textbox = new Dialogue(this.scene);
+        this.scene.desactiveObjects();
         this.textbox.changeDialogue(dialog);
         this.scene.backActive(false);
         if(isevent === true){
