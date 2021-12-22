@@ -63,27 +63,30 @@ Fecha de lanzamiento:21/12/2021
 ### Descripción
 Se trata de un juego estilo “Point and Click” en el cual el jugador, que encarna a un investigador de sucesos, se interesa por la muerte de un niño en un colegio, pero a medida que ahonda en esta investigación irá descubriendo que la trama se vuelve más compleja. Irán pasando la semana y el jugador se hará a sí mismo preguntas relacionadas con el caso que deberá de ser capaz de responder con la información que obtenga a lo largo del día. Para obtener esta información, deberá usar los objetos a su disposición, y mecánicas habilitadas para, pasados los 5 días haber podido descubrir qué ha ocurrido verdaderamente en el vecindario.
 
-### Logotipo y portada del juego
 
 ### Versiones del documento
 
 ### Tabla de contenidos
 
-1. [AspectosGenerales](#aspectosgenerales)
-    1. [RelatoBreve](#relatobreve)
-2. [MenúsModosDeJuego](#menusmodos)
-    1. [Configuracion](#configuracion)
-    2. [InterfazControl](#interfazControl)
+1. [Aspectos generales](#aspectosgenerales)
+    1. [Relato breve](#relatobreve)
+2. [Menús y modos de juego](#menusmodos)
+    1. [Configuración](#configuracion)
+    2. [Interfaz y control](#interfazControl)
 3. [Jugabilidad](#jugabilidad)
     1. [Mecánica](#mecanica)
     2. [Dinámica](#dinamica)
     3. [Estética](#estetica)
 4. [Contenido](#contenido)
     1. [Historia](#historia)
-    2. [NivelesEventos](#niveleseventos)
+    2. [Niveles y eventos](#niveleseventos)
     3. [Personajes](#personajes)
     4. [Objetos](#objetos)
 5. [Referencias](#referencias)
+6. [UML](#uml)
+7. [Plataformas de gestión y comunicación](#gestion)
+8. [Web del juego](#juego)
+
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 Through the window busca ofrecer una experiencia narrativa corta en la que el jugador pueda divertirse participando en un proceso de “investigación”. Mirando las ventanas de sus vecinos y recolectando información sobre los distintos objetos y conversaciones que puedan suceder en las habitaciones. El jugador deberá hacer uso de la información que consiga para extraer conclusiones y llegar a uno de los finales del juego.
@@ -92,20 +95,26 @@ Through the window busca ofrecer una experiencia narrativa corta en la que el ju
 <img src="images/logo.png" width=300 height=300>
 
 ### Vista general  
-<img src="images/hab_prota.png" width=500 height=300>
-<img src="images/libreta_prototipo.png" width=500 height=300>
-<img src="images/mirar_ventana.png" width=500 height=300>
-<img src="images/plano_general.png" width=500 height=300>
+<img src="images/sketch_planogeneral.png" width=500 height=250>
+<img src="images/sketch_prisma_auric.png" width=500 height=250>
+<img src="images/sketch_room.png" width=500 height=250>
+<img src="images/sketch_dialogue.png" width=500 height=250>
+
+Los resultados finales de estos bocetos en el juego finalizado serían:
+<img src="images/game_planogeneral.png" width=500 height=250>
+<img src="images/game_prisma_auric.png" width=500 height=250>
+<img src="images/game_room.PNG" width=500 height=250>
+<img src="images/game_dialogue.PNG" width=500 height=250>
 
 #### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
-El jugador comienza la partida con una primera pregunta “¿Qué ha ocurrido con Kevin, el hijo de los Smith?” la cual deberá responder al final del primer día con la información que haya obtenido a lo largo del mismo, habida cuenta de que los eventos tienen lugar a lo largo de distintas franjas horarias del día, y si bien se repiten para que el jugador tenga varias oportunidades de dar con ellos y que además unos “invitan” a lógicamente deducir donde pueden ocurrir los que están relacionados con estos, el jugador puede tal vez perderse alguno.
+El jugador comienza la partida con una primera pregunta “¿Qué ha ocurrido con Kevin, el hijo de los Smith?” la cual podrá responder al final del primer día con la información que haya obtenido a lo largo del mismo, habida cuenta de que los eventos tienen lugar a lo largo de distintas franjas horarias del día, y si bien se repiten para que el jugador tenga varias oportunidades de dar con ellos y que además unos “invitan” a lógicamente deducir donde pueden ocurrir los que están relacionados con estos, el jugador puede tal vez perderse alguno.
 Para obtener esa información puede usar varios objetos, los prismáticos con los que ver dentro de las casas de sus vecinos, los micrófonos que ha instalado en las puertas de las diferentes casas, y que escucha desde la suya a través de auriculares, le permitirán escuchar qué pasa dentro de los domicilios, y una libreta en la que quedará guardada la información que va descubriendo.
 En esta libreta, se apuntarán en primer lugar estos eventos, observados y escuchados, y cuando junte dos de ellos, llegará a una deducción, y cuando junte dos deducciones llegará a una conclusión, con la cual podrá responder a esa pregunta que se le plantea al comienzo del día.
 En caso de haber sido capaz o no de responder a esta pregunta se pasará al día siguiente.
 
 ### 2. Menús y modos de juego <a name="menusmodos"></a>
-En el menú, encontramos un fondo que representa el plano general del edificio que observaremos durante el gameplay y la opción de “Jugar”.
-Habrá una música de fondo mientras el jugador se encuentre en esta pantalla.
+En el menú, encontramos una imagen de fondo y la opción de “Jugar”.
+Habrá una música mientras el jugador se encuentre en esta pantalla.
 
 #### 2.1 Configuración <a name="configuracion"></a>
 En principio no se puede configurar nada.
@@ -118,7 +127,7 @@ El juego principalmente se usará solo el ratón.
 #### 3.1 Mecánica <a name="mecanica"></a>
 **Cambio de escena.** El jugador parte de un plano general en el cual puede hacer click encima de una de las 4 ventanas que se le muestran. Al hacerlo aparecerán dos iconos, el de los prismáticos, con los cuales veremos con detalle la habitación, cambiando de escena, y el de los auriculares, mediante los cuales escucharemos el micrófono del piso en cuestión pero permaneciendo en la escena "general".
 
-**Pregunta al comienzo del día:** Con el comienzo de cada día, el investigador al que encarna nuestro jugador se hará una pregunta, la cual tendrá que responder con la información obtenida a lo largo del mismo. Esta pregunta estará disponible durante todo el día, y se accederá a ella a través de un icono que muestra una interrogación en el plano general, debajo de ella, si hemos llegado a una conclusión ese día se contestará automáticamente.
+**Pregunta al comienzo del día:** Con el comienzo de cada día, el investigador al que encarna nuestro jugador se hará una pregunta, la cual tendrá que responder con la información obtenida a lo largo del mismo. Esta pregunta estará disponible durante todo el día, y se accederá a ella a través de un icono que muestra una interrogación en el plano general, debajo de ella, si hemos llegado a una conclusión ese día, se contestará automáticamente.
 
 **Cuadros de texto:** Estos cuadros mostrarán la descripción de los eventos que el jugador "escucha" (en este caso lee), así como la descripción de los objetos en los que pulsa en cada una de las habitaciones.
 
@@ -129,29 +138,37 @@ El juego principalmente se usará solo el ratón.
 **Paso de tiempo/ Barra de horas disponibles**  El tiempo transcurre a medida que el jugador bien hace uso de los prismáticos para observar los distintos pisos, bien hace uso de los auriculares para escuchar lo que ocurre dentro de ellos a razón de 1 hora por uso.
 Los días comienzan a las 9:00 de la mañana, y el jugador es capaz de estar despierto en un inicio hasta las 03:00 de ese mismo día, pero con el consumo de las 2 tazas de café de que dispone al día puede ampliar este límite a las 5:00. Es a lo largo de esta franja horaria de 18 o de 20 horas, donde tienen lugar los eventos visuales y auditivos.
 
+Si el jugador llega a las 3:00, se le abrirá automáticamente la pregunta del día, desde la cual podrá volver atrás para tomar café o usar la libreta si todavía quiere, o pasar al día siguiente (explicado con más detalle en apartados inferiores).
+
 **Tomar café.** El jugador puede consumir dos tazas de café al dia. El consumo de estas lo que hace es prolongar en una hora por taza la cantidad de horas disponibles o durante las cuales está despierto a lo largo del día.
 
 **Libreta de información:**  Es una agenda en la cual se va apuntando de manera automática la información relevante obtenida mediante la observación con los prismáticos y el uso de los auriculares. 
+
 En la libreta irá apareciendo lo observado por el jugador, cuando la información sea relevante y diferenciados por colores dependiendo de si lo has observado o escuchado en un piso u otro.
-Estas observaciones podrán juntarse a modo de dupla,clicando en los dos cuadros de textos, y en caso de haber una sinergia entre ellos darán pie a una deducción.
+Estas observaciones podrán juntarse a modo de dupla, clicando en los dos cuadros de textos, y en caso de haber una sinergia entre ellos darán pie a una deducción.
+
 De la misma manera, cuando tengamos varias deducciones podremos repetir la operación, y de estar interrelacionadas aparecerá la conclusión de juntarlas; Esta conclusión es el objeto que buscamos para responder a las preguntas que se nos formulan al comienzo de cada día.
 
 <img src="images/libreta_new.png" width=300 height=200>
 
-**Eventos:** Los eventos son información de valor que el jugador puede apuntar en la libreta. Pueden ser de dos tipos, visuales o auditivos, aunque al escribirlos en la libreta se comportan igual. 
-Los eventos visuales ocurren al hacer click en los objetos resaltados de cada una de las habitaciones tras haber activado la función de los prismáticos. Tras hacer click, salta un cuadro de diálogo con información y se pondrá un resumen escueto de ella en la libreta, funcionando a modo de “evento”. En caso de clickar en un mismo objeto varias veces, volverá a saltar el cuadro de texto, pero no se volverá a apuntar en la libreta. Hay objetos que no se apuntan en la libreta porque no van a servir para extraer conclusiones y juntarlos con otros.
+**Eventos:** Los eventos son información de valor que el jugador puede apuntar en la libreta. Pueden ser de dos tipos, visuales o auditivos, aunque al escribirlos en la libreta se comportan igual.
+
+Los eventos visuales ocurren al hacer click en aquellos objetos que se resaltan al pasar el cursor por encima en cada una de las habitaciones, tras haber activado la función de los prismáticos.
+
+Tras hacer click, salta un cuadro de diálogo con información y se pondrá un resumen escueto de ella en la libreta, funcionando a modo de “evento”. En caso de clickar en un mismo objeto varias veces, volverá a saltar el cuadro de texto, pero no se volverá a apuntar en la libreta. Hay objetos que no se apuntan en la libreta porque no van a servir para extraer conclusiones y juntarlos con otros.
+
 Los eventos auditivos saltan como un cuadro de texto al hacer click en una de las habitaciones y elegir la opción de auricular. Hemos de tener en cuenta que para que el jugador pueda llegar a enterarse de estos eventos abarcarán varias horas consecutivas, de tal forma que la conversación, o el diálogo será distinto, pero el resumen a modo de evento que se apunta en la libreta será el mismo. De la misma manera, se escucharán también diálogos, conversaciónes o sonidos que el protagonista percibe que no tienen información relevante y por tanto no se apuntarán en la libreta.
 
-**Pregunta del día:** Al principio de cada día se notifica una pregunta que está relacionada con eventos de ese día, de modo que sirva de guía para el jugador. Al final del día, cuando el jugador se va a dormir, vuelve a aparecer en pantalla un texto con la pregunta del día. Si el jugador ha llegado a la conclusión que responde la pregunta se mostrará automáticamente. Tendrá la opción de pasar de día.
+**Pregunta del día:** Para cada día, el jugador podrá acceder al icono de la pregunta del día, donde se le notifica una pregunta que está relacionada con eventos de ese día, de modo que sirva de guía para el jugador. Al final del día, cuando el jugador se va a dormir, vuelve a aparecer en pantalla un texto con la pregunta del día. Si el jugador ha llegado a la conclusión que responde la pregunta se mostrará automáticamente. Tendrá la opción de pasar de día.
 
-**Acusar:** Es la herramienta final del juego. Cuando acaban los días, el jugador, con la información que haya recopilado , debe acusar a uno de los vecinos de haber asesinado a William. De acertar cual ha sido, el jugador habrá ganado y se le contará la historia completa de todo lo que ha ido pasando. En el caso de fallar y no descubrir quien ha sido, el jugador pierde el juego y se le cuenta la historia del vecino al que ha acusado.
+**Acusar:** Es la herramienta final del juego. Cuando acaban los días, el jugador debe acusar a uno de los vecinos de haber asesinado a William. De acertar cual ha sido, el jugador habrá ganado y se le contará la historia completa de todo lo que ha ido pasando. En el caso de fallar y no descubrir quien ha sido, el jugador pierde el juego y se le cuenta la historia del vecino al que ha acusado. En cualquier caso, esta acusación funciona como respuesta libre y se notificará al jugador su "puntación" en forma de decirle cuántas conclusiones ha obtenido a lo largo del juego.
 
-**Diferentes finales:** Según quien acuse el jugador , saldrá un final correspondiente al que haya acusado.
+**Diferentes finales:** Según quien acuse el jugador, saldrá un texto final correspondiente al que haya acusado.
 
 
 #### 3.2 Dinámica <a name="dinamica"></a>
 
-El jugador, a través de la recolección de eventos puede llegar a la respuesta de las preguntas de cada día. De cara a contestar la cuestión final tenemos que haber sido capaces de encontrar información concluyente a lo largo del gamePlay,de tal manera que el jugador gana si acusa al asesino, en este caso, la Señora Cooper, y pierde en caso de acusar a cualquiera de los otros vecinos.
+El jugador, a través de la recolección de eventos puede llegar a la respuesta de las preguntas de cada día. De cara a contestar la cuestión final tenemos que haber sido capaces de encontrar información concluyente a lo largo del gameplay, de tal manera que el jugador gana si acusa al asesino, en este caso, la Señora Cooper, y pierde en caso de acusar a cualquiera de los otros vecinos.
 
 Durante el transcurso de los distintos días el jugador irá recopilando información que lo lleve a un desenlace u otro.     
 
@@ -169,7 +186,7 @@ A lo largo del juego esperamos que el jugador desarrolle ciertas estrategias, de
 - Desarrollo de una deductiva lógica que le permita relacionar eventos que tengan una sinergia significativa entre ellos, de tal manera que contengan  la información que responda a cada pregunta a lo largo del gameplay.
 
 #### 3.3 Estética <a name="estetica"></a>
-Para la representación de los escenarios y los personajes usaremos un estilo pixel art.
+Para la representación de los escenarios y los personajes usaremos un estilo pixel art, con una paleta de colores poco saturados, para dar una sensación de antigüedad. Esta paleta de colores será mayormente marrón o gris, y se romperá en cada una de las habitaciones, teniendo la de la señora Cooper un azul más vibrante en algunos objetos, la de Charles teniendo verde y la de William con rojo, quedándose la de la pareja de los Smith más apagada por el luto por el que pasan.
 
 ### 4. Contenido <a name="contenido"></a>
 
@@ -195,9 +212,14 @@ Asimismo William, por un lado dará de comer, sin saberlo, la comida envenenada 
 
 #### 4.2 Niveles o eventos <a name="niveleseventos"></a>
 En nuestro juego no existirán niveles, sino que tendrán lugar eventos a lo largo de 5 días de la semana.
+<img src="images/eventos1.PNG">
+<img src="images/eventos2.PNG">
+<img src="images/eventos3.PNG">
+<img src="images/eventos4.PNG">
+<img src="images/eventos5.PNG">
 
 [Eventos y dialogos](EventosYdialogos.md)         
-[Eventos](https://docs.google.com/spreadsheets/d/1pbKhvv9ovA54C8Tk_gWiwxWM6B4BLxL_j9Yffmv4mjI/edit#gid=1065729110)    
+[Enlace al excel](https://docs.google.com/spreadsheets/d/1pbKhvv9ovA54C8Tk_gWiwxWM6B4BLxL_j9Yffmv4mjI/edit#gid=1065729110)    
 
 #### 4.3 Personajes <a name="personajes"></a>
 Protagonista: Thomas Seeker
@@ -229,5 +251,18 @@ Vecino 4: Profesor William Scott.
 - *Diagrama de la relación* - Canva
 
 
+### 6. UML <a name="uml"></a>
 
+<img src="images/uml.png">
 
+[Enlace al uml](https://app.diagrams.net/#G1fGQLV-oCemIR7E3TGnCeQJ6fHdor2XmO)  
+
+### 7. Plataformas de gestión y comunicación <a name="gestion"></a>
+
+Como plataforma de gestión se ha utilizado Pivotal Tracker, una herramienta para el desarrollo de software siguiendo las metodologías ágiles. 
+
+Como métodos de comunicación se han utilizado WhatsApp (para preguntar dudas a miembros del equipo y acordar reuniones) y Discord, para hacer las susodichas reuniones en el canal de voz.
+
+### 8. Enlace a la web del juego <a name="juego"></a>
+
+[Enlace a la página web](https://pvli2021-grupo2.github.io/PVLI/) 
