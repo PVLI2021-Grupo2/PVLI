@@ -44,9 +44,9 @@ export default class Acusacion extends Phaser.Scene{
            * @param {*} a //indica cual de los 3 vecinos ha sido el acusado, dado que cada uno tiene un resumen asociado
            */
           finish(a){
-            this.add.sprite(500,200,'dialog').setScale(1.5)
-            this.add.text(350,180,this.jsonFile[a])
-            let conclu=0;
+            this.add.sprite(500,200,'dialog').setScale(1.5);
+            this.add.text(350,180,this.jsonFile[a]);
+            let conclu = 0;
             this.game.estadoCompartido.conclusiones.forEach(elem => {
                 if(elem!==undefined)conclu++;
             });
@@ -78,10 +78,9 @@ export default class Acusacion extends Phaser.Scene{
               this.scene.stop('room3');
               this.scene.stop('room4');
               this.scene.stop('notebook');
-              this.scene.stop('pregunta')
-              this.scene.stop('boot')
-              this.scene.stop('boot')
-              this.scene.start('menu')           
+              this.scene.stop('pregunta');
+              this.scene.stop('boot');
+              this.scene.start('menu');           
               this.game.estadoCompartido = {
                 observaciones:[],
                 deducciones:[],
