@@ -85,6 +85,7 @@ Se trata de un juego estilo “Point and Click” en el cual el jugador, que enc
 5. [Referencias](#referencias)
 6. [UML](#uml)
 7. [Plataformas de gestión y comunicación](#gestion)
+8. [Web del juego](#juego)
 
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
@@ -261,3 +262,7 @@ Vecino 4: Profesor William Scott.
 Como plataforma de gestión se ha utilizado Pivotal Tracker, una herramienta para el desarrollo de software siguiendo las metodologías ágiles. 
 
 Como métodos de comunicación se han utilizado WhatsApp (para preguntar dudas a miembros del equipo y acordar reuniones) y Discord, para hacer las susodichas reuniones en el canal de voz.
+
+### 8. Enlace a la web del juego <a name="juego"></a>
+
+[Enlace a la página web](https://pvli2021-grupo2.github.io/PVLI/) 
