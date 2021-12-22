@@ -130,7 +130,7 @@ export default class extends Phaser.Scene{
             this.auricularArray[i].setVisible(false)
             .on('pointerover',()=>this.auricularArray[i].setTint(0x999999))
             .on('pointerout',()=>this.auricularArray[i].clearTint())
-            .on('pointerdown',()=>{this.auricularArray[i].showDialog(this.preguntaHora()),this.disableObjects(),
+            .on('pointerdown',()=>{this.auricularArray[i].showDialog(this.preguntaHora()),this.disableObjects(),this.backActive(false),
                 this.timeBar.menosTiempo()})
         }
 
