@@ -63,7 +63,6 @@ Fecha de lanzamiento:21/12/2021
 ### Descripción
 Se trata de un juego estilo “Point and Click” en el cual el jugador, que encarna a un investigador de sucesos, se interesa por la muerte de un niño en un colegio, pero a medida que ahonda en esta investigación irá descubriendo que la trama se vuelve más compleja. Irán pasando la semana y el jugador se hará a sí mismo preguntas relacionadas con el caso que deberá de ser capaz de responder con la información que obtenga a lo largo del día. Para obtener esta información, deberá usar los objetos a su disposición, y mecánicas habilitadas para, pasados los 5 días haber podido descubrir qué ha ocurrido verdaderamente en el vecindario.
 
-### Logotipo y portada del juego
 
 ### Versiones del documento
 
@@ -84,6 +83,7 @@ Se trata de un juego estilo “Point and Click” en el cual el jugador, que enc
     3. [Personajes](#personajes)
     4. [Objetos](#objetos)
 5. [Referencias](#referencias)
+6. [UML](#uml)
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 Through the window busca ofrecer una experiencia narrativa corta en la que el jugador pueda divertirse participando en un proceso de “investigación”. Mirando las ventanas de sus vecinos y recolectando información sobre los distintos objetos y conversaciones que puedan suceder en las habitaciones. El jugador deberá hacer uso de la información que consiga para extraer conclusiones y llegar a uno de los finales del juego.
@@ -92,10 +92,16 @@ Through the window busca ofrecer una experiencia narrativa corta en la que el ju
 <img src="images/logo.png" width=300 height=300>
 
 ### Vista general  
-<img src="images/hab_prota.png" width=500 height=300>
-<img src="images/libreta_prototipo.png" width=500 height=300>
-<img src="images/mirar_ventana.png" width=500 height=300>
-<img src="images/plano_general.png" width=500 height=300>
+<img src="images/sketch_planogeneral.png" width=500 height=250>
+<img src="images/sketch_prisma_auric.png" width=500 height=250>
+<img src="images/sketch_room.png" width=500 height=250>
+<img src="images/sketch_dialogue.png" width=500 height=250>
+
+Los resultados finales de estos bocetos en el juego finalizado serían:
+<img src="images/game_planogeneral.png" width=500 height=250>
+<img src="images/game_prisma_auric.png" width=500 height=250>
+<img src="images/game_room.PNG" width=500 height=250>
+<img src="images/game_dialogue.PNG" width=500 height=250>
 
 #### 1.1 Relato breve y parcial de una partida típica <a name="relatobreve"></a>
 El jugador comienza la partida con una primera pregunta “¿Qué ha ocurrido con Kevin, el hijo de los Smith?” la cual podrá responder al final del primer día con la información que haya obtenido a lo largo del mismo, habida cuenta de que los eventos tienen lugar a lo largo de distintas franjas horarias del día, y si bien se repiten para que el jugador tenga varias oportunidades de dar con ellos y que además unos “invitan” a lógicamente deducir donde pueden ocurrir los que están relacionados con estos, el jugador puede tal vez perderse alguno.
@@ -177,7 +183,7 @@ A lo largo del juego esperamos que el jugador desarrolle ciertas estrategias, de
 - Desarrollo de una deductiva lógica que le permita relacionar eventos que tengan una sinergia significativa entre ellos, de tal manera que contengan  la información que responda a cada pregunta a lo largo del gameplay.
 
 #### 3.3 Estética <a name="estetica"></a>
-Para la representación de los escenarios y los personajes usaremos un estilo pixel art.
+Para la representación de los escenarios y los personajes usaremos un estilo pixel art, con una paleta de colores poco saturados, para dar una sensación de antigüedad. Esta paleta de colores será mayormente marrón o gris, y se romperá en cada una de las habitaciones, teniendo la de la señora Cooper un azul más vibrante en algunos objetos, la de Charles teniendo verde y la de William con rojo, quedándose la de la pareja de los Smith más apagada por el luto por el que pasan.
 
 ### 4. Contenido <a name="contenido"></a>
 
@@ -237,5 +243,9 @@ Vecino 4: Profesor William Scott.
 - *Diagrama de la relación* - Canva
 
 
+### 6. UML <a name="uml"></a>
 
+<img src="images/uml.png">
+
+[Enlace al uml](https://app.diagrams.net/#G1fGQLV-oCemIR7E3TGnCeQJ6fHdor2XmO)  
 
