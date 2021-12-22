@@ -71,7 +71,7 @@ Se trata de un juego estilo “Point and Click” en el cual el jugador, que enc
 1. [AspectosGenerales](#aspectosgenerales)
     1. [RelatoBreve](#relatobreve)
 2. [MenúsModosDeJuego](#menusmodos)
-    1. [Configuracion](#configuracion)
+    1. [Configuración](#configuracion)
     2. [InterfazControl](#interfazControl)
 3. [Jugabilidad](#jugabilidad)
     1. [Mecánica](#mecanica)
@@ -84,6 +84,8 @@ Se trata de un juego estilo “Point and Click” en el cual el jugador, que enc
     4. [Objetos](#objetos)
 5. [Referencias](#referencias)
 6. [UML](#uml)
+7. [Plataformas de gestión y administración](#gestion)
+
 
 ### 1. Aspectos generales <a name="aspectosgenerales"></a>
 Through the window busca ofrecer una experiencia narrativa corta en la que el jugador pueda divertirse participando en un proceso de “investigación”. Mirando las ventanas de sus vecinos y recolectando información sobre los distintos objetos y conversaciones que puedan suceder en las habitaciones. El jugador deberá hacer uso de la información que consiga para extraer conclusiones y llegar a uno de los finales del juego.
@@ -249,3 +251,4 @@ Vecino 4: Profesor William Scott.
 
 [Enlace al uml](https://app.diagrams.net/#G1fGQLV-oCemIR7E3TGnCeQJ6fHdor2XmO)  
 
+### 7. Plataformas de gestión y comunicación <a name="gestion"></a>
