@@ -47,15 +47,13 @@ export default class BaseRoom extends Phaser.Scene{
       this.objectArray.forEach(elem => elem.setInteractive()
       .on('pointerover',()=>elem.setTint(0x999999))
       .on('pointerout',()=>elem.clearTint())
-      .on('pointerdown', () => {elem.showtext()}))
-      console.log(this.objectArray)
-    }
+      .on('pointerdown', () => {elem.showtext()}))    
+    } 
     desactiveObjects(){
       this.objectArray.forEach(elem => elem.disableInteractive()
       .off('pointerover')
       .off('pointerout')
-      .off('pointerdown'))
-      console.log(this.objectArray)
+      .off('pointerdown'))      
     }
   
 }

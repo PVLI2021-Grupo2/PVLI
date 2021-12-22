@@ -114,17 +114,17 @@ export default class extends Phaser.Scene{
         .on('pointerover',()=>this.notebook.setTint(0x999999))
         .on('pointerout',()=>this.notebook.clearTint())
         .on('pointerdown',()=>{this.scene.sleep('general'); this.scene.launch('notebook')})
-
-        //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
+        
+        //al pulsar encima del prismático cambia la escena y muestra la habitación pulsada
         for(let i = 0;i<  this.prismaticArray.length;i++){
             let roomName = 'room'+(i+1);
             this.prismaticArray[i].setVisible(false)
             .on('pointerover',()=>this.prismaticArray[i].setTint(0x999999))
             .on('pointerout',()=>this.prismaticArray[i].clearTint())
-            .on('pointerdown',()=>{this.scene.sleep();this.scene.launch(roomName,this.notebookscene),
+            .on('pointerdown',()=>{this.scene.sleep();this.scene.switch(roomName,this.notebookscene),
                 this.timeBar.menosTiempo()})
         }
-        //al pulsar encima del prismático cambia la escena y muestra la habitación pulsada
+        //al pulsar encima de un auricular escuchas el microfono de la habitación pulsada
         for(let i = 0;i<  this.auricularArray.length;i++){
             let roomName = 'room'+i;
             this.auricularArray[i].setVisible(false)
