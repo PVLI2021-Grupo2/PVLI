@@ -25,7 +25,7 @@ export default class BaseRoom extends Phaser.Scene{
       this.daysCont = new Days;
 
       //Crea un array de objecto de la habitacion
-      this.objectArray = this.daysCont.getdayobject(this,this.key.key);
+      this.objectArray = this.daysCont.getDayObject(this,this.key.key);
       this.objectArray.forEach(elem => elem.setInteractive()
       .setOrigin(0,0)
       .on('pointerover',()=>elem.setTint(0x999999))

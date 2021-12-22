@@ -14,7 +14,7 @@ export default class extends Phaser.Scene{
     constructor(){super({key: 'general'})}
 
     create(){
-        this.background = this.add.image(500, 250,'generalbg'); //añadimos el fondo de la textbox
+        this.background = this.add.image(500, 250,'generalbg'); //añadimos el fondo de la textBox
 
         //dialogo en formato json
         let dialogJson = this.cache.json.get('dialog'+this.game.currentDay);

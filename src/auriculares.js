@@ -25,14 +25,14 @@ import Dialogue from "./dialogue.js";
      * así como manda apuntar la información asociada a lo escuchado en caso de ser relevante
      */
     showDialog(hora_consultada){
-      this.textbox = new Dialogue(this.scene);
+      this.textBox = new Dialogue(this.scene);
       if (hora_consultada>23) hora_consultada-=24; //Si se pasa de 24h se va a la 0
       let file = this.jsonFile["earphone"][this.roomName]["event"+hora_consultada];
       let dialog =file["text"];
       let textNotebook =file["notebookinfo"];
       let id = file["id"];
       //entramos a la zona de los auriculares, a la habitación, al numero del dialogo que va por la hora
-      this.textbox.changeDialogue(dialog);      
+      this.textBox.changeDialogue(dialog);      
       if(file["isevent"]){
         //Busca si se ha apuntado lo mismo 
         let apuntado = false;

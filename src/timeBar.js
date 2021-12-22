@@ -28,7 +28,7 @@ export default class TimeBar extends Phaser.GameObjects.Sprite {
         //contador de tazas
         this.tazasTotales=0;
         //horas totales por dia
-        this.horas_totales=18;
+        this.horasTotales=18;
         //horas disponibles o restantes
         this.horasDisponibles=18;
         //horas que se pasan para la gestión de eventos
@@ -80,7 +80,7 @@ menosTiempo(a){
         this.horasDisponibles--;
         //aumentamos la hora real
         this.horasEventos++;
-        this.remainingTime.scaleX-=(1/this.horas_totales);
+        this.remainingTime.scaleX-=(1/this.horasTotales);
     }
     //condición para cambiar de escena hacia pregunta para pasar de día por falta de tiempo
     else if(this.horasDisponibles<=0){
@@ -98,11 +98,11 @@ menosTiempo(a){
     //consumido más de dos tazas
     masTiempo(b){
        //podemos tomar café siempre y cuando hayamos gastado dos horas de nuestro día
-        if(this.horasDisponibles<this.horas_totales && this.tazasTotales<2){
+        if(this.horasDisponibles<this.horasTotales && this.tazasTotales<2){
             //añadimos uno al contador de tazas consumidas, y al de horas disponibles
             this.tazasTotales++;
             this.horasDisponibles++;
-            this.remainingTime.scaleX+=(1/this.horas_totales);
+            this.remainingTime.scaleX+=(1/this.horasTotales);
         }       
         //si hemos consumido nuestras dos tazas de café no podremos tomar más
         else if (this.tazasTotales>2  ||this.remainingTime.scaleX >= 1.4  ){

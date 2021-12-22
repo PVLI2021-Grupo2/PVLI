@@ -10,7 +10,7 @@ export default class Dialogue{
     this.scene = scene;
     let posX = this.scene.cameras.main.centerX*0.95;
     let posY = this.scene.cameras.main.height*0.8;
-    this.background = this.scene.add.sprite(posX, posY,'dialog'); //añadimos el fondo de la textbox
+    this.background = this.scene.add.sprite(posX, posY,'dialog'); //añadimos el fondo de la textBox
     this.numFraseActual = 0; //numero en el array de la frase que se escribe en pantalla
     this.dialogo = this.scene.add.bitmapText(posX/3 , posY*0.8, 'press_start_2p_font', "", 16);      //el texto del dialogo
     this.arrayWord;
@@ -29,9 +29,9 @@ export default class Dialogue{
   changeDialogue(arrayText){
     this.arrayWord = arrayText; //le pasamos el array de strings
     this.numFraseActual = 1; //iniciamos a la siguiente frase
-    this.activateDialogue(); //activamos el textbox
+    this.activateDialogue(); //activamos el textBox
     this.dialogo.text = this.arrayWord[0]; //cambiamos el texto
-    //si el usuario hace click dentro de la textbox, va cambiando de frase
+    //si el usuario hace click dentro de la textBox, va cambiando de frase
     this.background.on('pointerdown',()=>{
       this.cambioFrase(this.arrayWord)
     })  

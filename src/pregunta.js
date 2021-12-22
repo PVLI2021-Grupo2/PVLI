@@ -16,13 +16,13 @@ export default class Pregunta extends Phaser.Scene{
          this.background.setOrigin(0,0);
 
          //fondo de la pregunta
-         this.pregunta_background=this.add.sprite(250,100,'dialog')
+         this.preguntaBackground=this.add.sprite(250,100,'dialog')
          .setOrigin(0.2,0.2);
-         this.pregunta_background.scaleY/=4;
-         this.pregunta_background.scaleX/3;
+         this.preguntaBackground.scaleY/=4;
+         this.preguntaBackground.scaleX/3;
 
          //fondo conclusiones
-         this.conclusiones_background= this.add.sprite(250,250,'dialog').setOrigin(0.2,0.2);
+         this.conclusionesBackground= this.add.sprite(250,250,'dialog').setOrigin(0.2,0.2);
 
          //creamos un back
          this.backButton=this.add.sprite(0,0,'back');
@@ -52,7 +52,7 @@ export default class Pregunta extends Phaser.Scene{
          this.iconoAvanzarDia.setVisible(true)
          .setOrigin(0.5,0)
          .setInteractive()
-         .on('pointerdown',iconoAvanzarDia=>{this.scene.switch('general'),this.pasardia()})        
+         .on('pointerdown',iconoAvanzarDia=>{this.scene.switch('general'),this.pasarDia()})        
         }
 
       /**
@@ -69,19 +69,19 @@ export default class Pregunta extends Phaser.Scene{
 
         /**añade las conclusiones que haya en la libreta */
         addConclusion(){
-          let texto_conclusion = this.game.estadoCompartido.conclusiones[this.game.currentDay-1];
-            this.add.text(100,250,texto_conclusion,
+          let textoConclusion = this.game.estadoCompartido.conclusiones[this.game.currentDay-1];
+            this.add.text(100,250,textoConclusion,
               { fontFamily: 'Arial', color: '#d0ff00' })                          
         }
 
         /**Pasa al siguiente dia */
-        pasardia(){
+        pasarDia(){
           if(this.game.currentDay<5){
             console.log(this.game.currentDay);
             this.game.currentDay+=1;
             this.scene.start('general');
           } 
           else
-            this.scene.start('acusacion')
+            this.scene.start('acusacion');
         }
 }

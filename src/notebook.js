@@ -27,7 +27,7 @@ export default class NoteBook extends Phaser.Scene{
         this.input.mouse.disableContextMenu();
 
         //numero de elementos seleccionados
-        this.numberoftextselected =0;
+        this.textSelectedNumber =0;
         let textpos = 0;
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
             if(!this.game.estadoCompartido.observaciones[i].activated){
@@ -74,7 +74,7 @@ export default class NoteBook extends Phaser.Scene{
         let deduccionesJson=this.cache.json.get('deducciones');
         elem.selected = true;
         elem.screenText.setColor('red')
-        this.numberoftextselected ++;
+        this.textSelectedNumber ++;
         for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
            if(this.game.estadoCompartido.observaciones[i].selected && i!==indiceelem){  
             if(this.game.estadoCompartido.observaciones[i].id === elem.id){
@@ -104,8 +104,8 @@ export default class NoteBook extends Phaser.Scene{
     selectDeducciones(elem,indiceelem){
         let conclusiones_json=this.cache.json.get('conclusiones');
         elem.selected = true;
-        elem.screenText.setColor('orange')
-        this.numberoftextselected ++;
+        elem.screenText.setColor('orange');
+        this.textSelectedNumber ++;
         for(let i=0;i<this.game.estadoCompartido.deducciones.length;i++){
            if(this.game.estadoCompartido.deducciones[i].selected && i!==indiceelem){  
             if(this.game.estadoCompartido.deducciones[i].id === elem.id){
@@ -129,22 +129,22 @@ export default class NoteBook extends Phaser.Scene{
     // ni más de dos elementos, ni elementos que no sean de la misma categoría.
     update(t,td){
         super.update(t,td);
-        if(this.numberoftextselected===2){
+        if(this.textSelectedNumber===2){
             for(let i=0;i<this.game.estadoCompartido.observaciones.length;i++){
                 if(!this.game.estadoCompartido.observaciones[i].activated){
                     this.game.estadoCompartido.observaciones[i].selected=false;
-                    this.game.estadoCompartido.observaciones[i].screenText.setColor('green')
+                    this.game.estadoCompartido.observaciones[i].screenText.setColor('green');
                 }
                
              }
              for(let i=0;i<this.game.estadoCompartido.deducciones.length;i++){
                 if(!this.game.estadoCompartido.deducciones[i].activated){
                     this.game.estadoCompartido.deducciones[i].selected=false;
-                    this.game.estadoCompartido.deducciones[i].screenText.setColor('blue')
+                    this.game.estadoCompartido.deducciones[i].screenText.setColor('blue');
                 }
               
              }
-             this.numberoftextselected=0
+             this.textSelectedNumber=0
         }   
     }
 
