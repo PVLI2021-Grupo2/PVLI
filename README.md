@@ -4,7 +4,7 @@
 
 
 # Programación de Videojuegos en Lenguajes Interpretados :: Grupo 2
-# :::::::::::::::::::: _PeekGamesUCM_:::::::::::::::::::: #
+# :::::::::::::::::::: _PeekGamesUCM_ :::::::::::::::::::: #
 Autores:
 
 * Dewei Chen (deweiche@ucm.es) 
